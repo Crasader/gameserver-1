@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseWebview"; 
+message BseWebview {
+    //The webview information
+    optional string info = 1;
+    //The webview url
+    optional string url = 2;
+    //The notice type
+    //0 - promotion
+    //1 - maintance
+	optional int32 type  = 3 [default = 0];
+}

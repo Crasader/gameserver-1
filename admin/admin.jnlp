@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- no official DOCTYPE for 1.5 -->
+<jnlp spec="1.5+" codebase="http://static.babywar.xinqihd.com" href="admin.jnlp" version="2.3">
+  <information>
+    <title>宝贝战争游戏管理平台</title>
+
+    <vendor>欣奇互动</vendor>
+    <homepage href="index.html"/>
+
+    <description>宝贝战争游戏管理平台</description>
+    <icon href="http://static.babywar.xinqihd.com/icon.png" kind="shortcut" width="512" height="512"/>
+	<!--<icon href="http://192.168.0.1/mb/splash.png" kind="splash"/>-->
+
+    <shortcut online="true">
+       <desktop/>
+    </shortcut>
+
+    <menu>宝贝战争游戏管理平台</menu>
+
+    <association extensions="xml" mime-type="text/xml" />
+  </information>
+
+  <security>
+    <all-permissions/>
+  </security>
+
+  <resources>
+    <jar href="gameadmin.jar"/>
+    <j2se version="1.6+" initial-heap-size="256M" max-heap-size="512M" />
+  </resources>
+
+  <!-- application class with main method -->
+  <application-desc main-class="com.xinqihd.sns.gameserver.admin.GameAdmin"/>
+</jnlp>

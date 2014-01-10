@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBceMailSend"; 
+/**
+ * The user sends a new mail to another user
+ */
+message BceMailSend {
+  required MailData mail = 1;
+}

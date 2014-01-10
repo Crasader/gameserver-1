@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//Ìí¼ÓBUFF
+option java_outer_classname = "XinqiBceRoleUseTool"; 
+message BceRoleUseTool {
+    required int32 slot = 1;   //slot id
+    optional string sessionId = 2;
+}

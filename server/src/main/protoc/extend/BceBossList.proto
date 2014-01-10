@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceBossList"; 
+
+/**
+ * 获取当前最新的副本列表
+ */
+message BceBossList {
+}

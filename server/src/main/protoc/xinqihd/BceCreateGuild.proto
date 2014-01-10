@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求创建工会
+option java_outer_classname = "XinqiBceCreateGuild"; 
+message BceCreateGuild 
+{
+    required string guildName = 1 [default = ""];    //公会名
+}

@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//½½Ë®
+
+option java_outer_classname = "XinqiBseWaterTree"; 
+message BseWaterTree 
+{
+    optional bool   succ       = 1        [default = false];
+    optional int32  point_give = 2        [default = 0];
+    optional int32  today_water_times = 3 [default = 0];
+}

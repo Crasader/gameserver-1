@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseBossTakeReward"; 
+
+/**
+ * Boss战斗胜利后，领取战斗奖励，
+ */
+message BseBossTakeReward {
+  required bool success = 1 [default=true];
+  optional string desc  = 2;
+}

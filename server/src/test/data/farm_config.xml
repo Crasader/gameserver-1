@@ -1,0 +1,91 @@
+<config> 
+    <scenes>
+		<scene name="space" className="MySpaceScene" displayName="我的空间" prev="" next="" index="1">
+		    <resource src="/scenes/mySpace.swf" wall="wall" floor="floor" type="mc"/>
+		    <components>
+		    	<component name="achievement" 		posX="584" posY="182" depth="1" />
+		    	<component name="playerInfo" 		posX="334" posY="192" depth="2" />
+		    	<component name="infoCenter" 		posX="596" posY="283" depth="3" />
+		    	<component name="chest" 		posX="323" posY="412" depth="4" />
+		    	<component name="tree" 			posX="61"  posY="241" depth="5"/>
+		    	<component name="topList" 		posX="470" posY="286" depth="6" />
+		    	<!--component name="advertisement" 	posX="438" posY="305" depth="1" /-->
+		    	<!--component name="mall" 				posX="634" posY="278" depth="3" /-->
+		    	<!--component name="topList" 			posX="545" posY="302" depth="5" /-->
+		    	<!--component name="workSpace" 		posX="115" posY="315" depth="7" /-->
+		    	<!--component name="package" 			posX="332" posY="403" depth="8" /-->
+		    	<!--component name="battle_pvp" 		posX="148" posY="35"  depth="10"/-->
+		    	<!--component name="battle_group" 		posX="236" posY="35"  depth="11"/-->
+		    	<!--component name="battle_search" 	posX="325" posY="35"  depth="12"/-->
+		    	<!--component name="battle_create" 	posX="411" posY="35"  depth="13"/-->
+		    	<!--component name="battle_training" 	posX="490" posY="35"  depth="14"/-->
+		    	
+			</components>
+		</scene>
+		<!--scene name="tree" className="TreeHouseScene" displayName="我的树屋" prev="" next="space" index="2">
+			<resource src="/scenes/treeHouse.swf" bg="bg" type="mc"/>
+			<components>
+		    	<component name="tree" 	posX="-360" posY="-290" depth="1" />
+			</components>
+		</scene-->
+		<scene name="homeTown" className="HomeTownScene" displayName="城镇" prev="" next="" index="3">
+			<resource src="/scenes/homeTown.swf" town="HomeTownBase" type="mc"/>
+		</scene>
+    </scenes>
+    <components>
+    	<component name="advertisement" className="AdvertisementComponent" text="广告栏">
+		    <resource src="/scenes/mySpace.swf" name="advertisement" type="mc"/>
+		</component>
+		<component name="achievement" className="AchievementComponent" text="暂未开放">
+		    <resource src="/scenes/mySpace.swf" name="achievement" type="mc"/>
+		</component>
+		<component name="mall" className="MallComponent" text="商城">
+		    <resource src="/scenes/mySpace.swf" name="mall" type="mc"/>
+		</component>
+		<component name="topList" className="TopListComponent" text="暂未开放">
+		    <resource src="/scenes/mySpace.swf" name="topList" type="mc"/>
+		</component>
+		<component name="workSpace" className="WorkSpaceComponent" text="暂未开放">
+		    <resource src="/scenes/mySpace.swf" name="workSpace" type="mc"/>
+		</component>
+		<component name="chest" className="ChestComponent" text="存钱罐">
+		    <resource src="/scenes/mySpace.swf" name="chest" type="mc"/>
+		</component>
+		<component name="package" className="PackageComponent" text="背包">
+		    <resource src="/scenes/mySpace.swf" name="package" type="mc"/>
+		    <config>
+				<itemTypes>
+				    <type name="weapon" displayName="武器"/>
+				    <type name="clothe" displayName="衣服"/>
+				    <type name="shoes" displayName="鞋子"/> 
+				</itemTypes>
+		    </config>
+		</component>
+		<component name="playerInfo" className="PlayerInfoComponent" text="个人档案">
+		    <resource src="/scenes/mySpace.swf" name="playerInfo" type="mc"/>
+		</component>
+		<component name="infoCenter" className="InfoCenterComponent" text="暂未开放">
+			<resource src="/scenes/mySpace.swf" name="infoCenter" type="mc"/>
+		</component>
+		
+		<component name="battle_pvp" className="BattlePVPComponent" text="玩家对战">
+		    <resource src="/scenes/mySpace.swf" name="battle_pvp" type="mc"/>
+		</component>
+		<component name="battle_group" className="BattleGroupComponent" text="组队战斗">
+		    <resource src="/scenes/mySpace.swf" name="battle_group" type="mc"/>
+		</component>
+		<component name="battle_search" className="BattleSearchComponent" text="房间搜索">
+		    <resource src="/scenes/mySpace.swf" name="battle_search" type="mc"/>
+		</component>
+		<component name="battle_create" className="BattleCreateComponent" text="房间创建">
+		    <resource src="/scenes/mySpace.swf" name="battle_create" type="mc"/>
+		</component>
+		<component name="battle_training" className="BattleTrainingComponent" text="暂未开放">
+		    <resource src="/scenes/mySpace.swf" name="battle_training" type="mc"/>
+		</component>
+		<component name="tree" className="TreeComponent" text="">
+			<resource src="/scenes/mySpace.swf" name="level_1" type="mc" scale="0.85"/>
+			<config growTime="1320" havest_1="5" havest_2="10" havest_3="30" level_1_time="0" level_1_count="0" level_2_time="132" level_2_count="1" level_3_time="528" level_3_count="2" level_4_time="924" level_4_count="3" level_5_time="1320" level_5_count="5" other_max_count="20" />
+		</component>
+    </components>
+</config>

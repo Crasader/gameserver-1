@@ -1,0 +1,45 @@
+package com.xinqihd.sns.gameserver.proto;
+import "Gift.proto";
+
+option java_outer_classname = "XinqiBseTreasureHuntQuery"; 
+
+message TreasureHunt {
+    /**
+    * 对应的抽奖模式
+    * 0: 普通寻宝
+    * 1: 高级寻宝
+    * 2: 专家寻宝
+    */
+    optional uint32 mode = 1;
+    /**
+    * 购买一次的元宝价格
+    */
+    optional uint32 price = 2;
+    /**
+    * 寻宝的物品, 包含名称、图标、颜色和价格
+    */
+    repeated Gift gifts = 3;
+    /**
+    * 抽奖的百分比，0-1000的整数，表示 100.0%
+    * ratio的数量与gifts相同
+    */
+    repeated uint32 ratios = 4;
+    /**
+    * 下一次免费刷新的时间
+    */
+    optional uint32 refreshsec = 5;
+}
+
+/**
+ * 这个协议返回寻宝的相关信息
+ * 
+ * 当有新的招财机会时, 服务器会主动下发这个协议,游戏中
+ * 需要闪动寻宝的图标，提示用户点击
+ */
+message BseTreasureHuntQuery {
+    /**
+    * 今天剩余可以使用的次数
+    */
+    optional uint32 count = 1;
+    repeated TreasureHunt treasures = 2;
+}

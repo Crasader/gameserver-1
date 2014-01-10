@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//½½Ë®
+
+option java_outer_classname = "XinqiBceWaterTree"; 
+message BceWaterTree 
+{
+    required string uid = 1;
+}

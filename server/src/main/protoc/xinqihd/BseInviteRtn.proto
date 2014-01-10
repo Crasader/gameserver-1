@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//邀请
+option java_outer_classname = "XinqiBseInviteRtn"; 
+message BseInviteRtn {
+    required string uid = 1;        //发起邀请对象的UID
+    required int32 result = 2;      //邀请结果：0：等待回复 1：好友不在线 2：未知
+}

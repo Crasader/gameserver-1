@@ -1,0 +1,11 @@
+//package wanyou.game.protocol;
+//返回在线奖励信息
+message BseOnlineReward {   
+    required int32 stepID = 1;          //步骤ID
+    required int32 remainTime = 2;      //步骤剩余时间（秒）
+    repeated int32 propID = 3;     		//奖励物品ID数组
+    repeated int32 propLevel = 4;     	//奖励物品等级数组    
+    repeated int32 propCount = 5;     	//奖励物品数量数组
+    optional int32 type = 6 [default = 0]; // 0: 每日登陆奖励 1：黄钻每日登陆奖励 2：黄钻新手奖励
+    optional bool  watchonly = 7 [default = false];
+}

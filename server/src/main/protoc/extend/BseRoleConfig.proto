@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+// 用户角色的配置信息
+
+option java_outer_classname = "XinqiBseRoleConfig"; 
+
+message BseRoleConfig {
+    required int32  guidestep    = 1;  //是否完成新手引导
+    required bool   musicSwitch  = 2;  //音量开关
+    required bool   effectSwitch = 3;  //音效开关
+    required int32  musicVolume  = 4;  //音乐音量
+    required int32  effectVolume = 5;  //音效音量
+    required bool   hideHat      = 6;  //隐藏帽子
+    required bool   hideGlasses  = 7;  //隐藏眼镜
+    required bool   hideSuit     = 8;  //隐藏套装
+}

@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//Ã¿ÈÕ´ò¿¨
+message BseDailyMark
+{
+		required int32 date = 1;
+		repeated bool markArr = 2;
+		optional int32 daycount = 3;
+		optional bool result = 4 [default = false];
+}

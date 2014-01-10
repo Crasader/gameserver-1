@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会技能的配置数据一览
+
+option java_outer_classname = "XinqiBceGuildAbilityList"; 
+message BceGuildAbilityList {
+}

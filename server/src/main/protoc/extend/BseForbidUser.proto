@@ -1,0 +1,5 @@
+package com.xinqihd.sns.gameserver.proto;
+//½ûÓÃÍæ¼ÒÕËºÅ
+option java_outer_classname = "XinqiBseForbidUser"; 
+message BseForbidUser {
+}

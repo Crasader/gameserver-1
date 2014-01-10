@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//角色信息
+
+option java_outer_classname = "XinqiBceBullet"; 
+message BceBullet 
+{
+   required string uid  = 1 ; // 发射玩家的uid 
+   repeated int32 bltx = 2;
+   repeated int32 blty = 3; 
+}

@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求初始化信息
+option java_outer_classname = "XinqiBseLotteryOver"; 
+message BseLotteryOver {
+
+}

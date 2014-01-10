@@ -1,0 +1,24 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Register
+
+option java_outer_classname = "XinqiBseCyRegister"; 
+message BseCyRegister {
+	/**
+     * 0：表示注册成功
+     * 1：参数不完整（如cn输入空值等）
+     * 2：用户不存在
+     * 3：该ip禁止再注册（黑名单）
+     * 4：同一个ip注册的间隔必须大于三分钟
+     * 5：该IP今天不能再注册。（该ip已成功注册不超过299个当日注      册不超过100，否则当日注册不超过50）
+     * 6：用户名长度非5—16位
+     * 7：用户名首字母必须是字母或者数字
+     * 8：用户名只能是英文字母、下划线和数字
+     *  9：禁用词
+     * 98：将传过来的密码进行解密时发生异常
+     * 99：系统异常
+     * 96: 系统对游戏开发商传过来的game进行校验时发生异常
+     * 97：对开发商传过来的key进行校验发生异常。
+     *
+     */
+    optional int32 errorcode = 1;
+}

@@ -1,0 +1,12 @@
+//package wanyou.game.protocol;
+//加入工会
+
+import "GuildInfo.proto";
+
+message BseJoinGuild
+{
+    optional int32  guildID = 1 ;
+    optional string guildName = 2 ;
+    optional int32 result = 3 ;
+    optional GuildInfo guildInfo = 4 ;
+}

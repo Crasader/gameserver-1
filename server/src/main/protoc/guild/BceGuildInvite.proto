@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//邀请成员
+
+option java_outer_classname = "XinqiBceGuildInvite"; 
+message BceGuildInvite {
+   //待邀请的玩家ID 
+   optional string userid = 1; 
+}

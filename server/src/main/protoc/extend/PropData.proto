@@ -1,0 +1,31 @@
+package com.xinqihd.sns.gameserver.proto;
+//道具信息
+option java_outer_classname = "XinqiPropData"; 
+message PropData 
+{
+    required string propID = 1;          //道具ID   
+    required int32 propPew = 2;         //位置号(对应在某个格子里)
+    optional int32 propIndate = 3 [default = 30];      //剩余时间
+    optional int32 level = 4 [default = 0];           //强化等级
+    optional int32 attackLev = 5 [default=0];       //攻击合成等级
+    optional int32 defendLev = 6 [default=0];       //防御合成等级
+    optional int32 agilityLev = 7 [default=0];      //敏捷合成等级
+    optional int32 luckLev = 8 [default=0];         //幸运合成等级
+    optional int32 color = 9 [default=0];           //道具颜色    
+    optional int32 sign = 10 [default=0];           //标志位：8 - 不可冲有效期；
+    optional int32 count = 11 [default = 1];
+    optional string id = 12;            //新增id
+    optional string typeid = 13    [default = "0"]; //道具的类型ID
+    optional int32  valuetype = 14 [default = 0]; //购买时的价值单位(来源确定) 0:金币/任务/历史遗留/战斗获得 1:礼金 2:功勋 3:元宝券 4.元宝
+    optional bool   banded = 15    [default = false]; //是否绑定
+    optional int32  duration = 16  [default = 0]; //有效期
+	optional int32 damageLev = 17 [default = 0];  //强化后的伤害值变化
+    optional int32 skinLev = 18 [default = 0];    //强化后的护甲值变化
+    optional int32 power = 19 [default = 0];    //当前的战斗力数值
+    //Base number
+    optional int32 baseAttack = 20 [default=0];       //基础攻击
+    optional int32 baseDefend = 21 [default=0];       //基础防御
+    optional int32 baseAgility = 22 [default=0];      //基础敏捷
+    optional int32 baseLucky = 23 [default=0];        //基础幸运
+    optional int32 basePower = 24 [default = 0];      //基础战斗力
+}

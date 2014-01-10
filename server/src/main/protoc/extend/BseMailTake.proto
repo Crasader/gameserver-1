@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseMailTake"; 
+
+message BseMailTake {
+  optional bool succeed = 1 [default = true];
+  optional int32 mailindex = 2; 
+}

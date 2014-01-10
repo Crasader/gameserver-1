@@ -1,0 +1,20 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseVipPeriodList"; 
+
+message VipPeriod {
+    //The number of months for this vip
+    required uint32 month = 1;
+	//The price for paying by yuanbao
+    required uint32 yuanbaoPrice = 2;
+	//The price for paying by voucher
+    required uint32 voucherPrice = 3;
+	//The price for paying by medal
+    required uint32 medalPrice = 4;
+}
+
+message BseVipPeriodList {
+    repeated VipPeriod charges = 1;
+}
+

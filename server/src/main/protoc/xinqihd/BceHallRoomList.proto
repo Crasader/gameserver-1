@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//显示房间列表
+option java_outer_classname = "XinqiBceHallRoomList"; 
+message BceHallRoomList {   
+   required int32 page = 1 [default = 0];  
+}

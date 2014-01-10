@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//转让工会
+
+import "GuildInfo.proto";
+
+message BseGuildTransfer
+{
+    optional int32 result = 1;   //转让结果 0成功
+    optional GuildInfo guild = 2;
+}

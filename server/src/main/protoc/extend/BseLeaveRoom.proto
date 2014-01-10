@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//响应玩家离开房间
+
+option java_outer_classname = "XinqiBseLeaveRoom"; 
+message BseLeaveRoom {
+    required string roomId = 1;        //房间ID
+    optional int32 mode = 2;					//0；离开房间 1：切换房间 2:hall当机
+}

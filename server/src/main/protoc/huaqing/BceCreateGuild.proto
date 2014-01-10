@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//请求创建工会
+message BceCreateGuild
+{
+    required string guildName = 1 [default = ""];    //公会名
+}

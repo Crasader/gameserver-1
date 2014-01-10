@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//出售工具
+message BceSellTool {
+    required int32 pos = 1;        //所在格子号
+}

@@ -1,0 +1,15 @@
+//package wanyou.game.protocol;
+//返回用户扩展数值信息
+message BseUserExData {
+    required int32 roleExp = 1;             //角色经验值
+    required int32 roleGold = 2;            //角色拥有的金币（游戏币）
+    required int32 roleCoin = 3;            //角色拥有的货币（充值币）
+    required int32 roleArrange = 4;         //角色排名
+    required int32 roleWinOdds = 5;         //角色胜率
+    required int32 roleWins = 6;						//角色胜场
+    required int32 sign = 7;                //角色状态标志位： 1 - 可领取当日奖励；
+    optional int32 point = 9;
+    optional int32 roleBindCoin = 10 ;       //绑定元宝
+    optional bool  isMoneyAdd = 11 [default = false]; //是否是变化
+    optional int32 shootMode = 12;					//攻击模式：0：键盘 1：鼠标
+}

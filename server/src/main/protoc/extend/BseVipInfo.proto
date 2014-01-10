@@ -1,0 +1,19 @@
+package com.xinqihd.sns.gameserver.proto;
+import "Gift.proto";
+
+option java_outer_classname = "XinqiBseVipInfo"; 
+
+message VipInfo {
+ /**
+  * Just need to provide either accountId or accountName.
+  */
+  optional int32  viplevel = 1;
+  optional string vipdesc = 2;
+  repeated Gift gifts = 3; 
+}
+/**
+* Get the vip level reward
+*/
+message BseVipInfo {
+  repeated VipInfo vipinfo = 1;
+}

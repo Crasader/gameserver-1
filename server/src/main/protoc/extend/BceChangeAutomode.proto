@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求离开房间
+option java_outer_classname = "XinqiBceChangeAutomode"; 
+message BceChangeAutomode {
+    //是否开启自动战斗 
+    required bool automode = 1;		
+}

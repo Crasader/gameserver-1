@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//LoginLottery Data
+
+option java_outer_classname = "XinqiBseLoginLottery"; 
+
+message LoginLotteryData {
+  optional int32 id = 1;
+  optional int32 propId = 2;
+  optional int32  level = 3;
+  optional int32  count = 4;
+}
+
+message BseLoginLottery {
+  repeated LoginLotteryData lotteries = 1;
+}

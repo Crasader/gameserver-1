@@ -1,0 +1,60 @@
+package com.xinqihd.sns.gameserver.proto;
+//
+option java_outer_classname = "XinqiBseFuncUnlock"; 
+
+message FuncUnlock {
+   /**
+    * 功能索引
+    * 0: 房间
+    * 1: 铁匠铺
+    * ...
+    */
+   required int32 functype = 1;
+    /**
+       这个属性表示具体解锁的内容
+      
+       房间：
+       用顺序值表示待解锁的房间类型
+	   //PVE game room, up to 4 users.
+	   PVE_ROOM,
+	   //Single player mode.
+	   SINGLE_ROOM,
+	   //Multi users mode
+	   MULTI_ROOM,
+	   //Friend combat mode
+	   FRIEND_ROOM,
+	   //On-machine mode.
+	   DESK_ROOM,
+	   //Training room.
+	   TRAINING_ROOM,
+	   //Challenge roo,
+	   CHALLENGE_ROOM,
+	   //Rank competing room
+	   RANK_ROOM,
+	   //Guild room.
+	   GUILD_ROOM,
+
+       铁匠铺
+       * 0: 铁匠铺: 强化
+       * 1: 铁匠铺: 合成
+       * 2: 铁匠铺: 转移
+       * 3: 铁匠铺: 熔炼 
+     */
+    required int32 funcvalue = 2;
+    /**
+     * 解锁描述
+     */
+    optional string funcdesc = 3;
+}
+
+/**
+ * 用这个协议解锁游戏中的功能
+ */
+message BseFuncUnlock {
+   /**
+    * If isnew = true, enable the unlock animation
+    * else do nothing but unlock the function
+    */
+   optional bool isnew = 1 [default=false];
+   repeated FuncUnlock unlocks = 2;
+}

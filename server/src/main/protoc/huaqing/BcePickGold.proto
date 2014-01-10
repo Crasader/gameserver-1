@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//
+
+message BcePickGold
+{
+    required string uid = 1 ; // 目标玩家的uid 
+}

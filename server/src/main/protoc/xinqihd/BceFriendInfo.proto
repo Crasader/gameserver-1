@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求好友信息(点击好友列表中好友面板时)
+option java_outer_classname = "XinqiBceFriendInfo"; 
+message BceFriendInfo {
+    required string friendID = 1;      //id
+}

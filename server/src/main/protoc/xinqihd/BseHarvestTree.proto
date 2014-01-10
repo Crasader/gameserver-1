@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÊÕ»ñÊ÷
+
+option java_outer_classname = "XinqiBseHarvestTree"; 
+message BseHarvestTree 
+{
+    //optional int32 gold = 1 [default = 0];
+    //optional int32 minute = 2 [default = 0];
+    optional  int32 metal_give = 1 [default = 0]; 
+}

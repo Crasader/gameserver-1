@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//返回排行榜信息
+import "ArrangeInfo.proto";
+ 
+
+message BseArrangeList {
+     repeated ArrangeInfo arrInfo = 1;         //排名数组
+}

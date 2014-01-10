@@ -1,0 +1,36 @@
+package com.xinqihd.sns.gameserver.proto;
+//Shop Data
+
+message BuyPrice {
+  optional int32 price = 1;
+  optional int32 validTimes = 2;
+}
+
+option java_outer_classname = "XinqiBseShop"; 
+message ShopData {
+  optional string id = 1;
+  optional uint32 type = 2;
+  optional string info = 3;
+  optional string propInfoId = 4;
+  optional int32 level = 5;
+  optional uint32 goldTye = 6;
+  repeated BuyPrice buyPrices = 7;
+  optional bool banded = 8;
+  optional uint32 discount = 9 [default=100];
+	/**
+	 * If the item is showed on shop
+	 */
+  optional bool sell = 10;
+	/**
+	 * 0: normal item
+	 * 1: hot sell item
+	 */
+  optional int32 hot = 11;
+  optional int32 limitCount = 12;
+  optional int32 limitGroup = 13;
+  optional int32 shopId = 14;
+}
+
+message BseShop {
+  repeated ShopData shops = 1;
+}

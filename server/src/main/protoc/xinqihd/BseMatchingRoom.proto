@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//¿ªÊ¼´éºÏ
+option java_outer_classname = "XinqiBseMatchingRoom"; 
+message BseMatchingRoom {   
+  required int32  roomId 	= 1;  
+}

@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceBattleRewardSelect"; 
+
+
+message BceBattleRewardSelect {
+    //The slot index of reward item
+    repeated int32  slotIndex    = 1;
+}

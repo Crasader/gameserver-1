@@ -1,0 +1,19 @@
+package com.xinqihd.sns.gameserver.proto;
+//≤È’“Friend
+option java_outer_classname = "XinqiBseFindFriend"; 
+message BseFindFriend { 
+   /**
+    * result = 0: success
+    * result = others: failure
+    */
+   required int32  result  = 1;
+   //The message need to display to users
+   required string message = 2;
+   /**
+    * If success, it is the friend's userid
+    * that should be sent in BceAddFriend
+    */
+   repeated string userid  = 3;
+   repeated string rolename  = 4;
+   repeated int32 level  = 5;
+}

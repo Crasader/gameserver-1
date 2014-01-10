@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//¿ªÊ¼´éºÏ
+message BseMatchingRoom {   
+  required int32  roomId 	= 1;  
+}

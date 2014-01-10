@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceOfflinePush"; 
+
+/**
+ * 用于跨服的充值，服务器端使用
+ */
+message BceOfflinePush {
+    //The userid
+    optional string userid = 1;
+    //The rolename
+    optional string rolename = 2;
+    //The push message
+    optional string message = 3;
+}
+

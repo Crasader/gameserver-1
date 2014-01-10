@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//弹出公告列表
+
+message BseBulltinList
+{
+    repeated string message = 1;  //消息列表
+}

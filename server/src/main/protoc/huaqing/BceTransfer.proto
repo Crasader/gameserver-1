@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//请求转移物品
+message BceTransfer{
+    required int32 srcEquipPew = 1; //要转移的装备的格子号
+    required int32 tarEquipPew = 2; //待转移的装备的格子号
+}

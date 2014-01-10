@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseMailSend"; 
+
+message BseMailSend {
+  optional bool succeed = 1 [default = true];
+}

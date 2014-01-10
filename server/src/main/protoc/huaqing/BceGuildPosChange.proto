@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//Éý½µÖ°
+
+message BceGuildPosChange
+{
+    required string uid = 1 ;
+    required int32  level = 2 ;
+}

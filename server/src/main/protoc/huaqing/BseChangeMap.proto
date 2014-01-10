@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//请求离开房间
+message BseChangeMap{
+	required int32 mapID = 1;						//选择地图ID
+	required string changeUserID = 2;	//换地图的玩家ID
+}

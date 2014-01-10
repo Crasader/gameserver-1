@@ -1,0 +1,2 @@
+{ "_id" : "s0001" , "class" : "com.xinqihd.sns.gameserver.config.ServerPojo" , "host" : "g1.babywar.xinqihd.com" , "port" : 3443 , "name" : "1区1服" , "isNew" : false , "isHot" : false , "startMillis" : 1353495507577}
+{ "_id" : "s0002" , "class" : "com.xinqihd.sns.gameserver.config.ServerPojo" , "host" : "g1.babywar.xinqihd.com" , "port" : 3443 , "name" : "1区2服" , "isNew" : true , "isHot" : true , "startMillis" : 1353495518141}

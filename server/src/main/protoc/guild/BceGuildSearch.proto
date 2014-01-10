@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//查找工会
+
+option java_outer_classname = "XinqiBceGuildSearch"; 
+message BceGuildSearch {
+    optional int32 mode = 1 [default=0];		 //0:搜索公会
+    optional string key = 2 [default = ""];      //搜索名
+}

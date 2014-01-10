@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//≤È’“Friend
+option java_outer_classname = "XinqiBceFindFriend"; 
+message BceFindFriend {   
+   //friend's nickname. Must be fully matched.
+   required string nickname = 1;
+}

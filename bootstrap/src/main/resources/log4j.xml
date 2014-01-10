@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+	<appender name="stdout" class="org.apache.log4j.ConsoleAppender">
+		<!-- <layout class="org.apache.log4j.PatternLayout"> <param name="ConversionPattern" 
+			value="%d{ABSOLUTE} %5p %c{1}:%L - %m%n"/> </layout> -->
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ABSOLUTE} %5p %c{1} - %m%n" />
+		</layout>
+	</appender>
+	<appender name="file" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File"
+			value="/data/gameserver/logs/console.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="Append" value="true" />
+		<param name="Threshold" value="DEBUG" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss:SSS} - %p - %C{1} - %m%n" />
+		</layout>
+	</appender>
+	<logger name="org.apache.zookeeper">
+		<level value="error"></level>
+	</logger>
+	<logger name="com.xinqihd">
+		<level value="debug"></level>
+	</logger>
+	<logger name="script">
+		<level value="debug"></level>
+	</logger>
+	<logger name="com.xinqihd.sns.gameserver.geom.GeomUtil">
+		<level value="info"></level>
+	</logger>
+	<logger name="com.xinqihd.sns.gameserver.config.ZooKeeperUtil">
+		<level value="error"></level>
+	</logger>
+	<logger name="com.xinqihd.sns.gameserver.transport.ProtobufEncoder">
+		<level value="warn"></level>
+	</logger>
+	<logger name="com.xinqihd.sns.gameserver.transport.ProtobufDecoder">
+		<level value="warn"></level>
+	</logger>
+	<logger name="com.xinqihd.sns.gameserver.session.MinaMessageQueue">
+		<level value="info"></level>
+	</logger>
+	<logger name="com.xinqihd.sns.gameserver.battle.BattleDataLoader">
+		<level value="info"></level>
+	</logger>
+	<root>
+		<priority value="info"></priority>
+		<appender-ref ref="stdout" />
+	</root>
+</log4j:configuration>

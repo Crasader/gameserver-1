@@ -1,0 +1,26 @@
+//package wanyou.game.protocol;
+//返回用户基础信息
+message BseUserInfo {
+    required string roleName     = 1;  //角色名字
+    required int32  gender       = 2;  //角色性别
+    required bool   hideHat      = 3;  //隐藏帽子
+    required bool   hideGlasses  = 4;  //隐藏眼镜
+    required bool   hideSuit     = 5;  //隐藏套装
+    required int32  guidestep    = 6;  //是否完成新手引导
+    required bool   musicSwitch  = 7;  //音量开关
+    required bool   effectSwitch = 8;  //音效开关
+    required int32  musicVolume  = 9;  //音乐音量
+    required int32  effectVolume = 10; //音效音量
+    required bool	loginLottery = 11 [default = false] ;      //原来的每日抽奖废弃
+    optional string url          = 12          [default = ""]; //头像
+    optional int32	continuLoginTimes    = 13;  //连续登录天数
+    optional int32	remainLotteryTimes   = 14; //剩余每日抽奖次数
+
+    optional bool   isyellowDiamond      = 15 [default = false]; //是否是黄钻
+    optional bool 	isyellowDiamondYear  = 16 [default = false]; //是否是年费黄钻
+	optional int32  yellowDiamondLevel   = 17 [default = 0];     //黄钻等级
+
+	optional int32  today_water_times    = 18 [default = 0];     //今日浇水次数
+	optional bool   can_harvest_tree     = 19 [default = false]; //是否可以收获自己的树
+	repeated int32  buyitemcount		 = 20;		//已经购买物品数（按照限购组顺序从0开始）
+}

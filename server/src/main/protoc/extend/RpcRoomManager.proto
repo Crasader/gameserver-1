@@ -1,0 +1,51 @@
+package com.xinqihd.sns.gameserver.proto;
+import "Rpc.proto";
+
+option java_outer_classname = "RpcRoomManager"; 
+option java_generic_services = true;
+
+message UserSessionKey {
+  optional bytes userSessionKey = 1;
+}
+
+message RoomSessionKey {
+  optional bytes roomSessionKey = 1;
+}
+
+message RoomAndUserSessionKey {
+  optional RoomSessionKey roomSessionKey = 1;
+  optional UserSessionKey userSessionKey = 2;
+}
+
+message ReadyStart {
+  optional UserSessionKey userSessionKey= 1;
+  optional bool    isReady  = 2;
+}
+
+message RoomMap {
+  optional UserSessionKey userSessionKey= 1;
+  optional string   mapid  = 2;
+}
+
+message EditSeat {
+  optional UserSessionKey userSessionKey = 1;
+  optional uint32  index = 2;
+  optional bool    isOpen = 3;
+}
+
+service RoomManager {
+  //Allow a remote user to join the room
+  rpc joinRoom(RoomAndUserSessionKey) returns (BoolResponse);
+
+  //An user wants to leave a room
+  rpc leaveRoom(UserSessionKey) returns (BoolResponse);
+
+  //An user is in ready status.
+  rpc readyStart(ReadyStart) returns (BoolResponse); 
+
+  //An user will change the room map
+  rpc changeMap(RoomMap) returns (BoolResponse);
+
+  //And room's owner enable/disable a seat
+  rpc editSeat(EditSeat) returns (BoolResponse);
+}

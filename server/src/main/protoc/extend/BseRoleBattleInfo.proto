@@ -1,0 +1,26 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回用户战斗相关信息
+
+option java_outer_classname = "XinqiBseRoleBattleInfo"; 
+import "PropData.proto";
+
+message BseRoleBattleInfo {
+    required int32  roleAttack = 1;         //角色攻击属性
+    required int32  roleDefend = 2;         //角色防御属性
+    required int32  roleAgility = 3;        //角色敏捷属性
+    required int32  roleLuck = 4;           //角色幸运属性
+    required int32  roleBlood = 5;          //角色血量
+    required int32  roleThew = 6;           //角色体力
+    required int32  roleDamage = 7;         //角色伤害
+    required int32  roleSkin = 8;          //角色护甲
+    required int32  rolePower = 9;         //角色战斗力
+    repeated int32  tools = 10;            //便携道具
+    repeated PropData roleBagInfo = 11;    // 角色的背包信息
+    optional uint32 guildAttack 		= 60;            //攻
+    optional uint32 guildDefend 		= 61;            //防
+    optional uint32 guildAgility 		= 62;           //敏
+    optional uint32 guildLuck 		= 63;              //幸
+    optional uint32 guildBlood 		= 64;             //血
+    optional uint32 guildThew 		= 65;             //体力
+    optional uint32 guildPower 		= 66;             //战斗力
+}

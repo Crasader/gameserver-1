@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseCharge"; 
+
+message BseCharge {
+    required bool success = 1;
+    optional string message = 2;
+    //The total yuanbao for user now.
+	optional int32 yuanbao = 3;
+}

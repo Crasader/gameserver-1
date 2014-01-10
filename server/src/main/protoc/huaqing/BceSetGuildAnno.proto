@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//ÉèÖÃ¹¤»áĞûÑÔ
+
+message BceSetGuildAnno
+{
+    required string anno = 1 ;
+}

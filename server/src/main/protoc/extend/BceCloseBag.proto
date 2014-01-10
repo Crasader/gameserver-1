@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//玩家关闭背包，这时开始计算排名
+option java_outer_classname = "XinqiBceCloseBag"; 
+message BceCloseBag {
+}
+

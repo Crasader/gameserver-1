@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//移动开始
+message BceRoleMoveStart {
+    required uint32 frame = 1;//帧号
+    required uint32 direction = 2;//移动方向
+}

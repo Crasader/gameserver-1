@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//移动开始
+option java_outer_classname = "XinqiBseRoleMoveStart"; 
+message BseRoleMoveStart {
+    required string sessionId = 1;
+    required uint32 frame = 2;//帧号
+    required uint32 direction = 3;//移动方向
+}

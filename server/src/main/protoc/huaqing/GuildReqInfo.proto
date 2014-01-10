@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//π§ª·…Í«Îº«¬º
+
+message GuildReqInfo
+{
+		optional int32 guildID = 1 ;
+		optional string guildName = 2 ;
+}

@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+//道具信息
+option java_outer_classname = "XinqiPropDataDesc"; 
+message PropDataDesc 
+{
+    /**
+    * The prop name of this propdata
+    */
+    optional string id = 1;
+    optional int32  color = 2;
+    optional string name = 3;
+    optional string icon = 4;
+    optional int32 quality = 5;
+    /**
+     * 服务器输出的文字控制
+     * ---: 三个横线表示一个分割符号
+     */
+    repeated string desc = 8;
+    optional int32 level = 9 [default = 0];           //强化等级
+    optional int32 duration = 10  [default = 0]; //有效期
+}

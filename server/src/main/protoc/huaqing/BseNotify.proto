@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//异常信息通知
+message BseNotify {
+    required int32 notifyCode = 1;      //通知码
+}

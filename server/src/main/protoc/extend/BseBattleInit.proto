@@ -1,0 +1,40 @@
+package com.xinqihd.sns.gameserver.proto;
+//战场初始化
+import "RoleInfo.proto";
+
+option java_outer_classname = "XinqiBseBattleInit"; 
+message BseBattleInit {
+    required string roomId = 1;
+    required uint32 campCount = 2;          //阵营数
+    /**
+    * Use the battleMode to display 
+    * the total seconds
+    * of this battle to end.
+    */
+    required uint32 battleMode = 3;         //战斗模式
+    required uint32 mapId = 4;              //地图编号
+    /**
+     * 0: sunny
+     * 1: rainy
+     * 2: snowy
+     * 3: cloudy
+     * 4: foggy 
+     * 5: windy
+     */
+	required uint32 env  = 5;
+	optional uint32 totalsecond  = 6;
+    /**
+    * If roundseond < 0, then 
+    * do not set the clock
+    */
+	optional uint32 roundsecond  = 7 [default=30];
+	optional bool reserved1  = 8 [default=false];
+	optional string reserved2  = 9; 
+	optional int32 reserved3  = 10; 
+    repeated RoleInfo roleArr = 11;          //角色列表
+    /**
+    * 如果为true,则启动自动战斗模式
+    * 否则使用传统战斗模式
+    */
+    optional bool automode = 12 [default=false];          
+}

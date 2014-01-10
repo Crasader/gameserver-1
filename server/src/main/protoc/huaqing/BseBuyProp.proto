@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//购买结果
+
+message BseBuyProp {
+    required bool success = 1;          //成功标志
+}

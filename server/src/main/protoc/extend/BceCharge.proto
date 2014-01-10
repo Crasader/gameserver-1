@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceCharge"; 
+
+message BceCharge {
+    //The charge id
+    required int32 chargeid = 1;
+    //The Apple's iAD invoice number
+    optional string invoiceid = 2;
+    //Enable free charge mode
+    optional bool freecharge = 3 [default=false];
+    //The charged money YUAN or DOLLOR
+    optional int32 chargemoney = 4;
+    //Free charge secure token
+    optional string token = 5;
+}
+

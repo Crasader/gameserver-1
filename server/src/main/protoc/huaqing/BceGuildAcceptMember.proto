@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//’– ’≥…‘±
+
+message BceGuildAcceptMember
+{
+    required string uid = 1 ;
+    optional bool accept = 2 ;
+}

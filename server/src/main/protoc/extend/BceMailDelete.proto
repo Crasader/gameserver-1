@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBceMailDelete"; 
+
+message BceMailDelete {
+  /**
+   * 0: inbox
+   * 1: sentbox
+   */
+  optional int32 type = 1;
+  /**
+  * 0 based index of mails in user's mailbox
+  * If the deleteIndex is -1, then all mails are deleted
+  */
+  repeated int32 deleteIndexes = 2;
+}

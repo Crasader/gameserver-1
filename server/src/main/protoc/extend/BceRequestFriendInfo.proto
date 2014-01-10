@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//客户端请求好友信息
+
+option java_outer_classname = "XinqiBceRequestFriendInfo"; 
+message BceRequestFriendInfo 
+{
+    required string username  = 1 ;
+    /**
+	 * 0: FRIEND("friend"),
+	 * 1: GUILD("guild"),
+	 * 2: RECENT("recent"),
+	 * 3: RIVAL("rival"),
+	 * 4: BLACKLIST("black");
+     */
+    optional int32  type = 2 [default = 0];
+}

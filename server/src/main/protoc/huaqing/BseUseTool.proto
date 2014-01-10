@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//Ìí¼ÓBUFF
+message BseUseTool {
+    required string sessionId = 1;
+    required int32 slot = 2;                 //slot id
+}

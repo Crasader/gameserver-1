@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求离开房间
+option java_outer_classname = "XinqiBceChangeMap"; 
+message BceChangeMap {
+    required int32 mapID = 1;			//选择地图ID
+}

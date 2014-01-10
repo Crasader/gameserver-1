@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会铁匠铺升级
+
+option java_outer_classname = "XinqiBceGuildIronLevelup"; 
+message BceGuildIronLevelup 
+{
+		optional int32 guildID = 1;         //工会ID
+}

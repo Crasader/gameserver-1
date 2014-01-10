@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//¹¤»á¹ºÂò
+
+message BseGuildBuy
+{
+		required int32 result = 1;
+		optional int32 propID = 2;
+}

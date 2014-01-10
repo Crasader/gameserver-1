@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//留言
+import "LeaveMessage.proto";
+
+option java_outer_classname = "XinqiBseMessage"; 
+message BseMessage 
+{
+   required string uid     = 1 ;  //发信人的uid
+   optional LeaveMessage message = 2;
+}

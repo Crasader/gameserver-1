@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回在线奖励信息
+option java_outer_classname = "XinqiBseOnlineReward"; 
+message BseOnlineReward {   
+    optional string id = 1;          //ID
+    optional int32 stepID = 2;          //步骤ID
+    optional int32 remainTime = 3;      //步骤剩余时间（秒）
+    repeated int32 propID = 4;     		//奖励物品ID数组
+    repeated int32 propLevel = 5;     	//奖励物品等级数组    
+    repeated int32 propCount = 6;     	//奖励物品数量数组
+    optional int32 type = 7 [default = 0]; // 0: 每日登陆奖励 1：黄钻每日登陆奖励 2：黄钻新手奖励
+    optional bool  watchonly = 8 [default = false];
+}

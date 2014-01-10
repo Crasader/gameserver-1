@@ -1,0 +1,31 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseActionLimitQuery"; 
+/**
+ * 未来的系统会对玩家的活动进行多种限制，例如
+ * 体力值：玩家每天有固定的行动点数
+ * 探索值: 玩家每天有固定的探索点数(开宝箱数量)
+ * 问答值: 玩家每天有固定的问答点数
+ * 招财值: 玩家每天有固定的招财次数
+ * ...... 
+ * 这个协议解决所有和系统限制资源相关的操作
+ */
+message BseActionLimitQuery {
+    /**
+    * 今天可以购买的次数
+    */
+    optional uint32 buycount = 1;
+    /**
+    * 购买一次的价格
+    */
+    optional uint32 buyprice = 2;
+    /**
+    * 购买一次获得的数量 
+    */
+    optional uint32 buyvalue = 3;
+    /**
+    * 作为注释显示，比如对于体力值来讲，显示
+    *  “(每小时自动恢复5点体力)”
+    */
+    optional string info = 4;
+}

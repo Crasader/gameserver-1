@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求公会列表
+
+option java_outer_classname = "XinqiBceGuildList"; 
+message BceGuildList {
+   /**
+   * The start pos of the guild list 
+   */
+   optional int32 startpos = 1 [default = 0];
+   /**
+   * The count that will display to users
+   * -1 means unlimited.
+   */
+   optional int32 count = 2 [default = -1];
+}

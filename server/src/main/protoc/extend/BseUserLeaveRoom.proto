@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回物品信息列表
+
+option java_outer_classname = "XinqiBseUserLeaveRoom"; 
+message BseUserLeaveRoom {
+    required string roomId = 1;          //房间ID
+    required string sessionId = 2;
+    required string masterId = 3;				//房主ID
+}

@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//∫√”—–≈œ¢
+
+option java_outer_classname = "XinqiFriendInfo"; 
+message FriendInfo {
+}

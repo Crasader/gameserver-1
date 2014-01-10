@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//移动开始
+option java_outer_classname = "XinqiBceChgShootMode"; 
+message BceChgShootMode {
+	//攻击模式：0：键盘，1：鼠标
+    required int32 shootmode = 1;
+}

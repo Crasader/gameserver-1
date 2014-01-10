@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//返回商品信息
+import "GoodsInfo.proto";
+
+message BseShopping {
+    required int32 type = 1;            //商品类型
+    required int32 gender = 2;          //性别，女：1 男：2 通用：3
+    repeated GoodsInfo goodsInfo = 3;   //商品数组
+}

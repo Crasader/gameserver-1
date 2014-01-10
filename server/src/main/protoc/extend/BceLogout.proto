@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//Force user to logout
+
+option java_outer_classname = "XinqiBceLogout"; 
+message BceLogout {
+    optional string userid = 1;
+    optional string username = 2;
+    optional string client =3;
+}

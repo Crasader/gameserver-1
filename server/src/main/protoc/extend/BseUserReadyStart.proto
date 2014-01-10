@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回 玩家准备状态
+option java_outer_classname = "XinqiBseUserReadyStart"; 
+message BseUserReadyStart {
+    required string roomId = 1;          //房间ID
+    required string sessionId = 2;       //玩家id
+    required bool ready = 3;            //准备状态，未准备好：0 准备好了：1
+}

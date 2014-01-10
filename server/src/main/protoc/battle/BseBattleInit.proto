@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+//战场初始化
+import "RoleInfo.proto";
+
+option java_outer_classname = "XinqiBseBattleInit"; 
+message BseBattleInit {
+    required uint32 roomId = 1;
+    required uint32 campCount = 2;          //阵营数
+    required uint32 battleMode = 3;         //战斗模式
+    required uint32 mapId = 4;              //地图编号
+    repeated RoleInfo roleArr = 5;          //角色列表
+}

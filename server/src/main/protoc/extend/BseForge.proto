@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+//打造合成物品结果
+import "PropData.proto";
+
+option java_outer_classname = "XinqiBseForge"; 
+message BseForge {
+    /**
+     * 结果 
+     *   0：无法强化；
+     *   1：强化成功；
+	 *   2：强化失败 
+     *   3: 操作异常 
+     *   4: 合成石已经是最大等级 
+     *   5: 放入的合成石等级不一致 
+     *   6: 放入的不是合成石，无法熔炼
+     *   7: 金币不足，无法熔炼
+     */
+    required int32 result = 1;
+    optional PropData updateProp = 2;               //更新的装备
+    repeated int32 otherPews = 3;                   //成功后要删除的物品的格子号
+}

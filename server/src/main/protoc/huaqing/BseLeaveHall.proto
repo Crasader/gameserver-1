@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//进入大厅 请求
+message BseLeaveHall {   
+   required int32 hallsrvID = 1 [default = 0];  //进入大厅ID
+ //  required int32 mode = 2;											//0；离开房间 1：切换大厅
+}

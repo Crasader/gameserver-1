@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//鼠标操作改变方向
+option java_outer_classname = "XinqiBseRoleChangeDirection"; 
+message BseRoleChangeDirection {
+    required string sessionId = 1;
+    required int32 direction = 2;                 //方向id
+}

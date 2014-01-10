@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseUserSync"; 
+
+message BseUserSync {
+  /**
+   */
+  optional bool result = 1 [default=true];
+}

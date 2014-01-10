@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+import "Gift.proto";
+//Task Data
+
+option java_outer_classname = "XinqiBceSendGift"; 
+
+message BceSendGift {
+  repeated Gift gift = 1;
+  //If 'fromUserName' == GameAdmin
+  //It will be treated as 系统管理员
+  required string fromUserName = 2;
+  required string toUserIdStr = 3;
+}

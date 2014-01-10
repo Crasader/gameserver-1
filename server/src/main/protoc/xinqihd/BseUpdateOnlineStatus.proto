@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//∫√”—–≈œ¢
+
+option java_outer_classname = "XinqiBseUpdateOnlineStatus"; 
+message BseUpdateOnlineStatus 
+{
+    required string uid = 1;                //uid
+    required bool   online = 2;             //onlinestatus
+}

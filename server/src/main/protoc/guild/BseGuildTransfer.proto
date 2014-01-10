@@ -1,0 +1,14 @@
+package com.xinqihd.sns.gameserver.proto;
+//转让公会
+
+option java_outer_classname = "XinqiBseGuildTransfer"; 
+message BseGuildTransfer {
+   /**
+   * 修改的状态: 0表示成功
+   */
+   optional int32  status = 1; 
+   /**
+   * 如果修改失败，给出错误原因
+   */
+   optional string message = 2; 
+}

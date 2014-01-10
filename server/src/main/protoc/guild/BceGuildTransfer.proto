@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//转让公会
+
+option java_outer_classname = "XinqiBceGuildTransfer"; 
+message BceGuildTransfer {
+   //待转让的玩家ID 
+   optional string userid = 1; 
+}

@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//打开关闭座位
+message BceEditSeat{
+    required int32 index = 1;			//座位索引
+    required bool  open  = 2;			//打开或者关闭
+}

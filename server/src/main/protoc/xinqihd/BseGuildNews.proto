@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//新增工会事件
+
+import "GuildNews.proto";
+
+option java_outer_classname = "XinqiBseGuildNews"; 
+message BseGuildNews 
+{
+    repeated GuildNews news = 1 ;
+}

@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//获取宝箱信息
+message PickBoxInfo {
+    required int32 boxindex = 1  [default = 0];	//宝箱索引列表
+    required int32 tool = 2  [default = 0];			//获得战斗中物品列表   
+    required int32 prop = 3  [default = 0];			//获得战斗外物品列表
+    required int32 toolpos = 4  [default = 0];		//获得的战斗中物品所存放的位置
+    required int32 time   = 5  [default = 0];			//获取宝箱的时刻（毫秒）
+}

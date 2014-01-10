@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//邀请
+option java_outer_classname = "XinqiBseInvite"; 
+message BseInvite {
+    required string uid = 1;        //发起邀请对象的UID
+    required string roomId = 2;      //房间ID
+    required int32 roomKey = 3;     //房间认证码
+    required int32 type = 4;        //房间类型
+    required string name = 5;				//邀请人姓名
+}

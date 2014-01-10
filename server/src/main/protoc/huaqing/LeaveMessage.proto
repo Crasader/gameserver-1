@@ -1,0 +1,13 @@
+//package wanyou.game.protocol;
+//留言的信息
+import "PropData.proto";
+
+message LeaveMessage
+{
+    optional string uid     = 1 ;   //留言者uid
+    optional string name    = 2 ;   //留言者的名字
+    optional string context = 3 ;   //内容
+    optional int64  time    = 4 ;   //留言时间/分钟
+    optional bool   unread  = 5 [default = false] ; //未读状态
+    repeated PropData prots = 6 ;   //消息中涉及的物品列表
+}

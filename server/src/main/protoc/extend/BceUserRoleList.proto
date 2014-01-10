@@ -1,0 +1,14 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBceUserRoleList"; 
+/**
+* After the user select a server, the client
+* should query all rolenames in that server.
+*/
+message BceUserRoleList {
+  /**
+  * The serverId that client will checkout
+  */
+  optional string serverid = 1;
+}

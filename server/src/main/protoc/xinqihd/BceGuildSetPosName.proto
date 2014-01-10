@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//设置职位名称
+
+option java_outer_classname = "XinqiBceGuildSetPosName"; 
+message BceGuildSetPosName 
+{
+    optional int32  guildID = 1 ;
+    optional int32  pos  		= 2 ;
+    optional string name	  = 3 ;
+}

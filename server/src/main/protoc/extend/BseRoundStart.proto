@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求公告、活动信息
+option java_outer_classname = "XinqiBseRoundStart"; 
+message BseRoundStart { 
+	required string sessionId 	= 1; 	//本回合轮到的角色
+    required int32  wind 				= 2;  //风
+	repeated string userId 			= 6; 	//	
+    repeated int32 	blood 			= 7;	//玩家血量，下标为index
+ 	repeated int32 	strength 		= 8;	//体力
+ 	repeated int32 	energy 			= 9;	//能量
+ 	repeated int32 	userMode		= 10;	//玩家状态，从低位到高位：第一位：1: 是否死亡； 第二位：是否隐身；第三位：是否冰冻;第四位：是否可以使用飞机
+ 	repeated int32 	posX 				= 11;	//位置
+ 	repeated int32 	posY 				= 12;	//位置
+    required int32  boxcount 		= 13;	//本轮产生宝箱数
+    repeated int32  boxindex 		= 14;	//宝箱索引
+    repeated int32  boxposx 		= 15;	//宝箱位置
+    repeated int32  boxposy 		= 16;	//宝箱位置
+	repeated int32  boxpropid       = 17;   //宝箱的内容ID
+	repeated int32  boxpropcount    = 18;   //宝箱的内容ID
+    required int32  curRound 		= 19;   //当前回合数
+    repeated int32  campid          = 20;   //回合ID
+}

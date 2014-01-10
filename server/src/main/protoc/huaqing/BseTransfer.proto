@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//请求转移物品
+
+import "PropData.proto";
+
+message BseTransfer{
+		required int32 result = 1;                    //结果 0：转移成功；1：无法转移
+		optional PropData srcEquip = 2;               //更新的要转移装备
+		optional PropData tarEquip = 3;               //更新的待转移装备
+}

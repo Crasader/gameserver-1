@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//User ConfirmResult
+
+option java_outer_classname = "XinqiBseConfirm"; 
+message BseConfirm {
+    required string type = 1;
+    //The message to end user to confirm
+    required string message = 2;
+    //The sessionkey of the user whose send the confirm
+    optional string usersession = 3;
+}

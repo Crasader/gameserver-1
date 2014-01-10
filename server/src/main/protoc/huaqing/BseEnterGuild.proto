@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//进入工会俱乐部结果
+
+import "GuildInfo.proto";
+
+message BseEnterGuild
+{
+    required int32  guildID = 1 ;   			// 没有工会返回-1
+    optional GuildInfo guildInfo = 2 ;
+}

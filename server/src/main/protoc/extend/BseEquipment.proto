@@ -1,0 +1,45 @@
+package com.xinqihd.sns.gameserver.proto;
+//Equipment Data
+
+option java_outer_classname = "XinqiBseEquipment"; 
+message Avatar {
+  optional string id = 1;
+  optional string layer = 2;
+}
+
+message WeaponData {
+  required string id = 1;
+  optional int32 index = 2;
+  optional int32 quality = 3;
+  optional string qualityColor = 4;
+  optional string sName = 5;
+  optional int32 equipType = 6;
+  optional int32 addAttack = 7;
+  optional int32 addDefend = 8;
+  optional int32 addAgility = 9;
+  optional int32 addLuck = 10;
+  optional int32 addBlood = 11;
+  optional int32 addBloodPercent = 12;
+  optional int32 addThew = 13;
+  optional int32 addDamage = 14;
+  optional int32 addSkin = 15;
+  optional int32 sex = 16;
+  optional int32 sign = 17;
+  optional uint32 lv = 18;
+  optional bool specialAction = 19;
+  optional int32 radius = 20;
+  optional int32 sRadius = 21;
+  optional int32 power = 22;
+  optional string bullet = 23 [default="bullet_missile"];
+  optional string icon = 24; 
+  optional string name = 25;
+  optional string info = 26;
+  optional string slot = 27;
+  repeated Avatar avatar = 28; 
+  optional int32 expSe = 29;
+  optional string expBlend = 30;
+}
+
+message BseEquipment {
+  repeated WeaponData weapons = 1;
+}

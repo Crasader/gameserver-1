@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会事件
+
+option java_outer_classname = "XinqiGuildNews"; 
+message GuildNews 
+{
+		optional int32	type = 1 ;
+		repeated string	args = 2 ;
+}

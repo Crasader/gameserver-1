@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//邀请
+option java_outer_classname = "XinqiBceInvite"; 
+message BceInvite {
+    required string uid = 1;        //邀请对象的UID
+    required int32  pos = 2;        //需要添加的房间位置,从0-7
+}

@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//移动开始
+option java_outer_classname = "XinqiBceBattlePickBox"; 
+message BceBattlePickBox {
+    repeated int32 boxindex = 1;	//宝箱索引列表
+}

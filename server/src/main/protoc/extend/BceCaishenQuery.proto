@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceCaishenQuery"; 
+/**
+ * 向服务器发起查询的请求
+ * 服务器会返回BseCaishenQuery
+ */
+message BceCaishenQuery {
+}

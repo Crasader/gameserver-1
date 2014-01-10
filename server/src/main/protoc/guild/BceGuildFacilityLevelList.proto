@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会设施的升级权限和数据
+
+option java_outer_classname = "XinqiBceGuildFacilityLevelList"; 
+message BceGuildFacilityLevelList {
+}

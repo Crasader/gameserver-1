@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//退出工会
+
+option java_outer_classname = "XinqiBseExitGuild"; 
+message BseExitGuild 
+{
+    optional int32 result = 1;    //退出结果 0:成功
+}

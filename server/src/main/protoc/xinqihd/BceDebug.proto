@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//Debug
+option java_outer_classname = "XinqiBceDebug"; 
+message BceDebug {
+   required string hashValue0 = 1;
+   required string hashValue1 = 2;
+   required string hashValue2 = 3;
+   required string hashValue3 = 4;
+}

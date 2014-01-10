@@ -1,0 +1,14 @@
+//package wanyou.game.protocol;
+//请求购买物品道具
+message BuyInfo{
+    required int32 goodsId = 1;         //商品id
+    required int32 count = 2;           //数量
+    required int32 leftTimeType = 3;    //剩余时间
+    required uint32 color = 4;          //颜色
+    optional bool  pointbuy = 5 [default = false]; //是否是点券购买
+    optional int32 level = 6 [default = 0]; //购买的物品等级
+}
+
+message BceBuyProp{
+    repeated BuyInfo buyList = 1;       //购物清单
+}

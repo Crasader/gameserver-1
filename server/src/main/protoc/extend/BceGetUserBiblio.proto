@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//лМ╪су╫ся
+
+option java_outer_classname = "XinqiBceGetUserBiblio"; 
+message BceGetUserBiblio 
+{
+   /**
+   * м╪╪Ь╣деепР╥╫й╫
+   * 0: у╫╤╥а╕еепР
+   * 1: ╧╔╩ВеепР
+   * 2: ╥юсЫеепР
+   * 3: цТ╫щеепР
+   * 4: прткеепР
+   */
+   optional int32  sorttype  = 1 [default = 0]; 
+}

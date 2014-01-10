@@ -1,0 +1,3 @@
+{ "_id" : 1 , "class" : "com.xinqihd.sns.gameserver.config.ExitPojo" , "days" : 1 , "rewardStr" : "{20019,null,ITEM,-1,1,0,0,0,0,false,0,0,0,0,0}" , "channel" :  null  , "startMillis" : 0 , "endMillis" : 0}
+{ "_id" : 3 , "class" : "com.xinqihd.sns.gameserver.config.ExitPojo" , "days" : 3 , "rewardStr" : "{20024,null,ITEM,-1,1,0,0,0,0,false,0,0,0,0,0}" , "channel" :  null  , "startMillis" : 0 , "endMillis" : 0}
+{ "_id" : 7 , "class" : "com.xinqihd.sns.gameserver.config.ExitPojo" , "days" : 7 , "rewardStr" : "{-3,null,YUANBAO,-1,50,0,0,0,0,false,0,0,0,0,0}" , "channel" :  null  , "startMillis" : 0 , "endMillis" : 0}

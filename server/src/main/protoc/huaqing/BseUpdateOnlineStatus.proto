@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//∫√”—–≈œ¢
+
+message BseUpdateOnlineStatus
+{
+    required string uid = 1;                //uid
+    required bool   online = 2;             //onlinestatus
+}

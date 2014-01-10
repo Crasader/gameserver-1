@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÏìÓ¦ÑûÇë
+option java_outer_classname = "XinqiBseExitGame"; 
+message BseExitGame {
+  optional string info = 1;
+}

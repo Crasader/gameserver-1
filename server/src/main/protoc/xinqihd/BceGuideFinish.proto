@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//新手引导完成
+option java_outer_classname = "XinqiBceGuideFinish"; 
+message BceGuideFinish 
+{
+    optional string uid = 1;
+}

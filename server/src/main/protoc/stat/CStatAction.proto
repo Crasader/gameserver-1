@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto.stat;
+//Stat Action
+
+option java_outer_classname = "JavaCStatAction"; 
+message CStatAction {
+    //The unique uuid for device
+  optional int64 timestamp = 1;
+  optional string rolename = 2;
+  optional string uuid = 3;
+  optional string action = 4;   
+  repeated string params = 5;
+}

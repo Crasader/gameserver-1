@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//查找工会结果
+
+import "GuildSimpleInfo.proto";
+
+message BseGuildSearch
+{
+    required int32 result = 1;					//工会搜索结果
+    optional GuildSimpleInfo guildList = 2;    //工会搜索结果列表
+}

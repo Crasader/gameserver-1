@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceUserSync"; 
+
+message BceUserSync {
+  /**
+   * 1: add exp
+   * 2: add golden
+   * 3: add yuanbao
+   * 4: set guildid
+   */
+  optional int32 mode = 1 [default=1];
+  optional int32 value = 2 [default=0];
+  optional string object = 3;
+}

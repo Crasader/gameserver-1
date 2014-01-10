@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//修改成员的职位
+
+option java_outer_classname = "XinqiBceGuildChangeRole"; 
+message BceGuildChangeRole {
+   optional string userid = 1; 
+   //目标的职位描述
+   optional string targetrole = 2; 
+}

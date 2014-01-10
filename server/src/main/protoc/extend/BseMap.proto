@@ -1,0 +1,43 @@
+package com.xinqihd.sns.gameserver.proto;
+//Map Data
+
+option java_outer_classname = "XinqiBseMap"; 
+message Point {
+  optional int32 x = 1;
+  optional int32 y = 2;
+}
+message Enemy {
+  optional string id = 1;
+  optional int32 x = 2;
+  optional int32 y = 3;
+}
+message Layer {
+  optional string  id = 1;
+  optional int32 num = 2;
+  optional int32 scrollRate = 3;
+  optional int32 width = 4;
+  optional int32 height = 5;
+  optional string type = 6;
+}
+
+message MapData {
+  required string id = 1;
+  optional string name = 2;
+  optional int32 type = 3;
+  optional int32 reqlv = 4;
+  optional int32 scrollAreaX = 5;
+  optional int32 scrollAreaY = 6;
+  optional int32 scrollAreaWidth = 7;
+  optional int32 scrollAreaHeight = 8;
+  optional string bgm = 10;
+  optional bool damage = 11;
+  repeated Layer layers = 9; 
+  repeated Enemy bosses = 12; 
+  repeated Enemy enemies = 13; 
+  repeated Point startPoints = 14; 
+  optional bool  hidden = 15;
+}
+
+message BseMap {
+  repeated MapData maps = 1;
+}

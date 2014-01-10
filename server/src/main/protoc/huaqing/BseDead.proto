@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//发送消息
+
+message BseDead {
+	required string sessionID = 1;	//用户ID
+}

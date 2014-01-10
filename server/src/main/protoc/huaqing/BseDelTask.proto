@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//删除任务
+
+message BseDelTask
+{
+   required int32 taskID = 1 ;  //任务ID
+}

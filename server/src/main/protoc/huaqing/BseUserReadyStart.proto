@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//返回 玩家准备状态
+message BseUserReadyStart {
+    required int32 roomId = 1;          //房间ID
+    required string sessionId = 2;       //玩家id
+    required bool ready = 3;            //准备状态，未准备好：0 准备好了：1
+}

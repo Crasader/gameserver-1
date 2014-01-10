@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseUseProp"; 
+message BseUseProp {
+    /*
+		//We got the reward and update user's status
+		SUCCESS,
+		//The user's bag is full of stuff.
+		BAG_FULL,
+		//The user's level cannot pick the reward.
+		LEVEL_FAIL,
+		//Other errors occurred.
+		OTHER,
+		//We got nothing and did not update user status
+		NOTHING,
+		//Some box need the key to open it
+		CONDITION_FAIL,
+    */
+    required int32 successed = 1;		
+    repeated int32 delPew = 2;
+}

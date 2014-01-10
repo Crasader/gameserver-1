@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseFinishAchievement"; 
+message BseFinishAchievement {
+    //The achievement id
+    required string id = 1;
+    //Now it contains the step value rather than percent
+    required int32  percent = 2;
+}

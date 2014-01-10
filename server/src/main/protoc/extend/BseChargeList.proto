@@ -1,0 +1,36 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseChargeList"; 
+
+message ChargeData {
+    required int32 id = 1;
+    //The price will be 100x int.
+    //$0.99 will be 99
+    required int32 price = 2;
+	//$ for dollor and ￥ for RMB
+    required string currency = 3;
+    //The number of yuanbao
+    required int32 yuanbao = 4;
+    //The 0 ~ 99 discount means 0.0 ~ 9.9.
+    optional int32 discount = 5 [default = 0];
+    //True if the item is hot sale
+    optional bool isHot = 6 [default = false];
+    //The billing channel. e.g "ios_iap" for Apple
+    //'sms' for chinese android
+    optional string channel = 7;
+    //The iAP need an extra billingid for each
+    //charge method.
+    optional string billingid = 8; 
+}
+
+message ChargeList {
+  optional int32 tab = 1;
+  optional string desc = 2;
+  repeated ChargeData charges = 3;
+  optional bool enable = 4;
+}
+
+message BseChargeList {
+  repeated ChargeList charges = 1;
+}

@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//显示房间列表
+option java_outer_classname = "XinqiBseHallRoomList"; 
+message BseHallRoomList {   
+  repeated int32  roomId 	= 1;  
+	repeated string roomName 		= 2;
+	repeated int32  roomType = 3;			//房间类型：0：竞技 1：挑战
+	repeated int32  difficulty	= 4;
+	repeated int32  userCount			= 5;
+	repeated string roomKey  = 6;			//房间密码，如果为空，则为无密码
+	repeated int32  battleState	= 7; //房间状态：0：空闲 1：人满 2：游戏中
+	required int32  roomCount = 8;	//房间数
+	repeated int32  seatCount = 9; 	//座位数
+	optional int32  page = 10 [default = 0];  
+}

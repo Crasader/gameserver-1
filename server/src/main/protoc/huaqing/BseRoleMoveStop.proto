@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//移动停止
+message BseRoleMoveStop {
+    required string sessionId = 1;
+    required uint32 passFrames = 2;//经过的帧数
+    required int32 angle = 3;	//角度
+    required int32 x = 4;
+    required int32 y = 5;
+}

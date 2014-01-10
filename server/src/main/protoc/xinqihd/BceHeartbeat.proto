@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//·¢ËÍĞÄÌø
+
+option java_outer_classname = "XinqiBceHeartbeat"; 
+message BceHeartbeat {
+}

@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//Tip Data
+
+option java_outer_classname = "XinqiBseTip"; 
+
+message BseTip {
+  repeated string tips = 1;
+}

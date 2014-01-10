@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//添加任务
+
+option java_outer_classname = "XinqiBseAddTask"; 
+message BseAddTask 
+{
+   required int32 taskID = 1 ;  //任务ID
+}

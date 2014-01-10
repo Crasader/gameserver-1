@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//返回物品信息列表
+
+message BseUserLeaveRoom {
+    required int32 roomId = 1;          //房间ID
+    required string sessionId = 2;
+    required string masterId = 3;				//房主ID
+}

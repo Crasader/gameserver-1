@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//修改公会的公告
+
+option java_outer_classname = "XinqiBceGuildChangeAnnounce"; 
+message BceGuildChangeAnnounce {
+   /**
+   * 0: 公告
+   * 1: 宣言
+   */
+   optional int32 type = 1;
+   /**
+   * 新的公告内容, <128
+   */
+   optional string announcement = 2; 
+}

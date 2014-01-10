@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceBattleReward"; 
+
+
+message BceBattleReward {
+    //The number of slot displayed
+    optional int32  slot    = 1;
+}

@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//¿ª³ý³ÉÔ±
+
+option java_outer_classname = "XinqiBceGuildFire"; 
+message BceGuildFire 
+{
+    required string uid = 1;
+}

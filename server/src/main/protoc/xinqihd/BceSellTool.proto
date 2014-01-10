@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//出售工具
+option java_outer_classname = "XinqiBceSellTool"; 
+message BceSellTool {
+    required int32 pos = 1;        //所在格子号
+}

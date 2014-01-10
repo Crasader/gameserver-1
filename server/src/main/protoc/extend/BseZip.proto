@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseZip"; 
+
+//The request/response message.
+message BseZip {  
+  //The protocol buffer name
+  optional string name = 1;
+  //The zipped byte stream
+  optional bytes payload = 2;  
+}
+

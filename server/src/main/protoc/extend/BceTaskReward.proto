@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//任务领奖
+
+option java_outer_classname = "XinqiBceTaskReward"; 
+message BceTaskReward {
+   required int32 taskID = 1;  //任务ID
+   optional string cdkey = 2;  //某些任务带有CDKEY需要输入
+   optional int32 choose = 3;  //可选奖励序号
+}

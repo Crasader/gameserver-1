@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//请求售卖物品
+message BceSellProp {
+
+    required int32 propPew = 1 ;           //物品所在位置
+
+}

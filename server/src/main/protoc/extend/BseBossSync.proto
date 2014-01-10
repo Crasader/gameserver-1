@@ -1,0 +1,43 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseBossSync"; 
+
+/**
+ * Boss战斗结束后，服务器向玩家同步Boss战斗信息
+ */
+message BseBossSync {
+  /**
+  * 更新指定bossid的数据
+  */
+  required string bossid		= 1;
+  /**
+  * true: 副本挑战成功，具有领取奖励的资格了
+  * false: 副本挑战失败，可重新尝试
+  */
+  optional bool   success		= 2;
+  /**
+   * 副本状态, 1-4
+   *
+   *  PROGRESS,
+   *   副本还在进行中
+   *  SUCCESS,
+   *   副本胜利，可以领取奖励了
+   *  FAILURE,
+   *  TIMEOUT,
+   *   副本失败了，不可再次进入
+   */
+  optional uint32 status		= 3;
+  /**
+   * 玩家剩余的挑战机会
+  */
+  optional uint32 usedtime		= 4;
+  /**
+   * 玩家总共的挑战机会
+  */
+  optional uint32 totaltime		= 5;
+  //副本进度
+  optional uint32 totaluser		= 10;
+  optional uint32 progress		= 11;
+  optional uint32 totalprogress	= 12;
+}

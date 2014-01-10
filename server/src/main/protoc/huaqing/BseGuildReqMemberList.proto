@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//工会申请列表
+
+import "GuildMember.proto";
+
+message BseGuildReqMemberList
+{
+    repeated GuildMember reqMembers = 1 ;
+}

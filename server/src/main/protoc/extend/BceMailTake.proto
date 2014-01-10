@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceMailTake"; 
+/**
+ * The user takes the mail attacked gifts
+ */
+message BceMailTake {
+  /**
+  * 0 based index of mails in user's mailbox
+  */
+  required int32 mailIndex = 1;
+}

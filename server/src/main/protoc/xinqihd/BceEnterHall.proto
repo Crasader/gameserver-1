@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//进入大厅 请求
+option java_outer_classname = "XinqiBceEnterHall"; 
+message BceEnterHall {   
+   required int32 hallsrvID = 1 [default = 0];  //进入大厅ID，客户端发送0
+   optional int32 hallType 	= 2[default = 0];		//大厅类型：0:普通大厅 1:比赛大厅
+}

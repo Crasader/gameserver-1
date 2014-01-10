@@ -1,0 +1,20 @@
+//For testing the RPC protocol
+package com.xinqihd.sns.gameserver.proto;
+import "Rpc.proto";
+
+option java_outer_classname = "RpcUserRefresh"; 
+option java_generic_services = true;
+
+service UserRefresh {
+  rpc refresh(RefreshReq) returns (BoolResponse);
+}
+
+message RefreshReq {
+  required bytes userSessionKey = 1;
+  /**
+   * 1: refresh user data
+   * 2: refresh user bag data
+   * 4: refresh user relation
+   */
+  optional int32 refreshmode = 2 [default=1];
+}

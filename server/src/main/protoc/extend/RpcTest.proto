@@ -1,0 +1,17 @@
+//For testing the RPC protocol
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "RpcTest"; 
+option java_generic_services = true;
+
+service RpcSleep {
+  rpc test(RpcTestReq) returns (RpcTestResp);
+}
+
+message RpcTestReq {
+  required int32 sleep = 1;
+}
+
+message RpcTestResp {
+  required int32 sleep = 1;
+}

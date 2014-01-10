@@ -1,0 +1,14 @@
+//package wanyou.game.protocol;
+//公会成员信息
+
+message GuildMember
+{
+    required string  playerID = 1;          	 //成员ID
+    optional string  playerName = 2;        	 //成员名字
+    optional uint32  playerCredit = 3;      	 //功勋
+    optional uint32  guildPosLevel = 4;     	 //成员职位等级
+    optional uint32  playerLevel = 5;          //成员等级
+    optional uint32  playerPower = 6;          //成员战斗力
+    optional uint32  playerContribution = 7;   //成员贡献度
+    optional bool  	 onlineState = 8;  			 	 //是否在线
+}

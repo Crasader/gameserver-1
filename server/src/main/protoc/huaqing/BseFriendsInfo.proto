@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//返回好友信息
+message BseFriendsInfo {
+    required int32 friBlood = 1;     //血量
+    required int32 friThew = 2;      //体力
+    required int32 friDamage = 3;    //伤害
+    required int32 friSkin = 4;      //护甲
+    required string friName = 5;     //名字
+}

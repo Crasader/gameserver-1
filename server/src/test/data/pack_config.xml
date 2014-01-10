@@ -1,0 +1,3444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pack>
+	<main uiNum="4">
+		<items>
+			<item pathLink="effect" id="effect_main" type="classPack"
+				folder="" file="effect_main_pack.swf">
+			</item>
+			<item pathLink="ui" id="ui" type="classPack" folder="" file="ui.swf">
+			</item>
+			<item pathLink="ui" id="ui_battle" type="classPack" folder=""
+				file="ui_battle.swf">
+			</item>
+			<item pathLink="ui" id="ui_source1" type="classPack" folder=""
+				file="ui_source1.swf">
+			</item>
+			<item pathLink="ui" id="ui_source2" type="classPack" folder=""
+				file="ui_source2.swf">
+			</item>
+			<item pathLink="ui" id="ui_source3" type="classPack" folder=""
+				file="ui_source3.swf">
+			</item>
+			<item pathLink="ui" id="ui_source4" type="classPack" folder=""
+				file="ui_source4.swf">
+			</item>
+			<item pathLink="ui" id="ui_icon" type="classPack" folder=""
+				file="icon.swf">
+			</item>
+			<item pathLink="sound" id="se_ui_pack" type="classPack" folder=""
+				file="se_ui_pack.swf">
+			</item>
+		</items>
+	</main>
+	<battleMain>
+		<items>
+			<item pathLink="sound" id="se_battle_pack" type="classPack"
+				folder="" file="se_battle_pack.swf">
+			</item>
+			<item pathLink="bullet" id="bullet_ice" type="classPack" folder=""
+				file="bullet_ice.swf">
+			</item>
+		</items>
+	</battleMain>
+	<maps>
+		<map_1001>
+			<items>
+				<item pathLink="map" id="map_1001" type="swf" folder="" file="map_1001.swf">
+				</item>
+				<item pathLink="map" id="map_1001_bg" type="swf" folder=""
+					file="map_1001_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_1001>
+		<map_1002>
+			<items>
+				<item pathLink="map" id="map_1002" type="swf" folder="" file="map_1002.swf">
+				</item>
+				<item pathLink="map" id="map_1002_bg" type="swf" folder=""
+					file="map_1002_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_1002>	
+		
+		<map_0>
+                        <items>
+				<item pathLink="map" id="map_00_mid" type="swf" folder="" file="map_00_mid.swf">
+				</item>
+				<item pathLink="map" id="map_00" type="swf" folder="" file="map_00.swf">
+				</item>
+				<item pathLink="map" id="map_00_bg" type="swf" folder=""
+					file="map_00_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_0>
+	
+		<map_1>
+                        <items>
+				<item pathLink="map" id="map_01_mid" type="swf" folder="" file="map_01_mid.swf">
+				</item>	
+				<item pathLink="map" id="map_01" type="swf" folder="" file="map_01.swf">
+				</item>
+				<item pathLink="map" id="map_01_bg" type="swf" folder=""
+					file="map_01_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_1>
+
+		<map_2>
+                         <items>
+				<item pathLink="map" id="map_02_mid" type="swf" folder="" file="map_02_mid.swf">
+				</item>
+				<item pathLink="map" id="map_02" type="swf" folder="" file="map_02.swf">
+				</item>
+				<item pathLink="map" id="map_02_bg" type="swf" folder=""
+					file="map_02_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_2>
+		<map_3>
+                           <items>
+				<item pathLink="map" id="map_03_mid" type="swf" folder="" file="map_03_mid.swf">
+				</item>
+				<item pathLink="map" id="map_03" type="swf" folder="" file="map_03.swf">
+				</item>
+				<item pathLink="map" id="map_03_bg" type="swf" folder=""
+					file="map_03_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_3>
+		<map_4>
+                         <items>
+				<item pathLink="map" id="map_04_mid" type="swf" folder="" file="map_04_mid.swf">
+				</item>
+				<item pathLink="map" id="map_04" type="swf" folder="" file="map_04.swf">
+				</item>
+				<item pathLink="map" id="map_04_bg" type="swf" folder=""
+					file="map_04_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_4>
+		<map_5>
+			<items>
+				<item pathLink="map" id="map_05" type="swf" folder="" file="map_05.swf">
+				</item>
+			        <item pathLink="map" id="map_05_bg" type="swf" folder="" file="map_05_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_5>
+		<map_6>
+			<items>
+				<item pathLink="map" id="map_06" type="swf" folder="" file="map_06.swf">
+				</item>
+				<item pathLink="map" id="map_06_bg" type="swf" folder=""
+					file="map_06_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_6>
+		<map_7>
+			<items>
+				<item pathLink="map" id="map_07_mid" type="swf" folder="" file="map_07_mid.swf">
+				</item>
+				<item pathLink="map" id="map_07" type="swf" folder="" file="map_07.swf">
+				</item>				
+				<item pathLink="map" id="map_07_bg" type="swf" folder="" file="map_07_bg.swf">
+				</item>
+				<item pathLink="bgm" id="start" type="mp3" folder="" file="start.mp3">
+				</item>
+			</items>
+		</map_7>
+		<map_8>
+			<items>
+                                <item pathLink="map" id="map_08_mid" type="swf" folder="" file="map_08_mid.swf">
+				</item>
+				<item pathLink="map" id="map_08" type="swf" folder="" file="map_08.swf">
+				</item>
+				<item pathLink="map" id="map_08_bg" type="swf" folder=""
+					file="map_08_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_8>
+		<map_9>
+			<items>
+				<item pathLink="map" id="map_09" type="swf" folder="" file="map_09.swf">
+				</item>
+				<item pathLink="map" id="map_09_bg" type="swf" folder=""
+					file="map_09_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_9>
+		<map_10>
+			<items>
+				<item pathLink="map" id="map_10" type="swf" folder="" file="map_10.swf">
+				</item>
+				<item pathLink="map" id="map_10_bg" type="swf" folder="" file="map_10_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_10>
+		<map_11>
+			<items>
+				<item pathLink="map" id="map_11" type="swf" folder="" file="map_11.swf">
+				</item>
+				<item pathLink="map" id="map_11_bg" type="swf" folder=""
+					file="map_11_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_11>
+		<map_12>
+			<items>
+				<item pathLink="map" id="map_12" type="swf" folder="" file="map_12.swf">
+				</item>
+				<item pathLink="map" id="map_12_bg" type="swf" folder=""
+					file="map_12_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_12>
+		<map_13>
+			<items>
+				<item pathLink="map" id="map_13" type="swf" folder="" file="map_13.swf">
+				</item>
+				<item pathLink="map" id="map_13_bg" type="swf" folder=""
+					file="map_13_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_13>
+                <map_14>
+			<items>
+                                <item pathLink="map" id="map_14_mid" type="swf" folder="" file="map_14_mid.swf">
+				</item>
+				<item pathLink="map" id="map_14" type="swf" folder="" file="map_14.swf">
+				</item>
+				<item pathLink="map" id="map_14_bg" type="swf" folder=""
+					file="map_14_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_14>
+  		<map_15>
+			<items>
+				<item pathLink="map" id="map_15" type="swf" folder="" file="map_15.swf">
+				</item>
+				<item pathLink="map" id="map_15_bg" type="swf" folder=""
+					file="map_15_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_15>
+  		<map_16>
+                         <items>
+				<item pathLink="map" id="map_16_mid" type="swf" folder="" file="map_16_mid.swf">
+				</item>
+				<item pathLink="map" id="map_16" type="swf" folder="" file="map_16.swf">
+				</item>
+				<item pathLink="map" id="map_16_bg" type="swf" folder=""
+					file="map_16_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_16>
+  		<map_17>
+			<items>
+				<item pathLink="map" id="map_17" type="swf" folder="" file="map_17.swf">
+				</item>
+				<item pathLink="map" id="map_17_bg" type="swf" folder=""
+					file="map_17_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_17>
+  		<map_18>
+			<items>
+				<item pathLink="map" id="map_18" type="swf" folder="" file="map_18.swf">
+				</item>
+				<item pathLink="map" id="map_18_bg" type="swf" folder=""
+					file="map_18_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_18>
+		<map_19>
+			<items>
+				<item pathLink="map" id="map_19" type="swf" folder="" file="map_19.swf">
+				</item>
+				<item pathLink="map" id="map_19_bg" type="swf" folder=""
+					file="map_19_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_19>
+                <map_20>
+                                <items>
+				<item pathLink="map" id="map_20_mid" type="swf" folder="" file="map_20_mid.swf">
+				</item>
+				<item pathLink="map" id="map_20" type="swf" folder="" file="map_20.swf">
+				</item>
+				<item pathLink="map" id="map_20_bg" type="swf" folder=""
+					file="map_20_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_20>
+                 <map_21>
+                                <items>
+				<item pathLink="map" id="map_21_mid" type="swf" folder="" file="map_21_mid.swf">
+				</item>
+				<item pathLink="map" id="map_21" type="swf" folder="" file="map_21.swf">
+				</item>
+				<item pathLink="map" id="map_21_bg" type="swf" folder=""
+					file="map_21_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_start" type="mp3" folder="" file="bgm_start.mp3">
+				</item>
+			</items>
+		</map_21>
+                 <map_22>
+                         <items>
+				<item pathLink="map" id="map_22_mid" type="swf" folder="" file="map_22_mid.swf">
+				</item>
+				<item pathLink="map" id="map_22" type="swf" folder="" file="map_22.swf">
+				</item>
+				<item pathLink="map" id="map_22_bg" type="swf" folder=""
+					file="map_22_bg.swf">
+				</item>
+				<item pathLink="bgm" id="bgm_02" type="mp3" folder="" file="bgm_02.mp3">
+				</item>
+			</items>
+		</map_22>
+	</maps>
+
+	<equipment>
+		<weapon>
+			<id>1200001</id>
+			<items>
+				<item pathLink="bullet" id="bullet_boss_xiezi_b" type="classPack"
+					folder="" file="bullet_boss_xiezi_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>1200002</id>
+			<items>
+				<item pathLink="bullet" id="bullet_boss_xiezi_s" type="classPack"
+					folder="" file="bullet_boss_xiezi_s.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12006</id>
+			<items>
+				<item pathLink="bullet" id="bullet_corn" type="classPack"
+					folder="" file="bullet_corn.swf">
+				</item>
+				<item pathLink="character" id="weapon_corn_b" type="swfBa"
+					folder="com/weapon_back" file="corn_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13006</id>
+			<items>
+				<item pathLink="bullet" id="bullet_corn" type="classPack"
+					folder="" file="bullet_corn.swf">
+				</item>
+				<item pathLink="character" id="weapon_corn_b" type="swfBa"
+					folder="com/weapon_back" file="corn_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12003</id>
+			<items>
+				<item pathLink="bullet" id="bullet_highHeeled" type="classPack"
+					folder="" file="bullet_highHeeled.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12001</id>
+			<items>
+				<item pathLink="bullet" id="bullet_missile" type="classPack"
+					folder="" file="bullet_missile.swf">
+				</item>
+				<item pathLink="character" id="weapon_gun_b" type="swfBa"
+					folder="com/weapon_back" file="weapon_back_s1.swf">
+				</item>
+				<item pathLink="character" id="weapon_gun_f" type="swfBa"
+					folder="com/weapon_front" file="weapon_front_s1.swf">
+				</item>
+			</items>
+		</weapon>
+				<weapon>
+			<id>13001</id>
+			<items>
+				<item pathLink="bullet" id="bullet_missile" type="classPack"
+					folder="" file="bullet_missile.swf">
+				</item>
+				<item pathLink="character" id="weapon_gun_b" type="swfBa"
+					folder="com/weapon_back" file="weapon_back_s1.swf">
+				</item>
+				<item pathLink="character" id="weapon_gun_f" type="swfBa"
+					folder="com/weapon_front" file="weapon_front_s1.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12008</id>
+			<items>
+				<item pathLink="bullet" id="bullet_crossbow" type="classPack"
+					folder="" file="bullet_crossbow.swf">
+				</item>
+				<item pathLink="character" id="weapon_crossbow_b" type="swfBa"
+					folder="com/weapon_back" file="crossbow_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_crossbow_f" type="swfBa"
+					folder="com/weapon_front" file="crossbow_f.swf">
+				</item>
+			</items>
+		</weapon>
+
+		<weapon>
+			<id>12004</id>
+			<items>
+				<item pathLink="bullet" id="bullet_cannon" type="classPack"
+					folder="" file="bullet_cannon.swf">
+				</item>
+				<item pathLink="character" id="weapon_cannon_b" type="swfBa"
+					folder="com/weapon_back" file="cannon_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_cannon_f" type="swfBa"
+					folder="com/weapon_front" file="cannon_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13004</id>
+			<items>
+				<item pathLink="bullet" id="bullet_cannon" type="classPack"
+					folder="" file="bullet_cannon.swf">
+				</item>
+				<item pathLink="character" id="weapon_cannon_b" type="swfBa"
+					folder="com/weapon_back" file="cannon_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_cannon_f" type="swfBa"
+					folder="com/weapon_front" file="cannon_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12007</id>
+			<items>
+				<item pathLink="bullet" id="bullet_tomato" type="classPack"
+					folder="" file="bullet_tomato.swf">
+				</item>
+				<item pathLink="character" id="weapon_tomato_b" type="swfBa"
+					folder="com/weapon_back" file="weppon0001_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13007</id>
+			<items>
+				<item pathLink="bullet" id="bullet_tomato" type="classPack"
+					folder="" file="bullet_tomato.swf">
+				</item>
+				<item pathLink="character" id="weapon_tomato_b" type="swfBa"
+					folder="com/weapon_back" file="weppon0001_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12002</id>
+			<items>
+				<item pathLink="bullet" id="bullet_knife" type="classPack"
+					folder="" file="bullet_knife.swf">
+				</item>
+				<item pathLink="character" id="weapon_knife_b" type="swfBa"
+					folder="com/weapon_back" file="weppon0008_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13002</id>
+			<items>
+				<item pathLink="bullet" id="bullet_knife" type="classPack"
+					folder="" file="bullet_knife.swf">
+				</item>
+				<item pathLink="character" id="weapon_knife_b" type="swfBa"
+					folder="com/weapon_back" file="weppon0008_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12005</id>
+			<items>
+				<item pathLink="bullet" id="bullet_chainsaw_g" type="classPack"
+					folder="" file="bullet_chainsaw_g.swf">
+				</item>
+				<item pathLink="character" id="weapon_chainsaw_b" type="swfBa"
+					folder="com/weapon_back" file="weppon0009_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13005</id>
+			<items>
+				<item pathLink="bullet" id="bullet_chainsaw_g" type="classPack"
+					folder="" file="bullet_chainsaw_g.swf">
+				</item>
+				<item pathLink="character" id="weapon_chainsaw_b" type="swfBa"
+					folder="com/weapon_back" file="weppon0009_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12009</id>
+			<items>
+				<item pathLink="bullet" id="bullet_fist" type="classPack"
+					folder="" file="bullet_fist.swf">
+				</item>
+				<item pathLink="character" id="weapon_fist_b" type="swfBa"
+					folder="com/weapon_back" file="fist_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_fist_f" type="swfBa"
+					folder="com/weapon_front" file="fist_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13009</id>
+			<items>
+				<item pathLink="bullet" id="bullet_fist" type="classPack"
+					folder="" file="bullet_fist.swf">
+				</item>
+				<item pathLink="character" id="weapon_fist_b" type="swfBa"
+					folder="com/weapon_back" file="fist_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_fist_f" type="swfBa"
+					folder="com/weapon_front" file="fist_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12010</id>
+			<items>
+				<item pathLink="bullet" id="bullet_fireGun" type="classPack"
+					folder="" file="bullet_fireGun.swf">
+				</item>
+				<item pathLink="character" id="weapon_fireGun_b" type="swfBa"
+					folder="com/weapon_back" file="fireGun_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_fireGun_f" type="swfBa"
+					folder="com/weapon_front" file="fireGun_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13010</id>
+			<items>
+				<item pathLink="bullet" id="bullet_fireGun" type="classPack"
+					folder="" file="bullet_fireGun.swf">
+				</item>
+				<item pathLink="character" id="weapon_fireGun_b" type="swfBa"
+					folder="com/weapon_back" file="fireGun_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_fireGun_f" type="swfBa"
+					folder="com/weapon_front" file="fireGun_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12011</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_redRune" type="classPack"
+					folder="" file="EXBullet_redRune.swf">
+				</item>
+				<item pathLink="character" id="weapon0013_b" type="swfBa"
+					folder="com/weapon_back" file="weapon0013_b.swf">
+				</item>
+				<item pathLink="character" id="weapon0013_f" type="swfBa"
+					folder="com/weapon_front" file="weapon0013_f.swf">
+				</item>
+			</items>
+		</weapon>
+
+		<weapon>
+			<id>12012</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_blueRune" type="classPack"
+					folder="" file="EXBullet_blueRune.swf">
+				</item>
+				<item pathLink="character" id="weapon0012_b" type="swfBa"
+					folder="com/weapon_back" file="weapon0012_b.swf">
+				</item>
+				<item pathLink="character" id="weapon0012_f" type="swfBa"
+					folder="com/weapon_front" file="weapon0012_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>13012</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_blueRune" type="classPack"
+					folder="" file="EXBullet_blueRune.swf">
+				</item>
+				<item pathLink="character" id="weapon0012_b" type="swfBa"
+					folder="com/weapon_back" file="weapon0012_b.swf">
+				</item>
+				<item pathLink="character" id="weapon0012_f" type="swfBa"
+					folder="com/weapon_front" file="weapon0012_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12013</id>
+			<items>
+				<item pathLink="bullet" id="bullet_white" type="classPack"
+					folder="" file="bullet_white_g.swf">
+				</item>
+				<item pathLink="character" id="weapon0011_b" type="swfBa"
+					folder="com/weapon_back" file="weapon0011_b.swf">
+				</item>
+				<item pathLink="character" id="weapon0011_f" type="swfBa"
+					folder="com/weapon_front" file="weapon0011_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12014</id>
+			<items>
+				<item pathLink="bullet" id="bullet_black" type="classPack"
+					folder="" file="bullet_black.swf">
+				</item>
+				<item pathLink="character" id="weapon_black_b" type="swfBa"
+					folder="com/weapon_back" file="weapon_black_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_black_f" type="swfBa"
+					folder="com/weapon_front" file="weapon_black_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12016</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_vivienne" type="classPack"
+					folder="" file="EXBullet_vivienne.swf">
+				</item>
+				<item pathLink="character" id="vivienne_back" type="swfBa"
+					folder="com/weapon_back" file="vivienne_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12017</id>
+			<items>
+				<item pathLink="bullet" id="bullet_pumpkin" type="classPack"
+					folder="" file="bullet_pumpkin.swf">
+				</item>
+				<item pathLink="character" id="weapon_pumpkin_b" type="swfBa"
+					folder="com/weapon_back" file="weapon_pumpkin_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_pumpkin_f" type="swfBa"
+					folder="com/weapon_front" file="weapon_pumpkin_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12021</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_longinus" type="classPack"
+					folder="" file="EXBullet_longinus.swf">
+				</item>
+				<item pathLink="character" id="longinus_back" type="swfBa"
+					folder="com/weapon_back" file="longinus_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>12022</id>
+			<items>
+				<item pathLink="bullet" id="bullet_soap" type="classPack"
+					folder="" file="bullet_soap.swf">
+				</item>
+				<item pathLink="character" id="weapon_soap_b" type="swfBa"
+					folder="com/weapon_back" file="weapon_soap_b.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50001</id>
+			<items>
+				<item pathLink="bullet" id="bullet_fist" type="classPack"
+					folder="" file="bullet_fist.swf">
+				</item>
+				<item pathLink="character" id="weapon_fist_b" type="swfBa"
+					folder="com/weapon_back" file="fist_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_fist_f" type="swfBa"
+					folder="com/weapon_front" file="fist_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50002</id>
+			<items>
+				<item pathLink="bullet" id="bullet_fireGun" type="classPack"
+					folder="" file="bullet_fireGun.swf">
+				</item>
+				<item pathLink="character" id="weapon_fireGun_b" type="swfBa"
+					folder="com/weapon_back" file="fireGun_b.swf">
+				</item>
+				<item pathLink="character" id="weapon_fireGun_f" type="swfBa"
+					folder="com/weapon_front" file="fireGun_f.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50003</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_etherFreeze" type="classPack"
+					folder="" file="EXBullet_etherFreeze.swf">
+				</item>
+				<item pathLink="character" id="etherFreeze_back" type="swfBa"
+					folder="com/weapon_back" file="etherFreeze_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50006</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_longinus" type="classPack"
+					folder="" file="EXBullet_longinus.swf">
+				</item>
+				<item pathLink="character" id="longinus_back" type="swfBa"
+					folder="com/weapon_back" file="longinus_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50005</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_vivienne" type="classPack"
+					folder="" file="EXBullet_vivienne.swf">
+				</item>
+				<item pathLink="character" id="vivienne_back" type="swfBa"
+					folder="com/weapon_back" file="vivienne_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50007</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_heartAngel" type="classPack"
+					folder="" file="EXBullet_heartAngel.swf">
+				</item>
+				<item pathLink="character" id="heartAngel_back" type="swfBa"
+					folder="com/weapon_back" file="heartAngel_back.swf">
+				</item>
+				<item pathLink="character" id="heartAngel_front" type="swfBa"
+					folder="com/weapon_front" file="heartAngel_front.swf">
+				</item>
+
+			</items>
+		</weapon>
+		<weapon>
+			<id>50009</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_heavenPunisher" type="classPack"
+					folder="" file="EXBullet_heavenPunisher.swf">
+				</item>
+				<item pathLink="character" id="heavenPunisher_back" type="swfBa"
+					folder="com/weapon_back" file="heavenPunisher_back.swf">
+				</item>
+				<item pathLink="character" id="heavenPunisher_front" type="swfBa"
+					folder="com/weapon_front" file="heavenPunisher_front.swf">
+				</item>
+				<item pathLink="effect" id="effect_heaven" type="classPack"
+					folder="" file="effect_heaven.swf">
+				</item>
+
+			</items>
+		</weapon>
+		<weapon>
+			<id>50011</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_redRune" type="classPack"
+					folder="" file="EXBullet_redRune.swf">
+				</item>
+				<item pathLink="character" id="redRune_back" type="swfBa"
+					folder="com/weapon_back" file="redRune_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<weapon>
+			<id>50012</id>
+			<items>
+				<item pathLink="bullet" id="EXBullet_blueRune" type="classPack"
+					folder="" file="EXBullet_blueRune.swf">
+				</item>
+				<item pathLink="character" id="blueRune_back" type="swfBa"
+					folder="com/weapon_back" file="blueRune_back.swf">
+				</item>
+			</items>
+		</weapon>
+		<hat>
+			<id>8001</id>
+			<items>
+				<item pathLink="character" id="hat_0_s001" type="swfBa" folder="female/hat"
+					file="hat_s001.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8002</id>
+			<items>
+				<item pathLink="character" id="hat_0_s002" type="swfBa" folder="female/hat"
+					file="hat_s002.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8003</id>
+			<items>
+				<item pathLink="character" id="hat_0_s003" type="swfBa" folder="female/hat"
+					file="hat_s003.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8004</id>
+			<items>
+				<item pathLink="character" id="hat_0_s004" type="swfBa" folder="female/hat"
+					file="hat_s004.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8005</id>
+			<items>
+				<item pathLink="character" id="hat_0_s005" type="swfBa" folder="female/hat"
+					file="hat_s005.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8006</id>
+			<items>
+				<item pathLink="character" id="hat_0_s006" type="swfBa" folder="female/hat"
+					file="hat_s006.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8007</id>
+			<items>
+				<item pathLink="character" id="hat_0_s007" type="swfBa" folder="female/hat"
+					file="hat_s007.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8008</id>
+			<items>
+				<item pathLink="character" id="hat_0_s008" type="swfBa" folder="female/hat"
+					file="hat_s008.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8009</id>
+			<items>
+				<item pathLink="character" id="hat_0_s009" type="swfBa" folder="female/hat"
+					file="hat_s009.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8010</id>
+			<items>
+				<item pathLink="character" id="hat_0_s010" type="swfBa" folder="female/hat"
+					file="hat_s010.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8011</id>
+			<items>
+				<item pathLink="character" id="hat_0_s011" type="swfBa" folder="female/hat"
+					file="hat_s011.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8012</id>
+			<items>
+				<item pathLink="character" id="hat_1_s001" type="swfBa" folder="male/hat"
+					file="hat_s001.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8013</id>
+			<items>
+				<item pathLink="character" id="hat_1_s002" type="swfBa" folder="male/hat"
+					file="hat_s002.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8014</id>
+			<items>
+				<item pathLink="character" id="hat_1_s003" type="swfBa" folder="male/hat"
+					file="hat_s003.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8015</id>
+			<items>
+				<item pathLink="character" id="hat_1_s004" type="swfBa" folder="male/hat"
+					file="hat_s004.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8016</id>
+			<items>
+				<item pathLink="character" id="hat_1_s005" type="swfBa" folder="male/hat"
+					file="hat_s005.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8017</id>
+			<items>
+				<item pathLink="character" id="hat_1_s006" type="swfBa" folder="male/hat"
+					file="hat_s006.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8018</id>
+			<items>
+				<item pathLink="character" id="hat_1_s007" type="swfBa" folder="male/hat"
+					file="hat_s007.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8019</id>
+			<items>
+				<item pathLink="character" id="hat_1_s008" type="swfBa" folder="male/hat"
+					file="hat_s008.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8020</id>
+			<items>
+				<item pathLink="character" id="hat_1_s009" type="swfBa" folder="male/hat"
+					file="hat_s009.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8021</id>
+			<items>
+				<item pathLink="character" id="hat_0_s012" type="swfBa" folder="female/hat"
+					file="hat_s012.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8022</id>
+			<items>
+				<item pathLink="character" id="hat_0_s013" type="swfBa" folder="female/hat"
+					file="hat_s013.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8023</id>
+			<items>
+				<item pathLink="character" id="hat_0_s014" type="swfBa" folder="female/hat"
+					file="hat_s014.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8024</id>
+			<items>
+				<item pathLink="character" id="hat_0_s020" type="swfBa" folder="female/hat"
+					file="hat_s020.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8025</id>
+			<items>
+				<item pathLink="character" id="hat_0_s021" type="swfBa" folder="female/hat"
+					file="hat_s021.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8026</id>
+			<items>
+				<item pathLink="character" id="hat_0_s022" type="swfBa" folder="female/hat"
+					file="hat_s022.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8027</id>
+			<items>
+				<item pathLink="character" id="hat_0_s023" type="swfBa" folder="female/hat"
+					file="hat_s023.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8028</id>
+			<items>
+				<item pathLink="character" id="hat_0_s024" type="swfBa" folder="female/hat"
+					file="hat_s024.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8029</id>
+			<items>
+				<item pathLink="character" id="hat_0_s025" type="swfBa" folder="female/hat"
+					file="hat_s025.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8030</id>
+			<items>
+				<item pathLink="character" id="hat_0_s026" type="swfBa" folder="female/hat"
+					file="hat_s026.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8031</id>
+			<items>
+				<item pathLink="character" id="hat_1_s011" type="swfBa" folder="male/hat"
+					file="hat_s011.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8032</id>
+			<items>
+				<item pathLink="character" id="hat_1_s015" type="swfBa" folder="male/hat"
+					file="hat_s015.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8033</id>
+			<items>
+				<item pathLink="character" id="hat_1_s016" type="swfBa" folder="male/hat"
+					file="hat_s016.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8034</id>
+			<items>
+				<item pathLink="character" id="hat_1_s017" type="swfBa" folder="male/hat"
+					file="hat_s017.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8035</id>
+			<items>
+				<item pathLink="character" id="hat_1_s018" type="swfBa" folder="male/hat"
+					file="hat_s018.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8036</id>
+			<items>
+				<item pathLink="character" id="hat_1_s019" type="swfBa" folder="male/hat"
+					file="hat_s019.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8037</id>
+			<items>
+				<item pathLink="character" id="hat_1_s022" type="swfBa" folder="male/hat"
+					file="hat_s022.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8038</id>
+			<items>
+				<item pathLink="character" id="hat_1_s026" type="swfBa" folder="male/hat"
+					file="hat_s026.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8039</id>
+			<items>
+				<item pathLink="character" id="hat_1_s028" type="swfBa" folder="male/hat"
+					file="hat_s028.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8043</id>
+			<items>
+				<item pathLink="character" id="hat_0_s030" type="swfBa" folder="female/hat"
+					file="hat_s030.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8044</id>
+			<items>
+				<item pathLink="character" id="hat_0_s032" type="swfBa" folder="female/hat"
+					file="hat_s032.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8045</id>
+			<items>
+				<item pathLink="character" id="hat_1_s023" type="swfBa" folder="male/hat"
+					file="hat_s023.swf">
+				</item>
+			</items>
+		</hat>
+		
+		<hat>
+			<id>8046</id>
+			<items>
+				<item pathLink="character" id="hat_1_s029" type="swfBa" folder="male/hat"
+					file="hat_s029.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8047</id>
+			<items>
+				<item pathLink="character" id="hat_1_s030" type="swfBa" folder="male/hat"
+					file="hat_s030.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8048</id>
+			<items>
+				<item pathLink="character" id="hat_1_s031" type="swfBa" folder="male/hat"
+					file="hat_s031.swf">
+				</item>
+			</items>
+		</hat>
+		
+		<hat>
+			<id>8049</id>
+			<items>
+				<item pathLink="character" id="hat_s032" type="swfBa" folder="com/hat"
+					file="hat_s032.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8052</id>
+			<items>
+				<item pathLink="character" id="hat_s032" type="swfBa" folder="com/hat"
+					file="hat_s032.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8050</id>
+			<items>
+				<item pathLink="character" id="hat_0_s036" type="swfBa" folder="female/hat"
+					file="hat_s036.swf">
+				</item>
+			</items>
+		</hat>
+		<hat>
+			<id>8051</id>
+			<items>
+				<item pathLink="character" id="hat_0_s037" type="swfBa" folder="female/hat"
+					file="hat_s037.swf">
+				</item>
+			</items>
+		</hat>	
+		<hat>
+			<id>8053</id>
+			<items>
+				<item pathLink="character" id="hat_1_s033" type="swfBa" folder="male/hat"
+					file="hat_s033.swf">
+				</item>
+			</items>
+		</hat>	
+		<hat>
+			<id>8054</id>
+			<items>
+				<item pathLink="character" id="hat_0_s038" type="swfBa" folder="female/hat"
+					file="hat_s038.swf">
+				</item>
+			</items>
+		</hat>
+		<clothes>
+			<id>60001</id>
+			<items>
+				<item pathLink="character" id="boss-soko-b" type="swfBa"
+					folder="monster" file="boss-soko-b.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>60002</id>
+			<items>
+				<item pathLink="character" id="boss-soko-s" type="swfBa"
+					folder="monster" file="boss-soko-s.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>60003</id>
+			<items>
+				<item pathLink="character" id="1002_beike" type="swfBa"
+					folder="monster" file="1002_beike.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>60004</id>
+			<items>
+				<item pathLink="character" id="1003_bazi" type="swfBa"
+					folder="monster" file="1003_bazi.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6001</id>
+			<items>
+				<item pathLink="character" id="body_0_s001" type="swfBa"
+					folder="female/body" file="body_s001.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s001" type="swfBa"
+					folder="female/arm_front" file="arm_front_s001.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s001" type="swfBa"
+					folder="female/arm_back" file="arm_back_s001.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6002</id>
+			<items>
+				<item pathLink="character" id="body_0_s002" type="swfBa"
+					folder="female/body" file="body_s002.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s002" type="swfBa"
+					folder="female/arm_front" file="arm_front_s002.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s002" type="swfBa"
+					folder="female/arm_back" file="arm_back_s002.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6003</id>
+			<items>
+				<item pathLink="character" id="body_0_s003" type="swfBa"
+					folder="female/body" file="body_s003.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s003" type="swfBa"
+					folder="female/arm_front" file="arm_front_s003.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s003" type="swfBa"
+					folder="female/arm_back" file="arm_back_s003.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6004</id>
+			<items>
+				<item pathLink="character" id="body_0_s004" type="swfBa"
+					folder="female/body" file="body_s004.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s004" type="swfBa"
+					folder="female/arm_front" file="arm_front_s004.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s004" type="swfBa"
+					folder="female/arm_back" file="arm_back_s004.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6005</id>
+			<items>
+				<item pathLink="character" id="body_0_s005" type="swfBa"
+					folder="female/body" file="body_s005.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s005" type="swfBa"
+					folder="female/arm_front" file="arm_front_s005.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s005" type="swfBa"
+					folder="female/arm_back" file="arm_back_s005.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6006</id>
+			<items>
+				<item pathLink="character" id="body_0_s006" type="swfBa"
+					folder="female/body" file="body_s006.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s006" type="swfBa"
+					folder="female/arm_front" file="arm_front_s006.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s006" type="swfBa"
+					folder="female/arm_back" file="arm_back_s006.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6007</id>
+			<items>
+				<item pathLink="character" id="body_0_s007" type="swfBa"
+					folder="female/body" file="body_s007.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s007" type="swfBa"
+					folder="female/arm_front" file="arm_front_s007.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s007" type="swfBa"
+					folder="female/arm_back" file="arm_back_s007.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6008</id>
+			<items>
+				<item pathLink="character" id="body_0_s008" type="swfBa"
+					folder="female/body" file="body_s008.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s008" type="swfBa"
+					folder="female/arm_front" file="arm_front_s008.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s008" type="swfBa"
+					folder="female/arm_back" file="arm_back_s008.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6009</id>
+			<items>
+				<item pathLink="character" id="body_0_s009" type="swfBa"
+					folder="female/body" file="body_s009.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s009" type="swfBa"
+					folder="female/arm_front" file="arm_front_s009.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s009" type="swfBa"
+					folder="female/arm_back" file="arm_back_s009.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6010</id>
+			<items>
+				<item pathLink="character" id="body_0_s010" type="swfBa"
+					folder="female/body" file="body_s010.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s010" type="swfBa"
+					folder="female/arm_front" file="arm_front_s010.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s010" type="swfBa"
+					folder="female/arm_back" file="arm_back_s010.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6011</id>
+			<items>
+				<item pathLink="character" id="body_0_s011" type="swfBa"
+					folder="female/body" file="body_s011.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s011" type="swfBa"
+					folder="female/arm_front" file="arm_front_s011.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s011" type="swfBa"
+					folder="female/arm_back" file="arm_back_s011.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6012</id>
+			<items>
+				<item pathLink="character" id="body_1_s001" type="swfBa"
+					folder="male/body" file="body_s001.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s001" type="swfBa"
+					folder="male/arm_front" file="arm_front_s001.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s001" type="swfBa"
+					folder="male/arm_back" file="arm_back_s001.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6013</id>
+			<items>
+				<item pathLink="character" id="body_1_s002" type="swfBa"
+					folder="male/body" file="body_s002.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s002" type="swfBa"
+					folder="male/arm_front" file="arm_front_s002.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s002" type="swfBa"
+					folder="male/arm_back" file="arm_back_s002.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6014</id>
+			<items>
+				<item pathLink="character" id="body_1_s003" type="swfBa"
+					folder="male/body" file="body_s003.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s003" type="swfBa"
+					folder="male/arm_front" file="arm_front_s003.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s003" type="swfBa"
+					folder="male/arm_back" file="arm_back_s003.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6015</id>
+			<items>
+				<item pathLink="character" id="body_1_s004" type="swfBa"
+					folder="male/body" file="body_s004.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s004" type="swfBa"
+					folder="male/arm_front" file="arm_front_s004.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s004" type="swfBa"
+					folder="male/arm_back" file="arm_back_s004.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6016</id>
+			<items>
+				<item pathLink="character" id="body_1_s005" type="swfBa"
+					folder="male/body" file="body_s005.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s005" type="swfBa"
+					folder="male/arm_front" file="arm_front_s005.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s005" type="swfBa"
+					folder="male/arm_back" file="arm_back_s005.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6017</id>
+			<items>
+				<item pathLink="character" id="body_1_s006" type="swfBa"
+					folder="male/body" file="body_s006.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s006" type="swfBa"
+					folder="male/arm_front" file="arm_front_s006.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s006" type="swfBa"
+					folder="male/arm_back" file="arm_back_s006.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6018</id>
+			<items>
+				<item pathLink="character" id="body_1_s007" type="swfBa"
+					folder="male/body" file="body_s007.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s007" type="swfBa"
+					folder="male/arm_front" file="arm_front_s007.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s007" type="swfBa"
+					folder="male/arm_back" file="arm_back_s007.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6019</id>
+			<items>
+				<item pathLink="character" id="body_1_s008" type="swfBa"
+					folder="male/body" file="body_s008.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s008" type="swfBa"
+					folder="male/arm_front" file="arm_front_s008.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s008" type="swfBa"
+					folder="male/arm_back" file="arm_back_s008.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6020</id>
+			<items>
+				<item pathLink="character" id="body_1_s009" type="swfBa"
+					folder="male/body" file="body_s009.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s009" type="swfBa"
+					folder="male/arm_front" file="arm_front_s009.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s009" type="swfBa"
+					folder="male/arm_back" file="arm_back_s009.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6021</id>
+			<items>
+				<item pathLink="character" id="body_0_s012" type="swfBa"
+					folder="female/body" file="body_s012.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s012" type="swfBa"
+					folder="female/arm_front" file="arm_front_s012.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s012" type="swfBa"
+					folder="female/arm_back" file="arm_back_s012.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6022</id>
+			<items>
+				<item pathLink="character" id="body_0_s013" type="swfBa"
+					folder="female/body" file="body_s013.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s013" type="swfBa"
+					folder="female/arm_front" file="arm_front_s013.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s013" type="swfBa"
+					folder="female/arm_back" file="arm_back_s013.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6023</id>
+			<items>
+				<item pathLink="character" id="body_0_s014" type="swfBa"
+					folder="female/body" file="body_s014.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s014" type="swfBa"
+					folder="female/arm_front" file="arm_front_s014.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s014" type="swfBa"
+					folder="female/arm_back" file="arm_back_s014.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6024</id>
+			<items>
+				<item pathLink="character" id="body_0_s020" type="swfBa"
+					folder="female/body" file="body_s020.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s020" type="swfBa"
+					folder="female/arm_front" file="arm_front_s020.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s020" type="swfBa"
+					folder="female/arm_back" file="arm_back_s020.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6025</id>
+			<items>
+				<item pathLink="character" id="body_0_s021" type="swfBa"
+					folder="female/body" file="body_s021.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s021" type="swfBa"
+					folder="female/arm_front" file="arm_front_s021.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s021" type="swfBa"
+					folder="female/arm_back" file="arm_back_s021.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6026</id>
+			<items>
+				<item pathLink="character" id="body_0_s022" type="swfBa"
+					folder="female/body" file="body_s022.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s022" type="swfBa"
+					folder="female/arm_front" file="arm_front_s022.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s022" type="swfBa"
+					folder="female/arm_back" file="arm_back_s022.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6027</id>
+			<items>
+				<item pathLink="character" id="body_0_s023" type="swfBa"
+					folder="female/body" file="body_s023.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s023" type="swfBa"
+					folder="female/arm_front" file="arm_front_s023.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s023" type="swfBa"
+					folder="female/arm_back" file="arm_back_s023.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6028</id>
+			<items>
+				<item pathLink="character" id="body_0_s024" type="swfBa"
+					folder="female/body" file="body_s024.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s024" type="swfBa"
+					folder="female/arm_front" file="arm_front_s024.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s024" type="swfBa"
+					folder="female/arm_back" file="arm_back_s024.swf">
+				</item>
+			</items>
+		</clothes>
+		  <clothes>
+			<id>6041</id>
+			<items>
+				<item pathLink="character" id="body_0_s016" type="swfBa"
+					folder="female/body" file="body_s016.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s016" type="swfBa"
+					folder="female/arm_front" file="arm_front_s016.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s016" type="swfBa"
+					folder="female/arm_back" file="arm_back_s016.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6042</id>
+			<items>
+				<item pathLink="character" id="body_0_s017" type="swfBa"
+					folder="female/body" file="body_s017.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s017" type="swfBa"
+					folder="female/arm_front" file="arm_front_s017.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s017" type="swfBa"
+					folder="female/arm_back" file="arm_back_s017.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6043</id>
+			<items>
+				<item pathLink="character" id="body_0_s018" type="swfBa"
+					folder="female/body" file="body_s018.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s018" type="swfBa"
+					folder="female/arm_front" file="arm_front_s018.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s018" type="swfBa"
+					folder="female/arm_back" file="arm_back_s018.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6044</id>
+			<items>
+				<item pathLink="character" id="body_0_s019" type="swfBa"
+					folder="female/body" file="body_s019.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s019" type="swfBa"
+					folder="female/arm_front" file="arm_front_s019.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s019" type="swfBa"
+					folder="female/arm_back" file="arm_back_s019.swf">
+				</item>
+			</items>
+		</clothes>
+        <clothes>
+			<id>6049</id>
+			<items>
+				<item pathLink="character" id="body_0_s036" type="swfBa"
+					folder="female/body" file="body_s036.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s036" type="swfBa"
+					folder="female/arm_front" file="arm_front_s036.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s036" type="swfBa"
+					folder="female/arm_back" file="arm_back_s036.swf">
+				</item>
+			</items>
+		</clothes>
+        <clothes>
+			<id>6050</id>
+			<items>
+				<item pathLink="character" id="body_0_s037" type="swfBa"
+					folder="female/body" file="body_s037.swf">
+				</item>
+				<item pathLink="character" id="arm_front_0_s037" type="swfBa"
+					folder="female/arm_front" file="arm_front_s037.swf">
+				</item>
+				<item pathLink="character" id="arm_back_0_s037" type="swfBa"
+					folder="female/arm_back" file="arm_back_s037.swf">
+				</item>
+			</items>
+		</clothes>
+        
+		<clothes>
+			<id>6029</id>
+			<items>
+				<item pathLink="character" id="body_1_s011" type="swfBa"
+					folder="male/body" file="body_s011.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s011" type="swfBa"
+					folder="male/arm_front" file="arm_front_s011.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s011" type="swfBa"
+					folder="male/arm_back" file="arm_back_s011.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6030</id>
+			<items>
+				<item pathLink="character" id="body_1_s015" type="swfBa"
+					folder="male/body" file="body_s015.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s015" type="swfBa"
+					folder="male/arm_front" file="arm_front_s015.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s015" type="swfBa"
+					folder="male/arm_back" file="arm_back_s015.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6031</id>
+			<items>
+				<item pathLink="character" id="body_1_s016" type="swfBa"
+					folder="male/body" file="body_s016.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s016" type="swfBa"
+					folder="male/arm_front" file="arm_front_s016.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s016" type="swfBa"
+					folder="male/arm_back" file="arm_back_s016.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6032</id>
+			<items>
+				<item pathLink="character" id="body_1_s017" type="swfBa"
+					folder="male/body" file="body_s017.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s017" type="swfBa"
+					folder="male/arm_front" file="arm_front_s017.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s017" type="swfBa"
+					folder="male/arm_back" file="arm_back_s017.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6033</id>
+			<items>
+				<item pathLink="character" id="body_1_s018" type="swfBa"
+					folder="male/body" file="body_s018.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s018" type="swfBa"
+					folder="male/arm_front" file="arm_front_s018.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s018" type="swfBa"
+					folder="male/arm_back" file="arm_back_s018.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6034</id>
+			<items>
+				<item pathLink="character" id="body_1_s019" type="swfBa"
+					folder="male/body" file="body_s019.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s019" type="swfBa"
+					folder="male/arm_front" file="arm_front_s019.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s019" type="swfBa"
+					folder="male/arm_back" file="arm_back_s019.swf">
+				</item>
+			</items>
+		</clothes>
+    <clothes>
+			<id>6035</id>
+			<items>
+				<item pathLink="character" id="body_1_s022" type="swfBa"
+					folder="male/body" file="body_s022.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s022" type="swfBa"
+					folder="male/arm_front" file="arm_front_s022.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s022" type="swfBa"
+					folder="male/arm_back" file="arm_back_s022.swf">
+				</item>
+			</items>
+		</clothes>  
+		<clothes>
+			<id>6036</id>
+			<items>
+				<item pathLink="character" id="body_1_s024" type="swfBa"
+					folder="male/body" file="body_s024.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s024" type="swfBa"
+					folder="male/arm_front" file="arm_front_s024.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s024" type="swfBa"
+					folder="male/arm_back" file="arm_back_s024.swf">
+				</item>
+			</items>
+		</clothes> 
+		<clothes>
+			<id>6037</id>
+			<items>
+				<item pathLink="character" id="body_1_s025" type="swfBa"
+					folder="male/body" file="body_s025.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s025" type="swfBa"
+					folder="male/arm_front" file="arm_front_s025.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s025" type="swfBa"
+					folder="male/arm_back" file="arm_back_s025.swf">
+				</item>
+			</items>
+		</clothes>   
+		<clothes>
+			<id>6038</id>
+			<items>
+				<item pathLink="character" id="body_1_s026" type="swfBa"
+					folder="male/body" file="body_s026.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s026" type="swfBa"
+					folder="male/arm_front" file="arm_front_s026.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s026" type="swfBa"
+					folder="male/arm_back" file="arm_back_s026.swf">
+				</item>
+			</items>
+		</clothes>
+		<clothes>
+			<id>6039</id>
+			<items>
+				<item pathLink="character" id="body_1_s028" type="swfBa"
+					folder="male/body" file="body_s028.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s028" type="swfBa"
+					folder="male/arm_front" file="arm_front_s028.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s028" type="swfBa"
+					folder="male/arm_back" file="arm_back_s028.swf">
+				</item>
+			</items>
+		</clothes>
+    <clothes>
+			<id>6045</id>
+			<items>
+				<item pathLink="character" id="body_1_s023" type="swfBa"
+					folder="male/body" file="body_s023.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s023" type="swfBa"
+					folder="male/arm_front" file="arm_front_s023.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s023" type="swfBa"
+					folder="male/arm_back" file="arm_back_s023.swf">
+				</item>
+			</items>
+		</clothes>
+        <clothes>
+			<id>6046</id>
+			<items>
+				<item pathLink="character" id="body_1_s029" type="swfBa"
+					folder="male/body" file="body_s029.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s029" type="swfBa"
+					folder="male/arm_front" file="arm_front_s029.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s029" type="swfBa"
+					folder="male/arm_back" file="arm_back_s029.swf">
+				</item>
+			</items>
+		</clothes>
+        <clothes>
+			<id>6047</id>
+			<items>
+				<item pathLink="character" id="body_1_s030" type="swfBa"
+					folder="male/body" file="body_s030.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s030" type="swfBa"
+					folder="male/arm_front" file="arm_front_s030.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s030" type="swfBa"
+					folder="male/arm_back" file="arm_back_s030.swf">
+				</item>
+			</items>
+		</clothes>
+        <clothes>
+			<id>6048</id>
+			<items>
+				<item pathLink="character" id="body_1_s031" type="swfBa"
+					folder="male/body" file="body_s031.swf">
+				</item>
+				<item pathLink="character" id="arm_front_1_s031" type="swfBa"
+					folder="male/arm_front" file="arm_front_s031.swf">
+				</item>
+				<item pathLink="character" id="arm_back_1_s031" type="swfBa"
+					folder="male/arm_back" file="arm_back_s031.swf">
+				</item>
+			</items>
+		</clothes>
+		<face>
+			<id>30001</id>
+			<items>
+				<item pathLink="character" id="face_df1" type="swfBa" folder="male/face"
+					file="face_s004.swf">
+				</item>
+			</items>
+		</face>
+		<face>
+			<id>30002</id>
+			<items>
+				<item pathLink="character" id="face_df2" type="swfBa" folder="female/face"
+					file="face_s001.swf">
+				</item>
+			</items>
+		</face>
+		<decoration>
+			<id>1001</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s001" type="swfBa"
+					folder="female/decoration" file="decoration_s001.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1002</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s002" type="swfBa"
+					folder="female/decoration" file="decoration_s002.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1003</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s003" type="swfBa"
+					folder="female/decoration" file="decoration_s003.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1004</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s004" type="swfBa"
+					folder="female/decoration" file="decoration_s004.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1005</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s005" type="swfBa"
+					folder="female/decoration" file="decoration_s005.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1006</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s006" type="swfBa"
+					folder="female/decoration" file="decoration_s006.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1007</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s007" type="swfBa"
+					folder="female/decoration" file="decoration_s007.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1008</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s008" type="swfBa"
+					folder="female/decoration" file="decoration_s008.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1009</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s009" type="swfBa"
+					folder="female/decoration" file="decoration_s009.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1010</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s010" type="swfBa"
+					folder="female/decoration" file="decoration_s010.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1011</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s011" type="swfBa"
+					folder="female/decoration" file="decoration_s011.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1012</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s001" type="swfBa"
+					folder="male/decoration" file="decoration_s001.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1013</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s002" type="swfBa"
+					folder="male/decoration" file="decoration_s002.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1014</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s003" type="swfBa"
+					folder="male/decoration" file="decoration_s003.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1015</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s004" type="swfBa"
+					folder="male/decoration" file="decoration_s004.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1016</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s005" type="swfBa"
+					folder="male/decoration" file="decoration_s005.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1017</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s006" type="swfBa"
+					folder="male/decoration" file="decoration_s006.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1018</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s007" type="swfBa"
+					folder="male/decoration" file="decoration_s007.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1019</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s008" type="swfBa"
+					folder="male/decoration" file="decoration_s008.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1020</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s009" type="swfBa"
+					folder="male/decoration" file="decoration_s009.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1021</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s012" type="swfBa"
+					folder="female/decoration" file="decoration_s012.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1022</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s013" type="swfBa"
+					folder="female/decoration" file="decoration_s013.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1023</id>
+			<items>
+				<item pathLink="character" id="decoration_0_s014" type="swfBa"
+					folder="female/decoration" file="decoration_s014.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1024</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s011" type="swfBa"
+					folder="male/decoration" file="decoration_s011.swf">
+				</item>
+			</items>
+		</decoration>
+		<decoration>
+			<id>1025</id>
+			<items>
+				<item pathLink="character" id="decoration_1_s019" type="swfBa"
+					folder="male/decoration" file="decoration_s019.swf">
+				</item>
+			</items>
+		</decoration>
+		<expression>
+			<id>1</id>
+			<items>
+				<item pathLink="character" id="expression_0_s001" type="swfBa"
+					folder="female/expression" file="expression_s001.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>2</id>
+			<items>
+				<item pathLink="character" id="expression_0_s002" type="swfBa"
+					folder="female/expression" file="expression_s002.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>3</id>
+			<items>
+				<item pathLink="character" id="expression_0_s003" type="swfBa"
+					folder="female/expression" file="expression_s003.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>4</id>
+			<items>
+				<item pathLink="character" id="expression_0_s004" type="swfBa"
+					folder="female/expression" file="expression_s004.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>5</id>
+			<items>
+				<item pathLink="character" id="expression_0_s005" type="swfBa"
+					folder="female/expression" file="expression_s005.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>6</id>
+			<items>
+				<item pathLink="character" id="expression_0_s006" type="swfBa"
+					folder="female/expression" file="expression_s006.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>7</id>
+			<items>
+				<item pathLink="character" id="expression_0_s007" type="swfBa"
+					folder="female/expression" file="expression_s007.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>8</id>
+			<items>
+				<item pathLink="character" id="expression_0_s008" type="swfBa"
+					folder="female/expression" file="expression_s008.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>9</id>
+			<items>
+				<item pathLink="character" id="expression_0_s009" type="swfBa"
+					folder="female/expression" file="expression_s009.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>10</id>
+			<items>
+				<item pathLink="character" id="expression_0_s010" type="swfBa"
+					folder="female/expression" file="expression_s010.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>11</id>
+			<items>
+				<item pathLink="character" id="expression_1_s001" type="swfBa"
+					folder="male/expression" file="expression_s001.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>12</id>
+			<items>
+				<item pathLink="character" id="expression_1_s002" type="swfBa"
+					folder="male/expression" file="expression_s002.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>13</id>
+			<items>
+				<item pathLink="character" id="expression_1_s003" type="swfBa"
+					folder="male/expression" file="expression_s003.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>14</id>
+			<items>
+				<item pathLink="character" id="expression_1_s004" type="swfBa"
+					folder="male/expression" file="expression_s004.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>15</id>
+			<items>
+				<item pathLink="character" id="expression_1_s005" type="swfBa"
+					folder="male/expression" file="expression_s005.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>16</id>
+			<items>
+				<item pathLink="character" id="expression_1_s006" type="swfBa"
+					folder="male/expression" file="expression_s006.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>17</id>
+			<items>
+				<item pathLink="character" id="expression_1_s007" type="swfBa"
+					folder="male/expression" file="expression_s007.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>18</id>
+			<items>
+				<item pathLink="character" id="expression_1_s008" type="swfBa"
+					folder="male/expression" file="expression_s008.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>19</id>
+			<items>
+				<item pathLink="character" id="expression_1_s009" type="swfBa"
+					folder="male/expression" file="expression_s009.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>20</id>
+			<items>
+				<item pathLink="character" id="expression_0_s013" type="swfBa"
+					folder="female/expression" file="expression_s013.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>21</id>
+			<items>
+				<item pathLink="character" id="expression_0_s014" type="swfBa"
+					folder="female/expression" file="expression_s014.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>22</id>
+			<items>
+				<item pathLink="character" id="expression_0_s020" type="swfBa"
+					folder="female/expression" file="expression_s020.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>23</id>
+			<items>
+				<item pathLink="character" id="expression_0_s021" type="swfBa"
+					folder="female/expression" file="expression_s021.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>24</id>
+			<items>
+				<item pathLink="character" id="expression_0_s022" type="swfBa"
+					folder="female/expression" file="expression_s022.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>25</id>
+			<items>
+				<item pathLink="character" id="expression_0_s023" type="swfBa"
+					folder="female/expression" file="expression_s023.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>26</id>
+			<items>
+				<item pathLink="character" id="expression_1_s016" type="swfBa"
+					folder="male/expression" file="expression_s016.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>27</id>
+			<items>
+				<item pathLink="character" id="expression_1_s018" type="swfBa"
+					folder="male/expression" file="expression_s018.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>28</id>
+			<items>
+				<item pathLink="character" id="expression_1_s019" type="swfBa"
+					folder="male/expression" file="expression_s019.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>29</id>
+			<items>
+				<item pathLink="character" id="expression_1_s022" type="swfBa"
+					folder="male/expression" file="expression_s022.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>30</id>
+			<items>
+				<item pathLink="character" id="expression_1_s023" type="swfBa"
+					folder="male/expression" file="expression_s023.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>31</id>
+			<items>
+				<item pathLink="character" id="expression_1_s024" type="swfBa"
+					folder="male/expression" file="expression_s024.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>32</id>
+			<items>
+				<item pathLink="character" id="expression_1_s025" type="swfBa"
+					folder="male/expression" file="expression_s025.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>33</id>
+			<items>
+				<item pathLink="character" id="expression_1_s026" type="swfBa"
+					folder="male/expression" file="expression_s026.swf">
+				</item>
+			</items>
+		</expression>
+		<expression>
+			<id>38</id>
+			<items>
+				<item pathLink="character" id="expression_0_s030" type="swfBa"
+					folder="female/expression" file="expression_s030.swf">
+				</item>
+			</items>
+		</expression>
+		<glasses>
+			<id>10001</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s001" type="swfBa"
+					folder="female/glasses" file="glasses_s001.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10002</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s002" type="swfBa"
+					folder="female/glasses" file="glasses_s002.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10003</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s003" type="swfBa"
+					folder="female/glasses" file="glasses_s003.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10004</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s004" type="swfBa"
+					folder="female/glasses" file="glasses_s004.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10005</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s005" type="swfBa"
+					folder="female/glasses" file="glasses_s005.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10006</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s006" type="swfBa"
+					folder="female/glasses" file="glasses_s006.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10007</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s007" type="swfBa"
+					folder="female/glasses" file="glasses_s007.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10008</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s008" type="swfBa"
+					folder="female/glasses" file="glasses_s008.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10009</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s009" type="swfBa"
+					folder="female/glasses" file="glasses_s009.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10010</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s011" type="swfBa"
+					folder="female/glasses" file="glasses_s011.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10011</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s001" type="swfBa"
+					folder="male/glasses" file="glasses_s001.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10012</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s002" type="swfBa"
+					folder="male/glasses" file="glasses_s002.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10013</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s003" type="swfBa"
+					folder="male/glasses" file="glasses_s003.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10014</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s004" type="swfBa"
+					folder="male/glasses" file="glasses_s004.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10015</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s005" type="swfBa"
+					folder="male/glasses" file="glasses_s005.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10016</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s006" type="swfBa"
+					folder="male/glasses" file="glasses_s006.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10017</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s007" type="swfBa"
+					folder="male/glasses" file="glasses_s007.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10018</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s008" type="swfBa"
+					folder="male/glasses" file="glasses_s008.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10019</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s009" type="swfBa"
+					folder="male/glasses" file="glasses_s009.swf">
+				</item>
+			</items>
+		</glasses>
+		<glasses>
+			<id>10020</id>
+			<items>
+				<item pathLink="character" id="glasses_0_s014" type="swfBa"
+					folder="female/glasses" file="glasses_s014.swf">
+				</item>
+			</items>
+		</glasses>
+        <glasses>
+			<id>10032</id>
+			<items>
+				<item pathLink="character" id="glasses_1_s030" type="swfBa"
+					folder="male/glasses" file="glasses_s030.swf">
+				</item>
+			</items>
+		</glasses>
+        
+		<hair>
+			<id>2001</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s001" type="swfBa"
+					folder="female/hair_back" file="hair_back_s001.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s001" type="swfBa"
+					folder="female/hair_low" file="hair_low_s001.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2002</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s002" type="swfBa"
+					folder="female/hair_back" file="hair_back_s002.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s002" type="swfBa"
+					folder="female/hair_low" file="hair_low_s002.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2003</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s003" type="swfBa"
+					folder="female/hair_back" file="hair_back_s003.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s003" type="swfBa"
+					folder="female/hair_low" file="hair_low_s003.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2004</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s004" type="swfBa"
+					folder="female/hair_back" file="hair_back_s004.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s004" type="swfBa"
+					folder="female/hair_low" file="hair_low_s004.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2005</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s005" type="swfBa"
+					folder="female/hair_back" file="hair_back_s005.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s005" type="swfBa"
+					folder="female/hair_low" file="hair_low_s005.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2006</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s006" type="swfBa"
+					folder="female/hair_back" file="hair_back_s006.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s006" type="swfBa"
+					folder="female/hair_low" file="hair_low_s006.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2007</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s007" type="swfBa"
+					folder="female/hair_back" file="hair_back_s007.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s007" type="swfBa"
+					folder="female/hair_low" file="hair_low_s007.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2008</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s008" type="swfBa"
+					folder="female/hair_back" file="hair_back_s008.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s008" type="swfBa"
+					folder="female/hair_low" file="hair_low_s008.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2009</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s009" type="swfBa"
+					folder="female/hair_back" file="hair_back_s009.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s009" type="swfBa"
+					folder="female/hair_low" file="hair_low_s009.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2010</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s010" type="swfBa"
+					folder="female/hair_back" file="hair_back_s010.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s010" type="swfBa"
+					folder="female/hair_low" file="hair_low_s010.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2011</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s011" type="swfBa"
+					folder="female/hair_back" file="hair_back_s011.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s011" type="swfBa"
+					folder="female/hair_low" file="hair_low_s011.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2012</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s001" type="swfBa"
+					folder="male/hair_back" file="hair_back_s001.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s001" type="swfBa"
+					folder="male/hair_low" file="hair_low_s001.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2013</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s002" type="swfBa"
+					folder="male/hair_back" file="hair_back_s002.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s002" type="swfBa"
+					folder="male/hair_low" file="hair_low_s002.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2014</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s003" type="swfBa"
+					folder="male/hair_back" file="hair_back_s003.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s003" type="swfBa"
+					folder="male/hair_low" file="hair_low_s003.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2015</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s004" type="swfBa"
+					folder="male/hair_back" file="hair_back_s004.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s004" type="swfBa"
+					folder="male/hair_low" file="hair_low_s004.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2016</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s005" type="swfBa"
+					folder="male/hair_back" file="hair_back_s005.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s005" type="swfBa"
+					folder="male/hair_low" file="hair_low_s005.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2017</id>
+			<items>
+			   <item pathLink="character" id="hair_back_1_s006" type="swfBa"
+					folder="male/hair_back" file="hair_back_s006.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s006" type="swfBa"
+					folder="male/hair_low" file="hair_low_s006.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2018</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s007" type="swfBa"
+					folder="male/hair_back" file="hair_back_s007.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s007" type="swfBa"
+					folder="male/hair_low" file="hair_low_s007.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2019</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s008" type="swfBa"
+					folder="male/hair_back" file="hair_back_s008.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s008" type="swfBa"
+					folder="male/hair_low" file="hair_low_s008.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2020</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s009" type="swfBa"
+					folder="male/hair_back" file="hair_back_s009.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s009" type="swfBa"
+					folder="male/hair_low" file="hair_low_s009.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2021</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s012" type="swfBa"
+					folder="female/hair_back" file="hair_back_s012.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s012" type="swfBa"
+					folder="female/hair_low" file="hair_low_s012.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2022</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s013" type="swfBa"
+					folder="female/hair_back" file="hair_back_s013.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s013" type="swfBa"
+					folder="female/hair_low" file="hair_low_s013.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2023</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s014" type="swfBa"
+					folder="female/hair_back" file="hair_back_s014.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s014" type="swfBa"
+					folder="female/hair_low" file="hair_low_s014.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2024</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s020" type="swfBa"
+					folder="female/hair_back" file="hair_back_s020.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s020" type="swfBa"
+					folder="female/hair_low" file="hair_low_s020.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2025</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s021" type="swfBa"
+					folder="female/hair_back" file="hair_back_s021.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s021" type="swfBa"
+					folder="female/hair_low" file="hair_low_s021.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2026</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s022" type="swfBa"
+					folder="female/hair_back" file="hair_back_s022.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s022" type="swfBa"
+					folder="female/hair_low" file="hair_low_s022.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2027</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s023" type="swfBa"
+					folder="female/hair_back" file="hair_back_s023.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s023" type="swfBa"
+					folder="female/hair_low" file="hair_low_s023.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2040</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s016" type="swfBa"
+					folder="female/hair_back" file="hair_back_s016.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s016" type="swfBa"
+					folder="female/hair_low" file="hair_low_s016.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2041</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s017" type="swfBa"
+					folder="female/hair_back" file="hair_back_s017.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s017" type="swfBa"
+					folder="female/hair_low" file="hair_low_s017.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2042</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s018" type="swfBa"
+					folder="female/hair_back" file="hair_back_s018.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s018" type="swfBa"
+					folder="female/hair_low" file="hair_low_s018.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2043</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s019" type="swfBa"
+					folder="female/hair_back" file="hair_back_s019.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s019" type="swfBa"
+					folder="female/hair_low" file="hair_low_s019.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2044</id>
+			<items>
+				<item pathLink="character" id="hair_back_0_s030" type="swfBa"
+					folder="female/hair_back" file="hair_back_s030.swf">
+				</item>
+				<item pathLink="character" id="hair_low_0_s030" type="swfBa"
+					folder="female/hair_low" file="hair_low_s030.swf">
+				</item>
+			</items>
+		</hair>
+		
+		<hair>
+			<id>2028</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s011" type="swfBa"
+					folder="male/hair_back" file="hair_back_s011.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s011" type="swfBa"
+					folder="male/hair_low" file="hair_low_s011.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2029</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s015" type="swfBa"
+					folder="male/hair_back" file="hair_back_s015.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s015" type="swfBa"
+					folder="male/hair_low" file="hair_low_s015.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2030</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s016" type="swfBa"
+					folder="male/hair_back" file="hair_back_s016.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s016" type="swfBa"
+					folder="male/hair_low" file="hair_low_s016.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2031</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s017" type="swfBa"
+					folder="male/hair_back" file="hair_back_s017.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s017" type="swfBa"
+					folder="male/hair_low" file="hair_low_s017.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2032</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s018" type="swfBa"
+					folder="male/hair_back" file="hair_back_s018.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s018" type="swfBa"
+					folder="male/hair_low" file="hair_low_s018.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2033</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s019" type="swfBa"
+					folder="male/hair_back" file="hair_back_s019.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s019" type="swfBa"
+					folder="male/hair_low" file="hair_low_s019.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2034</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s022" type="swfBa"
+					folder="male/hair_back" file="hair_back_s022.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s022" type="swfBa"
+					folder="male/hair_low" file="hair_low_s022.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2035</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s023" type="swfBa"
+					folder="male/hair_back" file="hair_back_s023.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s023" type="swfBa"
+					folder="male/hair_low" file="hair_low_s023.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2036</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s024" type="swfBa"
+					folder="male/hair_back" file="hair_back_s024.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s024" type="swfBa"
+					folder="male/hair_low" file="hair_low_s024.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2037</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s025" type="swfBa"
+					folder="male/hair_back" file="hair_back_s025.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s025" type="swfBa"
+					folder="male/hair_low" file="hair_low_s025.swf">
+				</item>
+			</items>
+		</hair>
+		<hair>
+			<id>2038</id>
+			<items>
+				<item pathLink="character" id="hair_back_1_s026" type="swfBa"
+					folder="male/hair_back" file="hair_back_s026.swf">
+				</item>
+				<item pathLink="character" id="hair_low_1_s026" type="swfBa"
+					folder="male/hair_low" file="hair_low_s026.swf">
+				</item>
+			</items>
+		</hair>
+		
+		
+		<wing>
+			<id>4001</id>
+			<items>
+				<item pathLink="character" id="wing_back_s001" type="swfBa"
+					folder="com/wing_back" file="wing_back_s001.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s001" type="swfBa"
+					folder="com/wing_front" file="wing_front_s001.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4002</id>
+			<items>
+				<item pathLink="character" id="wing_back_s021" type="swfBa"
+					folder="com/wing_back" file="wing_back_s021.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s021" type="swfBa"
+					folder="com/wing_front" file="wing_front_s021.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4003</id>
+			<items>
+				<item pathLink="character" id="wing_back_s003" type="swfBa"
+					folder="com/wing_back" file="wing_back_s002.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s003" type="swfBa"
+					folder="com/wing_front" file="wing_front_s002.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4004</id>
+			<items>
+				<item pathLink="character" id="wing_back_s004" type="swfBa"
+					folder="com/wing_back" file="wing_back_s003.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s004" type="swfBa"
+					folder="com/wing_front" file="wing_front_s003.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4005</id>
+			<items>
+				<item pathLink="character" id="wing_back_s005" type="swfBa"
+					folder="com/wing_back" file="wing_back_s004.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s005" type="swfBa"
+					folder="com/wing_front" file="wing_front_s004.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4006</id>
+			<items>
+				<item pathLink="character" id="wing_back_s006" type="swfBa"
+					folder="com/wing_back" file="wing_back_s005.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s006" type="swfBa"
+					folder="com/wing_front" file="wing_front_s005.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4007</id>
+			<items>
+				<item pathLink="character" id="wing_back_s007" type="swfBa"
+					folder="com/wing_back" file="wing_back_s006.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s007" type="swfBa"
+					folder="com/wing_front" file="wing_front_s006.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4008</id>
+			<items>
+				<item pathLink="character" id="wing_back_s008" type="swfBa"
+					folder="com/wing_back" file="wing_back_s008.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s008" type="swfBa"
+					folder="com/wing_front" file="wing_front_s008.swf">
+				</item>
+			</items>
+		</wing>
+		<wing>
+			<id>4009</id>
+			<items>
+				<item pathLink="character" id="wing_back_s009" type="swfBa"
+					folder="com/wing_back" file="wing_back_s010.swf">
+				</item>
+				<item pathLink="character" id="wing_front_s009" type="swfBa"
+					folder="com/wing_front" file="wing_front_s010.swf">
+				</item>
+			</items>
+		</wing>
+		<suit>
+			<id>40001</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_back_s001" type="swfBa"
+					folder="suit/com/arm_back" file="arm_back_s001.swf">
+				</item>
+				<item pathLink="character" id="suit_com_arm_front_s001" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s001.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s001" type="swfBa"
+					folder="suit/com/body" file="body_s001.swf">
+				</item>
+				<item pathLink="character" id="suit_com_expression_s001" type="swfBa"
+					folder="suit/com/expression" file="expression_s001.swf">
+				</item>
+				<item pathLink="character" id="suit_com_face_s001" type="swfBa"
+					folder="suit/com/face" file="face_s001.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40002</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_back_s002" type="swfBa"
+					folder="suit/com/arm_back" file="arm_back_s002.swf">
+				</item>
+				<item pathLink="character" id="suit_com_arm_front_s002" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s002.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s002" type="swfBa"
+					folder="suit/com/body" file="body_s002.swf">
+				</item>
+				<item pathLink="character" id="suit_com_expression_s002" type="swfBa"
+					folder="suit/com/expression" file="expression_s002.swf">
+				</item>
+				<item pathLink="character" id="suit_com_face_s002" type="swfBa"
+					folder="suit/com/face" file="face_s002.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_front_s002" type="swfBa"
+					folder="suit/com/hair_front" file="hair_front_s002.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40003</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_back_s003" type="swfBa"
+					folder="suit/com/arm_back" file="arm_back_s003.swf">
+				</item>
+				<item pathLink="character" id="suit_com_arm_front_s003" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s003.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s003" type="swfBa"
+					folder="suit/com/body" file="body_s003.swf">
+				</item>
+				<item pathLink="character" id="suit_com_expression_s003" type="swfBa"
+					folder="suit/com/expression" file="expression_s003.swf">
+				</item>
+				<item pathLink="character" id="suit_com_face_s003" type="swfBa"
+					folder="suit/com/face" file="face_s003.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_front_s003" type="swfBa"
+					folder="suit/com/hair_front" file="hair_front_s003.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_back_s003" type="swfBa"
+					folder="suit/com/hair_back" file="hair_back_s003.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40004</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s004" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s004.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s004" type="swfBa"
+					folder="suit/com/body" file="body_s004.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40005</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_back_s005" type="swfBa"
+					folder="suit/com/arm_back" file="arm_back_s005.swf">
+				</item>
+				<item pathLink="character" id="suit_com_arm_front_s005" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s005.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s005" type="swfBa"
+					folder="suit/com/body" file="body_s005.swf">
+				</item>
+				<item pathLink="character" id="suit_com_expression_s005" type="swfBa"
+					folder="suit/com/expression" file="expression_s005.swf">
+				</item>
+				<item pathLink="character" id="suit_com_face_s005" type="swfBa"
+					folder="suit/com/face" file="face_s005.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_front_s005" type="swfBa"
+					folder="suit/com/hair_front" file="hair_front_s005.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_back_s005" type="swfBa"
+					folder="suit/com/hair_back" file="hair_back_s005.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40006</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s006" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s006.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s006" type="swfBa"
+					folder="suit/com/body" file="body_s006.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40007</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s007" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s007.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s007" type="swfBa"
+					folder="suit/com/body" file="body_s007.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40008</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s008" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s008.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s008" type="swfBa"
+					folder="suit/com/body" file="body_s008.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40010</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s010" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s010.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s010" type="swfBa"
+					folder="suit/com/body" file="body_s010.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40013</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_back_s013" type="swfBa"
+					folder="suit/com/arm_back" file="arm_back_s013.swf">
+				</item>
+				<item pathLink="character" id="suit_com_arm_front_s013" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s013.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s013" type="swfBa"
+					folder="suit/com/body" file="body_s013.swf">
+				</item>
+				<item pathLink="character" id="suit_com_expression_s013" type="swfBa"
+					folder="suit/com/expression" file="expression_s013.swf">
+				</item>
+				<item pathLink="character" id="suit_com_face_s013" type="swfBa"
+					folder="suit/com/face" file="face_s013.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_front_s013" type="swfBa"
+					folder="suit/com/hair_front" file="hair_front_s013.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_back_s013" type="swfBa"
+					folder="suit/com/hair_back" file="hair_back_s013.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40014</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_back_s014" type="swfBa"
+					folder="suit/com/arm_back" file="arm_back_s014.swf">
+				</item>
+				<item pathLink="character" id="suit_com_arm_front_s014" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s014.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s014" type="swfBa"
+					folder="suit/com/body" file="body_s014.swf">
+				</item>
+				<item pathLink="character" id="suit_com_expression_s014" type="swfBa"
+					folder="suit/com/expression" file="expression_s014.swf">
+				</item>
+				<item pathLink="character" id="suit_com_face_s014" type="swfBa"
+					folder="suit/com/face" file="face_s014.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_front_s014" type="swfBa"
+					folder="suit/com/hair_front" file="hair_front_s014.swf">
+				</item>
+				<item pathLink="character" id="suit_com_hair_back_s014" type="swfBa"
+					folder="suit/com/hair_back" file="hair_back_s014.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40016</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s016" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s016.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s016" type="swfBa"
+					folder="suit/com/body" file="body_s016.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40017</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s017" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s017.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s017" type="swfBa"
+					folder="suit/com/body" file="body_s017.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40020</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s020" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s020.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s020" type="swfBa"
+					folder="suit/com/body" file="body_s020.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40021</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s021" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s021.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s021" type="swfBa"
+					folder="suit/com/body" file="body_s021.swf">
+				</item>
+			</items>
+		</suit>
+		<suit>
+			<id>40022</id>
+			<items>
+				<item pathLink="character" id="suit_com_arm_front_s022" type="swfBa"
+					folder="suit/com/arm_front" file="arm_front_s022.swf">
+				</item>
+				<item pathLink="character" id="suit_com_body_s022" type="swfBa"
+					folder="suit/com/body" file="body_s022.swf">
+				</item>
+			</items>
+		</suit>
+	</equipment>
+	<guide>
+		<items>
+			<item pathLink="ui" id="guide" type="swf" folder="" file="guide.swf">
+			</item>
+		</items>
+	</guide>
+</pack>

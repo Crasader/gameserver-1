@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//购买工具
+option java_outer_classname = "XinqiBceBuyTool"; 
+message BceBuyTool {
+    required int32 tool = 1;        //道具ID
+}

@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回排行榜信息
+option java_outer_classname = "XinqiArrangeInfo"; 
+message ArrangeInfo {
+      required string name = 1 ;               //昵称
+      required int32 level = 2;                //等级
+      required string odds = 3;                //胜率
+      required int32 winNum = 4;               //胜场
+      required int32 fortune = 5;              //财富
+}

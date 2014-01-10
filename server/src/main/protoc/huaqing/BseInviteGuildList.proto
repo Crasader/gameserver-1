@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//ÑûÇë¼ÇÂ¼ÁÐ±í
+
+import "GuildInviteInfo.proto";
+
+message BseInviteGuildList
+{
+    repeated GuildInviteInfo guildlist = 1 ;
+}

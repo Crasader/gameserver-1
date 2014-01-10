@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+//新手教学的进展状态
+option java_outer_classname = "XinqiBceTraining"; 
+message BceTraining {
+    /**
+     * Step表示玩家完成的进度
+     * 0: 完全跳过新手教程 
+     * 1: 完成了第一步
+     * 2: 完成了第二步
+     * ....
+     */
+    required int32 step = 1 [default = 0];   //slot id
+}

@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//¹¤»áÌú½³ÆÌÉý¼¶
+
+import "GuildInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildIronLevelup"; 
+message BseGuildIronLevelup 
+{
+		optional int32 result = 1;
+		optional GuildInfo guildInfo = 2;
+}

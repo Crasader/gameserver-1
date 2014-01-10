@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceFillProfile";
+message BceFillProfile {
+    /**
+    * operation action
+    * 0: change rolename
+    * 1: change password
+    * 2: change email
+    */
+    optional int32 action = 1;
+    //alias name
+    optional string value = 2;
+}

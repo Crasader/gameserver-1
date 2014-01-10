@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBceVipInfo"; 
+/**
+* Check the different vip level rewards.
+*/
+message BceVipInfo {
+}

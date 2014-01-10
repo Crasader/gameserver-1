@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//子弹炸到的用户信息
+message DropUserInfo {
+    required string userId= 1;						//用户ID
+    required int32  posX  = 2;						//爆炸后位置
+    required int32  posY  = 3;							
+    required int32  userDead = 4;					//用户是否死亡
+}

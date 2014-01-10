@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//请求公告、活动信息
+message BseAskRoundOver {
+    required string sessionId = 1;
+}

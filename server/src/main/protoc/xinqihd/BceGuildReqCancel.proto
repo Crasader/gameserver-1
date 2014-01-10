@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会申请取消
+
+option java_outer_classname = "XinqiBceGuildReqCancel"; 
+message BceGuildReqCancel 
+{
+		required int32 guildID = 1; 									 //工会ID
+}

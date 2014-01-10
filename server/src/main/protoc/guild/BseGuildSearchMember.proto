@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//查找工会结果
+
+import "GuildMember.proto";
+
+option java_outer_classname = "XinqiBseGuildSearchMember"; 
+message BseGuildSearchMember {
+    repeated GuildMember members = 1;    //搜索结果列表
+}

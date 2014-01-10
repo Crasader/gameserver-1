@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//返回背包列表
+
+import "PropData.proto";
+
+message BsePropList {
+     repeated PropData propInfo = 1;     //装备数组
+}

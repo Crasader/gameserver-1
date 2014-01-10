@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//请求商品列表
+message BceShopping {
+    required int32 gender = 1;        //性别
+    required int32 type = 2;          //分类 见文档装备类型
+}

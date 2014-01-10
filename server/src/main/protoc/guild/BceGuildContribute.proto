@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//成员捐献
+
+option java_outer_classname = "XinqiBceGuildContribute"; 
+message BceGuildContribute {
+  optional string guildID = 1 ;
+  //捐献的元宝数量
+  optional uint32 yuanbao = 2 ;
+  //捐献的金币数量
+  optional uint32 golden = 3 ;
+}

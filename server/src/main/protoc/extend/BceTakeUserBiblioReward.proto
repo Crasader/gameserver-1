@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÃÌº”’Ω”—
+
+option java_outer_classname = "XinqiBceTakeUserBiblioReward"; 
+message BceTakeUserBiblioReward {
+}

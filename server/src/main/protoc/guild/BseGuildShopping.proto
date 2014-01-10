@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回公会商品信息
+import "GoodsInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildShopping"; 
+message BseGuildShopping {
+    optional int32 status = 1;
+    optional string message = 2;
+    repeated int32 shoplevel = 3;       //公会商城等级
+    repeated GoodsInfo goodsInfo = 4;   //商品数组
+}

@@ -1,0 +1,5 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求自己的排名信息
+option java_outer_classname = "XinqiBceMyRankInfo"; 
+message BceMyRankInfo {
+}

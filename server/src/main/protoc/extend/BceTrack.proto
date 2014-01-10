@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+//新手教学的进展状态
+option java_outer_classname = "XinqiBceTrack"; 
+message BceTrack {
+    /**
+     * track: 表示追踪的类型
+     */
+    required string track = 1; //
+    /**
+     * optional param
+     */
+    repeated string param = 2;
+}

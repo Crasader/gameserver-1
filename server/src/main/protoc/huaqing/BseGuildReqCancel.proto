@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//工会申请取消
+
+message BseGuildReqCancel
+{
+		optional int32 result = 1; 									 //工会ID
+}

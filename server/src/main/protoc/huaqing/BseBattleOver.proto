@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+import "RoleAudit.proto";
+//
+message BseBattleOver {
+    required int32 winCamp = 1;                         //胜利阵营号， -1为平局
+    repeated RoleAudit auditArr = 2;                    //结果数组
+    optional int32 expRate = 3;   											//经验倍率
+}

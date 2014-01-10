@@ -1,0 +1,37 @@
+package com.xinqihd.sns.gameserver.proto;
+//进入房间 请求
+option java_outer_classname = "XinqiBceEnterRoom"; 
+message BceEnterRoom {
+    /**
+	//PVE game room, up to 4 users.
+	0: PVE_ROOM,
+	//Single player mode.
+	1: SINGLE_ROOM,
+	//Multi users mode
+	2: MULTI_ROOM,
+	//Friend combat mode
+	3: FRIEND_ROOM,
+	//On-machine mode.
+	4: DESK_ROOM,
+	//Training room.
+	5: TRAINING_ROOM,
+	//Challenge roo,
+	6: CHALLENGE_ROOM,
+	//Rank competing room
+	7: RANK_ROOM,
+	//Guild room.
+	8: GUILD_ROOM,
+     */
+    required string roomId = 1 [default = ""];      	//要进入的房间id，0为随机
+    required int32 mapId = 2  [default = -1];       //所选择游戏地图的ID，此项无用处
+	optional string roomName = 3 [default = ""];		//房间名称，最长10个字
+    optional string roomKey = 4 [default = ""];			//密码，最长6个字
+    optional int32 roomType = 5 [default = 0];			//房间类型：0：竞技 1：挑战
+    required int32 battleMode = 6 [default = 0];  	//战斗模式(0 双人模式 1: 创建房间 2 搜索房间 3:快速开始) 
+    required int32 chooseMode = 7 [default = 0];  //无用处，兼容旧版本
+    optional string challengeId = 8;							//挑战模式下挑战玩家ID
+    /**
+     * PVE_ROOM 对应的难度索引，从0起始
+     */
+    optional int32 hardmode = 9;
+}

@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceCreateRole"; 
+message BceCreateRole {
+    //User token
+    optional string usertoken = 1;
+	//game rolename
+    optional string rolename = 2;
+    //1: male, 2: female
+    optional int32 gender  = 3;
+    optional string serverid  = 4;
+    optional string reserved1  = 10;
+    optional string reserved2  = 11;
+    optional string reserved3  = 12;
+}

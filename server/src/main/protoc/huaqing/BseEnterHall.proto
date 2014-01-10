@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//进入大厅 请求
+message BseEnterHall {   
+   required int32 hallsrvID = 1 [default = 0];  //进入大厅ID
+   required int32 channelID = 2 ;//频道ID
+}

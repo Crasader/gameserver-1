@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceReloadConfig"; 
+
+/**
+ * 通知服务器重新加载配置文件
+ */
+message BceReloadConfig {
+  /**
+   * The config name
+   * "maps", "tips", "charges", "gamedata", "tasks", "vips", "shops", "equips", "items", "levels", "gameres", "bosses"
+  */
+  repeated string configname = 2;
+}
+

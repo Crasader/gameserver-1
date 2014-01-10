@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//添加BUFF
+option java_outer_classname = "XinqiBseRoleUseTool"; 
+message BseRoleUseTool {
+    required string sessionId = 1;
+    required int32  slot = 2;                 //slot id
+    required string launchUserId = 3;					//使用道具者ID
+    required int32  buffID = 4;               //使用道具的buffID
+    required int32  type = 5;               	//灵魂使用类型
+}

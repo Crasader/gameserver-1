@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//Item Data
+
+option java_outer_classname = "XinqiBseItem"; 
+message ItemData {
+  required string id = 1;
+  optional int32  level = 2;
+  optional string icon = 3;
+  optional string name = 4;
+  optional string info = 5;
+  optional string type = 6;
+}
+
+message BseItem {
+  repeated ItemData items = 1;
+}

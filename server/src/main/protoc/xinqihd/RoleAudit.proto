@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+//角色信息
+
+option java_outer_classname = "XinqiRoleAudit"; 
+message RoleAudit {
+    required string sessionId = 1;          //Session编号
+    required uint32 level = 2;              //原来等级
+    required uint32 exp = 3;                //原来的经验值
+    required uint32 expDeta = 4;            //战斗中获得的经验值
+    required uint32 maxExp = 5;             //升级所需经验值
+    required uint32 kill = 6;               //屠杀数
+    required uint32 hit = 7;                //命中率
+    optional uint32 battleMode = 8;         //战斗模式
+    optional uint32 roomType = 9;         	//房间模式
+    optional uint32 damage = 10;         	//伤害
+    optional uint32 creditDeta = 11;        //功勋
+}

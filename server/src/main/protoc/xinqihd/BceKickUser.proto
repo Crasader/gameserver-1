@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求离开房间
+option java_outer_classname = "XinqiBceKickUser"; 
+message BceKickUser {
+	required string outuserid	= 1;	//被踢玩家ID
+}

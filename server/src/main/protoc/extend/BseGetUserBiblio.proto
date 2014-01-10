@@ -1,0 +1,44 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseGetUserBiblio"; 
+
+message UserBiblio {
+  // The index (zero based) of given unlocked weapon
+  optional int32 index = 1;
+  // The weaponId of given unlocked weapon.
+  optional string weaponId = 2;
+}
+
+message BseGetUserBiblio {
+   /**
+   * 图鉴的排序方式
+   * 0: 战斗力排序
+   * 1: 攻击排序
+   * 2: 防御排序
+   * 3: 敏捷排序
+   * 4: 幸运排序
+   */
+   optional int32  sorttype  = 1 [default = 0]; 
+   /**
+   * 总格子数量
+   */
+   optional int32  total  = 2 [default = 0]; 
+   /**
+   * 针对功能按钮的描述文字
+   */
+   optional string desc  = 3; 
+   /**
+   * 完成进度百分比
+   * 0 - 100
+   */
+   optional int32  percent  = 5 [default = 0]; 
+   /**
+   * 是否激活领取奖励按钮
+   */
+   optional bool rewardenable  = 6 [default = false]; 
+   /**
+   * 领取奖励按钮旁边显示的描述
+   */
+   optional string rewarddesc = 7;
+   repeated UserBiblio biblio = 10; 
+}

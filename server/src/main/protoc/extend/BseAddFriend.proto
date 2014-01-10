@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//添加战友
+
+option java_outer_classname = "XinqiBseAddFriend"; 
+message BseAddFriend 
+{
+   required string username       = 1 ;  //请求加为好友的uid
+   optional bool   blacklist = 2 [default = false];  //加为黑名单?
+   optional bool   succ      = 3 [default = false];  // 是否成功
+   optional bool   isdel     = 4 [default = false];  // 是否是删除
+}

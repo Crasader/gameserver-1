@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//¹¤»áÉý¼¶
+
+option java_outer_classname = "XinqiBceGuildLevelUp"; 
+message BceGuildLevelUp 
+{
+    required int32 guildID = 1 ;
+}

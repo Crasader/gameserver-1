@@ -1,0 +1,42 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会设施的升级权限和数据
+
+option java_outer_classname = "XinqiBseGuildFacilityLevelUp"; 
+message BseGuildFacilityLevelUp {
+  /**
+   * 升级的状态，0表示成功
+  */
+  optional int32 status = 1;
+  //如果升级失败，则显示失败的原因
+  optional string message = 2;
+
+  // -- 升级成功时设置如下字段
+  /**
+   * 升级的设施的类型
+   * 0: 公会
+   * 1: 商城
+   * 2: 铁匠铺
+   * 3: 技能
+   * 4: 仓库
+   *
+   * 技能类型
+   * 10: 攻击
+   * 11: 敏捷 
+   * 12: 幸运 
+   * 13: 防御 
+   * 14: 生命 
+   * 15: 寻宝 
+   * 16: 祈福
+  */
+  optional int32 type = 5; 
+  //升级后的等级
+  optional int32 level = 6; 
+  /**
+   * 下一次升级的冷却时间(秒), 为0表示可以立即升级
+   */
+  optional int32 cooldown = 10; 
+  /**
+   * 取消冷却时间，立即升级的元宝价格
+  */
+  optional int32 yuanbao = 11; 
+}

@@ -1,0 +1,12 @@
+//package wanyou.game.protocol;
+//发送的系统消息
+import "PropData.proto";
+import "UserInfo.proto";
+
+message BseSysChat {
+    optional int32          type = 1 [default = 0];
+    repeated int32          args          = 2 ; //参数列表
+    repeated PropData       props         = 3 ; //涉及到的物品列表
+    repeated UserInfo    userinfos     = 4 ; //可能出现的玩家类表
+    optional string         message       = 5 [ default = ""];  //消息
+}

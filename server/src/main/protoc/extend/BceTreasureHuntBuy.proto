@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceTreasureHuntBuy"; 
+/**
+ * 玩家参与一次寻宝
+ * 
+ */
+message BceTreasureHuntBuy {
+  /**
+  * 玩家使用的寻宝模式
+  */
+  optional uint32 mode = 1 [default=1];
+}

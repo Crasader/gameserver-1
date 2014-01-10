@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<items >
+	<consumable >
+		<item id="20001" lv="1" icon="GreenStoneLv1" name="水神石Lv1" info="与装备合成后提高幸运属性10点" />
+		<item id="20001" lv="2" icon="GreenStoneLv2" name="水神石Lv2" info="与装备合成后提高幸运属性20点" />
+		<item id="20001" lv="3" icon="GreenStoneLv3" name="水神石Lv3" info="与装备合成后提高幸运属性30点" />
+		<item id="20001" lv="4" icon="GreenStoneLv4" name="水神石Lv4" info="与装备合成后提高幸运属性40点" />
+		<item id="20001" lv="5" icon="GreenStoneLv5" name="水神石Lv5" info="与装备合成后提高幸运属性50点" />
+		<item id="20002" lv="1" icon="BlackStoneLv1" name="土神石Lv1" info="与装备合成后提高防御属性10点" />
+		<item id="20002" lv="2" icon="BlackStoneLv2" name="土神石Lv2" info="与装备合成后提高防御属性20点" />
+		<item id="20002" lv="3" icon="BlackStoneLv3" name="土神石Lv3" info="与装备合成后提高防御属性30点" />
+		<item id="20002" lv="4" icon="BlackStoneLv4" name="土神石Lv4" info="与装备合成后提高防御属性40点" />
+	</consumable>
+</items>

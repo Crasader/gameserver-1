@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//¿ª³ý³ÉÔ±
+
+import "GuildInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildFire"; 
+message BseGuildFire 
+{
+    required int32 result = 1 ;
+    optional GuildInfo guildInfo = 2 ;
+}

@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回公会商品信息
+import "PropData.proto";
+
+option java_outer_classname = "XinqiBseGuildBag"; 
+message BseGuildBag {
+    optional string guildID = 1;     //ID 
+    repeated PropData bag = 2;     //刷新物品列表
+}

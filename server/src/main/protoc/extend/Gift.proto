@@ -1,0 +1,46 @@
+package com.xinqihd.sns.gameserver.proto;
+//Gift Data
+
+option java_outer_classname = "XinqiGift"; 
+
+message Gift {
+  /**
+   * 奖励的类型
+   */
+  required int32 rewardTypeIndex = 1;
+  /**
+   * 对于道具来说，是它的ID
+   * 对于其他类型均为-1
+   */
+  optional string itemId = 2;
+  //武器的typeid
+  optional string typeId = 3; 
+  optional int32  level = 4;
+  //数量
+  optional int32  count = 5;
+  //仅对武有效，有效期
+  optional int32 indate = 6;
+  /**
+	WHITE(Color.WHITE),
+    // 1: simple weapon
+	GREEN(Color.GREEN),
+	// 2: normal weapon
+	BLUE(Color.BLUE),
+	// 3: advanced weapon
+	PINK(Color.PINK),
+	// 4: powerup
+	ORGANCE(Color.ORANGE);
+   *
+   */
+  optional int32 colorIndex = 7;
+  /**
+  * Compose added value.
+  */
+  optional int32 attack = 8;
+  optional int32 defend = 9;
+  optional int32 agility = 10;
+  optional int32 lucky = 11;
+  optional int32 maxlv = 12;
+  optional int32 slot = 13;
+}
+

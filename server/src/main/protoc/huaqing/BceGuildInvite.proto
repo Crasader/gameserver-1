@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//¹¤»áÑûÇë
+
+message BceGuildInvite
+{
+    required string tarUid = 1 ;
+    optional int32 guildID = 2 ;
+    optional string guildName = 3 ;
+}

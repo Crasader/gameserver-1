@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto;
+//道具信息
+option java_outer_classname = "XinqiPropInfo"; 
+message PropInfo {
+    required int32 propID = 1;          //道具信息ID
+    required int32 propType = 2;        //道具类型
+    required int32 addAttack = 3;       //攻击加成
+    required int32 addDefend = 4;       //防御加成
+    required int32 addAgility = 5;      //敏捷加成
+    required int32 addLuck = 6;         //幸运加成
+    required int32 addBlood = 7;        //生命加成
+    required int32 addThew = 8;         //体力加成
+    required int32 addDamage = 9;       //伤害加成
+    required int32 addSkin = 10;        //护甲加成
+    required int32 gender = 11;         //性别
+    required int32 price1 = 12;         //价格-负数为游戏币，正数为充值币
+    required int32 price2 = 13;
+    required int32 price3 = 14;
+    required int32 indate1 = 15;        //有效期，单位小时
+    required int32 indate2 = 16;
+    required int32 indate3 = 17;
+}

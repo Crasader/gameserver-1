@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//Ë«±¶¾­Ñé½áÊø
+
+option java_outer_classname = "XinqiBceDoubleExpOver"; 
+message BceDoubleExpOver 
+{
+		required bool finish = 1 [default = false] ;
+}

@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求延长装备有效期
+option java_outer_classname = "XinqiBceLengthenIndate"; 
+message LengthenIndate 
+{
+    optional int32 shopid     = 1 [default = 0];
+    optional int32 indatetype = 2 [default = 0];
+    optional string id        = 3 [default = ""];
+    optional int32 proppos    = 4 [default = 0];
+}
+message BceLengthenIndate{
+    required int32 pew = 1 [default = 0];             //要延长有效期的物品格子号
+    required int32 indateType = 2 [default = 0];      //要延长有效期的类型
+    optional int32 indateGoldType = 3 [default = 0];  //使用的货币类型
+    repeated LengthenIndate lengthenindateset = 4;
+}

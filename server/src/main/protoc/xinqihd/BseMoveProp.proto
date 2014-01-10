@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回移动物品结果
+option java_outer_classname = "XinqiBseMoveProp"; 
+message BseMoveProp {
+    required int32 curPlace = 1;    //移动到当前格子位置
+    required int32 prePlace = 2;    //之前原来的格子位置
+    required string curId = 3 ;
+    required string preId = 4 ;
+}

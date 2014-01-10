@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceCaishenPray"; 
+/**
+ * 玩家进行祈福操作 
+ * 
+ */
+message BceCaishenPray {
+}

@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//
+
+message BseLeaveMessage
+{
+   required bool succ = 1 ;
+}

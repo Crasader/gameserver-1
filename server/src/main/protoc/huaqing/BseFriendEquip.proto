@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//返回好友装备信息
+
+import "PropData.proto";
+
+message BseFriendEquip {
+    repeated PropData equipInfo = 1;     //装备数组
+}

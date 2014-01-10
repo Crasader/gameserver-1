@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//树 的详细信息
+
+option java_outer_classname = "XinqiTreeRoom"; 
+message TreeRoom 
+{
+    optional int64	tree_start_time      = 1 [default = 0];     //本次开始生长时间
+    optional bool   tree_self_can_blesse = 2 [default = false]; //自己能不能给树"祝福"
+    optional int32  tree_blessed_count   = 3 [default = 0];     //树已经被祝福的次数
+    optional bool   can_harvest          = 4 [default = false]; //能不能收获
+}

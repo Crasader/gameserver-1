@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//¹¤»áÑûÇë·´À¡
+
+message BceGuildInviteRsp
+{
+    optional int64 srcUid = 1 ;
+    optional int64 tarUid = 2 ;
+    optional int32 guildID = 3 ;
+    optional int32 result = 4 ;
+}

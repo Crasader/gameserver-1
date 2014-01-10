@@ -1,0 +1,29 @@
+package com.xinqihd.sns.gameserver.proto;
+//子弹信息
+import "HurtUserInfo.proto";
+import "DropUserInfo.proto";
+import "PickBoxInfo.proto";
+option java_outer_classname = "XinqiAtkBltInfo"; 
+message AtkBltInfo {
+	//子弹编号
+    required int32 bltIdx = 1;        		
+	//水平初速度，除1000为正常速度
+    required int32 speedX = 2;         		
+	//竖直初速度，除1000为正常速度
+    required int32 speedY = 3;            	
+	//返回结果：1：爆炸 2：出界
+    required int32 result = 4;         		
+	//运行时间，单位为毫秒
+    required int32 time   = 5;				
+	//爆炸点
+    required int32 bltX   = 6;				
+    required int32 bltY   = 7;
+	//爆炸使用的图片序号
+    required int32 pngNum = 8;				
+	//击中用户信息
+    repeated HurtUserInfo hurtUser = 9;			
+	//掉落玩家信息
+	repeated DropUserInfo dropUser = 10;			
+	//战斗中捡到的宝箱信息
+	repeated PickBoxInfo  pickBox = 11;      
+}

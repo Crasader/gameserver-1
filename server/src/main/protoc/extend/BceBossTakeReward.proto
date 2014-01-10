@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceBossTakeReward"; 
+
+/**
+ * Boss战斗胜利后，领取战斗奖励，
+ */
+message BceBossTakeReward {
+  /**
+  * 更新指定bossid的数据
+  */
+  required string bossid		= 1;
+}

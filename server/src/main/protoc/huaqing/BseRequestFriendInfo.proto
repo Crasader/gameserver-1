@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//返回给客户端. 好友的信息
+import "FriendInfoLite.proto";
+
+message BseRequestFriendInfo
+{
+    required FriendInfoLite friendInfo = 1;               //好友列表
+    optional int32          type       = 2 [default=0];   //类型：1：好友，2：战友
+}

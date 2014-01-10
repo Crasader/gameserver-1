@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//返回好友邀请信息
+
+message BseInviteFrd
+{
+	optional bool adv = 1;
+	repeated string	add = 2;
+	optional int32 total = 3;
+}

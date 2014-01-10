@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//购买工具
+message BceBuyTool {
+    required int32 tool = 1;        //道具ID
+}

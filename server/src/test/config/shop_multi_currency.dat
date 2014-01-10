@@ -1,0 +1,4 @@
+INT	INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	STRING	INT	INT	INT	INT
+id	type	info	prop_info	level	gold_type	price1	price2	price3	indate1	indate2	indate3	band	discount	sell	hot	shop_id	limit_count	limit_group
+360	54	°¢²¨ÂÞÉñ¹Þ	25808		4	60			100000	0	0	0	100	TRUE	1	0	0	0
+361	55	°¢²¨ÂÞÉñ´¸	25809		4	40			100000	0	0	0	100	TRUE	1	0	0	0

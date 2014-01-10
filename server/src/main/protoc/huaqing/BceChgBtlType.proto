@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//修改战斗类型
+message BceChgBtlType{
+    required int32 btlType = 1;			// 0：自由站 1：工会战
+}

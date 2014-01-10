@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//弹出公告列表
+
+option java_outer_classname = "XinqiBseBulltinList"; 
+message BseBulltinList 
+{
+    repeated string message = 1;  //消息列表
+}

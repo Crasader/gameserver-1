@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÊÕ»ñÊ÷
+
+option java_outer_classname = "XinqiBceHarvestTree"; 
+message BceHarvestTree 
+{
+}

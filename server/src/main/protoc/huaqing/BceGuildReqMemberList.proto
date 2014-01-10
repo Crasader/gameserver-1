@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//查看预备成员列表
+
+message BceGuildReqMemberList
+{
+    optional int32 guildID = 1 ;
+}

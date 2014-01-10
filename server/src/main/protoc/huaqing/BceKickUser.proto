@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//请求离开房间
+message BceKickUser{
+	required string outuserid	= 1;	//被踢玩家ID
+}

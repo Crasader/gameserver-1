@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//创建工会结果
+
+import "GuildInfo.proto";
+
+option java_outer_classname = "XinqiBseCreateGuild"; 
+message BseCreateGuild {
+    optional int32  result = 1 ;   			// 创建结果 0:成功
+    optional string message = 2 ;   		// 结果描述，result非零时显示失败原因
+    optional GuildInfo guild = 3;
+}

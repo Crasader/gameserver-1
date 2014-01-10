@@ -1,0 +1,19 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceBulletin"; 
+
+/**
+ * 给服务器发送一条消息，向全体在线用户及即将登陆的用户进行广播推送
+ */
+message BceBulletin {
+   //The message to be sent
+   required string message = 1;
+   /**
+   * The bulletin type:
+   * 0:  sys message type
+   * 1:  confirm message type
+   */
+   optional int32 type = 2 [default=0];
+   //The message expire seconds
+   optional int32 expire = 3 [default=86400];
+}

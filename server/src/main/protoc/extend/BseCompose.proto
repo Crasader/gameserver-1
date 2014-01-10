@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto;
+//熔炼物品结果
+import "PropData.proto";
+
+option java_outer_classname = "XinqiBseCompose"; 
+message BseCompose {
+    /**
+     * 结果 
+     *   0：无法熔炼；
+     *   1：熔炼成功；
+	 *   2：熔炼失败 
+     *   3: 操作异常 
+     *   4: 您放入的合成石已经是最大等级,无法继续熔炼
+     *   5: 您放入的合成石等级不一致,等级相同的石头才可熔炼
+     *   6: 您放入的不是水、火、土、风合成石，无法熔炼
+     *   7: 您的金币不足，无法熔炼
+     *   8: 您必须放入4块相同的石头+1个熔炼公式方可熔炼
+     */
+    required int32 result = 1;                  
+    optional PropData newProp = 2;              //添加的道具
+    repeated int32 pews = 3;                    //成功后需要删除的物品格子号
+}

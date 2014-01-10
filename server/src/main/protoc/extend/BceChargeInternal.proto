@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceChargeInternal"; 
+
+/**
+ * 用于跨服的充值，服务器端使用
+ */
+message BceChargeInternal {
+    //The userid
+    optional string userid = 1;
+    //The charge id
+    optional int32 chargeid = 2;
+    //Enable free charge mode
+    optional bool freecharge = 3 [default=false];
+    //The charged money YUAN or DOLLOR
+    optional int32 chargemoney = 4;
+    optional string receipt = 5;
+    optional string channel = 6;
+    optional string orderid = 7;
+}
+

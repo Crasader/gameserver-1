@@ -1,0 +1,45 @@
+package com.xinqihd.sns.gameserver.proto;
+//角色信息
+
+option java_outer_classname = "XinqiRoleAudit"; 
+message RoleAudit {
+    required string sessionId = 1;          //Session编号
+    required int32 level = 2;              //原来等级
+    required int32 exp = 3;                //原来的经验值
+    required int32 expDeta = 4;            //战斗中获得的经验值
+    required int32 maxExp = 5;             //升级所需经验值
+    required int32 kill = 6;               //屠杀数
+    required int32 hit = 7;                //命中率
+    optional int32 battleMode = 8;         //战斗模式
+    optional int32 roomType = 9;         	//房间模式
+    optional int32 damage = 10;         	//伤害
+    optional int32 creditDeta = 11;        //功勋
+	//伤害对方的血量
+	optional int32 hurtBlood = 12;
+	//赢得了战斗
+	optional int32 winGame = 13;
+	//总对战人数
+	optional int32 totalUser = 14;
+	//等级差值加成
+	optional int32 powerDiff = 15;
+	//命中率加成
+	optional int32 hitRatio = 16;
+	//杀敌数
+	optional int32 killNum = 17;
+	//掉落数量
+	optional int32 dropNum = 18;
+	//完美击杀
+	optional int32 perfect = 19;
+	//杀害自己人
+	optional int32 spy = 20;
+	//秒杀
+	optional int32 secondKill = 21;
+	//回合数加成
+	optional int32 roundNum = 22;
+	//精确打击次数
+	optional int32 accurateNum = 23;
+    //服务器给予玩家的评价
+    optional string remark = 24;
+    //游戏举办的活动奖励经验（双倍经验）
+    optional int32 actexp = 25;
+}

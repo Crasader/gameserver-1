@@ -1,0 +1,158 @@
+package com.xinqihd.sns.gameserver.proto;
+//GameDataKey Data
+
+option java_outer_classname = "XinqiBseGameDataKey"; 
+
+//向客户端发送游戏关键参数
+message BseGameDataKey {
+  //力度微调系数 * 10000
+  optional int32 battle_attack_k = 1 [default = 591];
+  //风力微调系数 * 10000
+  optional int32 battle_attack_F = 2 [default = 750];
+  //重力微调系数
+  optional int32 battle_attack_G = 3 [default = 760];
+  //玩家每移动1次减少的体力值
+  optional int32 thew_role_move = 7 [default = 5];
+  //玩家使用附加攻击2次消耗的体力值
+  optional int32 thew_attacktwomoretimes = 8 [default = 110];
+  //玩家使用三叉戟攻击消耗的体力值
+  optional int32 thew_attackthreebranch = 9 [default = 110];
+  //玩家使用附加攻击1次消耗的体力值
+  optional int32 thew_attackonemoretimes = 10 [default = 110];
+  //玩家使用伤害50%消耗的体力值
+  optional int32 thew_hurtadd50 = 11 [default = 85];
+  //玩家使用伤害40%消耗的体力值
+  optional int32 thew_hurtadd40 = 12 [default = 80];
+  //玩家使用伤害30%消耗的体力值
+  optional int32 thew_hurtadd30 = 13 [default = 70];
+  //玩家使用伤害20%消耗的体力值
+  optional int32 thew_hurtadd20 = 14 [default = 55];
+  //玩家使用伤害10%消耗的体力值
+  optional int32 thew_hurtadd10 = 15 [default = 50];
+  //玩家使用加血技能消耗的体力值
+  optional int32 thew_tool_recover = 16 [default = 150];
+  //玩家使用团队加血技能消耗的体力值
+  optional int32 thew_tool_allrecover = 17 [default = 170];
+  //玩家使用隐身技能消耗的体力值
+  optional int32 thew_tool_hidden = 18 [default = 50];
+  //玩家使用团队隐身技能消耗的体力值
+  optional int32 thew_tool_allhidden = 19 [default = 150];
+  //玩家使用改变风向技能消耗的体力值
+  optional int32 thew_tool_wind = 20 [default = 50];
+  //玩家使用冰弹技能消耗的体力值
+  optional int32 thew_tool_ice = 21 [default = 150];
+  //玩家使用传送技能消耗的体力值
+  optional int32 thew_tool_fly = 22 [default = 150];
+  //玩家使用引导技能消耗的体力值
+  optional int32 thew_tool_guide = 23 [default = 120];
+  //玩家使用怒气技能消耗的体力值
+  optional int32 thew_tool_energy = 24 [default = 120];
+  //玩家使用核弹技能消耗的体力值
+  optional int32 thew_tool_atom = 25 [default = 110];
+  //玩家使用免坑技能消耗的体力值
+  optional int32 thew_tool_nohole = 26 [default = 50];
+  //与装备合成后提高幸运属性的道具类型ID
+  optional int32 craft_stone_luck = 27 [default = 20001];
+  //与装备合成后提高防御属性的道具类型ID
+  optional int32 craft_stone_defend = 28 [default = 20002];
+  //与装备合成后提高敏捷属性的道具类型ID
+  optional int32 craft_stone_agility = 29 [default = 20003];
+  //与装备合成后提高攻击属性的道具类型ID
+  optional int32 craft_stone_attack = 30 [default = 20004];
+  //用来强装备提高武器伤害或装备护甲的道具类型ID
+  optional int32 craft_stone_strength = 31 [default = 20005];
+  //幸运符+15%的道具类型ID
+  optional int32 craft_stone_lucky1 = 32 [default = 24002];
+  //幸运符+25%的道具类型ID
+  optional int32 craft_stone_lucky2 = 33 [default = 24004];
+  //神恩符的道具类型ID
+  optional int32 craft_stone_god = 34 [default = 24001];
+  //玩家购买附加攻击2次的价格
+  optional int32 price_tool_AttackTwoMoreTimes = 35 [default = 1200];
+  //玩家购买三叉戟攻击的价格
+  optional int32 price_tool_AttackThreeBranch = 36 [default = 1200];
+  //玩家购买附加攻击1次的价格
+  optional int32 price_tool_AttackOneMoreTimes = 37 [default = 1200];
+  //玩家购买伤害50%的价格
+  optional int32 price_tool_HurtAdd50 = 38 [default = 1200];
+  //玩家购买伤害40%的价格
+  optional int32 price_tool_HurtAdd40 = 39 [default = 1200];
+  //玩家购买伤害30%的价格
+  optional int32 price_tool_HurtAdd30 = 40 [default = 1200];
+  //玩家购买伤害20%的价格
+  optional int32 price_tool_HurtAdd20 = 41 [default = 1200];
+  //玩家购买伤害10%的价格
+  optional int32 price_tool_HurtAdd10 = 42 [default = 1200];
+  //玩家购买加血技能的价格
+  optional int32 price_tool_Recover = 43 [default = 1200];
+  //玩家购买团队加血技能的价格
+  optional int32 price_tool_AllRecover = 44 [default = 120];
+  //玩家购买隐身技能的价格
+  optional int32 price_tool_Hidden = 45 [default = 1200];
+  //玩家购买团队隐身技能的价格
+  optional int32 price_tool_AllHidden = 46 [default = 1200];
+  //玩家购买改变风向技能的价格
+  optional int32 price_tool_Wind = 47 [default = 1200];
+  //玩家购买冰弹技能的价格
+  optional int32 price_tool_Ice = 48 [default = 1200];
+  //玩家购买传送技能的价格
+  optional int32 price_tool_Fly = 49 [default = 1200];
+  //玩家购买引导技能的价格
+  optional int32 price_tool_Guide = 50 [default = 1200];
+  //玩家购买怒气技能的价格
+  optional int32 price_tool_Energy = 51 [default = 1200];
+  //玩家购买核弹技能的价格
+  optional int32 price_tool_Atom = 52 [default = 1200];
+  //玩家购买免坑技能的价格
+  optional int32 price_tool_NoHole = 53 [default = 1200];
+  //出售便携道具的价格折扣(0-100:0为全价出售)
+  optional int32 sell_tool_ = 54 [default = 85];
+  //合成高等级装备的金币价格
+  optional int32 price_craft_compose = 55 [default = 2000];
+  //熔炼装备的金币价格
+  optional int32 price_craft_forge = 56 [default = 2000];
+  //转移装备属性的金币价格
+  optional int32 price_craft_transfer = 57 [default = 5000];
+  //水神石typeid
+  optional int32 stone_water_typeid = 58 [default = 20001];
+  //土神石typeid
+  optional int32 stone_earth_typeid = 59 [default = 20002];
+  //风神石typeid
+  optional int32 stone_wing_typeid = 60 [default = 20003];
+  //火神石typeid
+  optional int32 stone_fire_typeid = 61 [default = 20004];
+  //强化石typeid
+  optional int32 stone_strength_typeid = 62 [default = 20005];
+  //幸运符typeid
+  optional int32 stone_lucky_typeid = 63 [default = 24002];
+  //神恩符typeid
+  optional int32 stone_god_typeid = 64 [default = 24001];
+  //熔炼公式typeid
+  optional int32 stone_func_typeid = 65 [default = 21001];
+  //熔炼手镯和戒指typeid
+  optional int32 stone_ring_typeid = 66 [default = 21006];
+
+  //wangqi 2012-02-13
+  //玩家使用加血道具每次恢复的血量
+  optional int32 tool_recover_value = 67 [default = 500];
+  //玩家使用团队加血道具每次恢复的血量
+  optional int32 tool_all_recover_value = 68 [default = 300];
+  //玩家使用蓄力道具每次增加的怒气值
+  optional int32 tool_energy_value = 69 [default = 100];
+  //玩家使用冰冻道具冻结的回合数
+  optional int32 tool_iced_value = 70 [default = 3];
+  //玩家使用隐身道具隐藏的回合数
+  optional int32 tool_hidden_value = 71 [default = 3];
+  //普通用户在商城中享受的折扣(0-100)
+  optional int32 normal_shop_discount = 72 [default = 100];
+  //VIP用户在商城中享受的折扣(0-100)
+  optional int32 vip_shop_discount = 73 [default = 80];
+  //必成符ID
+  optional int32 craft_stone_win = 74 [default = 24005];
+  //新手引导
+  optional int32 newbie_battle_guide = 75 [default = 5];
+  //黄钻石
+  optional int32 craft_stone_diamond = 76 [default = 20031];
+  //水晶石
+  optional int32 craft_stone_crystal = 77 [default = 20041];
+}

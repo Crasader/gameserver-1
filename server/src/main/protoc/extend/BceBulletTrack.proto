@@ -1,0 +1,30 @@
+package com.xinqihd.sns.gameserver.proto;
+//Use the client to calculate the bullet track
+
+message Point {
+   required int32 x = 1;
+   required int32 y = 2;
+}
+
+message BulletTrack {
+	//The hit point of this bullet on ground 
+    //If null, it is not hitting ground
+    optional Point hitpoint = 1;
+	//The top point for this bullet
+    optional Point toppoint = 2;
+    //The flying seconds
+    //The 10000 times of given double value
+	optional int32  flyingSeconds  = 3 [default = 0];
+    optional int32  speedx = 4;
+    optional int32  speedy = 5;
+	optional int32  pngNum = 6;
+    optional int32  result = 7;
+}
+
+option java_outer_classname = "XinqiBceBulletTrack"; 
+message BceBulletTrack {
+    //The round number for this bullet track
+    required int32 roundNo = 1;
+    repeated BulletTrack bulletTracks = 2;
+    optional string sessionId = 3;
+}

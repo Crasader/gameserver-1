@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//玩家工具列表
+message BseToolList {
+    required int32 tool1 = 1;       //工具号，0代表空
+    required int32 tool2 = 2;
+    required int32 tool3 = 3;
+}

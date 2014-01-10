@@ -1,0 +1,28 @@
+package com.xinqihd.sns.gameserver.proto;
+//BulletTrack
+
+option java_outer_classname = "XinqiBseBulletTrack"; 
+message Bullet {
+    optional int32 startx = 1; 
+    optional int32 starty = 2; 
+    optional int32 speedx = 3;
+    optional int32 speedy = 4;
+    // -5 to 5
+    optional int32 wind = 5;
+    optional int32 power = 6;
+    optional int32 angle = 7;
+    //pngNum 0 - 10
+    optional int32 pngNum = 8 [default=100];
+    optional string bullet = 9;
+    //offx and offy is the range that 
+    //the bullet hit user 
+    optional int32 offx = 10 [default=60];
+    optional int32 offy = 11 [default=60];
+}
+
+message BseBulletTrack {
+   //The round number for this bullet track
+   required int32 roundNo = 1;
+   repeated Bullet bullet = 2;
+   optional string sessionId = 3;
+}

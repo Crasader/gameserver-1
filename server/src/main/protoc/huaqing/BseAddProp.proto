@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//向道具列表添加新道具
+
+import "PropData.proto";
+
+message BseAddProp {
+    required PropData addedProp = 1;     //新加的装备
+}

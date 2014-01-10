@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//修改任务
+
+message BseModiTask
+{
+   required int32 taskID = 1 ;  //任务ID
+   required int32 step = 2 ;  	//任务步骤
+}

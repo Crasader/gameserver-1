@@ -1,0 +1,14 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Init
+
+option java_outer_classname = "XinqiBseInit"; 
+message BseInit {
+	//reconnect result
+    required bool success = 1;
+	optional string token = 2;
+    //If true, the client should return to home
+	//If false, the session does not timeout
+	optional bool refresh = 3 [default=true];
+    //The new user's session id
+    optional string sessionid = 4;
+}

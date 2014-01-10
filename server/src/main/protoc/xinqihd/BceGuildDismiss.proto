@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//Ω‚…¢π§ª·
+
+option java_outer_classname = "XinqiBceGuildDismiss"; 
+message BceGuildDismiss 
+{
+    required int32 guildID = 1;
+}

@@ -1,0 +1,1 @@
+{ "_id" : 0 , "class" : "com.xinqihd.sns.gameserver.config.PromotionPojo" , "message" : "单人的雪兔副本现在可以邀请好友一起进行(等级最多差20级)，奖金会按照对雪兔的伤害程度（减血比例）划分" , "channel" :  null  , "startMillis" : 1360947422647 , "endMillis" : 1361876222647}

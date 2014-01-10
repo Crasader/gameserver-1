@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//角色信息
+
+message BceShowUserInfo
+{
+    required string uid  = 1 ; 							 // 目标玩家的uid 
+}

@@ -1,0 +1,19 @@
+//package wanyou.game.protocol;
+//大厅用户列表
+message BseHallUserList {   
+  repeated string userId 	= 1;  
+	repeated string name 		= 2;
+	repeated string url 		= 3;
+	repeated int32  level		= 4;
+	repeated int32  gender	= 5;
+	repeated int32  win			= 6;
+	repeated int32  total		= 7;
+	repeated int32  attack	= 8;
+  repeated bool yellowDmd		 = 9;		//是否为黄钻
+  repeated bool yellowDmdYear= 10;	//是否为年费黄钻
+  repeated int32 yellowDmdLv = 11;	//黄钻等级
+  repeated int32  power			= 12;		//战斗力
+	required int32  userCount = 13;		//用户数
+	optional int32  page = 14 [default = 0]; //当前页数 
+
+}

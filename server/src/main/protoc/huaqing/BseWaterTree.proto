@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//½½Ë®
+
+message BseWaterTree
+{
+    optional bool   succ       = 1        [default = false];
+    optional int32  point_give = 2        [default = 0];
+    optional int32  today_water_times = 3 [default = 0];
+}

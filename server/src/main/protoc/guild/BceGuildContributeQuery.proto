@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//查询捐献的数值
+
+option java_outer_classname = "XinqiBceGuildContributeQuery"; 
+message BceGuildContributeQuery {
+  optional string guildID = 1 ;
+  //捐献的元宝数量
+  optional uint32 yuanbao = 2 ;
+  //捐献的金币数量
+  optional uint32 golden = 3 ;
+}

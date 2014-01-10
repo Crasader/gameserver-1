@@ -1,0 +1,42 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBseServerList"; 
+message Server {
+  optional string serverid = 1;
+  optional string host = 2;
+  optional int32  port = 3;
+  optional string name = 4;
+  optional bool isnew = 5;
+  optional bool ishot = 6;
+  optional int32 rolenum = 7;
+  /**
+  * 开服的日期（秒数）
+  */
+  optional int32 startSecond = 8;
+  optional string reserved1 = 9;
+  optional string reserved2 = 10;
+  optional string reserved3 = 11;
+}
+message BseServerList {
+  /**
+  * Just need to provide either accountId or accountName.
+  */
+  optional Server recommend = 1;
+  /**
+  * The last server that user logins.
+  */
+  optional Server lastserver = 2;
+  /**
+  * The last login userid
+  */
+  optional string lastuserid = 3;
+  /**
+  * The last login rolename
+  */
+  optional string lastrolename = 4;
+  /**
+  * server list info
+  */
+  repeated Server serverlist = 5;
+}

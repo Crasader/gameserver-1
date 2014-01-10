@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//¹¤»áÉý¼¶
+
+message BceGuildLevelUp
+{
+    required int32 guildID = 1 ;
+}

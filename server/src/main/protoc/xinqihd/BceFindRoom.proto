@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//查找房间
+option java_outer_classname = "XinqiBceFindRoom"; 
+message BceFindRoom {   
+   required int32 roomID = 1 [default = 0]; 
+   optional string userID = 2 ; 	//进入该玩家的房间
+}

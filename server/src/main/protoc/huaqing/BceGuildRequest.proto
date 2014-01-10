@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//申请加入工会
+
+message BceGuildRequest
+{
+    required int32 guildID = 1 ;
+}

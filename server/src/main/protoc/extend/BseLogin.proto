@@ -1,0 +1,35 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseLogin"; 
+message BseLogin {
+    /*
+		SUCCESS("login.success"), 
+		NOTFOUND("login.notfound"), 
+		WRONGPASS("login.wrongpass"), 
+		MAXRETRY("login.maxretry"), 
+		ALREADY_LOGIN("login.already_login"),
+		OTHERS("login.others"),
+		VERSION("login.version"),
+		S_PAUSE("login.status.paused"),
+		S_REMOVED("login.status.removed");
+    */
+    optional int32 code = 1;
+	//Detail description
+	optional string desc = 2;
+	//If login succeeds, the sessionid contains user session. 
+	//Send it when re-connecting to server.
+	optional string sessionid = 3;
+    //Check if the user should reconnect to other host and port
+    optional bool reconnect = 4 [default = false];
+    //The reconnect host
+    optional string host = 5;
+    //The reconnect port
+    optional int32 port = 6 [default=3443];
+    //The auto login needs the token to login a
+    //guest user.
+    optional string token = 7;
+    //does the user need tutorial?
+    optional bool tutorial = 8 [default=false];
+    optional string accountid = 9;
+}

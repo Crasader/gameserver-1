@@ -1,0 +1,29 @@
+package com.xinqihd.sns.gameserver.proto;
+import "Gift.proto";
+
+option java_outer_classname = "XinqiBseTreasureHuntBuy"; 
+/**
+ * 玩家寻宝的结果
+ * 
+ */
+message BseTreasureHuntBuy {
+  /**
+  * 系统为玩家返回的一句话, 可能为
+  * 一个小笑话或者名人名言，需要折行显示
+  */
+  optional string response = 1;
+  /**
+  * 玩家抽中的奖品，可能为经验值、
+  * 金币、元宝或者道具
+  */
+  optional Gift gift = 2;
+  /**
+  * 今天剩余可以使用的次数
+  */
+  optional uint32 count = 3;
+  /**
+   * 0: 表示没有抽到奖品
+   * 1-8: 分别表示抽到了1-8等奖品
+   */
+  optional uint32 rewardid = 4;
+}

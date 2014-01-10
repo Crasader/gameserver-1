@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÉèÖÃ¹¤»áĞûÑÔ
+
+option java_outer_classname = "XinqiBseSetGuildAnno"; 
+message BseSetGuildAnno 
+{
+    required string anno = 1 ;
+}

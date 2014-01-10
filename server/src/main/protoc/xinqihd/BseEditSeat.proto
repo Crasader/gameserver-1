@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//打卡关闭昨晚
+option java_outer_classname = "XinqiBseEditSeat"; 
+message BseEditSeat {
+	required string sessionID = 1;//玩家ID
+    required int32 index = 2;			//座位索引
+    required bool  open  = 3;			//打开或者关闭
+}

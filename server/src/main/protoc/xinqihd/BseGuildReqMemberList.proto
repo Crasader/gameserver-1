@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会申请列表
+
+import "GuildMember.proto";
+
+option java_outer_classname = "XinqiBseGuildReqMemberList"; 
+message BseGuildReqMemberList 
+{
+    repeated GuildMember reqMembers = 1 ;
+}

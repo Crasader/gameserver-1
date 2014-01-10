@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//查找房间
+option java_outer_classname = "XinqiBseFindRoom"; 
+message BseFindRoom {   
+   required int32 roomID = 1 [default = 0]; 
+   required string key = 2;
+   required int32 error = 3;	//错误标识
+}

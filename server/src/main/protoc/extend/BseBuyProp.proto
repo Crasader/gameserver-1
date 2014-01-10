@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//购买结果
+
+option java_outer_classname = "XinqiBseBuyProp"; 
+message BseBuyProp {
+    required bool success = 1;          //成功标志
+    optional string message = 2;        //提示消息
+}

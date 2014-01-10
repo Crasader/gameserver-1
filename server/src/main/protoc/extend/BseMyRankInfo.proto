@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回我的排名信息
+option java_outer_classname = "XinqiBseMyRankInfo"; 
+message BseMyRankInfo {
+	required int32 myRank = 1;      //我的排名
+    required int32 myLevel = 2;     //我的等级
+    optional int32 myPower = 3;     //我的战斗力
+    optional int32 myWealth = 4;     //我的财富
+    optional int32 myAchievement = 5;     //我的成就
+    optional int32 myMedal = 6;     //我的勋章
+    optional int32 rankChange = 7;  //我的胜率,>0表示下降,<0表示上升
+}

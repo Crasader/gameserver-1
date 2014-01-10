@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//设置职位名称
+
+import "GuildInfo.proto";
+
+message BseGuildSetPosName
+{
+    optional int32  result  = 1 ;
+    optional GuildInfo guildInfo = 2;
+}

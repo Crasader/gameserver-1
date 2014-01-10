@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//返回售卖结果
+message BseSellProp {
+    required int32 propPew = 1 ;           //原物品所在位置
+}

@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+//Achievements Data
+
+option java_outer_classname = "XinqiBseAchievements"; 
+
+message Achievement {
+    required string id = 1;
+    required string title = 2;
+    //The achievement infomation
+    required string info = 3;
+	//The achievement icon url
+    required string icon = 4;
+	//The achivement score;
+	required int32  score  = 5 [default = 0];
+    //The total unit to finish it
+	required int32  total  = 6 [default = 0];
+}
+
+message BseAchievements {
+  repeated Achievement achievements = 1;
+}

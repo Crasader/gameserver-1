@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceLoginReady"; 
+message BceLoginReady {
+   optional int32 code = 1 [default = 0];
+}

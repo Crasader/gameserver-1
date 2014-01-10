@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceConfigData"; 
+message BceConfigData {
+    /**
+     * The modified version for all the config data.
+     * If the version is latest at server side, 
+     * no data will be sent back.
+     */
+    required int32 version = 1;
+}

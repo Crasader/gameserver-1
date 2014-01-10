@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//请求公告、活动信息
+import "RoleInfo.proto";
+message BseBattleAlter { 
+	required int32   type       = 1;  //变化类型：1新增角色
+	required string sessionId 	= 2; 	//本回合轮到的角色
+    repeated RoleInfo roleArr 	= 3;  //角色列表
+}

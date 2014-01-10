@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//新手引导完成
+message BceGuideFinish
+{
+    optional string uid = 1;
+}

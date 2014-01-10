@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//·¢ËÍÏûÏ¢
+
+option java_outer_classname = "XinqiBceRolePower"; 
+message BceRolePower {
+    required string sessionID = 1;   
+    required bool full = 2;        
+}

@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回售卖结果
+option java_outer_classname = "XinqiBseSellProp"; 
+message BseSellProp {
+    required int32 propPew = 1 ;           //原物品所在位置
+}

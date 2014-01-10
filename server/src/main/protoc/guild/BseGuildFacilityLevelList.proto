@@ -1,0 +1,49 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会设施的升级权限和数据
+
+option java_outer_classname = "XinqiBseGuildFacilityLevelList"; 
+
+message GuildFacility {
+  /**
+   * 公会的设施类型
+   * 0: 商城
+   * 1: 铁匠铺
+   * 2: 仓库
+   * 3: 公会
+   * 4: 技能
+  */
+  optional int32 type = 1;
+  optional int32 level = 2;
+  /**
+  * 当前等级的描述，多条string
+  */
+  repeated string thisdesc = 3;
+  /**
+  * 下一等级的描述，多条string
+  */
+  repeated string nextdesc = 4;
+  /**
+  * 升级要求，多条string
+  */
+  repeated string conditions = 5;
+  /**
+  * true 表示设施可用
+  * false 表示设施无效
+  */
+  optional bool enabled = 6;
+}
+
+message BseGuildFacilityLevelList {
+   //我的贡献度
+  optional int32 mycredit = 1;
+   //公会技能
+  repeated GuildFacility facility = 2;
+  /**
+   * 下一次升级的冷却时间(秒), 为0表示可以立即升级
+   */
+  optional int32 cooldown = 10; 
+  /**
+   * 取消冷却时间，立即升级的元宝价格
+  */
+  optional int32 yuanbao = 11; 
+}

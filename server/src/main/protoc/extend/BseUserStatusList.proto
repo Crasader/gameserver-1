@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBseUserStatusList"; 
+/**
+* Get the server activity list.
+*/
+message BseUserStatusList {
+  repeated string statuslist = 1; 
+}

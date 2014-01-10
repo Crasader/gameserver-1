@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//工会购买
+
+message BceGuildBuy
+{
+		required int32 propID = 1; 									 //物品ID
+}

@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//鼠标操作改变方向
+message BseRoleChangeDirection {
+    required string sessionId = 1;
+    required int32 direction = 2;                 //方向id
+}

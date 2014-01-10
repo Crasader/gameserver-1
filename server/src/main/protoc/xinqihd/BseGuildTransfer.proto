@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//转让工会
+
+import "GuildInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildTransfer"; 
+message BseGuildTransfer 
+{
+    optional int32 result = 1;   //转让结果 0成功
+    optional GuildInfo guild = 2;
+}

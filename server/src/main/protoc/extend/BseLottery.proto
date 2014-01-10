@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求翻牌
+
+option java_outer_classname = "XinqiBseLottery"; 
+message BseLottery {
+    required int32 idx = 1;         //第几张牌  0 1 2 3
+    required string id = 2;   //id
+    required int32 prop = 3;        //奖励物品id，钱的id为-1
+    required int32 level = 4;       //奖励物品等级，或者钱的数量
+   	optional bool isLogin = 5; 		//是否登录抽奖
+}

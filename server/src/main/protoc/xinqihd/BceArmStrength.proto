@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求装备强固
+option java_outer_classname = "XinqiBceArmStrength"; 
+message BceArmStrength {
+
+
+}

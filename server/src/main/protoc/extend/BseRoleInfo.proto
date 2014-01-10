@@ -1,0 +1,45 @@
+package com.xinqihd.sns.gameserver.proto;
+//用户的基本信息
+option java_outer_classname = "XinqiBseRoleInfo"; 
+
+message BseRoleInfo {
+  required string roleName     = 1;  //角色名字
+  required int32  gender       = 2;  //角色性别
+  required int32  roleLevel    = 3;  // 角色的等级
+  required int32  roleExp      = 4;  // 角色的当前经验值
+  required int32  roleCoin     = 5;  // 角色的绑定元宝
+  required int32  roleGold     = 6;  // 角色当前拥有的金币  (通过战斗获得的)
+  required int32  roleGiftMoney = 7; // 角色当前拥有的礼金  (通过做任务获得的)
+  required int32  roleMedal     = 8; // 角色当前拥有的勋章  （ 通过做任务获得的)
+  required int32  roleMaxExp    = 9; // 角色升到下一级需要的经验值
+  required int32  roleArrange   = 10; // 角色排名
+  required int32  roleWinOdds   = 11; // 角色的胜率
+  required int32  roleWins      = 12; // 角色的胜场
+  optional int32  continuLoginTimes    = 13;  //连续登录天数
+  optional int32  remainLotteryTimes   = 14; //剩余每日抽奖次数
+  optional bool   vip                  = 15; // 是否VIP玩家
+  optional int32  viplevel             = 16;  // VIP等级
+  optional int32  vipmoney             = 17;  // 达到下一等级需要额外充值的元宝数量
+  optional int32  vipbdate             = 18;  // VIP开始日期,1970年到现在的秒数
+  optional int32  vipedate             = 19;  // VIP结束日期,1970年到现在的秒数
+  optional string userid	    = 20;  //当前的用户ID
+  optional string email         = 21;  //The current user's email
+  optional int32  roleAction    = 22;  //角色的当日行动点数
+  optional int32  roleTotalAction  = 23;  //角色的当前行动点数总值
+  optional string  sessionid  = 24;  //角色的sessionkey
+  optional int32  yuanbaoFree  = 25;  //角色的非绑定元宝
+  optional bool  tutorial  = 30;  //是否显示新手教程
+  optional string  guildName  = 40;  //公会的名称
+  /**
+   * 职位
+   * chief: 会长
+   * director: 副会长 
+   * manager: 官员
+   * elite: 精英 
+   * member:  会员
+   */
+  optional string  guildRole  = 41;  //公会的职位
+  optional string  title  = 42;      //称号
+  optional int32   guildcredit  = 50;  //公会的贡献度
+  optional int32   guildmedal  = 51;  //公会的功勋
+}

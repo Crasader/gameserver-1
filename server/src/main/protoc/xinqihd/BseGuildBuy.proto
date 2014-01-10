@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//¹¤»á¹ºÂò
+
+option java_outer_classname = "XinqiBseGuildBuy"; 
+message BseGuildBuy 
+{
+		required int32 result = 1;
+		optional int32 propID = 2;
+}

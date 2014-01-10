@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+//道具信息
+option java_outer_classname = "XinqiPropData"; 
+message PropData 
+{    
+    required int32 propID = 1;          //道具ID   
+    required int32 propPew = 2;         //位置号(对应在某个格子里)
+    required int32 propIndate = 3;      //剩余时间
+    required int32 level = 4;           //强化等级
+    required int32 attackLev = 5;       //攻击合成等级
+    required int32 defendLev = 6;       //防御合成等级
+    required int32 agilityLev = 7;      //敏捷合成等级
+    required int32 luckLev = 8;         //幸运合成等级
+    required int32 color = 9;           //道具颜色    
+    required int32 sign = 10;           //标志位：8 - 不可冲有效期；
+    required int32 count = 11;
+    required string id = 12;            //新增id
+    optional int32  valuetype = 13 [default = 0]; //购买时的价值单位(来源确定) 0:金币/任务/历史遗留/战斗获得 1:礼金 2:功勋 3:元宝券 4.元宝
+    optional bool   banded = 14    [default = false]; //是否绑定
+    optional int32  duration = 15  [default = 0]; //有效期
+}

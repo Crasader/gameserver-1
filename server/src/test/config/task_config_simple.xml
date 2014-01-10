@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasklist>
+	<tasks id="1" name="主线任务">
+		<task id="1"  name="第一次购买"  taskTarget="使用礼金购买任意一件物品" step="1" level="1" desc="在《宝贝战争》里面可以通过完成任务获得大量礼金，您可以在商城中的礼金兑换区内兑换到各种物品。"  parent="1" exp="300" gold="2000" ticket="150" gongxun="0" caifu="0">
+			<award type="item" id="20005" lv="2" sex="3"  count="1" indate="2400000" />
+		</task>
+		<task id="2"  name="强化武器达到1级"  taskTarget="强化武器达到1级" step="1" level="0" desc="在《宝贝战争》里面强化武器可以增加武器伤害，强化衣服或装备可以增加护甲，强化等级越高越厉害哦~马上去铁匠铺试试吧！" parent="1" exp="800" gold="2000" ticket="100" gongxun="0" caifu="0">
+			<award type="weapon" id="12002" lv="1" sex="3"  count="1" indate="168" />
+		</task>
+	</tasks>
+	<tasks id="2" name="支线任务">
+		<task id="23"  name="强化衣服到1级"  taskTarget="强化衣服达到LV1" step="1" level="7" desc="强化衣服可以增加衣服的护甲，马上去强化一件衣服到1级吧。" parent="2" exp="1000" gold="1000" ticket="75" gongxun="0" caifu="0">
+			<award type="item" id="999999" lv="0" sex="3"  count="10"  indate="2400000" />
+		</task>
+		<task id="24"  name="强化衣服到2级"  taskTarget="强化衣服达到LV2" step="1" level="0" desc="强化衣服可以增加衣服的护甲，马上去强化一件衣服到2级吧。" parent="2" exp="1000" gold="1000" ticket="75" gongxun="0" caifu="0">
+			<award type="item" id="999999" lv="0" sex="3"  count="10"  indate="2400000" />
+		</task>
+	</tasks>
+	<tasks id="3" name="日常任务">
+		<task id="15"  name="激战到底I"  taskTarget="进入游戏大厅完成2场竞技战斗" step="2" level="7" desc="磨练自己的战斗技巧是很有必要的，去游戏大厅完成2场竞技战斗。" parent="3" exp="1000" gold="200" ticket="40" >
+			<award type="item" id="999999" lv="0" sex="3"  count="5"  indate="2400000" />
+		</task>
+		<task id="16"  name="激战到底II"  taskTarget="在游戏大厅中打败10个对手" step="10" level="7" desc="你的实力很强大，这个任务对你来说应该不是很难。" parent="3" exp="1000" gold="1000" ticket="40" gongxun="0" caifu="0">
+			<award type="item" id="999999" lv="0" sex="3"  count="10"  indate="2400000" />
+		</task>
+	</tasks>
+	<tasks id="4" name="活动任务">
+		<task id="100"  name="购买元宝物品送大礼"  taskTarget="使用元宝购买任意物品" step="1" level="7" desc="使用元宝在商城内购买任意物品~活动有效期（4月29日至5月5日每用户只限一次）" parent="4" exp="2000" gold="2000" ticket="200" gongxun="0" caifu="0">
+			<award type="item" id="20005" lv="3" sex="3"  count="1"  indate="2400000"/>
+		</task>		   
+		<task id="105"  name="五月欢乐周"  taskTarget="去游戏大厅完成10单人竞技战斗 " step="10" level="7" desc="俗话说'劳动最光荣'在宝贝战争里面当然是战斗最光荣啦~。去游戏大厅完成10场单人竞技战斗，将会得我们赠送的丰厚奖励哦~。(5月5日至5月10日每日可完成一次)" parent="4" exp="1000" gold="1000" ticket="100" gongxun="0" caifu="0">
+			<award type="item" id="20005" lv="2" sex="3"  count="2"  indate="2400000"/>
+			<award type="item" id="24001" lv="0" sex="3"  count="2"  indate="2400000"/>
+		</task>
+	</tasks>
+</tasklist>

@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//更新好友在线信息
+message BseFriendOnlineStatus {
+    required string uid = 1;           //uid
+    required bool online = 2;          //在线状态
+}

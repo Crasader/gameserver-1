@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//转让工会
+
+message BceGuildTransfer
+{
+    optional string uid = 1;    //被转让ID
+}

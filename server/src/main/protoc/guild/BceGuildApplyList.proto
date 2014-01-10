@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//申请加入公会的玩家列表
+
+option java_outer_classname = "XinqiBceGuildApplyList"; 
+message BceGuildApplyList {
+}

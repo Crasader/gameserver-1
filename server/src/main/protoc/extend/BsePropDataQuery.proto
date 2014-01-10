@@ -1,0 +1,20 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+import "PropDataDesc.proto";
+
+option java_outer_classname = "XinqiBsePropDataQuery"; 
+/**
+* Check the different vip level rewards.
+*/
+message BsePropDataQuery {
+   /**
+   * 客户端用服务器返回的Gift字符串做查询条件，
+   * 服务器可精确构造PropData供客户端显示，
+   * 用来在聊天消息中炫耀武器装备
+   */
+   optional PropDataDesc propData = 1;
+   /**
+    * 显示自己的装备信息
+    */
+   optional PropDataDesc myPropData = 2;
+}

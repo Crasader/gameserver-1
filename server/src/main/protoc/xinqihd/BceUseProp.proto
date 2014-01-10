@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceUseProp"; 
+message BceUseProp {
+    required int32 propPew = 1;
+}

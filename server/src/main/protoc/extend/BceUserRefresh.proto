@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceUserRefresh"; 
+
+message BceUserRefresh {
+  /**
+   * 1: refresh user data
+   * 2: refresh user bag data
+   * 4: refresh user relation
+   * 8: refresh user unlock
+   * 16: refresh user task
+   */
+  optional int32 refreshmode = 1 [default=1];
+  /**
+  * UserChangeFlag
+  */
+  optional int32 changeflag = 2;
+  /**
+  * The target value in string format
+  */
+  optional string changevalue = 3;
+}

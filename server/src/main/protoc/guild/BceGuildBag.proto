@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求商品列表
+option java_outer_classname = "XinqiBceGuildBag"; 
+
+message BceGuildBag {
+    optional string guildID = 1;     //ID 
+}

@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会商店升级
+
+option java_outer_classname = "XinqiBceGuildShopLevelup"; 
+message BceGuildShopLevelup 
+{
+		optional int32 guildID = 1;         //工会ID
+}

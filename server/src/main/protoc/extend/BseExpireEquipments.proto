@@ -1,0 +1,25 @@
+package com.xinqihd.sns.gameserver.proto;
+//Expire Equipments List
+
+option java_outer_classname = "XinqiBseExpireEquipments"; 
+
+message ExpireInfo {
+   required int32 pew = 1;
+	/**
+	 * 0: 金币
+	 * 1: 礼券
+	 * 2: 勋章
+	 * 4: 元宝
+	 */
+   required int32 goldtype = 2;       //价格类型
+   required int32 shopid   = 3;
+   repeated int32 price    = 4;       //价格
+   repeated int32 indate   = 5;       //有效期 [小时]
+}
+
+/**
+ * 提示装备过期的协议
+ */
+message BseExpireEquipments {
+  repeated ExpireInfo expireInfos = 1;
+}

@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//ÒÆ¶¯¿ªÊ¼
+message BseGhostMoveStart {
+    required string sessionId = 1;
+    required int32 startx = 2;
+    required int32 starty = 3;
+    required int32 endx = 4;
+    required int32 endy = 5;
+}

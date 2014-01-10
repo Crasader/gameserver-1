@@ -1,0 +1,29 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiSysMessage"; 
+
+/**
+ * The action client will do after displaying 
+ * the message.
+ *
+ * NOOP: no operation
+ * EXIT_GAME: user should exit to login page.
+ * RECONNECT: client should reconnect to server
+ *
+ */
+enum Action {
+  NOOP = 1;
+  EXIT_GAME = 2;
+  RECONNECT = 3;
+}
+
+enum Type {
+  NORMAL = 1;
+  LEVEL_UP = 2;
+  MAINTAINCE = 3;
+  PROMOTION = 4;
+  WEIBO = 5;
+  CONFIRM = 6;
+  BULLETIN = 7;
+}
+

@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//¹¤»áÉý¼¶
+
+import "GuildInfo.proto";
+
+message BseGuildLevelUp
+{
+    required int32 result = 1 ;
+    optional GuildInfo guildInfo = 2 ;
+}

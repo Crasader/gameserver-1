@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+//成员捐献
+
+import "GuildInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildContributeQuery"; 
+message BseGuildContributeQuery {
+  optional string guildID = 1 ;
+  //兑换的财富数量
+  optional uint32 wealth = 2 ;
+  //兑换的贡献数量
+  optional uint32 credit = 3 ;
+  //兑换的财富数量
+  optional uint32 goldenwealth = 4 ;
+  //兑换的贡献数量
+  optional uint32 goldencredit = 5 ;
+  //公会将获得的总财富
+  optional uint32 guildwealth = 8;
+  //玩家将获得的贡献度
+  optional uint32 mycredit = 9;
+}

@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseMailList"; 
+
+message BseMailList {
+  /**
+   * 0: inbox
+   * 1: sentbox
+   */
+  optional int32 type = 1;
+  repeated MailData mails = 2;
+}

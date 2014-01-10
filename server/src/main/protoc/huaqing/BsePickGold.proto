@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//
+
+message BsePickGold
+{
+    required int32 gold = 1 ;// 到底捡到了多少钱 
+}

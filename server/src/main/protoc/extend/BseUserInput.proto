@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//User ConfirmResult
+
+option java_outer_classname = "XinqiBseUserInput"; 
+/*
+* 服务器要求用户输入信息
+*/
+message BseUserInput {
+    required string type = 1;
+    //The title for display
+    required string title = 2;
+    //The message for display
+    required string message = 3;
+    //The sessionkey of the user whose send the confirm
+    optional string usersession = 4;
+}

@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//商品信息
+message BseSvrUnixHour {
+    required uint32 unixHour = 1;       //从1970年算起的小时数
+    optional uint32 unixMinute= 2 [default = 0];
+}

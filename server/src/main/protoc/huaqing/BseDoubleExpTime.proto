@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+
+message BseDoubleExpTime
+{             
+    required int32 minutes = 1; 
+}                                

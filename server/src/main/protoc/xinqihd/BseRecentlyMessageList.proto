@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//×î½ü100ÌõÁôÑÔ
+import "LeaveMessage.proto";
+
+option java_outer_classname = "XinqiBseRecentlyMessageList"; 
+message BseRecentlyMessageList 
+{
+    repeated LeaveMessage messages = 1;
+}

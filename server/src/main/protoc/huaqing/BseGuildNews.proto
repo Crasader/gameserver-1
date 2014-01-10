@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//新增工会事件
+
+import "GuildNews.proto";
+
+message BseGuildNews
+{
+    repeated GuildNews news = 1 ;
+}

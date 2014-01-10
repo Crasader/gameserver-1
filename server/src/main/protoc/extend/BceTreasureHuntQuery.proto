@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceTreasureHuntQuery"; 
+/**
+ * 玩家主动查询寻宝的信息
+ * 
+ */
+message BceTreasureHuntQuery {
+  optional bool refresh = 1 [default = false];
+}

@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//公会设施贡献度限制设置
+
+import "GuildInfo.proto";
+
+message BseGuildLimit
+{
+		optional int32 result = 1;
+		optional GuildInfo guildInfo = 2 ;
+}

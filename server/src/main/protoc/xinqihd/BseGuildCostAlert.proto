@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会扣费警告
+
+option java_outer_classname = "XinqiBseGuildCostAlert"; 
+message BseGuildCostAlert 
+{
+		optional int32 remain = 1 [default = 0];
+		optional int32 guildlevel = 2 [default = 0];
+}

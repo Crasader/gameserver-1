@@ -1,0 +1,14 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseFillProfile";
+message BseFillProfile {
+    /**
+    * result
+    * 0: success
+    * 1: failure
+    */
+    optional int32 code = 1;
+    //alias name
+    optional string message = 2;
+}

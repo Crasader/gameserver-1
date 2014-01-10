@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//接收语音消息
+option java_outer_classname = "XinqiBseVoiceChat"; 
+
+message BseVoiceChat {
+    required int32 msgType = 1;         //消息类型   0:当前 1:私聊 2:工会 3:小喇叭 4:大喇叭 5:小队
+    optional bytes msgContent = 2;     //消息内容
+    optional string usrId = 3;          //消息的发送者
+    optional string usrNickname = 4;    //消息发送者的昵称
+    optional int32 second = 5;          //大约的时长
+    /**
+    * true则自动播放
+    */
+    optional bool autoplay = 6 [default=false];  
+    optional bytes voiceid = 10;          //如果语音后续处理，则设置此ID
+}

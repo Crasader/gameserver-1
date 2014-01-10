@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//子弹炸到的用户信息
+option java_outer_classname = "XinqiHurtUserInfo"; 
+message HurtUserInfo {
+    required string userId= 1;									//用户ID
+    optional int32  blood = 2; 									//剩余血量
+    optional int32  energy= 3;									//能量
+    optional int32  userMode = 5 [default = 0];	//用户状态 从低位到高位：第一位：1：是否受到伤害（有血量变化）；第二位：1：隐身；第三位：1：被解除隐身；第四位：1：被冰冻；第五位：1：被解冰冻; 第六位: 1 表示暴击
+}

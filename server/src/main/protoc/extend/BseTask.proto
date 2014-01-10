@@ -1,0 +1,41 @@
+package com.xinqihd.sns.gameserver.proto;
+//Task Data
+
+option java_outer_classname = "XinqiBseTask"; 
+
+message Award {
+  optional string id = 1;
+  optional string type = 2 [default = "item"];
+  optional int32  lv = 3;
+   /**
+    * sex
+    * 1= female
+    * 2= male
+    * 3= all
+    */
+  optional int32  sex = 4;
+  optional int32  count = 5;
+  optional int32 indate = 6;
+}
+
+message TaskData {
+  required string id = 1;
+  optional string name = 2;
+  optional string desc = 3;
+  optional string taskTarget = 4;
+  optional int32 step = 5;
+  optional int32 level = 6;
+  optional string type = 7;
+  optional int32 exp = 8;
+  optional int32 gold = 9;
+  optional int32 ticket = 10;
+  optional int32 gongxun = 11;
+  optional int32 caifu = 12;
+  optional int32 guildwealth = 13;
+  optional int32 guildcredit = 14;
+  repeated Award awards = 15; 
+}
+
+message BseTask {
+  repeated TaskData tasks = 1;
+}

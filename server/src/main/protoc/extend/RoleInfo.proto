@@ -1,0 +1,76 @@
+package com.xinqihd.sns.gameserver.proto;
+//角色信息
+
+import "PropData.proto";
+
+option java_outer_classname = "XinqiRoleInfo"; 
+message RoleInfo {
+    required string sessionId 	= 1;          //uid
+    required string userId 			= 2;             //uid
+    required uint32 campId 			= 3;             //阵营号
+    required string userName 		= 4;           //用户名
+    required uint32 gender 			= 5;             //玩家性别
+    required uint32 level 			= 6;              //玩家等级
+    required uint32 exp 			= 7;                //玩家当前经验
+    required uint32 winOdds 		= 8;            //玩家胜率
+    required uint32 wins 			= 9;               //玩家胜场
+
+    required uint32 roomIdx 		= 10;           //在房间里的位置
+    optional int32 startPos 		= 11[default = 0];//初始位置,已无用处
+
+    required uint32 moveSpeed		= 12;         //移动速度
+
+
+    required uint32 tool1 			= 13;             //工具1
+    required uint32 tool2 			= 14;             //工具2
+    required uint32 tool3 			= 15;             //工具3
+
+    required uint32 attack 			= 16;            //攻
+    required uint32 defend 			= 17;            //防
+    required uint32 agility 		= 18;           //敏
+    required uint32 luck 				= 19;              //幸
+    required uint32 blood 			= 20;             //血
+    required uint32 thew 				= 21;              //体
+    required uint32 damage 			= 22;            //伤
+    required uint32 skin 				= 23;              //甲
+    required uint32 power            =24;            //战斗力
+    //add value
+    optional uint32 addAttack 		= 25;            //攻
+    optional uint32 addDefend 		= 26;            //防
+    optional uint32 addAgility 		= 27;           //敏
+    optional uint32 addLuck 		= 28;              //幸
+    optional uint32 addBlood 		= 29;             //血
+    optional uint32 addThew 		= 30;              //体
+    optional uint32 addDamage 		= 31;            //伤
+    optional uint32 addSkin 		= 32;              //甲
+    optional uint32 addPower        = 33;            //战斗力
+
+    repeated PropData equip 		= 35;           //装备信息
+
+    required bool 	hideHat 		= 36;             //隐藏帽子
+    required bool 	hideGlasses 	= 37;         //隐藏眼镜
+    required bool	hideSuit 		= 38;            //隐藏套装
+    required int32 	battleCount 	= 39;        //总战斗次数
+    required uint32 battleRoomIdx 	= 40;     //在对局房间里的位置
+    
+    optional bool yellowDmd		 	= 41 [default = false];	//是否为黄钻
+    optional bool yellowDmdYear	= 42 [default = false];	//是否为年费黄钻
+    optional int32 yellowDmdLv 	= 43 [default = 0];			//黄钻等级
+   	optional bool doubleexp 		= 44 [default = false];			//双倍经验标记
+    
+    optional int32 startPosX 		= 45[default = 0];          //初始位置X
+    optional int32 startPosY	 	= 46[default = 0];          //初始位置Y
+    optional bool lessLv5 			= 47 [default = false];			//遭遇强敌标记
+    optional int32 roleTypeID   = 48 [default = 0];					//用户类型：0：玩家 1：机器人，其他：敌人ID							
+    
+    optional int32 guildID = 49 [default = 0];			//工会ID
+    optional string guildName = 50 [default = ""];		//工会名称
+
+    optional uint32 guildAttack 		= 60;            //攻
+    optional uint32 guildDefend 		= 61;            //防
+    optional uint32 guildAgility 		= 62;           //敏
+    optional uint32 guildLuck 		= 63;              //幸
+    optional uint32 guildBlood 		= 64;             //血
+    optional uint32 guildThew 		= 65;             //体力
+    optional uint32 guildPower 		= 66;             //战斗力
+}

@@ -1,0 +1,14 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会列表的项
+
+option java_outer_classname = "XinqiGuildSimpleInfo"; 
+message GuildSimpleInfo {
+	required string guildID = 1;           //公会ID
+    optional string guildName = 2;         //公会名
+    optional string leaderName = 3;        //会长名字
+    optional uint32 guildMemberCnt = 4;    //人数
+    optional uint32 guildLevel = 5;        //等级
+    optional uint32 guildCredit = 6;       //功勋
+    optional uint32 guildRank = 7;         //排名
+    optional string announcements  = 8;    //公会宣言
+}

@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceGetValue"; 
+
+/**
+ * 以通用的协议查询服务器的数值
+ */
+message BceGetValue {
+  /**
+  * 对应查询的行为
+  * VipLevelQuery: 查询VIP各个等级需要的元宝数量
+  * key=viplevel
+  * value=1..10
+  */
+  required string action = 1;
+  /**
+   * 如果有的话，保存查询参数
+   */
+  repeated string keys = 2;
+  repeated string values = 3;
+}
+

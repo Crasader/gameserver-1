@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseDoubleExpTime"; 
+message BseDoubleExpTime 
+{             
+    required int32 minutes = 1; 
+}                                

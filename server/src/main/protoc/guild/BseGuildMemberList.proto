@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//发送工会成员列表
+
+import "GuildMember.proto";
+
+option java_outer_classname = "XinqiBseGuildMemberList"; 
+message BseGuildMemberList {
+    repeated GuildMember members = 1;
+}

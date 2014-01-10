@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//熔炼物品结果
+import "PropData.proto";
+
+message BseCompose{
+    required int32 result = 1;                  //结果 0：无法熔炼；1：熔炼成功；2：熔炼失败 3:操作异常
+    optional PropData newProp = 2;              //添加的道具
+    repeated int32 pews = 3 [packed = true];    //成功后需要删除的物品格子号
+}

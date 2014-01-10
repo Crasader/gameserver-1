@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//排行榜
+message BceArrangeList {
+    required int32 arrangeType = 1;        //排行榜类型 (0:胜场排行，1:等级排行，2:财富排行)
+}

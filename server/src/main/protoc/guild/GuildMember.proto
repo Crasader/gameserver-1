@@ -1,0 +1,35 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求公会列表
+
+option java_outer_classname = "XinqiGuildMember"; 
+message GuildMember {
+  optional string userid = 1;
+  optional string name = 2;
+  optional int32 level = 3;
+  /**
+   * 1: female
+   * 2: male
+   */
+  optional int32 gender = 4;
+  optional int32 power = 5;
+  optional int32 viplevel = 6;
+  /**
+   * 职位
+   * chief: 会长
+   * director: 副会长 
+   * manager: 官员
+   * elite: 精英 
+   * member:  会员
+   */
+  optional string rolekey = 8;
+  /**
+   * 职位的本地化描述
+  */
+  optional string roledesc = 9;
+  //当前的贡献度
+  optional int32 credit = 10;
+  //总的贡献度
+  optional int32 totalcredit = 11;
+  //是否在线
+  optional bool isonline = 20;
+}

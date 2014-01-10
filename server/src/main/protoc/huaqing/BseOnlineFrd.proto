@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//在线好友列表
+message BseOnlineFrd{
+	repeated string frdId 		= 1; //好友ID
+	repeated string frdName 	= 2; //好友ID
+	repeated int32  level 		= 3; //好友等级
+	repeated int32  wincount 	= 4; //胜利局数
+	repeated int32  totalcount= 5; //失败局数
+}

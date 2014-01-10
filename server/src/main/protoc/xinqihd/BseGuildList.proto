@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//发送工会列表
+
+import "GuildSimpleInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildList"; 
+message BseGuildList 
+{
+    repeated GuildSimpleInfo guildList = 1 ;
+}

@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//退出工会
+
+message BceExitGuild
+{
+    optional int32 guildID = 1 ;    //公会ID
+}

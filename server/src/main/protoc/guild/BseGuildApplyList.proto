@@ -1,0 +1,24 @@
+package com.xinqihd.sns.gameserver.proto;
+//申请加入公会的玩家列表
+
+option java_outer_classname = "XinqiBseGuildApplyList"; 
+message Member {
+  optional string userid = 1;
+  optional string rolename = 2;
+  optional int32 viplevel = 3;
+  /**
+   * 1: female
+   * 2: male
+   */
+  optional int32 gender = 5;
+  optional int32 power = 6;
+  optional int32 level = 7;
+  /**
+   * true: 在线
+   * false: 离线 
+  */
+  optional bool status = 10;
+}
+message BseGuildApplyList {
+  repeated Member member = 1;
+}

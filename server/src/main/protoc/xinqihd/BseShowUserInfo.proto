@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+//
+
+import "PropData.proto";
+import "UserData.proto";
+import "UserExData.proto";
+option java_outer_classname = "XinqiBseShowUserInfo"; 
+message BseShowUserInfo 
+{
+    required string visited_uid    = 1 ;   							 // 目标玩家的uid 
+    repeated PropData equips       = 4 ; //装备信息
+    optional int32 gender          = 5 [default = 1]; //性别
+    optional UserData data      = 6 ; //等级.经验.战斗力
+    optional UserExData exdata  = 7 ; //经验等
+   	optional string name					 = 8 [default = ""];
+}

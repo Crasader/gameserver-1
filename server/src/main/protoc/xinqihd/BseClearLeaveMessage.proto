@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//清除留言的结果
+
+option java_outer_classname = "XinqiBseClearLeaveMessage"; 
+message BseClearLeaveMessage 
+{
+	//是否成功
+   required bool succ = 1 ; 
+}

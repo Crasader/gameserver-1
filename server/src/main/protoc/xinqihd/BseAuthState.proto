@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回认证通过状态
+option java_outer_classname = "XinqiBseAuthState"; 
+message BseAuthState {
+    required bool pass = 1;        //是否认证通过
+    required int32 type = 2;				//未通过原因(1.checkSecret; 2.封停)
+    required int32 leftMin = 3;			//剩余时间
+}

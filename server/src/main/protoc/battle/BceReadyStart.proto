@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求开始 准备好了 取消准备
+option java_outer_classname = "XinqiBceReadyStart"; 
+message BceReadyStart {
+    required bool isReady = 1;      //是否准备 0 false 1 true
+}
+

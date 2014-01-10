@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//清除留言的结果
+
+message BseClearLeaveMessage
+{
+	//是否成功
+   required bool succ = 1 ; 
+}

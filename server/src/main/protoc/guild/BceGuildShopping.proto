@@ -1,0 +1,14 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求商品列表
+option java_outer_classname = "XinqiBceGuildShopping"; 
+
+message BceGuildShopping {
+    /**
+    * 公会商城按照等级显示商品，可以考虑按照等级获取商品
+    * 列表或者一次性加载所有等级商品。但是高于自身等级
+    * 的商城物品不能显示
+    * 0 表示所有等级商品
+    * 1-5为指定等级商城的物品
+    */
+    optional int32 shoplevel = 1 [default=0]; 
+}

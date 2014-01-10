@@ -1,0 +1,25 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseCraftPrice"; 
+/**
+ * 铁匠铺查询强化、合成、熔炼和转移的价格
+ */
+message BseCraftPrice {
+  /**
+   * 行为价格: 单位为金币
+   */
+  optional int32 price=1;
+  /**
+   * 成功的百分比，0-100表示
+   */
+  optional int32 successratio=2;
+  /**
+   * 公会加成的比例 0-100
+   */
+  optional int32 guildratio=3;
+  /**
+   * VIP加成的比例 0-100
+  */
+  optional int32 vipratio=4;
+}

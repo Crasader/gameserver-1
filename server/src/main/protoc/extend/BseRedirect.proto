@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//Redirect client to a different server
+
+option java_outer_classname = "XinqiBseRedirect"; 
+message BseRedirect {
+    //The dns host name of server
+	required string host = 1;
+    //The new port of server
+	optional int32  port = 2 [default=3443];
+}

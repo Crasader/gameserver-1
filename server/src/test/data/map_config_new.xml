@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+	<map>
+		<id>23</id>
+		<name>雨夜残壁</name>
+		<type>1</type>
+		<reqlv>15</reqlv>
+		<scrollArea x="0" y="0" width="1645" height="1800"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_23" num="1" scrollRate="1"></layer>
+			<layer id="map_23_bg" num="2" scrollRate="1"></layer>
+		</layers>
+		<bgm>kuangchang.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="185" y="1212"></point>
+			<point x="1241" y="1140"></point>
+			<point x="911" y="988"></point>
+			<point x="479" y="996"></point>
+			<point x="1465" y="1330"></point>
+			<point x="345" y="1064"></point>
+			<point x="1068" y="1060"></point>
+			<point x="723" y="850"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>24</id>
+		<name>云端世界</name>
+		<type>1</type>
+		<reqlv>20</reqlv>
+		<scrollArea x="0" y="0" width="1300" height="1728"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_24" num="1" scrollRate="1"></layer>
+			<layer id="map_24_bg" num="2" scrollRate="1"></layer>
+		</layers>
+		<bgm>caihong.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="410" y="290"></point>
+			<point x="152" y="798"></point>
+			<point x="1124" y="532"></point>
+			<point x="1046" y="1052"></point>
+			<point x="248" y="1060"></point>
+			<point x="214" y="522"></point>
+			<point x="1134" y="800"></point>
+			<point x="898" y="286"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>25</id>
+		<name>甜品汽车人</name>
+		<type>1</type>
+		<reqlv>10</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1234"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_25" num="1" scrollRate="1"></layer>
+			<layer id="map_25_bg" num="2" scrollRate="1"></layer>
+			<layer id="map_25_mid" num="3" scrollRate="1"></layer>
+		</layers>
+		<bgm>laji.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="1224" y="1078"></point>
+			<point x="1490" y="850"></point>
+			<point x="447" y="790"></point>
+			<point x="196" y="640"></point>
+			<point x="1705" y="742"></point>
+			<point x="1326" y="850"></point>
+			<point x="322" y="668"></point>
+			<point x="571" y="907"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>26</id>
+		<name>食人魔域</name>
+		<type>1</type>
+		<reqlv>20</reqlv>
+		<scrollArea x="0" y="0" width="1500" height="1234"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_26" num="1" scrollRate="1"></layer>
+			<layer id="map_26_bg" num="2" scrollRate="1"></layer>
+		</layers>
+		<bgm>tushuguan.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="430" y="220"></point>
+			<point x="411" y="713"></point>
+			<point x="114" y="272"></point>
+			<point x="264" y="736"></point>
+			<point x="952" y="631"></point>
+			<point x="1098" y="526"></point>
+			<point x="808" y="626"></point>
+			<point x="1194" y="298"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>27</id>
+		<name>恐龙时代</name>
+		<type>1</type>
+		<reqlv>10</reqlv>
+		<scrollArea x="0" y="0" width="1700" height="1515"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_27" num="1" scrollRate="1"></layer>
+			<layer id="map_27_bg" num="2" scrollRate="1"></layer>
+		</layers>
+		<bgm>laji.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="720" y="640"></point>
+			<point x="560" y="640"></point>
+			<point x="240" y="640"></point>
+			<point x="180" y="640"></point>
+			<point x="1420" y="660"></point>
+			<point x="1280" y="640"></point>
+			<point x="1040" y="640"></point>
+			<point x="890" y="640"></point>
+		</startPoints>
+	</map>
+</maps>

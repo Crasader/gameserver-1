@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project gameadmin with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/Users/wangqi/disk/projects/snsgames/babywar/server/gameadmin/gameadmin.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="com.xinqihd.sns.gameserver.admin.GameAdmin"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ activation-1.1.jar mail-1.4.1.jar babywarserver-0.1-SNAPSHOT.jar bonecp-0.7.1.RELEASE.jar bootstrap-0.1.jar cglib-nodep-2.2.2.jar commons-codec-1.5.jar commons-compiler-2.6.1.jar commons-email-1.2.jar commons-io-2.1.jar commons-logging-1.1.1.jar commons-math-2.2.jar commons-pool-1.6.jar dom4j-1.6.1.jar easymock-3.1.jar fastjson-1.1.24.jar guava-r08.jar hamcrest-core-1.1.jar jackson-core-asl-1.4.0.jar jackson-mapper-asl-1.4.0.jar janino-2.6.1.jar jedis-2.0.0.jar jline-0.9.94.jar junit-4.9.jar log4j-1.2.16.jar miglayout-core-4.2.jar miglayout-swing-4.2.jar mina-core-2.0.7.jar mongo-java-driver-2.7.3.jar mysql-connector-java-5.1.18.jar objenesis-1.2.jar org.apache.commons.io-2.1.jar poi-3.8.jar poi-ooxml-3.8.jar poi-ooxml-schemas-3.8.jar protobuf-java-2.4.1.jar slf4j-api-1.6.4.jar slf4j-log4j12-1.6.4.jar sshd-core-0.6.0.jar stax-api-1.0.1.jar swingx-all-1.6.3.jar xml-apis-1.0.b2.jar xmlbeans-2.3.0.jar zookeeper-3.3.3.jar trident.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="/Users/wangqi/disk/projects/snsgames/babywar/server/gameadmin/target/test-classes"/>
+            <fileset dir="/Users/wangqi/disk/projects/snsgames/babywar/server/gameadmin/target/classes"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/javax/activation/activation/1.1" includes="activation-1.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/javax/mail/mail/1.4.1" includes="mail-1.4.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/xinqihd/sns/gameserver/babywarserver/0.1-SNAPSHOT" includes="babywarserver-0.1-SNAPSHOT.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/jolbox/bonecp/0.7.1.RELEASE" includes="bonecp-0.7.1.RELEASE.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/xinqihd/sns/gameserver/bootstrap/0.1" includes="bootstrap-0.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/cglib/cglib-nodep/2.2.2" includes="cglib-nodep-2.2.2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/commons-codec/commons-codec/1.5" includes="commons-codec-1.5.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/codehaus/janino/commons-compiler/2.6.1" includes="commons-compiler-2.6.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/commons/commons-email/1.2" includes="commons-email-1.2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/commons-io/commons-io/2.1" includes="commons-io-2.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/commons-logging/commons-logging/1.1.1" includes="commons-logging-1.1.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/commons/commons-math/2.2" includes="commons-math-2.2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/commons-pool/commons-pool/1.6" includes="commons-pool-1.6.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/dom4j/dom4j/1.6.1" includes="dom4j-1.6.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/easymock/easymock/3.1" includes="easymock-3.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/alibaba/fastjson/1.1.24" includes="fastjson-1.1.24.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/google/guava/guava/r08" includes="guava-r08.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/hamcrest/hamcrest-core/1.1" includes="hamcrest-core-1.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.4.0" includes="jackson-core-asl-1.4.0.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.4.0" includes="jackson-mapper-asl-1.4.0.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/codehaus/janino/janino/2.6.1" includes="janino-2.6.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/redis/clients/jedis/2.0.0" includes="jedis-2.0.0.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/jline/jline/0.9.94" includes="jline-0.9.94.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/junit/junit/4.9" includes="junit-4.9.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/log4j/log4j/1.2.16" includes="log4j-1.2.16.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/miglayout/miglayout-core/4.2" includes="miglayout-core-4.2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/miglayout/miglayout-swing/4.2" includes="miglayout-swing-4.2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/mina/mina-core/2.0.7" includes="mina-core-2.0.7.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/mongodb/mongo-java-driver/2.7.3" includes="mongo-java-driver-2.7.3.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/mysql/mysql-connector-java/5.1.18" includes="mysql-connector-java-5.1.18.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/objenesis/objenesis/1.2" includes="objenesis-1.2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/directory/studio/org.apache.commons.io/2.1" includes="org.apache.commons.io-2.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/poi/poi/3.8" includes="poi-3.8.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/poi/poi-ooxml/3.8" includes="poi-ooxml-3.8.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.8" includes="poi-ooxml-schemas-3.8.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/com/google/protobuf/protobuf-java/2.4.1" includes="protobuf-java-2.4.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/slf4j/slf4j-api/1.6.4" includes="slf4j-api-1.6.4.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/slf4j/slf4j-log4j12/1.6.4" includes="slf4j-log4j12-1.6.4.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/sshd/sshd-core/0.6.0" includes="sshd-core-0.6.0.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/stax/stax-api/1.0.1" includes="stax-api-1.0.1.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/swinglabs/swingx/swingx-all/1.6.3" includes="swingx-all-1.6.3.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/xml-apis/xml-apis/1.0.b2" includes="xml-apis-1.0.b2.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0" includes="xmlbeans-2.3.0.jar"/>
+            <zipfileset dir="/Users/wangqi/.m2/repository/org/apache/zookeeper/zookeeper/3.3.3" includes="zookeeper-3.3.3.jar"/>
+            <zipfileset dir="/Users/wangqi/disk/projects/snsgames/babywar/server/gameadmin/lib" includes="trident.jar"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//移动停止
+message BsePRCOpen {
+	required int32 hallSrvID = 1;   //大厅服务器ID，客户端不需要
+	repeated int32 prcIDList = 2;			//显示练习场列表
+}

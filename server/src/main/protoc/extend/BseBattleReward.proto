@@ -1,0 +1,26 @@
+package com.xinqihd.sns.gameserver.proto;
+//战斗结束后的奖励数据
+option java_outer_classname = "XinqiBseBattleReward";
+
+message BseBattleReward {   
+    //获奖的道具ID
+    //金币:-1
+    //礼券:-2
+    //元宝:-3
+    //勋章:-4
+    repeated string propID = 1;
+    //---奖品类型---
+	//经验值：EXP：0
+	//金币：GOLDEN：1
+	//元宝：YUANBAO：2
+	//礼券：VOUCHER：3
+	//金币：MEDAL：4
+	//便携道具：TOOL: 5
+	//背包道具：ITEM: 6
+	//武器：WEAPON： 7
+	repeated int32 type   = 2;
+    //获取的道具等级，货币类为-1
+    repeated int32 propLevel = 3;
+    //获取的数量
+    repeated int32 propCount = 4;
+}

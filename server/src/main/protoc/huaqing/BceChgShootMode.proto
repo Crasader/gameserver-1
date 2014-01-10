@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//移动开始
+message BceChgShootMode {
+	//攻击模式：0：键盘，1：鼠标
+    required int32 shootmode = 1;
+}

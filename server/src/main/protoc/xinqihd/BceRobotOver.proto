@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+//进入房间 请求
+option java_outer_classname = "XinqiBceRobotOver"; 
+message BceRobotOver {
+	 repeated string userId = 1;	
+	 repeated bool 	 dead = 2;
+	 repeated int32  attackCounts = 3;
+	 repeated int32  hitCounts = 4;
+	 repeated int32  damage = 5;
+	 repeated int32  killCounts = 6;
+	 repeated int32  userTools = 7;
+	 repeated int32  useSkill = 8;
+}

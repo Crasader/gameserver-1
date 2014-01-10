@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//显示玩家列表
+message BceHallUserList {   
+   required int32 page = 1 [default = 0];  // 
+}

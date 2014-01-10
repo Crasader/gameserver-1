@@ -1,0 +1,18 @@
+package com.xinqihd.sns.gameserver.proto;
+import "AtkBltInfo.proto";
+
+//攻击开始
+option java_outer_classname = "XinqiBseRoleAttack"; 
+message BseRoleAttack {
+    required string sessionId = 1;
+    required int32 angle = 2;          //攻击角度，服务器使用，为用户角度和枪角度的和
+    required int32 bltMode = 3;           //子弹类型  从低位到高位：第一位：1：使用的是飞机；第二位：1：使用了冰冻；第三位：1：使用了引导；第四位：1：是必杀
+    required int32 bltQuantity = 4;				//每一轮的子弹数
+    required int32 bltAtkTimes	= 5;     	//子弹的攻击次数
+    required int32 bltCount = 6;					//子弹数：和bltInfo数量一致，值为bltQuantity*bltAtkTimes
+    repeated AtkBltInfo bltInfo = 7;
+    optional int32 userx = 8;            //
+    optional int32 usery = 9;            //
+    optional int32 direction = 10;					//方向
+
+}

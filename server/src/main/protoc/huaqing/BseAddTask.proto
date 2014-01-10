@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//添加任务
+
+message BseAddTask
+{
+   required int32 taskID = 1 ;  //任务ID
+}

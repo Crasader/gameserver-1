@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//加载进度
+message BseLoadProgress {
+    required string sessionId = 1;       //玩家sId
+    required int32 progress = 2;        //进度百分比
+}

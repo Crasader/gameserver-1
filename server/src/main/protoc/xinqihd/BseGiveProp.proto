@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//通知获得活动物品
+
+option java_outer_classname = "XinqiBseGiveProp"; 
+message BseGiveProp 
+{
+    optional int32 activeID = 1; 
+}

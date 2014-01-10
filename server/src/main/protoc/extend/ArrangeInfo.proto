@@ -1,0 +1,25 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回排行榜信息
+option java_outer_classname = "XinqiArrangeInfo"; 
+message ArrangeInfo {
+	  required string userid = 1;              //userid
+      required int32 rank = 2;                 //排名
+      required string name = 3;                //昵称
+      required int32 level = 4;                //等级
+      optional int32 power = 5;                //等级
+      /**
+	   * 0: 战斗力
+	   * 1: 等级
+	   * 2: 财富
+	   * 3: 成就
+	   * 4: 勋章
+       */
+      required int32 type = 6;                 //排行榜类型
+      required int32 score = 7;                //数值
+      optional int32 viplevel = 8;             //vip等级，0表示不是vip 
+      optional int32 reserved1 = 9;
+      optional int32 reserved2 = 10;
+      optional int32 reserved3 = 11;
+      optional int32 reserved4 = 12;
+      optional int32 reserved5 = 13;
+}

@@ -1,0 +1,30 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会信息
+
+import "GuildMember.proto";
+
+option java_outer_classname = "XinqiGuildInfo"; 
+message GuildInfo {
+    required string guildID = 1;           //公会ID
+    optional string guildName = 2;         //公会名
+    optional string leaderID = 3;          //会长ID
+    optional string leaderName = 4;        //会长名字
+    optional int32 guildWealth = 5;        //公会财富值
+    optional uint32 guildMemberCnt = 6;    //公会人数
+    optional uint32 guildLevel = 7;        //公会等级
+    optional uint32 guildCredit = 8;       //公会财富
+    optional string announcements  = 9;    //公会宣言
+    optional string declaration  = 10;     //公会公告
+    optional uint32 online  = 11;          //在线人数
+    optional uint32 opfee  = 12;           //每周的维持费用
+    optional uint32 shoplevel = 21; 			 //商店等级
+    optional uint32 ironlevel = 22; 			 //铁匠铺等级
+    optional uint32 baglevel = 23; 			     //仓库等级
+    optional uint32 memberlimit = 24; 			 //公会人数限制
+    optional uint32 expratio = 25; 			     //公会战斗经验加成(预留) 0 - 10000表示 0.00%
+    repeated string posName	 	= 26;			 //自定义职位名称
+    optional uint32 shoplimit = 31;				 //商店贡献度限制
+    optional uint32 ironlimit = 32;				 //铁匠铺贡献度限制
+    optional uint32 baglimit = 33;				 //仓库贡献度限制
+    optional uint32 rank = 34;				     //公会排名 1-100
+}

@@ -1,0 +1,4 @@
+//package wanyou.game.protocol;
+//请求自己的排名信息
+message BceMyRankInfo {
+}

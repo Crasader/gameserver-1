@@ -1,0 +1,5 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÒÆ¶¯Í£Ö¹
+option java_outer_classname = "XinqiBcePRCOpen"; 
+message BcePRCOpen {
+}

@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求翻牌
+
+option java_outer_classname = "XinqiBceLottery"; 
+message BceLottery {
+    required int32 idx = 1;  		//第几张牌  0 1 2 3
+    optional string id   = 2;    //BOSS的标志
+    optional bool isPVE   = 3  [default = false]; //是否为pve
+    optional bool isLogin = 4  [default = false]; //是否登录抽奖
+    optional bool isGuide = 5  [default = false]; //是否是新手引导的翻盘
+}

@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseMailReceive"; 
+/**
+ * When the user receives a new mail fro another user
+ * or the system, this protocol is sent to client.
+ */
+message BseMailReceive {
+  repeated MailData mails = 1;
+}

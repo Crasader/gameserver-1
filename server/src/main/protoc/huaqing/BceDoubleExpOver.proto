@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//Ë«±¶¾­Ñé½áÊø
+
+message BceDoubleExpOver 
+{
+		required bool finish = 1 [default = false] ;
+}

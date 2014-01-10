@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//商品信息
+option java_outer_classname = "XinqiBseSvrUnixHour"; 
+message BseSvrUnixHour {
+    required uint32 unixHour = 1;       //从1970年算起的小时数
+    optional uint32 unixMinute= 2 [default = 0];
+}

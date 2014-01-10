@@ -1,0 +1,28 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求自己的排名信息
+option java_outer_classname = "XinqiBceMyRankInfo"; 
+message BceMyRankInfo {
+    /**
+     * 排行榜类型
+     * 0: 总排名
+     * 1: 好友排名
+     * 2: 公会排名
+     */
+    optional int32 rankType = 1 [default = 0];
+    /**
+     * 类型
+     * 0: 战斗力
+     * 1: 等级
+     * 2: 财富
+     * 3: 成就
+     * 4: 勋章
+     */
+    optional int32 arrangeType = 2 [default = 0];        
+    /**
+	 * 过滤类型
+	 * 0: 总排行
+	 * 1: 日增长
+	 * 2: 月增长
+     */
+	optional int32 filterType = 3 [default = 0];
+}

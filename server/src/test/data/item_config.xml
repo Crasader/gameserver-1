@@ -1,0 +1,729 @@
+<?xml version="1.0" ?>
+<items >
+	<consumable >
+		<item id="20001" typeid="20001" lv="1" icon="GreenStoneLv1" name="水神石Lv1" info="与装备合成后提高幸运属性4~10点" />
+		<item id="20002" typeid="20001" lv="2" icon="GreenStoneLv2" name="水神石Lv2" info="与装备合成后提高幸运属性8~20点" />
+		<item id="20003" typeid="20001" lv="3" icon="GreenStoneLv3" name="水神石Lv3" info="与装备合成后提高幸运属性18~50点" />
+		<item id="20004" typeid="20001" lv="4" icon="GreenStoneLv4" name="水神石Lv4" info="与装备合成后提高幸运属性28~200点" />
+		<item id="20005" typeid="20001" lv="5" icon="GreenStoneLv5" name="水神石Lv5" info="与装备合成后提高幸运属性80~400点" />
+		<item id="20006" typeid="20002" lv="1" icon="BlackStoneLv1" name="土神石Lv1" info="与装备合成后提高防御属性4~10点" />
+		<item id="20007" typeid="20002" lv="2" icon="BlackStoneLv2" name="土神石Lv2" info="与装备合成后提高防御属性8~20点" />
+		<item id="20008" typeid="20002" lv="3" icon="BlackStoneLv3" name="土神石Lv3" info="与装备合成后提高防御属性18~50点" />
+		<item id="20009" typeid="20002" lv="4" icon="BlackStoneLv4" name="土神石Lv4" info="与装备合成后提高防御属性28~200点" />
+		<item id="20010" typeid="20002" lv="5" icon="BlackStoneLv5" name="土神石Lv5" info="与装备合成后提高防御属性80~400点" />
+		<item id="20011" typeid="20003" lv="1" icon="WhiteStoneLv1" name="风神石Lv1" info="与装备合成后提高敏捷属性4~10点" />
+		<item id="20012" typeid="20003" lv="2" icon="WhiteStoneLv2" name="风神石Lv2" info="与装备合成后提高敏捷属性8~20点" />
+		<item id="20013" typeid="20003" lv="3" icon="WhiteStoneLv3" name="风神石Lv3" info="与装备合成后提高敏捷属性18~50点" />
+		<item id="20014" typeid="20003" lv="4" icon="WhiteStoneLv4" name="风神石Lv4" info="与装备合成后提高敏捷属性28~200点" />
+		<item id="20015" typeid="20003" lv="5" icon="WhiteStoneLv5" name="风神石Lv5" info="与装备合成后提高敏捷属性80~400点" />
+		<item id="20016" typeid="20004" lv="1" icon="RedStoneLv1" name="火神石Lv1" info="与装备合成后提高攻击属性4~10点" />
+		<item id="20017" typeid="20004" lv="2" icon="RedStoneLv2" name="火神石Lv2" info="与装备合成后提高攻击属性8~20点" />
+		<item id="20018" typeid="20004" lv="3" icon="RedStoneLv3" name="火神石Lv3" info="与装备合成后提高攻击属性18~50点" />
+		<item id="20019" typeid="20004" lv="4" icon="RedStoneLv4" name="火神石Lv4" info="与装备合成后提高攻击属性28~200点" />
+		<item id="20020" typeid="20004" lv="5" icon="RedStoneLv5" name="火神石Lv5" info="与装备合成后提高攻击属性80~400点" />
+		<item id="20021" typeid="20005" lv="1" icon="StrengthStoneLv1" name="强化石Lv1" info="用来强装备提高武器伤害或装备护甲。" />
+		<item id="20022" typeid="20005" lv="2" icon="StrengthStoneLv2" name="强化石Lv2" info="用来强装备提高武器伤害或装备护甲。比1级强化石拥有更高的成功率。" />
+		<item id="20023" typeid="20005" lv="3" icon="StrengthStoneLv3" name="强化石Lv3" info="用来强装备提高武器伤害或装备护甲。比2级强化石拥有更高的成功率。" />
+		<item id="20024" typeid="20005" lv="4" icon="StrengthStoneLv4" name="强化石Lv4" info="用来强装备提高武器伤害或装备护甲。比3级强化石拥有更高的成功率。" />
+		<item id="20025" typeid="20005" lv="5" icon="StrengthStoneLv5" name="强化石Lv5" info="用来强装备提高武器伤害或装备护甲。比4级强化石拥有更高的成功率。" />
+		<item id="21001" typeid="21001" lv="0" icon="Prop0012" name="水神石炼化符" info="炼化水神石的必需品。" />
+		<item id="21002" typeid="21001" lv="0" icon="Prop0013" name="土神石炼化符" info="炼化土神石的必需品。" />
+		<item id="21003" typeid="21001" lv="0" icon="Prop0010" name="风神石炼化符" info="炼化风神石的必需品。" />
+		<item id="21004" typeid="21001" lv="0" icon="Prop0011" name="火神石炼化符" info="炼化火神石的必需品。" />
+		<item id="21005" typeid="21001" lv="0" icon="Prop0017" name="强化石炼化符" info="炼化强化石的必需品，只有名称与等级完全相同的宝石才可以炼化。" />
+		<item id="21006" typeid="21006" lv="0" icon="Prop0015" name="熔炼手镯" info="炼化手镯的必需品，只有名称与等级完全相同的手镯才可以炼化。" />
+		<item id="21008" typeid="21006" lv="0" icon="Prop0014" name="熔炼戒指" info="炼化戒指的必需品，只有名称与等级完全相同的戒指才可以炼化。" />
+		<item id="22005" typeid="21001" lv="0" icon="Prop0017" name="宝石炼化符" info="炼化宝石的必需品，只有名称与等级完全相同的宝石才可以炼化。" />
+		<item id="24001" typeid="24001" lv="0" icon="Prop0007" name="神恩符" info="使装备在强化失败后不会承受降级惩罚。" />
+		<item id="24002" typeid="24002" lv="0" icon="Prop0008" name="幸运符+15%" info="提升物品装备合成及强化的成功概率。" />
+		<item id="24004" typeid="24002" lv="0" icon="Prop0009" name="幸运符+25%" info="提升物品装备合成及强化的成功概率。" />
+		<item id="25001" typeid="25001" lv="0" icon="Prop0001" name="我" info="当您集齐“我爱炸弹宝贝”这串字符，点击它们，会得到一件神奇的武器。" />
+		<item id="25002" typeid="25002" lv="0" icon="Prop0002" name="爱" info="当您集齐“我爱炸弹宝贝”这串字符，点击它们，会得到一件神奇的武器。" />
+		<item id="25003" typeid="25003" lv="0" icon="Prop0003" name="炸" info="当您集齐“我爱炸弹宝贝”这串字符，点击它们，会得到一件神奇的武器。" />
+		<item id="25004" typeid="25004" lv="0" icon="Prop0004" name="弹" info="当您集齐“我爱炸弹宝贝”这串字符，点击它们，会得到一件神奇的武器。" />
+		<item id="25005" typeid="25005" lv="0" icon="Prop0005" name="宝" info="当您集齐“我爱炸弹宝贝”这串字符，点击它们，会得到一件神奇的武器。" />
+		<item id="25006" typeid="25006" lv="0" icon="Prop0006" name="贝" info="当您集齐“我爱炸弹宝贝”这串字符，点击它们，会得到一件神奇的武器。" />
+		<item id="25007" typeid="25007" lv="0" icon="Prop0100" name="糖果" info="不给糖果就捣蛋。" />
+		
+		<item id="26001" typeid="26001" lv="0" icon="LabaDa" name="小喇叭" info="在聊天框内选择小喇叭频道，可以让当前频道内所有玩家看到您的发言，每发言一句消耗一个小喇叭。可以用来聊天、喊人，也可以用来发泄~您的怒火会让宝贝战争越来越好。" >
+		</item>
+		<!--
+	 	"q"值对概率分布的影响
+	   Ratio: q=1.0, max=10000;
+			0: 45.53%
+			1: 31.07%
+			2: 15.81%
+			3: 5.82%
+			4: 1.43%
+			5: 0.31%
+			6: 0.03%
+			7: 0.0%
+			8: 0.0%
+			9: 0.0%
+			total: 100.0%
+			
+	   Ratio: q=2.0, max=10000;
+			0: 23.17%
+			1: 21.53%
+			2: 17.99%
+			3: 14.43%
+			4: 9.7%
+			5: 6.46%
+			6: 3.55%
+			7: 1.74%
+			8: 0.93%
+			9: 0.5%
+			total: 100.0%
+			
+	   Ratio: q=3.0, max=10000;
+			0: 18.35%
+			1: 16.2%
+			2: 15.09%
+			3: 12.15%
+			4: 11.4%
+			5: 8.54%
+			6: 6.71%
+			7: 4.99%
+			8: 3.9%
+			9: 2.67%
+			total: 99.99999999999999%
+			
+		 Ratio: q=4.0, max=10000;
+			0: 15.33%
+			1: 14.19%
+			2: 13.12%
+			3: 12.45%
+			4: 10.32%
+			5: 9.56%
+			6: 8.15%
+			7: 7.01%
+			8: 5.36%
+			9: 4.51%
+			total: 100.00000000000001%
+
+		 Ratio: q=5.0, max=10000;
+			0: 13.48%
+			1: 14.18%
+			2: 12.8%
+			3: 10.85%
+			4: 10.84%
+			5: 9.61%
+			6: 8.38%
+			7: 7.65%
+			8: 6.63%
+			9: 5.58%
+			total: 100.0%
+
+		 Ratio: q=10.0, max=10000;
+			0: 12.24%
+			1: 12.35%
+			2: 10.7%
+			3: 10.72%
+			4: 10.1%
+			5: 10.17%
+			6: 9.08%
+			7: 8.45%
+			8: 8.02%
+			9: 8.17%
+			total: 100.0%
+		 -->
+		<item id="25008" typeid="25008" lv="0" icon="Baoxiang0001" name="金币盒" info="打开可以获得2000金币" script="PackageBox" q="1" count="1">
+		    <!--
+		      //奖品类型-
+	          //经验值：EXP：0
+	          //金币：GOLDEN：1
+	          //元宝：YUANBAO：2
+	          //礼金：VOUCHER：3
+	          //勋章：MEDAL：4
+	          //便携道具：TOOL: 5
+	          //背包道具：ITEM: 6
+	          //武器：WEAPON： 7
+	          
+	          indate: 表示有效的战斗次数，比如‘7’表示可以在战斗中使用7次，仅对武器类有效
+		    -->
+			<reward type="GOLDEN" id="-1" level="0" count="2000" indate="0"/>
+		</item>
+                         
+		<item id="25011" typeid="25011" lv="1" icon="Baoxiang0001" name="升级奖励Lv1" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到1级可以打开, 包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+		  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		  <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>
+		
+		<item id="25012" typeid="25011" lv="2" icon="Baoxiang0001" name="升级奖励Lv2" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到2级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>
+		
+		<item id="25013" typeid="25011" lv="3" icon="Baoxiang0001" name="升级奖励Lv3" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到3级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>
+					
+		<item id="25014" typeid="25011" lv="4" icon="Baoxiang0001" name="升级奖励Lv4" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到4级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>
+					
+		<item id="25015" typeid="25011" lv="5" icon="Baoxiang0001" name="升级奖励Lv5" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到5级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25016" typeid="25011" lv="6" icon="Baoxiang0001" name="升级奖励Lv6" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到6级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25017" typeid="25011" lv="7" icon="Baoxiang0001" name="升级奖励Lv7" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到7级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25018" typeid="25011" lv="8" icon="Baoxiang0001" name="升级奖励Lv8" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到8级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25019" typeid="25011" lv="9" icon="Baoxiang0001" name="升级奖励Lv9" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到9级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25020" typeid="25011" lv="10" icon="Baoxiang0001" name="升级奖励Lv10" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到10级可以打开，包含100礼金、1个2级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="100" indate="0"/>
+		    <reward type="ITEM" id="20022" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25021" typeid="25011" lv="11" icon="Baoxiang0001" name="升级奖励Lv11" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到11级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25022" typeid="25011" lv="12" icon="Baoxiang0001" name="升级奖励Lv12" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到12级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25023" typeid="25011" lv="13" icon="Baoxiang0001" name="升级奖励Lv13" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到13级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25024" typeid="25011" lv="14" icon="Baoxiang0001" name="升级奖励Lv14" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到14级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25025" typeid="25011" lv="15" icon="Baoxiang0001" name="升级奖励Lv15" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到15级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25026" typeid="25011" lv="16" icon="Baoxiang0001" name="升级奖励Lv16" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到16级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25027" typeid="25011" lv="17" icon="Baoxiang0001" name="升级奖励Lv17" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到17级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25028" typeid="25011" lv="18" icon="Baoxiang0001" name="升级奖励Lv18" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到18级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25029" typeid="25011" lv="19" icon="Baoxiang0001" name="升级奖励Lv19" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到19级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25030" typeid="25011" lv="20" icon="Baoxiang0001" name="升级奖励Lv20" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到20级可以打开，包含200礼金、1个3级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="200" indate="0"/>
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25031" typeid="25011" lv="21" icon="Baoxiang0001" name="升级奖励Lv21" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到21级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25032" typeid="25011" lv="22" icon="Baoxiang0001" name="升级奖励Lv22" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到22级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25033" typeid="25011" lv="23" icon="Baoxiang0001" name="升级奖励Lv23" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到23级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25034" typeid="25011" lv="24" icon="Baoxiang0001" name="升级奖励Lv24" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到24级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25035" typeid="25011" lv="25" icon="Baoxiang0001" name="升级奖励Lv25" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到25级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25036" typeid="25011" lv="26" icon="Baoxiang0001" name="升级奖励Lv26" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到26级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25037" typeid="25011" lv="27" icon="Baoxiang0001" name="升级奖励Lv27" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到27级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25038" typeid="25011" lv="28" icon="Baoxiang0001" name="升级奖励Lv28" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到28级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25039" typeid="25011" lv="29" icon="Baoxiang0001" name="升级奖励Lv29" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到29级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25040" typeid="25011" lv="30" icon="Baoxiang0001" name="升级奖励Lv30" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到30级可以打开，包含300礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="300" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25041" typeid="25011" lv="31" icon="Baoxiang0001" name="升级奖励Lv31" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到31级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25042" typeid="25011" lv="32" icon="Baoxiang0001" name="升级奖励Lv32" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到32级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25043" typeid="25011" lv="33" icon="Baoxiang0001" name="升级奖励Lv33" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到33级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>			
+			
+		<item id="25044" typeid="25011" lv="34" icon="Baoxiang0001" name="升级奖励Lv34" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到34级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>					
+			
+		<item id="25045" typeid="25011" lv="35" icon="Baoxiang0001" name="升级奖励Lv35" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到35级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>					
+			
+		<item id="25046" typeid="25011" lv="36" icon="Baoxiang0001" name="升级奖励Lv36" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到36级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25047" typeid="25011" lv="37" icon="Baoxiang0001" name="升级奖励Lv37" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到37级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25048" typeid="25011" lv="38" icon="Baoxiang0001" name="升级奖励Lv38" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到38级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25049" typeid="25011" lv="39" icon="Baoxiang0001" name="升级奖励Lv39" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到39级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25050" typeid="25011" lv="40" icon="Baoxiang0001" name="升级奖励Lv40" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到40级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25051" typeid="25011" lv="41" icon="Baoxiang0001" name="升级奖励Lv41" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到41级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25052" typeid="25011" lv="42" icon="Baoxiang0001" name="升级奖励Lv42" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到42级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25053" typeid="25011" lv="43" icon="Baoxiang0001" name="升级奖励Lv43" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到43级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25054" typeid="25011" lv="44" icon="Baoxiang0001" name="升级奖励Lv44" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到44级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>				
+			
+		<item id="25055" typeid="25011" lv="45" icon="Baoxiang0001" name="升级奖励Lv45" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到45级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>	
+
+		<item id="25056" typeid="25011" lv="46" icon="Baoxiang0001" name="升级奖励Lv46" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到46级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>	
+
+		<item id="25057" typeid="25011" lv="47" icon="Baoxiang0001" name="升级奖励Lv47" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到47级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>	
+
+		<item id="25058" typeid="25011" lv="48" icon="Baoxiang0001" name="升级奖励Lv48" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到48级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>	
+
+		<item id="25059" typeid="25011" lv="49" icon="Baoxiang0001" name="升级奖励Lv49" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到49级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>	
+
+		<item id="25060" typeid="25011" lv="50" icon="Baoxiang0001" name="升级奖励Lv50" info="对玩家努力升级的奖赏，VIP玩家会获得双倍奖励，达到50级可以打开，包含400礼金、1个4级强化石。" script="LevelUpBox" q="1" count="1">
+			  <reward type="VOUCHER" id="-1" level="0" count="400" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		</item>	
+
+		<item id="25061" typeid="25061" lv="0" icon="Dalibao0001" name="回馈大礼包" info="内含强化石4级X1、神恩符X1、幸运符25%X1、水神石3级X1、土神石3级X1、风神石3级X1、火神石3级X1" script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20003" level="0" count="1" indate="0"/>	
+		    <reward type="ITEM" id="20008" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20013" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20018" level="0" count="1" indate="0"/>	
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="24001" level="0" count="1" indate="0"/>	
+		    <reward type="ITEM" id="24004" level="0" count="1" indate="0"/>	
+		</item>	
+		
+		<item id="25062" typeid="25062" lv="0" icon="Dalibao0002" name="回馈大礼包" info="内含强化石4级X2、神恩符X2、幸运符25%X2、水神石4级X1、土神石4级X1、风神石4级X1、火神石4级X1" script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20004" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20009" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20014" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20019" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="2" indate="0"/>
+		    <reward type="ITEM" id="24001" level="0" count="2" indate="0"/>		
+		    <reward type="ITEM" id="24004" level="0" count="2" indate="0"/>
+		</item>			
+			
+		<item id="25063" typeid="25063" lv="0" icon="Qianghuaxiaolibao" name="强化小礼包" info="内含3级强化石X3 幸运符25%X2 神恩符X2 " script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20023" level="0" count="3" indate="0"/>
+		    <reward type="ITEM" id="24004" level="0" count="2" indate="0"/>
+		    <reward type="ITEM" id="24001" level="0" count="2" indate="0"/>
+		</item>				
+			
+		<item id="25064" typeid="25064" lv="0" icon="Qianghuadalibao" name="强化大礼包" info="内含5级强化石X3 幸运符25%X2 神恩符X2 " script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20025" level="0" count="3" indate="0"/>
+		    <reward type="ITEM" id="24004" level="0" count="2" indate="0"/>
+		    <reward type="ITEM" id="24001" level="0" count="2" indate="0"/>
+		</item>				
+			
+		<item id="25065" typeid="25065" lv="0" icon="Hechengdalibao" name="合成大礼包" info="内含5级水神石X3 5级风神石X3 5级火神石X3  5级土神石X3 " script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20005" level="0" count="3" indate="0"/>
+		    <reward type="ITEM" id="20015" level="0" count="3" indate="0"/>
+		    <reward type="ITEM" id="20020" level="0" count="3" indate="0"/>
+		    <reward type="ITEM" id="20010" level="0" count="3" indate="0"/>
+		</item>					
+			
+		<item id="25066" typeid="25066" lv="0" icon="Chaozhidabaoxiang" name="超值大宝箱" info="内含4级强化石X1 幸运符15%X2 神恩符X2  绿色心情X1 " script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="24002" level="0" count="2" indate="0"/>
+		    <reward type="ITEM" id="24001" level="0" count="2" indate="0"/>
+		    <reward type="WEAPON" id="32003" level="0" count="1" indate="60"/>
+		</item>				
+			
+		<item id="25901" typeid="25901" lv="0" icon="Shuangbeijingyanka" name="双倍经验卡" info="使用后,您的战斗可一直获得双倍经验,直到退出游戏为止。" script="DoubleExpBox" q="1" count="1"/>
+		
+		<item id="25801" typeid="25801" lv="0" icon="GuildPack0001" name="一级功勋礼包" info="消耗200功勋购买，一定机率会开到小金币箱X1、幸运符15%，还有机率会获得生命值加15%的项链（不可续费）哦" script="RandomBox" q="10" count="1">
+		    <reward type="ITEM" id="25008" level="0" count="1000" indate="0"/>
+		    <reward type="ITEM" id="24002" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="18002" level="0" count="1" indate="60"/>
+		</item>			
+			
+		<item id="25802" typeid="25802" lv="0" icon="GuildPack0002" name="二级功勋礼包" info="消耗300功勋购买，打开有机率获得幸运符15%、强化石LV4、水神石LV4、风神石LV4、火神石LV4、土神石LV4，还有机率获得生命值加25%的项链（不可续费）哦。" script="RandomBox" q="10" count="1">
+		    <reward type="ITEM" id="24002" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20004" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20014" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20019" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20009" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="18004" level="0" count="1" indate="60"/>
+		</item>				
+			
+		<item id="25803" typeid="25803" lv="0" icon="GuildPack0003" name="三级功勋礼包" info="消耗400功勋购买，打开有机率获得幸运符15%、强化石LV4、水神石LV4、风神石LV4、火神石LV4、土神石LV4，还有机率获得生命值加35%的项链（不可续费）哦。" script="RandomBox" q="5" count="1">
+		    <reward type="ITEM" id="24002" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20004" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20014" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20019" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20009" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="18006" level="0" count="1" indate="60"/>
+		</item>				
+			
+		<item id="25804" typeid="25804" lv="0" icon="GuildPack0004" name="四级功勋礼包" info="消耗500功勋购买，打开有机率获得幸运符15%、强化石LV4、水神石LV4、风神石LV4、火神石LV4、土神石LV4，还有机率获得生命值加45%的项链（不可续费）哦。" script="RandomBox" q="4" count="1">
+		    <reward type="ITEM" id="24002" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20024" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20004" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20014" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20019" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20009" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="18008" level="0" count="1" indate="60"/>
+		</item>			
+			
+		<item id="25805" typeid="25805" lv="0" icon="GuildPack0005" name="五级功勋礼包" info="消耗600功勋购买，打开有机率获得幸运符25%、强化石LV5、水神石LV5、风神石LV5、火神石LV5、土神石LV5，还有机率获得生命值加55%的项链（不可续费）哦。" script="RandomBox" q="3" count="1">
+		    <reward type="ITEM" id="24004" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20025" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20005" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20015" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20020" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20010" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="18010" level="0" count="1" indate="60"/>
+		</item>			
+			
+		<item id="25806" typeid="25806" lv="0" icon="Duanwulibao" name="粽子宝箱" info="打开有几率获得狂武器、五级合成神石、五级强化石等道具，可通过战斗结束后翻牌或者商城购买获得！" script="RandomBox" q="4" count="1">
+			<condition type="ITEM" id="25807" count="1"/>
+		    <reward type="ITEM" id="20005" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20010" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20015" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20020" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20025" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="13002" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13009" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13005" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13001" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13006" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13010" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13007" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13004" level="0" count="1" indate="30"/>
+
+		</item>				
+			
+		<item id="25807" typeid="25807" lv="0" icon="DuanwuKey" name="粽子宝箱钥匙" info="打开粽子宝箱的道具，打开粽子宝箱有几率可获得狂武器、五级合成神石、五级强化石等道具，可通过限时活动任务或者商城购买获得！" />
+		
+		<item id="25067" typeid="25067" lv="0" icon="Xinshoulibao" name="超值新手礼包" info="每个角色限购一次，内含神恩符X1、幸运符25%X1、多彩之翼X1" script="PackageBox" q="10" count="1">
+		    <reward type="ITEM" id="24001" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="24004" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="4002" level="0" count="1" indate="60"/>
+		</item>					
+			
+		<item id="25808" typeid="25808" lv="0" icon="AboluoShenhu" name="阿波罗神罐" info="太阳神遗留之物，打开后有几率获得阿波罗神戒、阿波罗神镯、狂武器、五级合成神石、五级强化石等宝物，可通过战斗结束后翻牌或者商城购买获得！" script="RandomBox" q="5" count="1">
+			<condition type="ITEM" id="25809" count="1"/>
+		    <reward type="ITEM" id="20005" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20010" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20015" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20020" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20025" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="14006" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="16006" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="13002" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13009" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13005" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13001" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13006" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13010" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13007" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13004" level="0" count="1" indate="30"/>
+
+		</item>				
+			
+		<item id="25809" typeid="25809" lv="0" icon="AboluoShenchui" name="阿波罗神锤" info="具有神奇的魔力，是唯一能开启阿波罗神罐的宝物，每个神罐需要消耗4把神锤！" />
+		
+		<item id="25701" typeid="25701" lv="0" icon="Jingyanguo001" name="1级经验果实" info="宝贝大陆上生长的一种神奇果实，食用之后可立即获得5000经验！" script="ExpBox" q="1" count="1">
+				<reward type="EXP" id="-1" level="0" count="5000" indate="0"/>
+		</item>		
+			
+		<item id="25810" typeid="25810" lv="0" icon="Shenmibaohe" name="神秘宝盒" info="神秘而又古朴的盒子，打开后可随机获得狂武器或者神秘武器白虎牙一把。" script="RandomBox" q="2" count="1">
+			  <reward type="WEAPON" id="13002" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13009" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13005" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13001" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13006" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13010" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13007" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13004" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="12013" level="0" count="1" indate="30"/>
+		</item>			
+		
+		<item id="25068" typeid="25068" lv="0" icon="Xinshoulibao" name="超值新手礼包" info="内含强化石LV3x1、土神石LV2x6、水神石LV2x6、风神石LV2x6、火神石LV2x6。" script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20002" level="0" count="6" indate="0"/>
+		    <reward type="ITEM" id="20007" level="0" count="6" indate="0"/>
+		    <reward type="ITEM" id="20012" level="0" count="6" indate="0"/>
+		    <reward type="ITEM" id="20017" level="0" count="6" indate="0"/>
+		</item>				
+			
+		<item id="25069" typeid="25069" lv="0" icon="Fankuilibao" name="超值回馈礼包" info="内含鲜花天使之翼x1、狐狸枫x1、沉稳之固+1x4、天翼之戒+1x4、强化石LV3x1、小喇叭x1。" script="PackageBox" q="1" count="1">
+		    <reward type="ITEM" id="20023" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="26001" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="4003" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="16001" level="1" count="4" indate="60"/>
+		    <reward type="WEAPON" id="14001" level="1" count="4" indate="60"/>
+		    <reward type="WEAPON" id="40010" level="0" count="1" indate="60"/>
+		</item>			
+			
+		<item id="25100" typeid="25100" lv="0" icon="Xinshoulibao" name="1元限量礼包" info="1级经验果实×1、武器宝盒x1，打开可随机获得+4普通武器一把、天翼之戒×4" script="RandomBox" q="10" count="1">
+		    <reward type="ITEM" id="25701" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="25811" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="14001" level="0" count="4" indate="60"/>
+		</item>		 			
+			
+		<item id="25101" typeid="25101" lv="0" icon="Fankuilibao" name="10元限量礼包" info="1级经验果实×1、武器宝盒x1，打开可随机获得+5普通武器一把、'天翼之戒+1'×4" script="RandomBox" q="10" count="1">
+		    <reward type="ITEM" id="25701" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="25812" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="14001" level="1" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25811" typeid="25811" lv="0" icon="WeaponLv4" name="武器宝盒Lv4" info="打开可随机获得强化等级+4的普通武器一把" script="RandomBox" q="1" count="1">
+				<reward type="WEAPON" id="12001" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12002" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12003" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12004" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12005" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12006" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12007" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12009" level="4" count="1" indate="30"/>
+				<reward type="WEAPON" id="12010" level="4" count="1" indate="30"/>
+		</item>	
+		
+		<item id="25812" typeid="25812" lv="0" icon="WeaponLv5" name="武器宝盒Lv5" info="打开可随机获得强化等级+5的普通武器一把" script="RandomBox" q="1" count="1">
+				<reward type="WEAPON" id="12001" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12002" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12003" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12004" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12005" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12006" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12007" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12009" level="5" count="1" indate="30"/>
+				<reward type="WEAPON" id="12010" level="5" count="1" indate="30"/>
+		</item>				
+			
+		<item id="25813" typeid="25813" lv="0" icon="Juxielihe" name="巨蟹座宝箱" info="巨蟹座的暗淡之光聚焦在这个神秘宝箱，里面蕴含的宝藏散发出诡异的力量。打开后，有几率获得狂品质武器一把，五级强化石和其他神祗的力量" script="RandomBox" q="5" count="1">
+			<condition type="ITEM" id="25814" count="1"/>
+		    <reward type="ITEM" id="25701" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20025" level="0" count="1" indate="0"/>	
+		    <reward type="WEAPON" id="40001" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="14001" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="16001" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="4003" level="0" count="1" indate="60"/>		
+		    <reward type="WEAPON" id="13002" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13009" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13005" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13001" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13006" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13010" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13007" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13004" level="0" count="1" indate="30"/>	
+		</item>			    
+			
+		<item id="25814" typeid="25814" lv="0" icon="Juxieyaoshi" name="星座钥匙" info="星座守护神遗失的钥匙，能够开启各种星座宝箱。" />
+		
+		<item id="25815" typeid="25815" lv="0" icon="Shenmibaohe" name="狂武器盒" info="打开后可随机获得狂武器一把。" script="RandomBox" q="1" count="1">
+			  <reward type="WEAPON" id="13002" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13009" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13005" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13001" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13006" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13010" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13007" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13004" level="0" count="1" indate="30"/>		
+		</item>	
+				
+		<item id="25816" typeid="25816" lv="0" icon="Shizilihe" name="狮子座宝箱" info="里面蕴含的宝藏散发出诡异的力量，打开后，有几率获得狂品质武器一把，五级强化石和其他神祗的力量，自信而有激情的狮子座亲们，你们今天开了么？" script="RandomBox" q="5" count="1">
+			<condition type="ITEM" id="25814" count="1"/>
+		    <reward type="ITEM" id="25701" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20025" level="0" count="1" indate="0"/>	
+		    <reward type="WEAPON" id="40001" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="14001" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="16001" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="4003" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="13002" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13009" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13005" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13001" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13006" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13010" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13007" level="0" count="1" indate="30"/>
+		    <reward type="WEAPON" id="13004" level="0" count="1" indate="30"/>		
+		</item>			
+		
+		<item id="25817" typeid="25817" lv="0" icon="Zhinvlihe" name="织女宝箱" info="象征着织女姐姐的甜蜜祝福，只要打开宝箱便可获得各种套装、翅膀、宝石等，更有机会获得传说级武器-白虎牙，可在活动期间通过公会捐献获得！" script="RandomBox" q="2" count="1">
+			<condition type="ITEM" id="25818" count="1"/>
+		    <reward type="ITEM" id="20005" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20010" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20015" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20020" level="0" count="1" indate="0"/>
+		    <reward type="ITEM" id="20025" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="40002" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="40020" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="40007" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="40005" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="40017" level="0" count="1" indate="60"/>		
+		    <reward type="WEAPON" id="40001" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="40016" level="0" count="1" indate="60"/>	
+		    <reward type="WEAPON" id="4007" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="4002" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="4003" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="12013" level="0" count="1" indate="30"/>
+		</item>					
+			
+		<item id="25818" typeid="25818" lv="0" icon="NiuLangKey" name="牛郎钥匙" info="牛郎哥哥家的钥匙，唯有这把钥匙才能打开织女姐姐留下的宝箱哦！" />
+		
+		<item id="25102" typeid="25102" lv="0" icon="Xinshouchaozhi" name="新手助长礼包" info="1级经验果实X2、武器宝盒X1（打开可以随机获得+5武器一把）、'天翼之戒+1'X4、地狱伯爵X1、蝴蝶之翼X1!" script="RandomBox" q="1" count="1">
+		    <reward type="ITEM" id="25701" level="0" count="2" indate="0"/>
+		    <reward type="ITEM" id="25812" level="0" count="1" indate="0"/>
+		    <reward type="WEAPON" id="14001" level="1" count="4" indate="60"/>
+		    <reward type="WEAPON" id="40022" level="0" count="1" indate="60"/>
+		    <reward type="WEAPON" id="4008" level="0" count="1" indate="60"/>
+		</item>			
+			
+		<item id="25103" typeid="25103" lv="0" icon="Shoushilibao" name="天翼之戒首饰礼包" info="打开后获得4个天翼之戒+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="14001" level="2" count="4" indate="60"/>
+		</item>			
+			
+		<item id="25104" typeid="25104" lv="0" icon="Shoushilibao" name="幸运之戒首饰礼包" info="打开后获得4个幸运之戒+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="14002" level="2" count="4" indate="60"/>
+		</item>				
+			
+		<item id="25105" typeid="25105" lv="0" icon="Shoushilibao" name="爱心之戒首饰礼包" info="打开后获得4个爱心之戒+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="14003" level="2" count="4" indate="60"/>
+		</item>			
+		
+		<item id="25106" typeid="25106" lv="0" icon="Shoushilibao" name="防护之戒首饰礼包" info="打开后获得4个防护之戒+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="14004" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25107" typeid="25107" lv="0" icon="Shoushilibao" name="骷髅之戒首饰礼包" info="打开后获得4个骷髅之戒+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="14005" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25108" typeid="25108" lv="0" icon="Shoushilibao" name="沉稳之固首饰礼包" info="打开后获得4个沉稳之固+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="16001" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25109" typeid="25109" lv="0" icon="Shoushilibao" name="恋爱手镯首饰礼包" info="打开后获得4个恋爱手镯+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="16002" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25110" typeid="25110" lv="0" icon="Shoushilibao" name="幸运手镯首饰礼包" info="打开后获得4个幸运手镯+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="16003" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25111" typeid="25111" lv="0" icon="Shoushilibao" name="坚固手镯首饰礼包" info="打开后获得4个坚固手镯+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="16004" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="25112" typeid="25112" lv="0" icon="Shoushilibao" name="猫爪手镯首饰礼包" info="打开后获得4个猫爪手镯+2" script="PackageBox" q="1" count="1">
+		    <reward type="WEAPON" id="16005" level="2" count="4" indate="60"/>
+		</item>				
+		
+		<item id="999999" typeid="999999" lv="0" icon="XunzhangIcon" name="勋章" info="可以在商城内免费兑换区换取贵重物品，可以通过任务获得，完成每日任务可以获得大量勋章。" />
+	</consumable>
+</items>

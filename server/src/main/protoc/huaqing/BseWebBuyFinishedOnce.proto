@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//告诉客户端.完成了一次海北购买
+
+message BseWebBuyFinishedOnce
+{
+    
+}

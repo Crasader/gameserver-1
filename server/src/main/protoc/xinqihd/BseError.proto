@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+
+option java_outer_classname = "XinqiBseError"; 
+message BseError {
+    required int32 	errorID = 1;        //¥ÌŒÛID
+    optional string sessionID = 2;      //‘§¡Ù
+    optional int32  roomID = 3;   		//‘§¡Ù
+}

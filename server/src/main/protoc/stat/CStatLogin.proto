@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto.stat;
+//User Login
+
+option java_outer_classname = "JavaCStatLogin"; 
+message CStatLogin {
+    //The unique uuid for device
+    optional string uuid = 1;
+    //The username
+    optional string username = 2;
+    //The game client build number
+	optional string  build = 3 [default = "0.0"];
+    //The client major version
+    optional string  version = 4 [default = "0.0.0"];
+    //The client channel id
+    optional string channel = 5;
+    //The client language
+    optional string lang = 6 [default="zh_CN"];
+	//The client country
+    optional string country = 7;
+    //The client device name
+    optional string device = 8;
+}

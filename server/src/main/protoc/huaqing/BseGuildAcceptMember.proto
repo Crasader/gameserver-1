@@ -1,0 +1,11 @@
+//package wanyou.game.protocol;
+//招收成员
+
+import "GuildInfo.proto";
+
+message BseGuildAcceptMember
+{
+    required int32 result = 1 ; //结果 0:成功
+    optional GuildInfo guildInfo = 2 ;
+    optional string uid = 3 ;
+}

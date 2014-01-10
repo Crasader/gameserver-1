@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//通知获得活动物品
+
+message BseGiveProp
+{
+    optional int32 activeID = 1; 
+}

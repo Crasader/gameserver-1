@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//战场初始化
+import "RoleInfo.proto";
+
+option java_outer_classname = "XinqiBseUserEnterRoom"; 
+message BseUserEnterRoom {
+    required string roomId = 1;          //房间ID
+    required RoleInfo role = 2;         //角色信息
+    //指示这个房间是否启动了自动战斗模式
+    optional bool automode = 3;
+}

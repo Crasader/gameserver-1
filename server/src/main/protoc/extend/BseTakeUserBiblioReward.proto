@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÃÌº”’Ω”—
+
+option java_outer_classname = "XinqiBseTakeUserBiblioReward"; 
+message BseTakeUserBiblioReward {
+   //0: success
+   optional int32 status = 1 [default=0];
+   optional string message = 2; 
+}

@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+
+
+message BseError{
+    required int32 	errorID = 1;        //´íÎóID
+    optional string sessionID = 2;      //Ô¤Áô
+    optional int32  roomID = 3;   		//Ô¤Áô
+}

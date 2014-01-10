@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//角色信息
+
+option java_outer_classname = "XinqiBceShowUserInfo"; 
+message BceShowUserInfo 
+{
+    required string uid  = 1 ; 							 // 目标玩家的uid 
+}

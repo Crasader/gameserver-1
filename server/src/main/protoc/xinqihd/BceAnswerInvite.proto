@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//响应邀请
+option java_outer_classname = "XinqiBceAnswerInvite"; 
+message BceAnswerInvite {
+    required string uid = 1;        //回应对象的UID
+    required int32 result = 2;      //邀请结果，0：成功，1：拒绝
+    required int32 roomId = 3;      //房间ID
+    required uint32 roomKey = 4;    //房间认证码
+}

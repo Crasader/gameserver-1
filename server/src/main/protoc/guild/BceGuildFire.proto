@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//开除成员
+
+option java_outer_classname = "XinqiBceGuildFire"; 
+message BceGuildFire {
+   //待开出的玩家ID 
+   optional string userid = 1; 
+}

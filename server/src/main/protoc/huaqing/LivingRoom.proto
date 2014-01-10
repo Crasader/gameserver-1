@@ -1,0 +1,18 @@
+//package wanyou.game.protocol;
+//
+
+import "LeaveMessage.proto";
+import "PropData.proto";
+import "UserData.proto";
+import "UserExData.proto";
+
+message LivingRoom
+{
+	  optional bool		can_pick_gold  = 1 [default = false]; //能否拾取金币
+	  repeated LeaveMessage messages = 2;                   //留言信息
+	  optional string notice         = 3 [default = "" ];   //公告信息
+      repeated PropData equips       = 4 ; //装备信息
+      optional int32 gender          = 5 [default = 1]; //性别
+      optional UserData data      = 6 ; //等级.经验.战斗力
+      optional UserExData exdata  = 7 ; //经验等
+}

@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//添加战友
+
+message BceAddFriend
+{
+   required string uid       = 1 ;  //请求加为好友的uid
+   optional bool   blacklist = 2 [default = false];  //加为黑名单?
+   optional bool   isdel     = 3 [default = false];  //是否是删除
+}

@@ -1,0 +1,33 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBceCraftPrice"; 
+/**
+ * 铁匠铺查询强化、合成、熔炼和转移的价格
+ */
+message BceCraftPrice {
+  /**
+   * 0: 强化
+   * 1: 合成, 将火、水、土、风石头合成到武器上
+   * 2: 熔炼, 合成高等级武器
+   * 3: 转移, 转移武器强化等级
+   */
+  optional int32 action=1;
+  /**
+   * 待处理的装备位置
+   * 为了简化协议，这个字段对于不同的协议具有不同的含义
+   * 对于强化0和合成1, 这个字段为目标装备pew
+   * 对于熔炼2, 这个字段为第一个装备的pew
+   * 对于转移3, 这个字段为目标装备的pew
+   */
+  optional int32 pew=2;
+  /**
+   * 辅助性质的pew，主要用于估算成功率
+   * 
+   * 为了简化协议，这个字段对于不同的协议具有不同的含义
+   * 对于强化0和合成1, 这个字段为辅助的强化石、合成石或者幸运符pew
+   * 对于熔炼2, 这个字段包含了四颗石头和一个熔炼符的pew
+   * 对于转移3, 这个字段第一个pew为源装备pew. 即srcpew
+   */
+  repeated int32 auxpew = 3;
+}

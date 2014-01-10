@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//工会扣费警告
+
+message BseGuildCostAlert
+{
+		optional int32 remain = 1 [default = 0];
+		optional int32 guildlevel = 2 [default = 0];
+}

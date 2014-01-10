@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//Ω‚…¢π§ª·
+
+message BseGuildDismiss
+{
+    required int32 result = 1;
+}

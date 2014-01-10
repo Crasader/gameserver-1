@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//Ã¿ÈÕ´ò¿¨
+
+option java_outer_classname = "XinqiBceDailyMark"; 
+message BceDailyMark {
+}

@@ -1,0 +1,4 @@
+//package wanyou.game.protocol;
+//进入大厅 请求
+message BceLeaveHall {   
+}

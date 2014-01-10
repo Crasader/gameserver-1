@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//Ω‚…¢π§ª·
+
+message BceGuildDismiss
+{
+    required int32 guildID = 1;
+}

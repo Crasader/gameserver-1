@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//返回房间信息
+message BseRoomInfo {
+    required int32 roomID = 1;        //房间ID
+    required int32 roomMode = 2;      //房间模式
+}

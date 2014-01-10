@@ -1,0 +1,21 @@
+package com.xinqihd.sns.gameserver.proto;
+//User ConfirmResult
+
+option java_outer_classname = "XinqiBceUserInput"; 
+/**
+* Ask the user to input something 
+*/
+message BceUserInput {
+    /**
+     * 0 - CANCEL
+     * 1 - YES
+     * 2 - NO
+     */
+    required int32 selected = 1;
+    required string input = 2;
+    /**
+    * The key to server to identify the input action
+    */
+    required string type = 3;
+    optional string usersession = 4;
+}

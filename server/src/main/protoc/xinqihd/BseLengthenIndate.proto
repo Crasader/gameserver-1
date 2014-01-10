@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//延长装备有效期结果
+option java_outer_classname = "XinqiBseLengthenIndate"; 
+message BseLengthenIndate {
+    required int32 pew = 2;                     //物品格子号，-1代表失败
+    optional uint32 newIndate = 3;              //新的有效期时间戳
+}

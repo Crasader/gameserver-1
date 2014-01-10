@@ -1,0 +1,12 @@
+//package wanyou.game.protocol;
+//请求帽子 眼镜 套装隐藏信息(告诉服务器什么 部位隐藏OR显示)
+message BceUserConfig {
+    optional bool hideHat = 1;       //隐藏帽子  false 不隐藏 true 是隐藏
+    optional bool hideGlass = 2;     //隐藏眼镜
+    optional bool hideSuit = 3;      //隐藏套装
+    optional bool leadFinished = 4;  //用户是否完成新手引导
+    optional bool musicSwitch =5;    //音量开关
+    optional bool effectSwitch = 6;  //音效开关
+    optional int32 musicVolume = 7;  //音量大小
+    optional int32 effectVolume = 8; //音效大小
+}

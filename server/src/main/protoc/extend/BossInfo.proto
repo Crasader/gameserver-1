@@ -1,0 +1,109 @@
+package com.xinqihd.sns.gameserver.proto;
+//Boss角色信息
+
+import "Gift.proto";
+
+option java_outer_classname = "XinqiBossInfo"; 
+
+message Point {
+   required uint32 x = 1;
+   required uint32 y = 2;
+};
+message BossReward {
+    /**
+    * 表示该类型副本具有的难度
+    * 简单、普通、困难、地狱
+    */
+	optional string hardmode        = 1;
+    /**
+     * Boss战斗胜利后的奖励
+     */
+    repeated Gift gifts				= 22;
+}
+
+message BossInfo {
+    required string id              = 1;           //本次BOSS的唯一标识
+    required string bossid          = 2;           //BossId与Boss类型绑定
+    required string name 		    = 3;           //Boss名
+    required string title 		    = 4;           //副本标题
+    required string target 			= 5;           //副本的目标
+    required string mapId 			= 6;           //副本使用的地图
+    required string desc 			= 7;           //副本的描述
+    required uint32 level 			= 8;           //玩家等级
+
+    required uint32 attack 			= 10;           //攻
+    required uint32 defend 			= 11;           //防
+    required uint32 agility 		= 12;           //敏
+    required uint32 lucky 			= 13;          //幸
+    required uint32 thew 			= 14;          //体
+    required uint32 blood 			= 15;          //血
+    required uint32 damage 			= 16;          //伤
+    required uint32 skin 			= 17;          //甲
+    required uint32 power           = 18;          //战斗力
+
+	/**
+	 * Single Boss. The game server will copy a clone 
+	 * for every user to challenge.
+	 * SINGLE,
+     *
+	 * World Boss. The game server will share a boss
+	 * for every user in the world.
+	 * WORLD,
+	 */
+    optional uint32 bosstype 		= 20 [default=0];           //Boss类型
+    /**
+     * 有些类型的Boss战需要在指定回合内完成
+     * 如果totalround<=0则不限制回合数
+     */
+    optional uint32 totalround 		= 21 [default=0];        //Boss对战回合数
+    /**
+     * Boss战斗胜利后的奖励
+     */
+    repeated Gift gifts				= 22;
+
+    /**
+     * 以下为攻击Boss时判断的
+     * width:  Boss的总宽度
+     * height: Boss的总高度
+     */
+    optional uint32 width			= 23;
+    optional uint32 height			= 24;
+
+    /**
+     * 副本开始和截止的时间（秒数），从1970年1月1日0秒计算
+     */
+    optional uint32 begintime       = 25;
+    optional uint32 endtime			= 26;
+    /**
+     * 副本状态, 0-4
+	 *
+	 * This is a new and pending boss 
+	 *  NEW,
+	 * This boss is open to attack
+	 *  PROGRESS,
+	 * This boss is beaten by users
+	 *  SUCCESS,
+	 * This boss reward is already taken
+	 *  TAKEN,
+	 * The boss challenge is running out of time.
+	 *  TIMEOUT,
+     */
+    optional uint32 status			= 27;
+    //剩余可挑战次数
+	optional uint32 challcount      = 28;
+
+    //副本进度
+    optional uint32 totaluser       = 30;
+    optional uint32 progress		= 31;
+    optional uint32 totalprogress	= 32;
+
+    //副本条件描述
+	repeated string condition       = 33;
+    //是否满足了副本挑战的条件
+	repeated bool   meetcond        = 34;
+    /**
+    * 表示该类型副本具有的难度
+    * 简单、普通、困难、地狱
+    */
+	repeated BossReward reward  = 35;
+}

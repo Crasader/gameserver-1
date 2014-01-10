@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBceBuyVip"; 
+
+message BceBuyVip {
+    //The number of months for user to buy
+    required uint32 month = 1;
+    /*
+	 * 0: 金币
+	 * 1: 礼券
+	 * 2: 勋章
+	 * 4: 元宝
+    */
+	required int32  payType = 2; 
+}

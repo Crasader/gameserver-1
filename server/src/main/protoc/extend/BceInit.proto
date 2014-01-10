@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceInit"; 
+message BceInit {
+	//Secure token
+    required string token = 1;
+}

@@ -1,0 +1,11 @@
+//package wanyou.game.protocol;
+//登录时的任务列表
+
+message TaskProtoInfo{
+    required int32 taskID = 1;         //任务id
+    required int32 step = 2;           //step
+}
+
+message BseTaskList {
+    repeated TaskProtoInfo taskList = 1;    //任务数组
+}

@@ -1,0 +1,26 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+import "Gift.proto";
+
+option java_outer_classname = "XinqiBcePropDataQuery"; 
+/**
+* Check the different vip level rewards.
+*/
+message BcePropDataQuery {
+   /**
+   * 三种查询方式可以任选其一:
+   * 1. giftstr 查询
+   * 2. Gift 查询
+   * 3. weaponId 查询
+   * 4. pew: 指向玩家背包中的物品
+   * 客户端用服务器返回的Gift字符串做查询条件，
+   * 服务器可精确构造PropData供客户端显示，
+   * 用来在聊天消息中炫耀武器装备
+   */
+   optional string giftstr = 1;
+   optional Gift   gift = 2;
+   optional string weaponid = 3;
+   optional int32 pew = 4;
+   //The propData belongs to this user's bag
+   optional string userid = 5;
+}

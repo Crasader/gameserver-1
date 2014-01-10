@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求进入工会俱乐部
+
+import "GuildReqInfo.proto";
+import "GuildInviteInfo.proto";
+
+option java_outer_classname = "XinqiBceEnterGuild"; 
+message BceEnterGuild 
+{
+    optional int32 guildID = 1;
+    repeated GuildReqInfo reqlist = 2;
+    repeated GuildInviteInfo	invitelist = 3;
+}

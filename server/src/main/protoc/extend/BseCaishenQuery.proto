@@ -1,0 +1,28 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseCaishenQuery"; 
+/**
+ * 这个协议返回招财的价格，数额和可用次数
+ * 
+ * 当有新的招财机会时, 服务器会主动下发这个协议,游戏中
+ * 需要闪动招财的图标，提示用户点击
+ */
+message BseCaishenQuery {
+    /**
+    * 今天剩余可以使用的次数
+    */
+    optional uint32 count = 1;
+    /**
+    * 购买一次的元宝价格
+    */
+    optional uint32 price = 2;
+    /**
+    * 购买后获得的金币数量 
+    */
+    optional uint32 goldenvalue = 3;
+    /**
+    * 作为注释显示，比如对于体力值来讲，显示
+    *  “(VIP用户可获得更多机会)”
+    */
+    optional string info = 4;
+}

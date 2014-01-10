@@ -1,0 +1,18 @@
+//package wanyou.game.protocol;
+//好友信息
+
+message FriendInfoLite {
+    required string uid = 1;                //uid
+    required string nickName = 2;           //用户昵称
+    required uint32 level = 3;              //等级
+    required bool online = 4;               //是否在线
+    required uint32 winOdds = 5;            //胜率
+    required uint32 wins = 6;               //胜场
+    required string openid = 7;
+    required string headurl = 8;
+    optional int32  friendtype = 9 [default = 0]; // 0:平台好友 1：战友 2：黑名单 3：系统 4:最近联系人 5:最近战斗的人
+    optional int32  power      = 10 [default = 0]; // 战斗力;
+    optional bool   isYellowDmd     = 11 [default = false];  //是否是黄钻
+    optional bool   isYellowDmdYear = 12 [default = false];  //是否是年费黄钻
+    optional int32  YellowDmdLvl    = 13 [default = 0];       //黄钻等级
+}

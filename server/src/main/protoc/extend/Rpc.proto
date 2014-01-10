@@ -1,0 +1,35 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "Rpc"; 
+option java_generic_services = true;
+
+enum Type {
+  REQUEST = 1;
+  RESPONSE = 2;
+}
+
+enum Result{
+  OK = 1;
+  ERR = 2;
+}
+
+//The request/response message.
+message RpcMessage {  
+  required uint32 id = 1;  
+  required Type type = 2;
+  optional Result result = 3 [default = OK];
+  optional string className = 4;
+  optional string service = 5;  
+  optional string method = 6;  
+  optional bytes payload = 7;  
+}
+
+//It represents no parameters or return value
+message Void {
+}
+
+//It is the boolean response value
+message BoolResponse {
+  optional bool result = 1 [default = true];
+}
+

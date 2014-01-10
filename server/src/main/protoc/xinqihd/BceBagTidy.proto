@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求整理背包
+option java_outer_classname = "XinqiBceBagTidy"; 
+message BceBagTidy {
+
+}

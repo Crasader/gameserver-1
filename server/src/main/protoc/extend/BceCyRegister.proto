@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Register
+
+option java_outer_classname = "XinqiBceCyRegister"; 
+message BceCyRegister {
+	//Register username
+    optional string username = 1;
+	//Register password
+    optional string password = 2;
+}

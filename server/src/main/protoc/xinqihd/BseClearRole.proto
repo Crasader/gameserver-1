@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回好友信息
+option java_outer_classname = "XinqiBseClearRole"; 
+message BseClearRole {
+      required string sessionId = 1;
+}

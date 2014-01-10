@@ -1,0 +1,5 @@
+package com.xinqihd.sns.gameserver.proto;
+//
+option java_outer_classname = "XinqiBceRoomUserList"; 
+message BceRoomUserList {
+}

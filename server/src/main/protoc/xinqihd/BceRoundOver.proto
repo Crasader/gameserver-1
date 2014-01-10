@@ -1,0 +1,5 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求公告、活动信息
+option java_outer_classname = "XinqiBceRoundOver"; 
+message BceRoundOver {
+}

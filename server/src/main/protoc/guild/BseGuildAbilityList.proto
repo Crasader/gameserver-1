@@ -1,0 +1,35 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会技能的配置数据一览
+
+option java_outer_classname = "XinqiBseGuildAbilityList"; 
+
+message GuildAbility {
+  /**
+  * 技能类型
+  * 10: 攻击
+  * 11: 敏捷 
+  * 12: 幸运 
+  * 13: 防御 
+  * 14: 生命 
+  * 15: 寻宝 
+  * 16: 祈福
+  */
+  optional int32 type = 1;
+  //技能的名称
+  optional int32 name = 2;
+  //当前技能的等级
+  optional int32 level = 3;
+  /**
+   * 下一次升级的冷却时间(秒), 为0表示可以立即升级
+   */
+  optional int32 cooldown = 10; 
+  /**
+   * 取消冷却时间，立即升级的元宝价格
+  */
+  optional int32 yuanbao = 11; 
+}
+
+message BseGuildAbilityList {
+  //技能的列表，有可能为空数组
+  repeated GuildAbility ability = 1;	
+}

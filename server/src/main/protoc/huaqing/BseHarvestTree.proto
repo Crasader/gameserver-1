@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//ÊÕ»ñÊ÷
+
+message BseHarvestTree
+{
+    //optional int32 gold = 1 [default = 0];
+    //optional int32 minute = 2 [default = 0];
+    optional  int32 metal_give = 1 [default = 0]; 
+}

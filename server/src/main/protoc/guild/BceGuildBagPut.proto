@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+option java_outer_classname = "XinqiBceGuildBagPut"; 
+/**
+ * 玩家将背包中的物品放入公会背包
+ */
+message BceGuildBagPut {
+    optional string guildID = 1;     //ID 
+    optional int32 pew = 2;
+}

@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//根据ID提取语音内容
+
+option java_outer_classname = "XinqiBseGetVoiceChat"; 
+message BseGetVoiceChat {
+    optional string voiceid = 1; 
+    /**
+    * 如果voice为空，表示语音消息已经过期
+    */
+    optional bytes voice = 2;      
+}

@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//³ÉÔ±¾èÏ×
+
+option java_outer_classname = "XinqiBceGuildContribute"; 
+message BceGuildContribute 
+{
+    optional int32 guildID = 1 ;
+}

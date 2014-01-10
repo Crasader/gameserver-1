@@ -1,0 +1,26 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会设施的贡献度和作用一览
+
+option java_outer_classname = "XinqiBseGuildFacilityList"; 
+
+message GuildFacility {
+  /**
+   * 公会的设施类型
+   * 0: 商城
+   * 1: 铁匠铺
+   * 2: 仓库
+   * 3: 公会
+   * 4: 技能
+  */
+  optional int32 type = 1;
+  //设施的等级
+  repeated int32 level = 2;
+  //设施的最低贡献度
+  repeated int32 credit = 3;
+  //功能描述
+  repeated string desc = 5;
+} 
+
+message BseGuildFacilityList {
+  repeated GuildFacility facility = 1;
+}

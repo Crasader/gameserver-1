@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//退出工会
+
+option java_outer_classname = "XinqiBceExitGuild"; 
+message BceExitGuild 
+{
+    optional int32 guildID = 1 ;    //公会ID
+}

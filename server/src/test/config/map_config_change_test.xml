@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+	<map>
+		<id>1001</id>
+		<name>丛林秘洞</name>
+		<scrollArea x="0" y="0" width="1700" height="1100"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_00" num="1" scrollRate="1"></layer>
+			<layer id="map_00_bg" num="2" scrollRate="1"></layer>
+		</layers>
+		<bgm>data/resources/bgm/07.mp3</bgm>
+		<startPoints>
+			<point x="220" y="345"></point>
+			<point x="420" y="345"></point>
+			<point x="400" y="660"></point>
+			<point x="600" y="660"></point>
+			<point x="1080" y="660"></point>
+			<point x="1280" y="660"></point>
+			<point x="1270" y="345"></point>
+			<point x="1470" y="345"></point>
+		</startPoints>
+	</map>
+	<map>		
+		<id>1002</id>
+		<name>战争前线</name>
+		<scrollArea x="0" y="0" width="1571" height="900"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_01" num="1" scrollRate="1"></layer>
+			<layer id="map_01_bg" num="2" scrollRate="1"></layer>
+		</layers>
+		<bgm>data/resources/bgm/01.mp3</bgm>
+		<startPoints>
+			<point x="100" y="640"></point>
+			<point x="190" y="630"></point>
+			<point x="320" y="580"></point>
+			<point x="540" y="620"></point>
+			<point x="990" y="590"></point>
+			<point x="1120" y="640"></point>
+			<point x="1270" y="625"></point>
+			<point x="1400" y="650"></point>
+		</startPoints>
+	</map>
+</maps>

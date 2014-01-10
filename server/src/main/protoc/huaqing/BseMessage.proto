@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//留言
+import "LeaveMessage.proto";
+
+message BseMessage
+{
+   required string uid     = 1 ;  //发信人的uid
+   optional LeaveMessage message = 2;
+}

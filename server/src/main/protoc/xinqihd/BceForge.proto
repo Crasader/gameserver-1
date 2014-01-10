@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求合成物品
+option java_outer_classname = "XinqiBceForge"; 
+message BceForge {
+    required int32 equipPew = 1;                        //要锻造的装备的格子号
+    repeated int32 otherPews = 2 [packed = true];       //辅助物品的格子号
+    optional bool  useSaveStone=3;											//是否使用了神恩符
+}

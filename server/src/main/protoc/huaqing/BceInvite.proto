@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//ÑûÇë
+message BceInvite{
+    required string uid = 1;        //ÑûÇë¶ÔÏóµÄUID
+}

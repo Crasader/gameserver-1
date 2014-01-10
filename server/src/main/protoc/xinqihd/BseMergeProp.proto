@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseMergeProp"; 
+message BseMergeProp {
+    required int32 srcPew = 1;
+    required int32 dstPew = 2;
+}

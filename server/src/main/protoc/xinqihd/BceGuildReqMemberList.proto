@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//查看预备成员列表
+
+option java_outer_classname = "XinqiBceGuildReqMemberList"; 
+message BceGuildReqMemberList 
+{
+    optional int32 guildID = 1 ;
+}

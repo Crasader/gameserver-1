@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//ÒÆ¶¯Í£Ö¹
+message BceRoleMove {
+    required int32 x = 3;
+    required int32 y = 4;
+}

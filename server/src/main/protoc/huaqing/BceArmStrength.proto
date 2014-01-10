@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//请求装备强固
+message BceArmStrength {
+
+
+}

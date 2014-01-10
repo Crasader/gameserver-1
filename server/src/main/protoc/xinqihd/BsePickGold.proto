@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//
+
+option java_outer_classname = "XinqiBsePickGold"; 
+message BsePickGold 
+{
+    required int32 gold = 1 ;// 到底捡到了多少钱 
+}

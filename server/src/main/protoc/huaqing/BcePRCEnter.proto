@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//ÒÆ¶¯Í£Ö¹
+message BcePRCEnter {
+	 required int32  prcID = 1;	//PVEID
+	 required string prcName=2; //PVEÃû³Æ
+}

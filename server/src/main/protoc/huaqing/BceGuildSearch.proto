@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//查找工会
+
+message BceGuildSearch
+{
+    required int32 mode = 1;				 //0.名字 1.随机
+    optional string key = 2 [default = ""];    //搜索公会名
+}

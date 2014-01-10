@@ -1,0 +1,10 @@
+//package wanyou.game.protocol;
+//¹¤»áÑûÇë¼ÇÂ¼
+
+message GuildInviteInfo
+{
+		optional int32 guildID = 1 ;
+		optional string guildName = 2 ;
+		optional string inviteUid = 3 ;
+		optional string inviteUserName = 4 ;
+}

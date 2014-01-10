@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//Send Gift
+
+option java_outer_classname = "XinqiBseSendGift"; 
+message BseSendGift {
+	//Response code: 0 - success, 1 - user not found, 2 - other problems
+    optional int32 code = 1;
+	//Detail description
+	optional string desc = 2;
+}

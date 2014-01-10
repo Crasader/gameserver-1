@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//申请加入工会
+
+option java_outer_classname = "XinqiBceGuildRequest"; 
+message BceGuildRequest 
+{
+    required int32 guildID = 1 ;
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<equipment >
+    <weapons >
+        <weapon index="226" id="12001" quality="2" s_name="榴弹炮" equip_type="1" add_attack="250" add_defend="60" add_agility="40" add_luck="30" add_blood="0" blood_percent="0" add_thew="0" add_damage="205" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="3" lv="0" autoDirection="1" sAutoDirection="1" specialAction="1" radius="64" sRadius="96" expBlend="normal" expSe="1" power="356" autoDestory="0" bullet="bullet_missile" icon="Weapon0003" name="榴弹炮" info="请给我一次展示的机会。一发，只要一发我就可以夷平这块土地。" Bubble="" slot="weapon" >
+            <avatar >
+                <part id="weapon_gun_f" layer="weapon_front" />
+                <part id="weapon_gun_b" layer="weapon_back" />
+            </avatar>
+        </weapon>
+    </weapons>
+    <offhandweapons>
+        <offhandweapon index="457" id="13012" quality="3" s_name="狂●爱神祝福" add_hp="800" equip_type="130" add_attack="0" add_defend="0" add_agility="0" add_luck="0" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="3" lv="0" autoDirection="1" sAutoDirection="1" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="bullet_hp" icon="Weapon0019" name="狂●爱神祝福" info="爱神丘比特的祝福，在战斗中使用可以恢复生命！" Bubble="" slot="offhandweapon" >
+            <avatar >
+            </avatar>
+        </offhandweapon>
+    </offhandweapons>
+    <expressions >
+        <expression index="17" id="17" quality="2" s_name="严肃" equip_type="132" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="0" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Male_exp0007" name="严肃" info="什么都不要说了，来决斗吧！" Bubble="" slot="expression" >
+            <avatar >
+                <part id="expression_1_s007" layer="expression" />
+            </avatar>
+        </expression>
+    </expressions>
+    <faces >
+        <face index="313" id="30002" quality="2" s_name="不可或缺的脸皮" equip_type="133" add_attack="0" add_defend="0" add_agility="0" add_luck="0" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="0" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Female_face0001" name="不可或缺的脸皮" info="基本女款。。。" Bubble="" slot="face" >
+            <avatar >
+                <part id="face_df2" layer="face" />
+            </avatar>
+        </face>
+    </faces>
+    <decorations >
+        <decoration index="59" id="1025" quality="2" s_name="络腮胡" equip_type="134" add_attack="10" add_defend="10" add_agility="10" add_luck="10" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="8760" indate2="0" indate3="0" sign="0" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Male_deco0019" name="络腮胡" info="成熟稳重就是我的风格" Bubble="" slot="decoration" >
+            <avatar >
+                <part id="decoration_1_s019" layer="decoration" />
+            </avatar>
+        </decoration>
+    </decorations>
+    <hairs >
+        <hair index="60" id="2001" quality="2" s_name="典雅帅气" equip_type="135" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="15" sex="1" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="0" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Female_hair0001" name="典雅帅气" info="绝对是最流行的发型" Bubble="" slot="hair" >
+            <avatar >
+                <part id="hair_back_0_s001" layer="hair_back" />
+                <part id="hair_low_0_s001" layer="hair_low" />
+            </avatar>
+        </hair>
+    </hairs>
+    <wings >
+        <wing index="103" id="4001" quality="2" s_name="火焰精灵之翼" equip_type="136" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="2" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Wing0001" name="火焰精灵之翼" info="似乎正在燃烧，耀眼无比" Bubble="" slot="wing" >
+            <avatar >
+                <part id="wing_back_s001" layer="wing_back" />
+                <part id="wing_front_s001" layer="wing_front" />
+            </avatar>
+        </wing>
+    </wings>
+    <clothes >
+        <clothes index="155" id="6050" quality="2" s_name="性感特工" equip_type="137" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="60" sex="1" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="3" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Female_body0037" name="性感特工" info="我可是最厉害的特工了呢，可不要太过以貌取人噜呦。" Bubble="" slot="clothes" >
+            <avatar >
+                <part id="body_0_s037" layer="body" />
+                <part id="arm_front_0_s037" layer="arm_front" />
+                <part id="arm_back_0_s037" layer="arm_back" />
+            </avatar>
+        </clothes>
+    </clothes>
+    <hats >
+        <hat index="156" id="8001" quality="2" s_name="花边帽" equip_type="138" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="60" sex="1" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="3" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Female_hat0001" name="花边帽" info="镶满了花边的帽子" Bubble="" slot="hat" >
+            <avatar >
+                <part id="hat_0_s001" layer="hat" />
+            </avatar>
+        </hat>
+    </hats>
+    <glasses >
+        <glasses index="205" id="10001" quality="2" s_name="太阳镜" equip_type="139" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="1" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="2" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Female_glass0001" name="太阳镜" info="抵御紫外线" Bubble="" slot="glasses" >
+            <avatar >
+                <part id="glasses_0_s001" layer="glasses" />
+            </avatar>
+        </glasses>
+    </glasses>
+    <jewelries >
+        <jewelry index="252" id="14001" quality="2" s_name="天翼之戒" equip_type="141" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="100000" sign="6" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Ring0001" name="天翼之戒" info="这是一只能使佩戴者感受不到重量的戒指" Bubble="" slot="jewelry" >
+            <avatar >
+            </avatar>
+        </jewelry>
+    </jewelries>
+    <bubbles >
+        <bubble index="314" id="32001" quality="2" s_name="呆猫小灰" equip_type="143" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="100000" indate3="100000" sign="0" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Bubble0001" name="呆猫小灰" info="我叫小灰，朋友都叫我小呆~哦，对了，头上的小花是我的最爱哦！" Bubble="" slot="bubble" >
+            <avatar >
+            </avatar>
+        </bubble>
+    </bubbles>
+    <suits >
+        <suit index="320" id="40001" quality="2" s_name="海绵宝宝" equip_type="146" add_attack="5" add_defend="5" add_agility="5" add_luck="5" add_blood="0" blood_percent="0" add_thew="0" add_damage="0" add_skin="0" sex="2" unused1="-1" unused2="0" unused3="0" indate1="168" indate2="720" indate3="8760" sign="0" lv="0" autoDirection="0" sAutoDirection="0" specialAction="0" radius="0" sRadius="0" expBlend="" expSe="0" power="0" autoDestory="0" bullet="" icon="Suit0001" name="海绵宝宝" info="快逃呀小女孩，快逃。嘿嘿嘿。" Bubble="" slot="suit" >
+            <avatar >
+                <part id="suit_com_body_s001" layer="body" />
+                <part id="suit_com_arm_front_s001" layer="arm_front" />
+                <part id="suit_com_arm_back_s001" layer="arm_back" />
+                <part id="suit_com_face_s001" layer="face" />
+                <part id="suit_com_expression_s001" layer="expression" />
+            </avatar>
+        </suit>
+    </suits>
+</equipment>

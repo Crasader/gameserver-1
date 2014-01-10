@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//修改任务
+
+option java_outer_classname = "XinqiBseModiTask"; 
+message BseModiTask 
+{
+   required int32 taskID = 1 ;  //任务ID
+   required int32 step = 2 ;  	//任务步骤
+}

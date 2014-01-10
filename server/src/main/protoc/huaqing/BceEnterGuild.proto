@@ -1,0 +1,12 @@
+//package wanyou.game.protocol;
+//请求进入工会俱乐部
+
+import "GuildReqInfo.proto";
+import "GuildInviteInfo.proto";
+
+message BceEnterGuild
+{
+    optional int32 guildID = 1;
+    repeated GuildReqInfo reqlist = 2;
+    repeated GuildInviteInfo	invitelist = 3;
+}

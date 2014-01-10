@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//返回好友信息
+message BseClearRole {
+      required string sessionId = 1;
+}

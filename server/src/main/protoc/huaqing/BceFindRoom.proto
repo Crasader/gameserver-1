@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//查找房间
+message BceFindRoom {   
+   required int32 roomID = 1 [default = 0]; 
+   optional string userID = 2 ; 	//进入该玩家的房间
+}

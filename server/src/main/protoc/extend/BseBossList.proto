@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+
+import "BossInfo.proto";
+
+option java_outer_classname = "XinqiBseBossList"; 
+
+message BseBossList {
+  repeated BossInfo bosslist = 1;
+}

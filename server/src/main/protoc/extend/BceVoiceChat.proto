@@ -1,0 +1,22 @@
+package com.xinqihd.sns.gameserver.proto;
+//发送语音消息
+
+option java_outer_classname = "XinqiBceVoiceChat"; 
+message BceVoiceChat {
+    required int32 msgType = 1;         //消息类型  0:当前 1:私聊 2:工会 3:小喇叭 4:大喇叭 5:小队
+    optional bytes msgContent = 2;      //消息内容
+    optional string usrId = 3;          //发送给谁 私聊用到
+    optional int32 second = 4;          //大约的时长
+    /**
+    * 是否应用声音滤镜
+    * 0: 普通 
+    * 1: TOM猫
+    * 2: 星战 
+    * 3: 对讲机 
+    */
+    optional int32 filter = 10 [default=0];         
+    /**
+    * true则自动播放
+    */
+    optional bool autoplay = 11 [default=false];         
+}

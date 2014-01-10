@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//╫ги╚пео╒
+
+option java_outer_classname = "XinqiBceAcceptDailyAward"; 
+message BceAcceptDailyAward {
+}

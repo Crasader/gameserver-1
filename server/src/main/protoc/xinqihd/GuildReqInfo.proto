@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//π§ª·…Í«Îº«¬º
+
+option java_outer_classname = "XinqiGuildReqInfo"; 
+message GuildReqInfo 
+{
+		optional int32 guildID = 1 ;
+		optional string guildName = 2 ;
+}

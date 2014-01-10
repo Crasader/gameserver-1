@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//请求离开房间
+message BseKickUser{
+	required string outuserid	= 1;	//被踢玩家ID,如果失败，返回0
+	required string kickuserid	= 2;	//踢人玩家ID,
+}

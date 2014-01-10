@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÑûÇë
+option java_outer_classname = "XinqiBceInvite"; 
+message BceInvite {
+    required string uid = 1;        //ÑûÇë¶ÔÏóµÄUID
+}

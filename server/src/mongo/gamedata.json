@@ -1,0 +1,237 @@
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2a6"} , "key" : "standrad_user_exp" , "value" : 100 , "desc" : "系统标准经验值" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2a7"} , "key" : "battle_attack_k" , "value" : 0.059081 , "desc" : "力度微调系数" , "default" : 0.059081}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2a8"} , "key" : "battle_attack_F" , "value" : 0.075 , "desc" : "风力微调系数" , "default" : 0.075}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2a9"} , "key" : "battle_attack_G" , "value" : 760 , "desc" : "重力微调系数" , "default" : 760}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2aa"} , "key" : "battle_user_max_idle_seconds" , "value" : 40 , "desc" : "战斗中当前回合玩家最大空闲时间,超时后回合自动切换(秒)" , "default" : 40}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ab"} , "key" : "battle_max_seconds" , "value" : 300 , "desc" : "战斗最长持续的时间,超时后战斗自动结束(秒)" , "default" : 300}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ac"} , "key" : "battle_guide_range" , "value" : 300 , "desc" : "使用自动引导时,如果炮弹落点距离玩家在该范围内,则命中" , "default" : 300}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ad"} , "key" : "battle_guide_hurt_ratio" , "value" : 0.2 , "desc" : "使用自动引导命中的伤害是正常伤害的百分比" , "default" : 0.2}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ae"} , "key" : "battle_three_branch_hurt_ratio" , "value" : 0.5 , "desc" : "使用三叉戟命中的伤害是正常伤害的百分比" , "default" : 0.5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2af"} , "key" : "battle_two_continue_hurt_ratio" , "value" : 0.65 , "desc" : "使用连续两次攻击命中的伤害是正常伤害的百分比" , "default" : 0.65}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b0"} , "key" : "battle_one_continue_hurt_ratio" , "value" : 0.85 , "desc" : "使用连续一次攻击命中的伤害是正常伤害的百分比" , "default" : 0.85}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b1"} , "key" : "game_attack_index" , "value" : 1.0 , "desc" : "攻击力转换为伤害的比率" , "default" : 1.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b2"} , "key" : "game_skin_index" , "value" : 0.5 , "desc" : "护甲值转换为伤害的比率" , "default" : 0.5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b3"} , "key" : "game_defend_index" , "value" : 1.5 , "desc" : "防御力转换为伤害的比率" , "default" : 1.5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b4"} , "key" : "_index" , "value" : 5 , "desc" : "" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b5"} , "key" : "battle_critical_max" , "value" : 4000.0 , "desc" : "计算暴击的上限值" , "default" : 4000.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b6"} , "key" : "user_body_width" , "value" : 100 , "desc" : "玩家在地图中的宽度(攻击范围判定用)" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b7"} , "key" : "user_body_height" , "value" : 90 , "desc" : "玩家在地图中的高度(攻击范围判定用)" , "default" : 90}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b8"} , "key" : "user_default_golden" , "value" : 5000 , "desc" : "玩家初始的金币数" , "default" : 5000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2b9"} , "key" : "user_default_yuanbao" , "value" : 10 , "desc" : "玩家初始的元宝数" , "default" : 10}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ba"} , "key" : "user_default_voucher" , "value" : 0 , "desc" : "玩家初始的礼券数" , "default" : 0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2bb"} , "key" : "user_default_medal" , "value" : 0 , "desc" : "玩家初始的勋章数" , "default" : 0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2bc"} , "key" : "user_thew_base" , "value" : 210 , "desc" : "玩家基础体力值" , "default" : 210}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2bd"} , "key" : "user_bag_max" , "value" : 60 , "desc" : "玩家背包的最大容量" , "default" : 60}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2be"} , "key" : "user_tool_max" , "value" : 3 , "desc" : "玩家便携道具的最大数量" , "default" : 3}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2bf"} , "key" : "user_task_number" , "value" : 5 , "desc" : "玩家任务列表中新任务的最大数量" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c0"} , "key" : "user_online_reward_max" , "value" : 7 , "desc" : "玩家每日登陆奖励的最大次数(3次)" , "default" : 7}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c1"} , "key" : "user_rank_max" , "value" : 100 , "desc" : "排行榜显示的最大玩家数量" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c2"} , "key" : "weapon_indate_simple" , "value" : 30 , "desc" : "'简陋'武器使用的最大次数" , "default" : 30}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c3"} , "key" : "weapon_indate_normal" , "value" : 100 , "desc" : "'普通'武器使用的最大次数" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c4"} , "key" : "weapon_indate_solid" , "value" : 200 , "desc" : "'坚固'武器使用的最大次数" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c5"} , "key" : "weapon_indate_eternal" , "value" : 2147483647 , "desc" : "'恒久'武器使用的最大次数" , "default" : 2147483647}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c6"} , "key" : "strength_max_level" , "value" : 15 , "desc" : "强化的最大等级限制12" , "default" : 15}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c7"} , "key" : "strength_base_ratio" , "value" : 1.2 , "desc" : "强化道具1-5等级时属性提升的比率" , "default" : 1.2}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c8"} , "key" : "strength_normal_ratio" , "value" : 2.0 , "desc" : "强化道具1-5等级时属性提升的比率" , "default" : 2.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2c9"} , "key" : "strength_advance_ratio" , "value" : 3.0 , "desc" : "强化道具1-5等级时属性提升的比率" , "default" : 3.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2cb"} , "key" : "forge_sigma_ratio" , "value" : [ 0.2 , 0.4 , 0.6 , 1.0 , 1.6] , "desc" : "合成石基于等级提升的基础数值(新数值不会低于该倍率)" , "default" : [ 0.2 , 0.4 , 0.6 , 1.0 , 1.6]}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2cc"} , "key" : "forge_lucky_ratio" , "value" : 6.0 , "desc" : "合成石幸运符的加成参数" , "default" : 6.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2cd"} , "key" : "compose_item_base_ratio" , "value" : 0.0 , "desc" : "熔炼成功的基础概率" , "default" : 0.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ce"} , "key" : "craft_stone_luck" , "value" : 20001 , "desc" : "与装备合成后提高幸运属性的道具类型ID" , "default" : 20001}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2cf"} , "key" : "craft_stone_defend" , "value" : 20002 , "desc" : "与装备合成后提高防御属性的道具类型ID" , "default" : 20002}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d0"} , "key" : "craft_stone_agility" , "value" : 20003 , "desc" : "与装备合成后提高敏捷属性的道具类型ID" , "default" : 20003}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d1"} , "key" : "craft_stone_attack" , "value" : 20004 , "desc" : "与装备合成后提高攻击属性的道具类型ID" , "default" : 20004}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d2"} , "key" : "craft_stone_strength" , "value" : 20005 , "desc" : "用来强装备提高武器伤害或装备护甲的道具类型ID" , "default" : 20005}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d3"} , "key" : "craft_stone_lucky1" , "value" : 24002 , "desc" : "幸运符+15%的道具类型ID" , "default" : 24002}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d4"} , "key" : "craft_stone_lucky2" , "value" : 24004 , "desc" : "幸运符+25%的道具类型ID" , "default" : 24004}
+{ "_id" : { "$oid" : "50f7801aaab327ea4bc4c564"} , "key" : "vip_strength_ratio" , "value" : [ 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.05 , 0.15 , 0.25 , 0.4 , 0.5] , "desc" : "VIP各个等级强化概率加成" , "default" : [ 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.05 , 0.15 , 0.25 , 0.4 , 0.5]}
+{ "_id" : { "$oid" : "50f7801aaab327ea4bc4c565"} , "key" : "item_changename_id" , "value" : "30000" , "desc" : "改名卡的ID" , "default" : "30000"}
+{ "_id" : { "$oid" : "50f7801aaab327ea4bc4c566"} , "key" : "email.smtp" , "value" : "xinqihd.com" , "desc" : "发送邮件的SMTP服务器" , "default" : "xinqihd.com"}
+{ "_id" : { "$oid" : "50f7801aaab327ea4bc4c567"} , "key" : "login.major.version" , "value" : 1 , "desc" : "登陆的大版本号" , "default" : 1}
+{ "_id" : { "$oid" : "50f7801aaab327ea4bc4c568"} , "key" : "login.minor.version" , "value" : 8 , "desc" : "登陆的小版本号" , "default" : 8}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe6e"} , "key" : "boss.single.expire" , "value" : 3600 , "desc" : "单人BOSS限定的通关时间(秒)" , "default" : 3600}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d5"} , "key" : "stone_god_typeid" , "value" : 24001 , "desc" : "神恩符的道具类型ID" , "default" : 24001}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d6"} , "key" : "box_levelup_typeid" , "value" : 25011 , "desc" : "升级奖励的宝箱的道具类型ID" , "default" : 25011}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d7"} , "key" : "craft_failure_level_down" , "value" : 5 , "desc" : "低于该等级的状态在强化失败后会降级" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d8"} , "key" : "craft_failure_vip_level_down" , "value" : 9 , "desc" : "VIP低于该等级的状态在强化失败后会降级" , "default" : 9}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2d9"} , "key" : "craft_stone_lucky_typeid" , "value" : 24002 , "desc" : "幸运符的通用道具类型ID" , "default" : 24002}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2da"} , "key" : "stone_func_typeid" , "value" : 21001 , "desc" : "熔炼公式的道具类型ID" , "default" : 21001}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2db"} , "key" : "stone_func_luck" , "value" : 21001 , "desc" : "水神石炼化符ID" , "default" : 21001}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2dc"} , "key" : "stone_func_defend" , "value" : 21002 , "desc" : "土神石炼化符ID" , "default" : 21002}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2dd"} , "key" : "stone_func_agility" , "value" : 21003 , "desc" : "风神石炼化符ID" , "default" : 21003}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2de"} , "key" : "stone_func_attack" , "value" : 21004 , "desc" : "火神石炼化符ID" , "default" : 21004}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2df"} , "key" : "stone_func_strength" , "value" : 21005 , "desc" : "强化石炼化符ID" , "default" : 21005}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e0"} , "key" : "stone_ring_typeid" , "value" : 21006 , "desc" : "熔炼戒指和手镯的道具类型ID" , "default" : 21006}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e1"} , "key" : "room_match_power" , "value" : 2000 , "desc" : "房间匹配时比较用的战斗力差值" , "default" : 2000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e2"} , "key" : "room_match_level" , "value" : 5 , "desc" : "房间匹配时比较用的等级差值" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e3"} , "key" : "room_max_user" , "value" : 4 , "desc" : "房间能容纳的最大用户数(4)" , "default" : 4}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e4"} , "key" : "room_ready_timeout" , "value" : 5000 , "desc" : "房间从创建到进入准备状态的总时间" , "default" : 5000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e5"} , "key" : "room_unfull_timeout" , "value" : 10000 , "desc" : "多人房间用户未加满的总超时" , "default" : 10000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e6"} , "key" : "room_userjoin_timeout" , "value" : 15000 , "desc" : "玩家从加入房间到进入准备状态的总时间(应小于‘room_ready_timeout’)" , "default" : 15000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e7"} , "key" : "delay_aglity_base" , "value" : 100 , "desc" : "计算敏捷对Delay值影响的基数(值越大,敏捷影响越高)" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e8"} , "key" : "delay_role_attack" , "value" : 100 , "desc" : "玩家开火增加的Delay值" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2e9"} , "key" : "delay_power" , "value" : 0 , "desc" : "玩家发起大招增加的Delay值" , "default" : 0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ea"} , "key" : "delay_role_save" , "value" : 100 , "desc" : "回合切换增加的Delay值" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2eb"} , "key" : "delay_role_fly" , "value" : 55 , "desc" : "玩家使用纸飞机增加的Delay值" , "default" : 55}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ec"} , "key" : "delay_tool_AttackTwoMoreTimes" , "value" : 40 , "desc" : "玩家使用附加攻击2次增加的Delay值" , "default" : 40}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ed"} , "key" : "delay_tool_AttackThreeBranch" , "value" : 40 , "desc" : "玩家使用三叉戟攻击增加的Delay值" , "default" : 40}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ee"} , "key" : "delay_tool_AttackOneMoreTimes" , "value" : 40 , "desc" : "玩家使用附加攻击1次增加的Delay值" , "default" : 40}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ef"} , "key" : "delay_tool_HurtAdd50" , "value" : 25 , "desc" : "玩家使用伤害50%增加的Delay值" , "default" : 25}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f0"} , "key" : "delay_tool_HurtAdd40" , "value" : 20 , "desc" : "玩家使用伤害40%增加的Delay值" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f1"} , "key" : "delay_tool_HurtAdd30" , "value" : 15 , "desc" : "玩家使用伤害30%增加的Delay值" , "default" : 15}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f2"} , "key" : "delay_tool_HurtAdd20" , "value" : 10 , "desc" : "玩家使用伤害20%增加的Delay值" , "default" : 10}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f3"} , "key" : "delay_tool_HurtAdd10" , "value" : 5 , "desc" : "玩家使用伤害10%增加的Delay值" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f4"} , "key" : "delay_tool_Recover" , "value" : 55 , "desc" : "玩家使用加血技能增加的Delay值" , "default" : 55}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f5"} , "key" : "delay_tool_AllRecover" , "value" : 60 , "desc" : "玩家使用团队加血技能增加的Delay值" , "default" : 60}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f6"} , "key" : "delay_tool_Hidden" , "value" : 20 , "desc" : "玩家使用隐身技能增加的Delay值" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f7"} , "key" : "delay_tool_AllHidden" , "value" : 55 , "desc" : "玩家使用团队隐身技能增加的Delay值" , "default" : 55}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f8"} , "key" : "delay_tool_Wind" , "value" : 20 , "desc" : "玩家使用改变风向技能增加的Delay值" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2f9"} , "key" : "delay_tool_Ice" , "value" : 55 , "desc" : "玩家使用冰弹技能增加的Delay值" , "default" : 55}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2fa"} , "key" : "delay_tool_Fly" , "value" : 55 , "desc" : "玩家使用传送技能增加的Delay值" , "default" : 55}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2fb"} , "key" : "delay_tool_Guide" , "value" : 45 , "desc" : "玩家使用引导技能增加的Delay值" , "default" : 45}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2fc"} , "key" : "delay_tool_Energy" , "value" : 45 , "desc" : "玩家使用怒气技能增加的Delay值" , "default" : 45}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2fd"} , "key" : "delay_tool_Atom" , "value" : 40 , "desc" : "玩家使用核弹技能增加的Delay值" , "default" : 40}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2fe"} , "key" : "delay_tool_NoHole" , "value" : 20 , "desc" : "玩家使用免坑技能增加的Delay值" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ff"} , "key" : "thew_role_move" , "value" : 5 , "desc" : "玩家每移动1次减少的体力值" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd300"} , "key" : "thew_power" , "value" : 0 , "desc" : "玩家发起大招减少的体力值" , "default" : 0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd301"} , "key" : "thew_tool_AttackTwoMoreTimes" , "value" : 200 , "desc" : "玩家使用附加攻击2次消耗的体力值" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd302"} , "key" : "thew_tool_AttackThreeBranch" , "value" : 80 , "desc" : "玩家使用三叉戟攻击消耗的体力值" , "default" : 80}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd303"} , "key" : "thew_tool_AttackOneMoreTimes" , "value" : 110 , "desc" : "玩家使用附加攻击1次消耗的体力值" , "default" : 110}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd304"} , "key" : "thew_tool_HurtAdd50" , "value" : 200 , "desc" : "玩家使用伤害50%消耗的体力值" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd305"} , "key" : "thew_tool_HurtAdd40" , "value" : 160 , "desc" : "玩家使用伤害40%消耗的体力值" , "default" : 160}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd306"} , "key" : "thew_tool_HurtAdd30" , "value" : 120 , "desc" : "玩家使用伤害30%消耗的体力值" , "default" : 120}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd307"} , "key" : "thew_tool_HurtAdd20" , "value" : 85 , "desc" : "玩家使用伤害20%消耗的体力值" , "default" : 85}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd308"} , "key" : "thew_tool_HurtAdd10" , "value" : 45 , "desc" : "玩家使用伤害10%消耗的体力值" , "default" : 45}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd309"} , "key" : "thew_tool_Recover" , "value" : 150 , "desc" : "玩家使用加血技能消耗的体力值" , "default" : 150}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd30a"} , "key" : "thew_tool_AllRecover" , "value" : 200 , "desc" : "玩家使用团队加血技能消耗的体力值" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd30b"} , "key" : "thew_tool_Hidden" , "value" : 50 , "desc" : "玩家使用隐身技能消耗的体力值" , "default" : 50}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd30c"} , "key" : "thew_tool_AllHidden" , "value" : 150 , "desc" : "玩家使用团队隐身技能消耗的体力值" , "default" : 150}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd30d"} , "key" : "thew_tool_Wind" , "value" : 50 , "desc" : "玩家使用改变风向技能消耗的体力值" , "default" : 50}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd30e"} , "key" : "thew_tool_Ice" , "value" : 150 , "desc" : "玩家使用冰弹技能消耗的体力值" , "default" : 150}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd30f"} , "key" : "thew_tool_Fly" , "value" : 0 , "desc" : "玩家使用传送技能消耗的体力值" , "default" : 0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd310"} , "key" : "thew_tool_Guide" , "value" : 200 , "desc" : "玩家使用引导技能消耗的体力值" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd311"} , "key" : "thew_tool_Energy" , "value" : 120 , "desc" : "玩家使用怒气技能消耗的体力值" , "default" : 120}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd312"} , "key" : "thew_tool_Atom" , "value" : 110 , "desc" : "玩家使用核弹技能消耗的体力值" , "default" : 110}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd313"} , "key" : "thew_tool_NoHole" , "value" : 50 , "desc" : "玩家使用免坑技能消耗的体力值" , "default" : 50}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd314"} , "key" : "price_tool_AttackTwoMoreTimes" , "value" : 12 , "desc" : "玩家购买附加攻击2次的价格" , "default" : 12}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd315"} , "key" : "price_tool_AttackThreeBranch" , "value" : 12 , "desc" : "玩家购买三叉戟攻击的价格" , "default" : 12}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd316"} , "key" : "price_tool_AttackOneMoreTimes" , "value" : 12 , "desc" : "玩家购买附加攻击1次的价格" , "default" : 12}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd317"} , "key" : "price_tool_HurtAdd50" , "value" : 25 , "desc" : "玩家购买伤害50%的价格" , "default" : 25}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd318"} , "key" : "price_tool_HurtAdd40" , "value" : 23 , "desc" : "玩家购买伤害40%的价格" , "default" : 23}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd319"} , "key" : "price_tool_HurtAdd30" , "value" : 21 , "desc" : "玩家购买伤害30%的价格" , "default" : 21}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd31a"} , "key" : "price_tool_HurtAdd20" , "value" : 20 , "desc" : "玩家购买伤害20%的价格" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd31b"} , "key" : "price_tool_HurtAdd10" , "value" : 15 , "desc" : "玩家购买伤害10%的价格" , "default" : 15}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd31c"} , "key" : "price_tool_Recover" , "value" : 18 , "desc" : "玩家购买加血技能的价格" , "default" : 18}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd31d"} , "key" : "price_tool_AllRecover" , "value" : 20 , "desc" : "玩家购买团队加血技能的价格" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd31e"} , "key" : "price_tool_Hidden" , "value" : 10 , "desc" : "玩家购买隐身技能的价格" , "default" : 10}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd31f"} , "key" : "price_tool_AllHidden" , "value" : 12 , "desc" : "玩家购买团队隐身技能的价格" , "default" : 12}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd320"} , "key" : "price_tool_Wind" , "value" : 5 , "desc" : "玩家购买改变风向技能的价格" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd321"} , "key" : "price_tool_Ice" , "value" : 10 , "desc" : "玩家购买冰弹技能的价格" , "default" : 10}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd322"} , "key" : "price_tool_Fly" , "value" : 10 , "desc" : "玩家购买传送技能的价格" , "default" : 10}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd323"} , "key" : "price_tool_Guide" , "value" : 15 , "desc" : "玩家购买引导技能的价格" , "default" : 15}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd324"} , "key" : "price_tool_Energy" , "value" : 20 , "desc" : "玩家购买怒气技能的价格" , "default" : 20}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd325"} , "key" : "price_tool_Atom" , "value" : 12 , "desc" : "玩家购买核弹技能的价格" , "default" : 12}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd326"} , "key" : "price_tool_NoHole" , "value" : 12 , "desc" : "玩家购买免坑技能的价格" , "default" : 12}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd327"} , "key" : "tool_recover_value" , "value" : 500 , "desc" : "玩家使用加血道具每次恢复的血量" , "default" : 500}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd328"} , "key" : "tool_all_recover_value" , "value" : 300 , "desc" : "玩家使用团队加血道具每次恢复的血量" , "default" : 300}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd329"} , "key" : "tool_energy_value" , "value" : 50 , "desc" : "玩家使用蓄力道具每次增加的怒气值" , "default" : 50}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd32a"} , "key" : "tool_iced_value" , "value" : 3 , "desc" : "玩家使用冰冻道具冻结的回合数" , "default" : 3}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd32b"} , "key" : "tool_hidden_value" , "value" : 3 , "desc" : "玩家使用隐身道具隐藏的回合数" , "default" : 3}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd32c"} , "key" : "tool_power_value" , "value" : 1.5 , "desc" : "玩家使用大招造成的伤害倍率" , "default" : 1.5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd32d"} , "key" : "sell_tool_" , "value" : 50 , "desc" : "出售便携道具的价格折扣(0-100:0为全价出售)" , "default" : 50}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd32e"} , "key" : "sell_good" , "value" : 50 , "desc" : "出售商品的价格折扣(0-100:0为全价出售)" , "default" : 50}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd32f"} , "key" : "price_craft_compose" , "value" : 200 , "desc" : "合成装备的金币价格" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd330"} , "key" : "price_craft_forge" , "value" : 200 , "desc" : "强化装备的金币价格" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd331"} , "key" : "price_craft_transfer" , "value" : 500 , "desc" : "转移装备属性的金币价格" , "default" : 500}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd332"} , "key" : "user_online_reward_step" , "value" : [ "00:30" , "07:30" , "11:30" , "14:30" , "16:30" , "18:30" , "20:30" , "22:30"] , "desc" : "用户在线奖励的时间点，例如'07:30'表示7点30" , "default" : [ "00:30" , "07:30" , "11:30" , "14:30" , "16:30" , "18:30" , "20:30" , "22:30"]}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd333"} , "key" : "normal_shop_discount" , "value" : 100 , "desc" : "普通用户在商城中享受的折扣(0-100)" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd334"} , "key" : "vip_shop_discount" , "value" : 100 , "desc" : "VIP用户在商城中享受的折扣(0-100)" , "default" : 100}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd335"} , "key" : "vip_charge_discount" , "value" : 10.0 , "desc" : "VIP用户充值RMB的折扣金额(0.0-9.9)" , "default" : 10.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd336"} , "key" : "luck_base" , "value" : 10000 , "desc" : "幸运值的基数，默认10000" , "default" : 10000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd337"} , "key" : "agility_base" , "value" : 10000 , "desc" : "敏捷值的基数，默认10000" , "default" : 10000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd338"} , "key" : "reward_golden_list" , "value" : [ 50 , 100 , 150 , 200 , 250 , 300 , 350 , 400 , 450 , 500] , "desc" : "抽奖使用的金币数量列表" , "default" : [ 50 , 100 , 150 , 200 , 250 , 300 , 350 , 400 , 450 , 500]}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd339"} , "key" : "reward_yuanbao_list" , "value" : [ 1 , 1 , 2 , 3 , 4 , 5] , "desc" : "抽奖使用的元宝数量列表" , "default" : [ 1 , 1 , 2 , 3 , 4 , 5]}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd33a"} , "key" : "mail_max_count" , "value" : 150 , "desc" : "邮件最多可存放的信息数量" , "default" : 150}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd33b"} , "key" : "mail_expire_seconds" , "value" : 2592000 , "desc" : "邮箱最长可保留的秒数" , "default" : 2592000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd33c"} , "key" : "mail_max_subject" , "value" : 40 , "desc" : "邮件标题最大的字数" , "default" : 40}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd33d"} , "key" : "mail_max_content" , "value" : 2000 , "desc" : "邮件内容的最大字数" , "default" : 2000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd33e"} , "key" : "chat_user_cooldown" , "value" : 15000 , "desc" : "普通用户发送世界聊天消息的冷却时间" , "default" : 15000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd33f"} , "key" : "challenge_user_cooldown" , "value" : 15000 , "desc" : "向其他玩家发起挑战的冷却时间" , "default" : 15000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd340"} , "key" : "small_speaker" , "value" : "26001" , "desc" : "小喇叭的物品ID" , "default" : "26001"}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd341"} , "key" : "weapon_color_green_ratio" , "value" : 1.100000023841858 , "desc" : "绿色武器的基础属性加成值(1.1f)" , "default" : 1.100000023841858}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd342"} , "key" : "weapon_color_blue_ratio" , "value" : 1.25 , "desc" : "蓝色武器的基础属性加成值(1.25f)" , "default" : 1.25}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd343"} , "key" : "weapon_color_pink_ratio" , "value" : 1.5 , "desc" : "粉色武器的基础属性加成值(1.5f)" , "default" : 1.5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd344"} , "key" : "weapon_color_orange_ratio" , "value" : 3.0 , "desc" : "紫色武器的基础属性加成值(3.0f)" , "default" : 3.0}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd345"} , "key" : "email.reward.itemid" , "value" : "26002" , "desc" : "验证邮箱后用户获得的奖励ID（itemid）" , "default" : "26002"}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd346"} , "key" : "weapon_warranty_unit" , "value" : 5 , "desc" : "武器的最高每日损耗的单位" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd347"} , "key" : "secure_limit_exp_daily" , "value" : 1000000 , "desc" : "每日经验数额累加的上限" , "default" : 1000000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd348"} , "key" : "secure_limit_golden_daily" , "value" : 100000000 , "desc" : "每日金币数额累加的上限" , "default" : 100000000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd349"} , "key" : "secure_limit_yuanbao_daily" , "value" : 200000 , "desc" : "每日元宝数额累加的上限" , "default" : 200000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd34a"} , "key" : "role_action_limit" , "value" : 200 , "desc" : "玩家每日行动值上限" , "default" : 200}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd34b"} , "key" : "role_action_gain_hourly" , "value" : 10 , "desc" : "玩家每小时自动增长的行动值" , "default" : 10}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd34c"} , "key" : "treasure_hunt_free_count" , "value" : 5 , "desc" : "每日免费寻宝的次数" , "default" : 5}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd34d"} , "key" : "treasure_hunt_normal_price" , "value" : 1 , "desc" : "每日正常寻宝的价格" , "default" : 1}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd34e"} , "key" : "treasure_hunt_advance_price" , "value" : 4 , "desc" : "每日高级寻宝的价格" , "default" : 4}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd34f"} , "key" : "treasure_hunt_pro_price" , "value" : 8 , "desc" : "每日专家寻宝的价格" , "default" : 8}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd350"} , "key" : "yuanbao_to_golden_ratio" , "value" : 100 , "desc" : "元宝到金币的转换率" , "default" : 100}
+{ "_id" : { "$oid" : "50650b8a74c335d995077c20"} , "key" : "weapon_level_ratio" , "value" : [ 1.0 , 1.34 , 2.68 , 4.02 , 5.36 , 6.7 , 8.04 , 9.38 , 10.72 , 12.06] , "desc" : "装备分为十个等级，每提升一个等级属性会相应提升倍率" , "default" : [ 1.0 , 1.34 , 2.68 , 4.02 , 5.36 , 6.7 , 8.04 , 9.38 , 10.72 , 12.06]}
+{ "_id" : { "$oid" : "5066918a143d0436be8e32f6"} , "key" : "vip_gift_box_id" , "value" : [ "27000" , "27001" , "27002" , "27003" , "27004" , "27005" , "27006" , "27007" , "27008" , "27009"] , "desc" : "VIP各个等级获得的礼包ID" , "default" : [ "27000" , "27001" , "27002" , "27003" , "27004" , "27005" , "27006" , "27007" , "27008" , "27009"]}
+{ "_id" : { "$oid" : "506693a5143d0436be8e32f7"} , "key" : "vip_bag_space" , "value" : [ 68 , 76 , 84 , 100 , 124 , 140 , 160 , 180 , 260 , 460] , "desc" : "VIP各个等级的背包空间" , "default" : [ 68 , 76 , 84 , 100 , 124 , 140 , 160 , 180 , 260 , 460]}
+{ "_id" : { "$oid" : "506695cb143d0436be8e32f8"} , "key" : "vip_offline_exp" , "value" : [ 0 , 0 , 0 , 0 , 0 , 300 , 550 , 800 , 1000 , 2000] , "desc" : "VIP各个等级挂机经验封顶值" , "default" : [ 0 , 0 , 0 , 0 , 0 , 300 , 550 , 800 , 1000 , 2000]}
+{ "_id" : { "$oid" : "506695cb143d0436be8e32f9"} , "key" : "vip_pvp_good_prop" , "value" : [ 0.03 , 0.03 , 0.03 , 0.05 , 0.05 , 0.1 , 0.1 , 0.1 , 0.15 , 0.15] , "desc" : "VIP各个等级PVP战斗中掉落精良武器概率" , "default" : [ 0.03 , 0.03 , 0.03 , 0.05 , 0.05 , 0.1 , 0.1 , 0.1 , 0.15 , 0.15]}
+{ "_id" : { "$oid" : "506695cb143d0436be8e32fa"} , "key" : "vip_pve_good_prop" , "value" : [ 0.05 , 0.05 , 0.05 , 0.08 , 0.08 , 0.15 , 0.15 , 0.15 , 0.2 , 0.2] , "desc" : "VIP各个等级PVE战斗中掉落精良武器概率" , "default" : [ 0.05 , 0.05 , 0.05 , 0.08 , 0.08 , 0.15 , 0.15 , 0.15 , 0.2 , 0.2]}
+{ "_id" : { "$oid" : "5066afb6143d0436be8e32fb"} , "key" : "vip_buy_roleaction" , "value" : [ 0 , 0 , 0 , 6 , 21 , 21 , 46 , 46 , 46 , 46] , "desc" : "VIP各个等级可购买的体力值数量" , "default" : [ 0 , 0 , 0 , 6 , 21 , 21 , 46 , 46 , 46 , 46]}
+{ "_id" : { "$oid" : "5066afb6143d0436be8e32fc"} , "key" : "vip_buy_caishen" , "value" : [ 30 , 50 , 70 , 90 , 300 , 500 , 1000 , 2000 , 3000 , 6000] , "desc" : "VIP各个等级可购买的招财数量" , "default" : [ 30 , 50 , 70 , 90 , 300 , 500 , 1000 , 2000 , 3000 , 6000]}
+{ "_id" : { "$oid" : "5066afb6143d0436be8e32fd"} , "key" : "vip_can_transfer_level" , "value" : [ 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100 , 100 , 100] , "desc" : "VIP各个等级是否可以跨等级转换强化级别" , "default" : [ 30 , 40 , 50 , 60 , 70 , 80 , 90 , 100 , 100 , 100]}
+{ "_id" : { "$oid" : "5066afb6143d0436be8e32fe"} , "key" : "vip_can_transfer_color" , "value" : [ 0 , 0 , 0 , 0 , 0 , 3 , 4 , 4 , 5 , 5] , "desc" : "VIP各个等级是否可以跨颜色转换强化级别" , "default" : [ 0 , 0 , 0 , 0 , 0 , 3 , 4 , 4 , 5 , 5]}
+{ "_id" : { "$oid" : "5066d8f6143d0436be8e32ff"} , "key" : "vip_battle_exp_ratio" , "value" : [ 0.1 , 0.15 , 0.2 , 0.3 , 0.4 , 0.6 , 0.8 , 1.0 , 1.0 , 1.5] , "desc" : "VIP各个等级战斗经验加成" , "default" : [ 0.1 , 0.15 , 0.2 , 0.3 , 0.4 , 0.6 , 0.8 , 1.0 , 1.0 , 1.5]}
+{ "_id" : { "$oid" : "5074131128411de8981aa431"} , "key" : "vip_offline_max_exp" , "value" : [ 0 , 0 , 0 , 0 , 0 , 3000 , 5500 , 8000 , 10000 , 20000] , "desc" : "VIP各个等级挂机经验封顶值" , "default" : [ 0 , 0 , 0 , 0 , 0 , 3000 , 5500 , 8000 , 10000 , 20000]}
+{ "_id" : { "$oid" : "507cfba5d06531a740667ecd"} , "key" : "role_action_gain_levelup" , "value" : 100 , "desc" : "玩家每次升级自动增长的行动值" , "default" : 100}
+{ "_id" : { "$oid" : "507cfc7dd06531a740667ece"} , "key" : "compose_item_add_ratio" , "value" : 0.25 , "desc" : "熔炼时每增加一块石头提升的成功概率" , "default" : 0.25}
+{ "_id" : { "$oid" : "5084acfac2af32eca9f446d9"} , "key" : "strength_defend_ratio" , "value" : 1.5 , "desc" : "强化防御属性时额外提升的比率" , "default" : 1.5}
+{ "_id" : { "$oid" : "5084acfac2af32eca9f446da"} , "key" : "thew_round_percent" , "value" : 0.2 , "desc" : "体力每回合增加的百分比" , "default" : 0.2}
+{ "_id" : { "$oid" : "5084cefbc2af32eca9f446db"} , "key" : "charge_dangle_key" , "value" : "8ChP7fj8" , "desc" : "当乐计费渠道的MerchantKey" , "default" : "8ChP7fj8"}
+{ "_id" : { "$oid" : "5085676ff10d309e28f307d1"} , "key" : "game_agility_index" , "value" : 5 , "desc" : "敏捷转换为体力的比率" , "default" : 5}
+{ "_id" : { "$oid" : "5085676ff10d309e28f307d2"} , "key" : "game_agility_max" , "value" : 3500.0 , "desc" : "敏捷通常的最大值" , "default" : 3500.0}
+{ "_id" : { "$oid" : "50864f68031d354f1d9bdaa9"} , "key" : "charge_xiaomi_key" , "value" : "485e592a-a9f6-3905-6295-507fd0867b67" , "desc" : "小米计费渠道的AppKey" , "default" : "485e592a-a9f6-3905-6295-507fd0867b67"}
+{ "_id" : { "$oid" : "50890da737eaa5ba3c1a9b05"} , "key" : "newbie_battle_guide" , "value" : 10 , "desc" : "新手引导的引导线" , "default" : 10}
+{ "_id" : { "$oid" : "50b88cb5e29f80993a6dcd7e"} , "key" : "battle_room_match_timeout" , "value" : 300 , "desc" : "两个房间匹配后的超时秒数，超过这个时间可以再次匹配" , "default" : 300}
+{ "_id" : { "$oid" : "50b88cb6e29f80993a6dcd7f"} , "key" : "treasure_hunt_fresh_millis" , "value" : 300000 , "desc" : "每次刷新寻宝的时间间隔(毫秒)" , "default" : 300000}
+{ "_id" : { "$oid" : "506420f1e953cf8a83efd2ca"} , "key" : "strength_stone_ratio" , "value" : [ [ 0.4 , 0.3 , 0.15] , [ 0.6 , 0.4 , 0.2 , 0.1 , 0.05] , [ 0.8 , 0.6 , 0.4 , 0.2 , 0.1 , 0.05 , 0.03] , [ 1.0 , 0.8 , 0.6 , 0.4 , 0.2 , 0.1 , 0.06 , 0.04 , 0.03 , 0.02] , [ 1.0 , 1.0 , 1.0 , 0.8 , 0.6 , 0.4 , 0.2 , 0.1 , 0.06 , 0.03 , 0.02 , 0.02 , 0.01 , 0.01 , 0.01]] , "desc" : "强化石强化概率列表" , "default" : [ [ 0.4 , 0.3 , 0.15] , [ 0.6 , 0.4 , 0.2 , 0.1 , 0.05] , [ 0.8 , 0.6 , 0.4 , 0.2 , 0.1 , 0.05 , 0.03] , [ 1.0 , 0.8 , 0.6 , 0.4 , 0.2 , 0.1 , 0.06 , 0.04 , 0.03 , 0.02] , [ 1.0 , 1.0 , 1.0 , 0.8 , 0.6 , 0.4 , 0.2 , 0.1 , 0.06 , 0.03 , 0.02 , 0.02 , 0.01 , 0.01 , 0.01]]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe70"} , "key" : "guild.level.golden" , "value" : [ 500000 , 800000 , 1000000 , 1500000 , 2000000] , "desc" : "公会升级所需的金币" , "default" : [ 500000 , 800000 , 1000000 , 1500000 , 2000000]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe71"} , "key" : "guild.level.maxcount" , "value" : [ 20 , 40 , 60 , 80 , 100] , "desc" : "公会各个等级的最大人数" , "default" : [ 20 , 40 , 60 , 80 , 100]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe72"} , "key" : "guild.level.manager" , "value" : [ [ 1 , 1 , 3 , 10 , 2147483647] , [ 1 , 1 , 3 , 12 , 2147483647] , [ 1 , 1 , 4 , 15 , 2147483647] , [ 1 , 1 , 4 , 20 , 2147483647] , [ 1 , 2 , 5 , 30 , 2147483647]] , "desc" : "公会各个等级的官员数量" , "default" : [ [ 1 , 1 , 3 , 10 , 2147483647] , [ 1 , 1 , 3 , 12 , 2147483647] , [ 1 , 1 , 4 , 15 , 2147483647] , [ 1 , 1 , 4 , 20 , 2147483647] , [ 1 , 2 , 5 , 30 , 2147483647]]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe73"} , "key" : "guild.opfee" , "value" : [ 7700 , 15400 , 23100 , 30800 , 38500] , "desc" : "公会每周的维持费用" , "default" : [ 7700 , 15400 , 23100 , 30800 , 38500]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe74"} , "key" : "guild.storage.size" , "value" : [ 40 , 80 , 140 , 220 , 320] , "desc" : "公会仓库各个等级的可用尺寸" , "default" : [ 40 , 80 , 140 , 220 , 320]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe75"} , "key" : "guild.craft.strength" , "value" : [ 0.02 , 0.04 , 0.06 , 0.08 , 0.1] , "desc" : "公会铁匠铺各个等级强化加成" , "default" : [ 0.02 , 0.04 , 0.06 , 0.08 , 0.1]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe76"} , "key" : "guild.facility.min.credit" , "value" : [ [ 100 , 770 , 1540 , 3850 , 9625] , [ 120 , 800 , 2000 , 4000 , 10000] , [ 85 , 650 , 1300 , 3500 , 8500]] , "desc" : "公会设施各个等级所需要的贡献度" , "default" : [ [ 100 , 770 , 1540 , 3850 , 9625] , [ 120 , 800 , 2000 , 4000 , 10000] , [ 85 , 650 , 1300 , 3500 , 8500]]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe77"} , "key" : "guild.facility.cooldown" , "value" : [ 86400 , 172800 , 432000 , 691200 , 1296000] , "desc" : "公会设施升级后的冷却时间" , "default" : [ 86400 , 172800 , 432000 , 691200 , 1296000]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe78"} , "key" : "guild.facility.cooldown.yuanbao" , "value" : 0.016666666666666666 , "desc" : "公会设施立即冷却的元宝" , "default" : 0.016666666666666666}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe79"} , "key" : "guild.yuanbao.credit" , "value" : 1.0E-5 , "desc" : "公会 金币:贡献" , "default" : 1.0E-5}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe7a"} , "key" : "guild.yuanbao.wealth" , "value" : 2.0E-5 , "desc" : "公会 金币:财富" , "default" : 2.0E-5}
+{ "_id" : { "$oid" : "512c7e2e5a54c40780c2add4"} , "key" : "compose_equip_stone_ratiomei" , "value" : [ 1.0 , 0.8 , 0.5 , 0.2 , 0.1] , "desc" : "将合成石合成到装备上的成功率" , "default" : [ 1.0 , 0.8 , 0.5 , 0.2 , 0.1]}
+{ "_id" : { "$oid" : "512f1437fe81bb0bd702ab45"} , "key" : "guild.level.expratio" , "value" : [ 0.0 , 0.0 , 0.0 , 0.0 , 0.0] , "desc" : "公会各个等级的战斗经验加成" , "default" : [ 0.0 , 0.0 , 0.0 , 0.0 , 0.0]}
+{ "_id" : { "$oid" : "5134177846bfa69c17e0ee6b"} , "key" : "compose_weapon_color_ratio" , "value" : [ 0.25 , 0.25 , 0.2 , 0.1 , 0.05] , "desc" : "熔炼颜色的单项成功概率" , "default" : [ 0.25 , 0.25 , 0.2 , 0.1 , 0.05]}
+{ "_id" : { "$oid" : "5125f6a446e413547e98fe6f"} , "key" : "guild.level.wealth" , "value" : [ [ 3000 , 8000 , 50000 , 150000 , 300000] , [ 3000 , 8000 , 50000 , 150000 , 300000] , [ 3000 , 8000 , 50000 , 150000 , 300000] , [ 0 , 10000 , 77000 , 231000 , 462000] , [ 3000 , 8000 , 50000 , 150000 , 300000]] , "desc" : "公会升级所需的财富" , "default" : [ [ 3000 , 8000 , 50000 , 150000 , 300000] , [ 3000 , 8000 , 50000 , 150000 , 300000] , [ 3000 , 8000 , 50000 , 150000 , 300000] , [ 0 , 10000 , 77000 , 231000 , 462000] , [ 3000 , 8000 , 50000 , 150000 , 300000]]}
+{ "_id" : { "$oid" : "51387f72f4c1f94b5ace1a1c"} , "key" : "guild.create.golden" , "value" : 500000 , "desc" : "公会升级所需的金币" , "default" : 500000}
+{ "_id" : { "$oid" : "5139578266775eec45987967"} , "key" : "guild.ability.attack" , "value" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05] , "desc" : "攻击等级升级后，可提升的攻击比例" , "default" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05]}
+{ "_id" : { "$oid" : "5139578266775eec45987968"} , "key" : "guild.ability.defend" , "value" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05] , "desc" : "防御等级升级后，可提升的防御比例" , "default" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05]}
+{ "_id" : { "$oid" : "5139578266775eec45987969"} , "key" : "guild.ability.agility" , "value" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05] , "desc" : "敏捷等级升级后，可提升的敏捷比例" , "default" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05]}
+{ "_id" : { "$oid" : "5139578266775eec4598796a"} , "key" : "guild.ability.lucky" , "value" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05] , "desc" : "幸运等级升级后，可提升的幸运比例" , "default" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05]}
+{ "_id" : { "$oid" : "51418ae9f3be4c8150322bc9"} , "key" : "shop.dpr.to.golden" , "value" : 2.0 , "desc" : "商城中战斗力对应的金币数量" , "default" : 2.0}
+{ "_id" : { "$oid" : "5139578266775eec4598796b"} , "key" : "guild.ability.blood" , "value" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05] , "desc" : "血量等级升级后，可提升的血量比例" , "default" : [ 0.01 , 0.02 , 0.03 , 0.04 , 0.05]}
+{ "_id" : { "$oid" : "5139578266775eec4598796c"} , "key" : "guild.ability.pray" , "value" : [ 10000 , 20000 , 30000 , 40000 , 50000] , "desc" : "祈福等级升级后，可提升的祈福比例" , "default" : [ 10000 , 20000 , 30000 , 40000 , 50000]}
+{ "_id" : { "$oid" : "5139578266775eec4598796d"} , "key" : "guild.ability.treasure" , "value" : [ 1.0 , 2.0 , 3.0 , 4.0 , 5.0] , "desc" : "寻宝等级升级后，可提升的寻宝比例" , "default" : [ 1.0 , 2.0 , 3.0 , 4.0 , 5.0]}
+{ "_id" : { "$oid" : "5139b18866775eec4598796e"} , "key" : "guild.ability.credit" , "value" : [ 100 , 600 , 1155 , 2310 , 3850] , "desc" : "升级公会个人技能所需要的贡献度" , "default" : [ 100 , 600 , 1155 , 2310 , 3850]}
+{ "_id" : { "$oid" : "51418ae9f3be4c8150322bca"} , "key" : "shop.dpr.to.yuanbao" , "value" : 0.006667 , "desc" : "商城中战斗力对应的元宝数量" , "default" : 0.006667}
+{ "_id" : { "$oid" : "51418ae9f3be4c8150322bcb"} , "key" : "shop.price.simple" , "value" : 1 , "desc" : "商城中简单品质价格倍率" , "default" : 1}
+{ "_id" : { "$oid" : "51418ae9f3be4c8150322bcc"} , "key" : "shop.price.normal" , "value" : 3 , "desc" : "商城中普通品质价格倍率" , "default" : 3}
+{ "_id" : { "$oid" : "51418ae9f3be4c8150322bcd"} , "key" : "shop.price.tough" , "value" : 5 , "desc" : "商城中坚固品质价格倍率" , "default" : 5}
+{ "_id" : { "$oid" : "5141ab0df3be4c8150322bce"} , "key" : "session.timeout" , "value" : 60 , "desc" : "玩家断线后的会话保留时间(秒)" , "default" : 60}
+{ "_id" : { "$oid" : "5146f111614afc2c2cbd1005"} , "key" : "strength_reset_level" , "value" : 12 , "desc" : "强化超过这个等级失败时将重置回该等级" , "default" : 12}
+{ "_id" : { "$oid" : "5146f111614afc2c2cbd1006"} , "key" : "strength_godstone_range" , "value" : [ 8 , 10 , 11 , 12 , 13] , "desc" : "神恩符的作用范围" , "default" : [ 8 , 10 , 11 , 12 , 13]}
+{ "_id" : { "$oid" : "5149a7599067483d353559c3"} , "key" : "vip_can_treasure_hunt" , "value" : [ 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1] , "desc" : "VIP各个等级是否可以无限寻宝" , "default" : [ 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1 , 1]}
+{ "_id" : { "$oid" : "51515ea459f8162b57862fb7"} , "key" : "craft_transfer_ratio" , "value" : [ [ 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.91 , 0.93 , 0.94 , 0.95 , 0.96 , 0.97 , 0.98 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.82 , 0.86 , 0.88 , 0.9 , 0.92 , 0.94 , 0.96 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.73 , 0.79 , 0.82 , 0.85 , 0.88 , 0.91 , 0.94 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.64 , 0.72 , 0.76 , 0.8 , 0.84 , 0.88 , 0.92 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.55 , 0.65 , 0.7 , 0.75 , 0.8 , 0.85 , 0.9 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.46 , 0.58 , 0.64 , 0.7 , 0.76 , 0.82 , 0.88 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.37 , 0.51 , 0.58 , 0.65 , 0.72 , 0.79 , 0.86 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.28 , 0.44 , 0.52 , 0.6 , 0.68 , 0.76 , 0.84 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.19 , 0.37 , 0.46 , 0.55 , 0.64 , 0.73 , 0.82 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.1 , 0.3 , 0.4 , 0.5 , 0.6 , 0.7 , 0.8 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.01 , 0.23 , 0.34 , 0.45 , 0.56 , 0.67 , 0.78 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.0 , 0.16 , 0.28 , 0.4 , 0.52 , 0.64 , 0.76 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.0 , 0.09 , 0.22 , 0.35 , 0.48 , 0.61 , 0.74 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.0 , 0.02 , 0.16 , 0.3 , 0.44 , 0.58 , 0.72 , 1.0 , 1.0 , 1.0 , 1.0]] , "desc" : "VIP等级转移的成功率影响" , "default" : [ [ 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.91 , 0.93 , 0.94 , 0.95 , 0.96 , 0.97 , 0.98 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.82 , 0.86 , 0.88 , 0.9 , 0.92 , 0.94 , 0.96 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.73 , 0.79 , 0.82 , 0.85 , 0.88 , 0.91 , 0.94 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.64 , 0.72 , 0.76 , 0.8 , 0.84 , 0.88 , 0.92 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.55 , 0.65 , 0.7 , 0.75 , 0.8 , 0.85 , 0.9 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.46 , 0.58 , 0.64 , 0.7 , 0.76 , 0.82 , 0.88 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.37 , 0.51 , 0.58 , 0.65 , 0.72 , 0.79 , 0.86 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.28 , 0.44 , 0.52 , 0.6 , 0.68 , 0.76 , 0.84 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.19 , 0.37 , 0.46 , 0.55 , 0.64 , 0.73 , 0.82 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.1 , 0.3 , 0.4 , 0.5 , 0.6 , 0.7 , 0.8 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.01 , 0.23 , 0.34 , 0.45 , 0.56 , 0.67 , 0.78 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.0 , 0.16 , 0.28 , 0.4 , 0.52 , 0.64 , 0.76 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.0 , 0.09 , 0.22 , 0.35 , 0.48 , 0.61 , 0.74 , 1.0 , 1.0 , 1.0 , 1.0] , [ 0.0 , 0.02 , 0.16 , 0.3 , 0.44 , 0.58 , 0.72 , 1.0 , 1.0 , 1.0 , 1.0]]}
+{ "_id" : { "$oid" : "5151755559f8162b57862fb8"} , "key" : "craft_stone_diamond" , "value" : 20031 , "desc" : "非常珍贵的钻石，可以用来在装备上开孔" , "default" : 20031}
+{ "_id" : { "$oid" : "5151755559f8162b57862fb9"} , "key" : "craft_stone_crystal" , "value" : 20041 , "desc" : "魔域地下蕴藏的石头，可以提升装备的等级" , "default" : 20041}
+{ "_id" : { "$oid" : "515187be59f8162b57862fba"} , "key" : "craft_diamond_ratio" , "value" : [ 0.1 , 0.2 , 0.3 , 0.4 , 0.5] , "desc" : "装备开孔的成功率" , "default" : [ 0.1 , 0.2 , 0.3 , 0.4 , 0.5]}

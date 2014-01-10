@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//根据ID提取语音内容
+
+option java_outer_classname = "XinqiBceGetVoiceChat"; 
+message BceGetVoiceChat {
+    optional string voiceid = 1;      
+}

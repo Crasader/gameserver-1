@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  <type>1</type> 表示对战地图
+	  <type>2</type> 表示pve地图
+		  <reqlv>num</reqlv>最低等级限制
+		  -->
+<maps>
+	<map>
+		<id>1001</id> 
+		<name>死亡沙漠</name> 
+		<type>2</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1670" height="802" /> 
+		<layerNum>2</layerNum> 
+		<layers>
+			<layer id="map_1001" num="1" scrollRate="1" w="1670" h="328"/> 
+			<layer id="map_1001_bg" num="2" scrollRate="1" w="1274" h="900"/> 
+		</layers>
+		<bgm>02.mp3</bgm> 
+		<bossid>
+			<boss id="60001" /> 
+		</bossid>
+		<enemyid>
+			<enemy id="60002" /> 
+		</enemyid>
+		<bossPoints>
+			<point x="1400" y="575" /> 
+		</bossPoints>
+		<enemyPoints>
+			<point x="1250" y="575" /> 
+		</enemyPoints>
+		<startPoints>
+			<point x="120" y="610" /> 
+			<point x="356" y="450" /> 
+			<point x="540" y="545" /> 
+			<point x="650" y="580" /> 
+			<point x="1100" y="575" />
+			<point x="1250" y="575" /> 
+			<point x="1400" y="575" /> 
+			<point x="1551" y="560" /> 
+		</startPoints>
+	</map>
+	<map>
+		<id>1002</id> 
+		<name>梦幻海底</name> 
+		<type>2</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1100" height="810" /> 
+		<layerNum>2</layerNum> 
+		<layers>
+			<layer id="map_1002" num="1" scrollRate="1" w="1100" h="810"/> 
+			<layer id="map_1002_bg" num="2" scrollRate="1" w="980" h="891"/> 
+		</layers>
+		<bgm>02.mp3</bgm> 
+		<bossid>
+			<boss id="60003" /> 
+		</bossid>
+		<enemyid>
+			<enemy id="60003" /> 
+		</enemyid>
+		<bossPoints>
+			<point x="1400" y="575" /> 
+		</bossPoints>
+		<enemyPoints>
+			<point x="1250" y="575" /> 
+		</enemyPoints>
+		<startPoints>
+			<point x="156" y="610" /> 
+			<point x="960" y="628" /> 
+			<point x="420" y="360" /> 
+			<point x="680" y="366" /> 
+			<point x="215" y="820" />
+			<point x="876" y="795" /> 
+			<point x="245" y="180" /> 
+			<point x="820" y="190" /> 
+			<point x="565" y="750" /> 
+		</startPoints>
+	</map>
+	<map>
+		<id>0</id>
+		<name>阴森墓地</name>
+		<type>1</type>
+		<reqlv>15</reqlv>
+		<scrollArea x="0" y="0" width="1500" height="1053"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_00" num="1" scrollRate="1" w="1500" h="432"></layer>
+			<layer id="map_00_bg" num="2" scrollRate="1" w="950" h="662"></layer>
+			<layer id="map_00_mid" num="3" scrollRate="1" w="1500" h="178"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="460" y="860"></point>
+			<point x="630" y="720"></point>
+			<point x="270" y="810"></point>
+			<point x="80" y="615"></point>
+			<point x="1420" y="785"></point>
+			<point x="1210" y="820"></point>
+			<point x="890" y="725"></point>
+			<point x="1040" y="876"></point>
+		</startPoints>
+	</map>
+	<map>		
+		<id>1</id>
+		<name>战争前线</name>
+		<type>1</type>
+		<reqlv>10</reqlv>
+		<scrollArea x="0" y="0" width="1571" height="900"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_01" num="1" scrollRate="1" w="1571" h="318"></layer>
+			<layer id="map_01_bg" num="2" scrollRate="1" w="998" h="706"></layer>
+			<layer id="map_01_mid" num="3" scrollRate="1" w="" h=""></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="540" y="620"></point>
+			<point x="320" y="580"></point>
+			<point x="190" y="630"></point>
+			<point x="100" y="640"></point>
+			<point x="1400" y="650"></point>
+			<point x="1270" y="625"></point>
+			<point x="1120" y="640"></point>
+			<point x="990" y="590"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>2</id>
+		<name>海盗船</name>
+		<type>1</type>
+		<reqlv>20</reqlv>
+		<scrollArea x="0" y="0" width="1619" height="1200"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_02" num="1" scrollRate="1" w="1619" h="910"></layer>
+			<layer id="map_02_bg" num="2" scrollRate="1" w="1192" h="1101"></layer>
+			<layer id="map_02_mid" num="3" scrollRate="1" w="1619" h="156"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="640" y="925"></point>
+			<point x="360" y="800"></point>
+			<point x="140" y="605"></point>
+			<point x="650" y="520"></point>
+			<point x="1000" y="525"></point>
+			<point x="1520" y="745"></point>
+			<point x="1300" y="835"></point>
+			<point x="1025" y="925"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>3</id>
+		<name>积木王国</name>
+		<type>1</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1400" height="1000"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_03" num="1" scrollRate="1" w="1400" h="410"></layer>
+			<layer id="map_03_bg" num="2" scrollRate="1" w="992" h="709"></layer>
+			<layer id="map_03_mid" num="3" scrollRate="1" w="1400" h="233"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="390" y="665"></point>
+			<point x="215" y="560"></point>
+			<point x="580" y="475"></point>
+			<point x="55" y="560"></point>
+			<point x="1345" y="560"></point>
+			<point x="820" y="475"></point>
+			<point x="1185" y="560"></point>
+			<point x="1010" y="665"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>4</id>
+		<name>魔法图书馆</name>
+		<type>1</type>
+		<reqlv>100</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1300"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_04" num="1" scrollRate="1" w="1800" h="585"></layer>
+			<layer id="map_04_bg" num="2" scrollRate="1" w="1000" h="660"></layer>
+			<layer id="map_04_mid" num="3" scrollRate="1" w="1800" h="72"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="600" y="810"></point>
+			<point x="420" y="710"></point>
+			<point x="220" y="575"></point>
+			<point x="55" y="560"></point>
+			<point x="1705" y="660"></point>
+			<point x="1551" y="645"></point>
+			<point x="1370" y="690"></point>
+			<point x="1230" y="710"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>5</id>
+		<name>个人电脑</name>
+		<type>1</type>
+		<reqlv>20</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1286"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_05" num="1" scrollRate="1" w="1800" h="690"></layer>
+			<layer id="map_05_bg" num="2" scrollRate="1" w="1489" h="1063"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="485" y="1010"></point>
+			<point x="715" y="920"></point>
+			<point x="320" y="910"></point>
+			<point x="185" y="800"></point>
+			<point x="1700" y="590"></point>
+			<point x="1430" y="1005"></point>
+			<point x="1005" y="910"></point>
+			<point x="1280" y="985"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>6</id>
+		<name>矮人矿场</name>
+		<type>1</type>
+		<reqlv>20</reqlv>
+		<scrollArea x="0" y="0" width="1700" height="1364"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_06" num="1" scrollRate="1" w="1700" h="1045"></layer>
+			<layer id="map_06_bg" num="2" scrollRate="1" w="1370" h="1100"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="610" y="310"></point>
+			<point x="500" y="660"></point>
+			<point x="270" y="660"></point>
+			<point x="160" y="310"></point>
+			<point x="976" y="240"></point>
+			<point x="1430" y="660"></point>
+			<point x="1200" y="660"></point>
+			<point x="1100" y="310"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>7</id>
+		<name>海鲜码头</name>
+		<type>1</type>
+		<reqlv>15</reqlv>
+		<scrollArea x="0" y="0" width="1900" height="1357"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>			
+			<layer id="map_07" num="1" scrollRate="1" w="1900" h="963"></layer>			
+			<layer id="map_07_bg" num="2" scrollRate="1" w="1200" h ="849"></layer>		
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="675" y="910"></point>
+			<point x="480" y="965"></point>
+			<point x="330" y="730"></point>
+			<point x="150" y="385"></point>
+			<point x="1495" y="935"></point>
+			<point x="1340" y="570"></point>
+			<point x="1300" y="790"></point>
+			<point x="1120" y="760"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>8</id>
+		<name>西部列车</name>
+		<type>1</type>
+		<reqlv>15</reqlv>
+		<scrollArea x="0" y="0" width="1450" height="1011"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_08" num="1" scrollRate="1" w="1400" h="600"></layer>
+			<layer id="map_08_bg" num="2" scrollRate="1" w="1300" h="919"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="400" y="560"></point>
+			<point x="577" y="774"></point>
+			<point x="200" y="450"></point>
+			<point x="65" y="450"></point>
+			<point x="1367" y="450"></point>
+			<point x="1243" y="450"></point>
+			<point x="878" y="774"></point>
+			<point x="1050" y="693"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>9</id>
+		<name>垃圾场</name>
+		<type>1</type>
+		<reqlv>10</reqlv>
+		<scrollArea x="0" y="0" width="1700" height="1080"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_09" num="1" scrollRate="1" w="1700" h="482"></layer>
+			<layer id="map_09_bg" num="2" scrollRate="1" w="1244" h="900"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="530" y="820"></point>
+			<point x="724" y="770"></point>
+			<point x="390" y="760"></point>
+			<point x="210" y="660"></point>
+			<point x="1520" y="800"></point>
+			<point x="1310" y="860"></point>
+			<point x="1000" y="810"></point>
+			<point x="1160" y="810"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>10</id>
+		<name>排队排</name>
+		<type>1</type>
+		<reqlv>100</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1026"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_10" num="1" scrollRate="1" w="1800" h="255"></layer>
+			<layer id="map_10_bg" num="2" scrollRate="1" w="1100" h="778"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="560" y="830"></point>
+			<point x="295" y="750"></point>
+			<point x="815" y="820"></point>
+			<point x="155" y="775"></point>
+			<point x="1684" y="755"></point>
+			<point x="1542" y="760"></point>
+			<point x="1050" y="860"></point>
+			<point x="1270" y="830"></point>
+
+		</startPoints>
+	</map>
+	<map>
+		<id>11</id>
+		<name>枕头大战</name>
+		<type>1</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1349"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_11" num="1" scrollRate="1" w="1800" h="492"></layer>
+			<layer id="map_11_bg" num="2" scrollRate="1" w="1500" h="1155"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="645" y="950"></point>
+			<point x="460" y="870"></point>
+			<point x="310" y="880"></point>
+			<point x="125" y="850"></point>
+			<point x="1590" y="970"></point>
+			<point x="1400" y="955"></point>
+			<point x="1200" y="860"></point>
+			<point x="1050" y="895"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>12</id>
+		<name>美味蛋糕</name>
+		<type>1</type>
+		<reqlv>10</reqlv>
+		<scrollArea x="0" y="0" width="2000" height="1440"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_12" num="1" scrollRate="1" w="2000" h="523"></layer>
+			<layer id="map_12_bg" num="2" scrollRate="1" w="1200" h="863"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="707" y="1115"></point>
+			<point x="590" y="1114"></point>
+			<point x="490" y="1010"></point>
+			<point x="330" y="905"></point>
+			<point x="1720" y="990"></point>
+			<point x="1500" y="957"></point>
+			<point x="1385" y="955"></point>
+			<point x="1202" y="1105"></point>
+		</startPoints>
+	</map>
+	<map>
+		<id>13</id>
+		<name>村头小桥</name>
+		<type>1</type>
+		<reqlv>100</reqlv>
+		<scrollArea x="0" y="0" width="1400" height="787"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_13" num="1" scrollRate="1" w="1400" h="369"></layer>
+			<layer id="map_13_bg" num="2" scrollRate="1" w="1000" h="715"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="67" y="495"></point>
+			<point x="200" y="460"></point>
+			<point x="340" y="430"></point>
+			<point x="530" y="600"></point>
+			<point x="870" y="600"></point>
+			<point x="1025" y="475"></point>
+			<point x="1177" y="451"></point>
+			<point x="1328" y="410"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>14</id>
+		<name>丛林麻匪</name>
+		<type>1</type>
+		<reqlv>15</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1112"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_14" num="1" scrollRate="1" w="1800" h="499"></layer>
+			<layer id="map_14_bg" num="2" scrollRate="1" w="980" h="888"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="590" y="720"></point>
+			<point x="790" y="790"></point>
+			<point x="310" y="715"></point>
+			<point x="90" y="605"></point>
+			<point x="1730" y="700"></point>
+			<point x="1505" y="745"></point>
+			<point x="1040" y="785"></point>
+			<point x="1285" y="745"></point>
+
+		</startPoints>
+	</map>	
+	<map>
+		<id>15</id>
+		<name>神秘玛雅</name>
+		<type>1</type>
+		<reqlv>20</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1500"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_15" num="1" scrollRate="1" w="1800" h="1015"></layer>
+			<layer id="map_15_bg" num="2" scrollRate="1" w="1172" h="841"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="500" y="485"></point>
+			<point x="626" y="908"></point>
+			<point x="330" y="557"></point>
+			<point x="470" y="975"></point>
+			<point x="1400" y="980"></point>
+			<point x="1515" y="560"></point>
+			<point x="1227" y="906"></point>
+			<point x="1365" y="490"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>16</id>
+		<name>村口小桥</name>
+		<type>1</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1797" height="983"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_16" num="1" scrollRate="1" w="1797" h="337"></layer>
+			<layer id="map_16_bg" num="2" scrollRate="1" w="1100" h="749"></layer>
+			<layer id="map_16_mid" num="3" scrollRate="1" w="1797" h="97"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="720" y="640"></point>
+			<point x="560" y="640"></point>
+			<point x="400" y="660"></point>
+			<point x="240" y="680"></point>
+			<point x="1580" y="680"></point>
+			<point x="1420" y="660"></point>
+			<point x="1260" y="645"></point>
+			<point x="1100" y="640"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>17</id>
+		<name>无间地狱</name>
+		<type>1</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1900" height="1368"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_17" num="1" scrollRate="1" w="1900" h="407"></layer>
+			<layer id="map_17_bg" num="2" scrollRate="1" w="950" h="892"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="780" y="955"></point>
+			<point x="615" y="980"></point>
+			<point x="455" y="950"></point>
+			<point x="280" y="993"></point>
+			<point x="1616" y="990"></point>
+			<point x="1450" y="950"></point>
+			<point x="1285" y="982"></point>
+			<point x="1135" y="950"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>18</id>
+		<name>彩虹桥</name>
+		<type>1</type>
+		<reqlv>100</reqlv>
+		<scrollArea x="0" y="0" width="1900" height="1500"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_18" num="1" scrollRate="1" w="1900" h="469"></layer>
+			<layer id="map_18_bg" num="2" scrollRate="1" w="1264" h="902"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="685" y="1020"></point>
+			<point x="520" y="1035"></point>
+			<point x="370" y="1050"></point>
+			<point x="230" y="1070"></point>
+			<point x="1610" y="1052"></point>
+			<point x="1400" y="1026"></point>
+			<point x="1285" y="1020"></point>
+			<point x="1140" y="1020"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>19</id>
+		<name>彩虹桥</name>
+		<type>1</type>
+		<reqlv>100</reqlv>
+		<scrollArea x="0" y="0" width="1900" height="1500"></scrollArea>
+		<layerNum>2</layerNum>
+		<layers>
+			<layer id="map_19" num="1" scrollRate="1" w="1900" h="469"></layer>
+			<layer id="map_19_bg" num="2" scrollRate="1" w="1264" h="902"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="685" y="1020"></point>
+			<point x="520" y="1035"></point>
+			<point x="370" y="1050"></point>
+			<point x="230" y="1070"></point>
+			<point x="1610" y="1052"></point>
+			<point x="1400" y="1026"></point>
+			<point x="1285" y="1020"></point>
+			<point x="1140" y="1020"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>20</id>
+		<name>五彩蘑菇</name>
+		<type>1</type>
+		<reqlv>1</reqlv>
+		<scrollArea x="0" y="0" width="1900" height="1500"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_20" num="1" scrollRate="1" w="1900" h="422"></layer>
+			<layer id="map_20_bg" num="2" scrollRate="1" w="1264" h="902"></layer>
+			<layer id="map_20_mid" num="3" scrollRate="1" w="1900" h="271"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="714" y="1086"></point>
+			<point x="544" y="1090"></point>
+			<point x="358" y="1114"></point>
+			<point x="182" y="1154"></point>
+			<point x="1720" y="1144"></point>
+			<point x="1544" y="1106"></point>
+			<point x="1354" y="1074"></point>
+			<point x="1192" y="1068"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>21</id>
+		<name>决战烂尾楼</name>
+		<type>1</type>
+		<reqlv>25</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1500"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_21" num="1" scrollRate="1" w="1800" h="1154"></layer>
+			<layer id="map_21_bg" num="2" scrollRate="1" w="1171" h="850"></layer>
+			<layer id="map_21_mid" num="3" scrollRate="1" w="1180" h="132"></layer>
+		</layers>
+		<bgm>start.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="355" y="387"></point>
+			<point x="427" y="681"></point>
+			<point x="486" y="961"></point>
+			<point x="540" y="1148"></point>
+			<point x="1260" y="1260"></point>
+			<point x="1314" y="981"></point>
+			<point x="1400" y="700"></point>
+			<point x="1440" y="400"></point>
+		</startPoints>
+	</map>	
+	<map>
+		<id>22</id>
+		<name>魔法图书馆</name>
+		<type>1</type>
+		<reqlv>10</reqlv>
+		<scrollArea x="0" y="0" width="1800" height="1300"></scrollArea>
+		<layerNum>3</layerNum>
+		<layers>
+			<layer id="map_22" num="1" scrollRate="1" w="1800" h="585"></layer>
+			<layer id="map_22_bg" num="2" scrollRate="1" w="1000" h="660"></layer>
+			<layer id="map_22_mid" num="3" scrollRate="1" w="1800" h="72"></layer>
+		</layers>
+		<bgm>02.mp3</bgm>
+		<damage>1</damage>
+		<startPoints>
+			<point x="600" y="810"></point>
+			<point x="420" y="710"></point>
+			<point x="220" y="575"></point>
+			<point x="55" y="560"></point>
+			<point x="1705" y="660"></point>
+			<point x="1551" y="645"></point>
+			<point x="1370" y="690"></point>
+			<point x="1230" y="710"></point>
+		</startPoints>
+	</map>
+</maps>

@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiBseBuyVip"; 
+
+message BseBuyVip {
+    required bool success = 1;
+    optional string message = 2;
+    //The second for the expire date
+    optional int32 expireDate = 3;
+}
+

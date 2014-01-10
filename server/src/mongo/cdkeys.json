@@ -1,0 +1,4 @@
+{ "_id" : "1" , "class" : "com.xinqihd.sns.gameserver.config.CDKeyPojo" , "rewardStr" : "{29033,25103,ITEM,0,1,0,0,0,0,false,0,0,0,0,0}" , "channel" : "dangle" , "startMillis" : 0 , "endMillis" : 0}
+{ "_id" : "2" , "class" : "com.xinqihd.sns.gameserver.config.CDKeyPojo" , "rewardStr" : "{29034,25103,ITEM,0,1,0,0,0,0,false,0,0,0,0,0}" , "channel" : "dangle" , "startMillis" : 0 , "endMillis" : 0}
+{ "_id" : "3" , "class" : "com.xinqihd.sns.gameserver.config.CDKeyPojo" , "rewardStr" : "{29035,25103,ITEM,0,1,0,0,0,0,false,0,0,0,0,0}" , "channel" : "dangle" , "startMillis" : 0 , "endMillis" : 0}
+{ "_id" : "4" , "class" : "com.xinqihd.sns.gameserver.config.CDKeyPojo" , "rewardStr" : "{29029,25103,ITEM,0,1,0,0,0,0,false,0,0,0,0,0}" , "channel" : "" , "startMillis" : 1359907200000 , "endMillis" : 1361203200000}

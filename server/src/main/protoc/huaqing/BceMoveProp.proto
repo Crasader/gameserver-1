@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//请求移动物品
+message BceMoveProp {
+    required int32 curPlace = 1;    //移动到当前格子位置
+    required int32 prePlace = 2;    //之前原来的格子位置
+    required string curId = 3 ;
+    required string preId = 4 ;
+}

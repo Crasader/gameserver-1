@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//响应邀请
+option java_outer_classname = "XinqiBseAnswerInvite"; 
+message BseAnswerInvite {
+    required string uid = 1;        //回应者的UID
+    required int32 result = 2;      //邀请结果，0：成功，1：玩家拒绝，2：玩家处于不能被邀请的状态
+}

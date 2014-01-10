@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//更新好友在线信息
+option java_outer_classname = "XinqiBseFriendOnlineStatus"; 
+message BseFriendOnlineStatus {
+    required string uid = 1;           //uid
+    required bool online = 2;          //在线状态
+}

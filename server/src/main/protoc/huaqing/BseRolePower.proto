@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//·¢ËÍÏûÏ¢
+
+message BseRolePower {
+    required string sessionID = 1;   
+    required bool full = 2;        
+}

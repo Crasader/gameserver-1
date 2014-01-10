@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//查找工会结果
+
+import "GuildSimpleInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildSearch"; 
+message BseGuildSearch 
+{
+    required int32 result = 1;					//工会搜索结果
+    optional GuildSimpleInfo guildList = 2;    //工会搜索结果列表
+}

@@ -1,0 +1,23 @@
+package com.xinqihd.sns.gameserver.proto;
+//DailyMark Data
+
+option java_outer_classname = "XinqiBseDailyMarkList"; 
+
+message Reward {
+  required string itemId = 1;
+  optional int32  level = 2;
+  optional int32  number = 3;
+  optional string desc = 4;
+}
+
+message DailyMarkData {
+  optional string id = 1;
+  optional int32  step = 2;
+  optional int32  level = 3;
+  optional int32  daynum = 4;
+  repeated Reward rewards = 5; 
+}
+
+message BseDailyMarkList {
+  repeated DailyMarkData dailymarks = 1;
+}

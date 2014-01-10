@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求商品列表
+option java_outer_classname = "XinqiBceShopping"; 
+message BceShopping {
+    optional int32 gender = 1;        //性别
+	/**
+	 * 0: 金币
+	 * 1: 礼券
+	 * 2: 勋章
+	 * 3:
+	 * 4: 元宝
+	 */
+	optional int32 moneytype= 2;
+	// -1 means nothing
+	optional int32 catalogid = 3;
+    repeated int32 stoneType = 4;
+}

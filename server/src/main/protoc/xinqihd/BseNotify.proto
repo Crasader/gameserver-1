@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//异常信息通知
+option java_outer_classname = "XinqiBseNotify"; 
+message BseNotify {
+    required int32 notifyCode = 1;      //通知码
+}

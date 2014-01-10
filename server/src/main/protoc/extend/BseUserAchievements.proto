@@ -1,0 +1,13 @@
+package com.xinqihd.sns.gameserver.proto;
+//User unlocked Achievements Data
+
+option java_outer_classname = "XinqiBseUserAchievements"; 
+
+/**
+ * Send all achievement with step and total to users.
+ * if step == total, the achievement is unlocked
+ */
+message BseUserAchievements {
+  repeated string taskIds = 1;
+  repeated int32 step = 2;
+}

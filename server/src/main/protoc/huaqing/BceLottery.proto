@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//请求翻牌
+
+message BceLottery {
+    required int32 idx = 1;  		//第几张牌  0 1 2 3
+    optional bool isPVE   = 2  [default = false]; //是否为pve
+    optional bool isLogin = 3  [default = false]; //是否登录抽奖
+    optional bool isGuide = 4  [default = false]; //是否是新手引导的翻盘
+}

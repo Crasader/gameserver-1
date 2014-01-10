@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回事件列表
+message GuildBagEvent {
+    optional string time = 1;        //when
+    optional string rolename = 3;    //who
+    /**
+    * PUT or TAKE
+    */
+    optional string action = 4;      //do
+    optional string item = 5;        //what
+}
+
+option java_outer_classname = "XinqiBseGuildBagEvent"; 
+message BseGuildBagEvent {
+    optional string guildID = 1;     //ID 
+    repeated GuildBagEvent event = 2;        //what
+}

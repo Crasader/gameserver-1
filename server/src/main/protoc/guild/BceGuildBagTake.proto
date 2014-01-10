@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+option java_outer_classname = "XinqiBceGuildBagTake"; 
+/**
+ * 玩家将公会背包的物品放入背包
+ */
+message BceGuildBagTake {
+    optional string guildID = 1;     //ID 
+    optional int32 index = 2;
+}

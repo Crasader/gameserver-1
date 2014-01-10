@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+
+message BceMergeProp {
+    required int32 srcPew = 1;
+    required int32 dstPew = 2;
+}

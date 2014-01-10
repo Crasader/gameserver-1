@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseConfigData"; 
+message BseConfigData {
+    /**
+     * The modified version for the client to remember.
+     */
+    required int32 version = 1;
+}

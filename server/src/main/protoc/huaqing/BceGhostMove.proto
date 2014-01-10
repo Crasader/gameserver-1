@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//ÒÆ¶¯Í£Ö¹
+message BceGhostMove {
+    required int32 x = 1;
+    required int32 y = 2;
+}

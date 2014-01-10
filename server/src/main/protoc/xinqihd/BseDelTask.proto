@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//删除任务
+
+option java_outer_classname = "XinqiBseDelTask"; 
+message BseDelTask 
+{
+   required int32 taskID = 1 ;  //任务ID
+}

@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//请求初始化信息
+message BseLotteryOver {
+
+}

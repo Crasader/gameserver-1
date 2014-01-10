@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//进入工会俱乐部结果
+
+import "GuildInfo.proto";
+
+option java_outer_classname = "XinqiBseEnterGuild"; 
+message BseEnterGuild {
+    optional string  guildID = 1 ;   			// 没有工会返回-1
+    optional GuildInfo guildInfo = 2 ;
+    optional int32 applynum = 3 ;
+}

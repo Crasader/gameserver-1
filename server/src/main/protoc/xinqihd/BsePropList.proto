@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回背包列表
+
+import "PropData.proto";
+
+option java_outer_classname = "XinqiBsePropList"; 
+message BsePropList {
+     repeated PropData propInfo = 1;     //装备数组
+}

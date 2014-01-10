@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//查询公会权限
+
+option java_outer_classname = "XinqiBceGuildPrivilegeList"; 
+message BceGuildPrivilegeList {
+   /**
+   * 公会的ID
+   */
+   optional string guildID = 1; 
+}

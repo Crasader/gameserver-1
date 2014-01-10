@@ -1,0 +1,6 @@
+{ "_id" : 1 , "class" : "com.xinqihd.sns.gameserver.config.VipPeriodPojo" , "month" : 1 , "yuanbaoPrice" : 280 , "voucherPrice" : 210 , "medalPrice" : 140}
+{ "_id" : 2 , "class" : "com.xinqihd.sns.gameserver.config.VipPeriodPojo" , "month" : 2 , "yuanbaoPrice" : 528 , "voucherPrice" : 396 , "medalPrice" : 264}
+{ "_id" : 3 , "class" : "com.xinqihd.sns.gameserver.config.VipPeriodPojo" , "month" : 3 , "yuanbaoPrice" : 756 , "voucherPrice" : 567 , "medalPrice" : 378}
+{ "_id" : 6 , "class" : "com.xinqihd.sns.gameserver.config.VipPeriodPojo" , "month" : 6 , "yuanbaoPrice" : 1412 , "voucherPrice" : 1058 , "medalPrice" : 706}
+{ "_id" : 12 , "class" : "com.xinqihd.sns.gameserver.config.VipPeriodPojo" , "month" : 12 , "yuanbaoPrice" : 2520 , "voucherPrice" : 1890 , "medalPrice" : 1260}
+{ "_id" : 24 , "class" : "com.xinqihd.sns.gameserver.config.VipPeriodPojo" , "month" : 24 , "yuanbaoPrice" : 3896 , "voucherPrice" : 2923 , "medalPrice" : 1949}

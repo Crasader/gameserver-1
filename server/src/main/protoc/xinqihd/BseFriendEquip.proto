@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回好友装备信息
+
+import "PropData.proto";
+
+option java_outer_classname = "XinqiBseFriendEquip"; 
+message BseFriendEquip {
+    repeated PropData equipInfo = 1;     //装备数组
+}

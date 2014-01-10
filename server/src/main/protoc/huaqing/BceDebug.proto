@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//Debug
+message BceDebug {
+   required string hashValue0 = 1;
+   required string hashValue1 = 2;
+   required string hashValue2 = 3;
+   required string hashValue3 = 4;
+}

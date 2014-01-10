@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//发送工会列表
+
+import "GuildSimpleInfo.proto";
+
+message BseGuildList
+{
+    repeated GuildSimpleInfo guildList = 1 ;
+}

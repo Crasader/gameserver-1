@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//User ConfirmResult
+
+option java_outer_classname = "XinqiBceConfirm"; 
+message BceConfirm {
+    /**
+     * 0 - CANCEL
+     * 1 - YES
+     * 2 - NO
+     */
+    required int32 selected = 1;
+    required string type = 2;
+    //The sessionkey of the user whose send the confirm
+    optional string usersession = 3;
+}

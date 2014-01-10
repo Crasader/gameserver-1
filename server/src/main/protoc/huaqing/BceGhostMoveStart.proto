@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//ÒÆ¶¯¿ªÊ¼
+message BceGhostMoveStart {
+    required int32 startx = 1;
+    required int32 starty = 2;
+    required int32 endx = 3;
+    required int32 endy = 4;
+}

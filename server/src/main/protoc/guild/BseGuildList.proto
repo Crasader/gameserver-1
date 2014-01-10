@@ -1,0 +1,18 @@
+package com.xinqihd.sns.gameserver.proto;
+//发送工会列表
+
+import "GuildSimpleInfo.proto";
+
+option java_outer_classname = "XinqiBseGuildList"; 
+message BseGuildList {
+    optional string myGuildId = 1 [default=""]; //玩家已经加入的公会ID，为""表示未加入
+    repeated GuildSimpleInfo guildList = 2 ;
+    /**
+    * 曾经申请加入的公会ID
+    */
+    repeated string requestGuildId = 4;
+    /**
+    * 曾经申请加入的公会名称
+    */
+    repeated string requestGuildNames = 6;
+}

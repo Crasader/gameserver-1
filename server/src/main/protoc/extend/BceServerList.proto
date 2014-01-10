@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBceServerList"; 
+
+message BceServerList {
+  /**
+  * Just need to provide either accountId or accountName.
+  */
+  optional string accountId = 1;
+  optional string accountname = 2;
+}

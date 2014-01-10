@@ -1,0 +1,13 @@
+//package wanyou.game.protocol;
+//返回房间信息
+message BseEnterRoom {
+    required int32 roomId = 1;        //房间ID
+    required int32 mapId = 2;       	//所选择游戏地图的ID，此项无用处
+	optional string roomName = 3;			//房间名称，最长10个字
+    optional string roomkey = 4;			//密码，最长6个字
+    required int32 battleMode = 5;   	//战斗模式(0 随机进入 1: 创建房间 2 搜索房间) 
+    required int32 roomIdx = 6;     	//用户在房间中的位置
+    required string masterId = 7;			//房主ID
+    required int32 chooseMode = 8;      //无用处，兼容旧版本  
+    required int32 roomType = 9;			//房间类型：0竞技 1：挑战
+ }

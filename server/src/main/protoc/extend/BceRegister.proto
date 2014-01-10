@@ -1,0 +1,31 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceRegister";
+message BceRegister {
+	//Login username
+    optional string username = 1;
+    //alias name
+    optional string rolename = 2;
+    //password
+    optional string password = 3;
+    //email
+    optional string email = 4;
+    //1: male, 2: female
+    optional int32  gender = 5;
+    //Phone type or client OS
+    optional string client = 6;
+    //The user's coming channel.
+    optional string channel = 7;
+    optional string country = 8;
+    //The location of lattitude
+    optional int32 locx = 9;
+    //The location of longitude.
+    optional int32 locy = 10;
+    //The client major version
+    optional int32  majorversion = 15 [default = 0];
+    //The client minor version
+    optional int32  minorversion = 16 [default = 0];
+    //The client minor version
+    optional int32  tinyversion = 17 [default = 0];
+}

@@ -1,0 +1,43 @@
+package com.xinqihd.sns.gameserver.proto;
+//战场初始化
+import "HurtUserInfo.proto";
+import "PickBoxInfo.proto";
+
+option java_outer_classname = "XinqiBseBattleStatusUpdate"; 
+message RoleInfo {
+	required string rolename 	= 1; 	//本回合轮到的角色
+	repeated string sessionid 	= 2; 	//	
+    required int32  wind 		= 3;  //风
+    repeated int32 	blood 			= 7;	//玩家血量，下标为index
+ 	repeated int32 	strength 		= 8;	//体力
+ 	repeated int32 	energy 			= 9;	//能量
+ 	repeated int32 	userMode		= 10;	//玩家状态，从低位到高位：第一位：1: 是否死亡； 第二位：是否隐身；第三位：是否冰冻;第四位：是否可以使用飞机
+    required int32  curRound 		= 19;   //当前回合数
+    repeated int32  campid          = 20;   //回合ID
+}
+message BseBattleStatusUpdate {
+  /**
+  * The roundowner user's sessionkey
+  */
+  optional string sessionid = 1;
+  /**
+  * The roundowner user's rolename
+  */
+  optional string rolename = 2;
+  /**
+  * The battle status 
+  */
+  optional string status = 3;
+  /**
+  * The bufftool that user may use.
+  */
+  repeated int32 slot = 4; 
+  /**
+  * Every user's role status
+  */
+  repeated RoleInfo roleInfo = 5;
+  //击中用户信息
+  repeated HurtUserInfo hurtUser = 9;	
+  //战斗中捡到的宝箱信息
+  repeated PickBoxInfo  pickBox = 11;
+}

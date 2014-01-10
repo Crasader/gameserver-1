@@ -1,0 +1,19 @@
+package com.xinqihd.sns.gameserver.proto;
+
+import "SysMessage.proto";
+option java_outer_classname = "XinqiBseSysMessage"; 
+
+//The request/response message.
+message BseSysMessage {  
+  //The message content
+  required string message = 1;
+  //The action need to take
+  required Action action = 2;
+  //The display seconds for this message.
+  optional int32  seconds = 3;
+  //The type of the sys message
+  optional Type  type = 4 [default = NORMAL];
+  //The weibo message
+  optional string weibo = 5;
+}
+

@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//退出工会
+
+message BseExitGuild
+{
+    optional int32 result = 1;    //退出结果 0:成功
+}

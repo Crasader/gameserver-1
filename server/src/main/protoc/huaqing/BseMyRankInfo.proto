@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//返回我的排名信息
+message BseMyRankInfo{
+    required int32 myOdds = 1;      //我的胜率
+    required int32 myWinNum = 2;    //我的胜场
+    required int32 myFortune = 3;   //我的财富
+    required int32 myLevel = 4;     //我的等级
+}

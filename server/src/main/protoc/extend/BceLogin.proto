@@ -1,0 +1,37 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceLogin"; 
+message BceLogin {
+	//Login username
+    optional string username = 1;
+	//Login password, which should be digested. (sha1?)
+    optional string password = 2;
+    //The config data for checking 
+	optional int32  version  = 3 [default = 0];
+    //The game client build number
+	optional string  clientversion = 4 [default = "0.0"];
+    //The client major version
+    optional int32  majorversion = 5 [default = 0];
+    //The client minor version
+    optional int32  minorversion = 6 [default = 0];
+    //The client minor version
+    optional int32  tinyversion = 7 [default = 0];
+    //The client channel id
+    optional string channel = 8;
+    //The client language
+    optional string lang = 9 [default="zh_CN"];
+	//The client country
+    optional string country = 10;
+    //The client display names
+    optional string client = 11;
+    //The client'd device unique deviceid
+    optional string uuid = 12;
+    //The widthxheight of this device screen
+    //e.g 960x640 or 1280x800
+    optional string screen = 13;
+    //iOS deviceToken(64 hexdecimal) for pushing
+    optional string devicetoken = 14;
+    //If the user use third-party method to login
+    optional bool isthirdauth = 15;
+}

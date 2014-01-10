@@ -1,0 +1,8 @@
+//package wanyou.game.protocol;
+//任务领奖
+
+message BceTaskReward
+{
+   required int32 taskID = 1 ;  //任务ID
+   required int32 choose = 2 ;  //可选奖励序号
+}

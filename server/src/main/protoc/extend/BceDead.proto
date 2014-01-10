@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//·¢ËÍÏûÏ¢
+
+option java_outer_classname = "XinqiBceDead"; 
+message BceDead {
+  optional string userid = 1;
+}

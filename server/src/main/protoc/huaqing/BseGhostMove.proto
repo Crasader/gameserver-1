@@ -1,0 +1,11 @@
+//package wanyou.game.protocol;
+//移动停止
+import "PickBoxInfo.proto";
+message BseGhostMove {
+    required string sessionId = 1;
+    required int32 x = 2;
+    required int32 y = 3;
+    repeated PickBoxInfo  pickBox = 4;      //移动中捡到的宝箱信息
+    required int32 time = 5;								//移动总时间，单位毫秒
+    required int32 strength = 6;  						//剩余体力
+}

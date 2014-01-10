@@ -1,0 +1,13 @@
+//package wanyou.game.protocol;
+//公会设施贡献度限制设置
+
+message BceGuildLimit
+{
+		required int32 guildID = 1; 									 	 //工会ID
+		optional int32 shop1limit = 2; 									 //公会1级商店限制
+		optional int32 shop2limit = 3; 									 //工会2级商店限制
+		optional int32 shop3limit = 4; 									 //工会3级商店限制
+		optional int32 shop4limit = 5; 									 //工会4级商店限制
+		optional int32 shop5limit = 6; 									 //工会5级商店限制
+		optional int32 ironlimit = 7; 									 //工会铁匠铺限制
+}

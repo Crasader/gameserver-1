@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//¹¤»áÑûÇë
+
+option java_outer_classname = "XinqiBseGuildInvite"; 
+message BseGuildInvite 
+{
+	optional string srcUid = 1 ;
+    optional string tarUid = 2 ;
+    optional int32 guildID = 3 ;
+    optional string guildName = 4 ;
+}

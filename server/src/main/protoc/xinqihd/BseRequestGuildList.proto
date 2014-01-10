@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÉêÇë¼ÇÂ¼ÁÐ±í
+
+import "GuildReqInfo.proto";
+
+option java_outer_classname = "XinqiBseRequestGuildList"; 
+message BseRequestGuildList 
+{
+    repeated GuildReqInfo guildlist = 1 ;
+}

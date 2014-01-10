@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//移动开始
+message BceBattlePickBox {
+    repeated int32 boxindex = 1;	//宝箱索引列表
+}

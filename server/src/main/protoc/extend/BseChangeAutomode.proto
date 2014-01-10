@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//请求离开房间
+option java_outer_classname = "XinqiBseChangeAutomode"; 
+message BseChangeAutomode {
+	required bool automode = 1;
+    /**
+    * 更换模式的玩家sessionid
+    */
+    optional string sessionid = 2;
+}

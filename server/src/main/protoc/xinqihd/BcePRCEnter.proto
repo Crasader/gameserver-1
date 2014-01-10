@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//ÒÆ¶¯Í£Ö¹
+option java_outer_classname = "XinqiBcePRCEnter"; 
+message BcePRCEnter {
+	 required int32  prcID = 1;	//PVEID
+	 required string prcName=2; //PVEÃû³Æ
+}

@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//移动停止
+option java_outer_classname = "XinqiBseGhostMoveStop"; 
+message BseGhostMoveStop {
+	required string sessionId = 1;
+    required uint32 passFrames = 2;//经过的帧数
+    required int32 x = 3;
+    required int32 y = 4;
+}

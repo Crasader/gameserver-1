@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//Ёит╠╬Хов
+
+message BceGuildContribute
+{
+    optional int32 guildID = 1 ;
+}

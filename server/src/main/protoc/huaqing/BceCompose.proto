@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//请求合成物品
+message BceCompose{
+    repeated int32 pews = 1 [packed = true];        //物品的格子号
+}

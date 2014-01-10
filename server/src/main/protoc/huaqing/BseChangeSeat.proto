@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//请求离开房间
+message BseChangeSeat{
+	required int32 fromIndex = 1;		//所在的位置
+	required int32 toIndex = 2;			//所在的位置
+	required string sessionID = 3;	//用户ID
+}

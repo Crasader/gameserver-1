@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//显示玩家列表
+option java_outer_classname = "XinqiBceHallUserList"; 
+message BceHallUserList {   
+   required int32 page = 1 [default = 0];  // 
+}

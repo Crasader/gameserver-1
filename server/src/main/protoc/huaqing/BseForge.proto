@@ -1,0 +1,9 @@
+//package wanyou.game.protocol;
+//打造合成物品结果
+import "PropData.proto";
+
+message BseForge{
+    required int32 result = 1;                      //结果 0：无法合成；1：合成成功；2：合成失败
+    optional PropData updateProp = 2;               //更新的装备
+    repeated int32 otherPews = 3 [packed = true];   //成功后要删除的物品的格子号
+}

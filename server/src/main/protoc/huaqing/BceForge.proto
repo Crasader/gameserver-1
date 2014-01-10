@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//请求合成物品
+message BceForge{
+    required int32 equipPew = 1;                        //要锻造的装备的格子号
+    repeated int32 otherPews = 2 [packed = true];       //辅助物品的格子号
+    optional bool  useSaveStone=3;											//是否使用了神恩符
+}

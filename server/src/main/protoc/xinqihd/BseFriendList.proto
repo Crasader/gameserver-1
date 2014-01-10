@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回好友列表
+import "FriendInfoLite.proto";
+
+option java_outer_classname = "XinqiBseFriendList"; 
+message BseFriendList {
+    required int32 type = 1;                    //类型：1：好友，2：战友
+    repeated FriendInfoLite friendList = 2;     //好友列表
+}

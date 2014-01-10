@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+
+message BceUseProp {
+    required int32 propPew = 1;
+}

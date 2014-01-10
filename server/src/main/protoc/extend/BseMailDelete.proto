@@ -1,0 +1,12 @@
+package com.xinqihd.sns.gameserver.proto;
+import "MailData.proto";
+
+option java_outer_classname = "XinqiBseMailDelete"; 
+
+message BseMailDelete {
+  /**
+   * The total delete count of mails in user's mailbox
+   * If deleteCount = -1, server will quickly delete all mails
+   */
+  optional int32 deleteCount = 2;
+}

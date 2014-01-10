@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//∫√”—–≈œ¢
+
+option java_outer_classname = "XinqiBseRecentlyFriendList"; 
+message BseRecentlyFriendList 
+{
+    repeated string uids         = 1;                //uid
+    optional bool   battlefriend = 2 [default = false];
+}

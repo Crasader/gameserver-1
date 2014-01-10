@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//请求整理背包
+message BceBagTidy {
+
+}

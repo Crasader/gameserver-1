@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseCreateRole";
+message BseCreateRole {
+	//Response code: 0 - success, 1 - username exist, 2 - forbidden words, 3 - others
+    optional int32 code = 1;
+	//Detail description
+	optional string desc = 2;
+	optional string rolename = 3;
+}

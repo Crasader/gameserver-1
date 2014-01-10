@@ -1,0 +1,15 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBceUserStatusList"; 
+
+/**
+* Dynamically display all users' status in game.
+* It is used at login.
+*/
+message BceUserStatusList {
+  /**
+  * The message limit
+  */
+  optional int32 limit = 1 [default = 100]; 
+}

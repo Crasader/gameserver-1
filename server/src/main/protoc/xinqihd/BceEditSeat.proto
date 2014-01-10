@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//打开关闭座位
+option java_outer_classname = "XinqiBceEditSeat"; 
+message BceEditSeat {
+    required int32 index = 1;			//座位索引
+    required bool  open  = 2;			//打开或者关闭
+}

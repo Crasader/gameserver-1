@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//Éý½µÖ°
+
+option java_outer_classname = "XinqiBceGuildPosChange"; 
+message BceGuildPosChange 
+{
+    required string uid = 1 ;
+    required int32  level = 2 ;
+}

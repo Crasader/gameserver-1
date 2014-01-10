@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//发送工会成员列表
+
+option java_outer_classname = "XinqiBceGuildMemberList"; 
+message BceGuildMemberList {
+   /**
+   * If online is true, only return the online members
+   */
+   optional bool online = 1 [default = false];
+}

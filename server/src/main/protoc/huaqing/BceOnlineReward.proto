@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//领取在线奖励
+message BceOnlineReward {
+    required int32 stepID = 1;          //步骤ID
+}

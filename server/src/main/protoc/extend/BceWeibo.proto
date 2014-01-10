@@ -1,0 +1,25 @@
+package com.xinqihd.sns.gameserver.proto;
+//Task Data
+
+option java_outer_classname = "XinqiBceWeibo"; 
+
+message BceWeibo {
+  //User's weibo account name
+  optional string account = 1;
+  //sina or qq or other
+  optional string weibo = 2;
+  /**
+   * 0 - 绑定微博账号
+   * 1 - 升级
+   * 2 - 成就
+   * 3 - 强化
+   * 4 - 战斗 
+   * 5 - 名人堂 
+   * 6 - 任意微博
+   */
+  optional int32 optype = 3;
+  /**
+   * 微博认证的KEY
+   */
+  optional string token = 4;
+}

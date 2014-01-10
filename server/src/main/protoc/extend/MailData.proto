@@ -1,0 +1,39 @@
+package com.xinqihd.sns.gameserver.proto;
+import "Gift.proto";
+
+//Mail Data
+option java_outer_classname = "XinqiMailData"; 
+
+/**
+ * When the user logins, all the mails in
+ * his mailbox are sent by this protocol.
+ */
+message MailData {
+  //The mail sender's rolename
+  optional string fromuser = 1;
+  //The mail receiver's rolename
+  optional string touser = 2;
+  //yyyy-MM-dd format
+  optional string sentdate = 3;
+  optional string subject = 4;
+  optional string content = 5;
+  /**
+   * In the future, we may support 
+   * send gift to another users.
+   * The gift pew is the item pew
+   * in sender's bag.
+  */
+  repeated int32 giftpews = 6;
+  /**
+   * When the mail received by 
+   * the receiver, he will take
+   * the gift attached in mail,
+   * the server will check the
+   * gift and put them into user's bag 
+   */
+  repeated Gift gifts = 7;
+  /**
+   * If ture, this is an unread new mail
+   */
+  optional bool isnew = 8 [default = true];
+}

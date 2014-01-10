@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//Ìí¼ÓBUFF
+message BceRoleUseTool {
+    required int32 slot = 1;   //slot id
+}

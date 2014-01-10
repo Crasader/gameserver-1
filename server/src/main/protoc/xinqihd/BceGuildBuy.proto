@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//工会购买
+
+option java_outer_classname = "XinqiBceGuildBuy"; 
+message BceGuildBuy 
+{
+		required int32 propID = 1; 									 //物品ID
+}

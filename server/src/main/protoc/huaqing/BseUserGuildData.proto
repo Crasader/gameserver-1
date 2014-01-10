@@ -1,0 +1,12 @@
+//package wanyou.game.protocol;
+//返回用户工会信息
+message BseUserGuildData
+{
+    optional uint32  guildID = 1 [default = 0] ;
+		optional uint32  guildCredit = 2;
+		optional uint32  guildPosLevel = 3;
+		optional string  guildName = 4;
+		optional uint32  guildIronLevel = 5;
+		optional uint32  guildIronAddRate = 6;
+		optional uint32  guildShopValidLevel = 7;
+}

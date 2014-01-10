@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//领取在线奖励
+option java_outer_classname = "XinqiBceOnlineReward"; 
+message BceOnlineReward {
+    required int32 stepID = 1;          //步骤ID
+}

@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//返回排行榜信息
+import "ArrangeInfo.proto";
+ 
+
+option java_outer_classname = "XinqiBseArrangeList"; 
+message BseArrangeList {
+     repeated ArrangeInfo arrInfo = 1;         //排名数组
+}

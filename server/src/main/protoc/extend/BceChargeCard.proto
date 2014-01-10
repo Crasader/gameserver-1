@@ -1,0 +1,19 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBceChargeCard"; 
+/**
+* 充值卡充值
+*/
+message BceChargeCard {
+  /**
+  * The message limit
+  */
+  optional string cardno = 1;
+  optional string cardpwd = 2;
+  optional string cardtype = 3;
+  /**
+  * unit cent
+  */
+  optional int32  money = 4;
+}

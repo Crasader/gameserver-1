@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//½½Ë®
+
+message BceWaterTree
+{
+    required string uid = 1;
+}

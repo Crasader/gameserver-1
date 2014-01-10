@@ -1,0 +1,13 @@
+//package wanyou.game.protocol;
+//成员捐献
+
+import "GuildInfo.proto";
+
+message BseGuildContribute
+{
+    required int32 result = 1 ;	//0.成功
+    optional string sid = 2 ;
+    optional int32 fd = 3 ;
+    optional GuildInfo guildInfo = 4 ;
+    optional int32 worldfd = 5 ;
+}

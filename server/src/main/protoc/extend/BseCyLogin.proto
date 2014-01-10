@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBseCyLogin"; 
+message BseCyLogin {
+	/**
+	 *	 0：表示验证用户名和密码成功。
+	 *	 1：参数不完整（如cn输入空值等）
+	 *	 2：用户不存在
+	 *	 3：密码错误
+	 *	 98：将传过来的密码进行解密时发生异常
+	 *	 99：系统异常
+	 *	 96: 系统对游戏开发商传过来的gameid进行校验时发生异常
+	 *	 97：对开发商传过来的key进行校验发生异常。
+     */
+    optional int32 errorcode = 1;
+}

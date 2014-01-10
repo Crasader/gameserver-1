@@ -1,0 +1,35 @@
+package com.xinqihd.sns.gameserver.proto;
+//广播消息
+import "PropData.proto";
+import "UserInfo.proto";
+
+option java_outer_classname = "XinqiBseBroadcastMessage"; 
+message BseBroadcastMessage 
+{
+    enum MessageType {
+        NORMAL_STRING = 0; //无类型
+        SYSTEM_ADMIN  = 1; //管理员即时公告
+        //SYSTEM_TIMER  = 2; //定时公告
+        PLAYER_FORGE  = 3; //玩家强化公告
+        PLAYER_BATTLE = 4; //副本通关公告
+        SYSTEM_BULLTIN = 5; //更新公告
+        PLAYER_LOTTERY = 6; //翻牌公告
+        PLAYER_LUCKY_BOX = 7; //开宝箱公告
+    };
+
+    enum BroadcastType {
+        REGION  = 0; //聊天频道里未进入房间的玩家
+        HALL    = 1; //整个HALL服务器
+        ALL     = 2; //所有人
+    };
+
+    required int64          uid           = 1 ; //发起公告的玩家uid 管理员为-1
+    optional MessageType    messagetype   = 2 [default = NORMAL_STRING] ;
+    optional BroadcastType  broadcasttype = 3 [default = REGION] ;
+    repeated int32          args          = 4 ; //参数列表(第一位 0:增加更新公告，1:删除更新公告，2:登录弹出公告)
+    repeated PropData       props         = 5 ; //涉及到的物品列表
+    repeated UserInfo    userinfos     = 6 ; //可能出现的玩家列表
+    optional string         message       = 7 [ default = ""];  //消息
+    optional string	        sid    			  = 8;
+    optional int32 			webfd 				= 9;
+}

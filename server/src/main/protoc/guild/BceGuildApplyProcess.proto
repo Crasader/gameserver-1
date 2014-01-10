@@ -1,0 +1,18 @@
+package com.xinqihd.sns.gameserver.proto;
+//处理玩家提交的加入申请
+
+option java_outer_classname = "XinqiBceGuildApplyProcess"; 
+message BceGuildApplyProcess {
+   /**
+   * 处理的行为：
+   * 0: 全部同意
+   * 1: 全部拒绝
+   * 2: 同意
+   * 3: 拒绝
+   */ 
+   optional int32 action = 1;
+   /**
+   * 如果行为类型为2或者3，则userid表示操作的玩家ID
+   */
+   optional string userid = 2;
+}

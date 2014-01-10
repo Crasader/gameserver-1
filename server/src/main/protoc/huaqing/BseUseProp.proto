@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+
+message BseUseProp {
+    required int32 seccessed = 1;		//0成功;1背包空间不足;2等级不符合要求;3双倍经验时间不能超过8小时
+    optional int32 delPew = 2;
+}

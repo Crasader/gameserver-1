@@ -1,0 +1,11 @@
+package com.xinqihd.sns.gameserver.proto;
+//Get the server list
+
+option java_outer_classname = "XinqiBseChargeCard"; 
+/**
+* 充值卡充值
+*/
+message BseChargeCard {
+  optional bool success =1;
+  optional string desc = 2;
+}

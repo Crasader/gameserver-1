@@ -1,0 +1,18 @@
+package com.xinqihd.sns.gameserver.proto;
+//查询公会权限
+
+option java_outer_classname = "XinqiBseGuildPrivilegeList"; 
+message GuildPrivilege {
+   /**
+   * 职位的key
+   */
+   optional string rolekey = 1; 
+   /**
+   * 职位的描述
+   */
+   optional string roledesc = 2; 
+   repeated string privilege = 3;
+}
+message BseGuildPrivilegeList {
+   repeated GuildPrivilege privileges = 1;
+}

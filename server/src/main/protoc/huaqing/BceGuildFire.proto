@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//¿ª³ı³ÉÔ±
+
+message BceGuildFire
+{
+    required string uid = 1;
+}

@@ -1,0 +1,7 @@
+package com.xinqihd.sns.gameserver.proto;
+//发送消息
+
+option java_outer_classname = "XinqiBseDead"; 
+message BseDead {
+	required string sessionID = 1;	//用户ID
+}

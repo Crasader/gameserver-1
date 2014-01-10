@@ -1,0 +1,6 @@
+//package wanyou.game.protocol;
+//清空自己的留言
+
+message BceClearLeaveMessage
+{
+}

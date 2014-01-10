@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//公会设施的贡献度和作用一览
+
+option java_outer_classname = "XinqiBceGuildFacilityList"; 
+message BceGuildFacilityList {
+}

@@ -1,0 +1,16 @@
+package com.xinqihd.sns.gameserver.proto;
+option java_outer_classname = "XinqiBseGuildBagPut"; 
+import "PropData.proto";
+
+/**
+ * 玩家将背包中的物品放入公会背包
+ */
+message BseGuildBagPut {
+    /**
+    * 0表示放入成功，要删除背包中原有的物品
+    */
+    optional int32 status = 1;
+    optional string message = 2;
+    optional int32 pew = 5;
+    optional PropData propData = 6;
+}

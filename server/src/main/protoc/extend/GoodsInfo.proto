@@ -1,0 +1,17 @@
+package com.xinqihd.sns.gameserver.proto;
+//商品信息
+option java_outer_classname = "XinqiGoodsInfo"; 
+message GoodsInfo {
+    required int32 id = 1;              //id
+    required string propInfo = 2;        //对应的道具信息号
+    required int32 level = 3;           //强化等级
+    required int32 attackLev = 4;       //合成攻击等级
+    required int32 defendLev = 5;       //合成防御等级
+    required int32 agilityLev = 6;      //合成敏捷等级
+    required int32 luckLev = 7;         //合成幸运等级
+    required int32 sign = 8;            //是否是 新品或者热门商品 0为都不是 1 为新 2为热门 
+    required int32 discount = 9;        //折扣，整数百分之，100代表原价
+    repeated int32 price    = 10;       //价格
+    repeated int32 indate   = 11;       //有效期 [小时]
+    optional int32 goldtype = 12;       //价格类型
+}

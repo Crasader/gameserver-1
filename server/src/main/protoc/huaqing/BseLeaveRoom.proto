@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+//响应玩家离开房间
+
+message BseLeaveRoom {
+    required int32 roomId = 1;        //房间ID
+    optional int32 mode = 2;					//0；离开房间 1：切换房间 2:hall当机
+}

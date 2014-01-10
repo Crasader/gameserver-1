@@ -1,0 +1,5 @@
+//package wanyou.game.protocol;
+//ÏìÓ¦ĞÄÌø
+
+message BseHeartbeat {
+}

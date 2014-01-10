@@ -1,0 +1,9 @@
+package com.xinqihd.sns.gameserver.proto;
+//战场初始化
+import "RoleInfo.proto";
+
+option java_outer_classname = "XinqiBseUserEnterRoom"; 
+message BseUserEnterRoom {
+    required int32 roomId = 1;          //房间ID
+    required RoleInfo role = 2;         //角色信息
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+	<map>
+	  <id>1001</id> 
+	  <name>死亡沙漠</name> 
+	  <type>2</type>
+	  <reqlv>1</reqlv>
+	  <scrollArea x="0" y="0" width="1670" height="802" /> 
+	  <layerNum>2</layerNum> 
+	  <layers>
+		  <layer id="map_1001" num="1" scrollRate="1" /> 
+		  <layer id="map_1001_bg" num="2" scrollRate="1" /> 
+	  </layers>
+	  <bgm>data/resources/bgm/04.mp3</bgm> 
+	 <bossid>
+		<boss id="1001_b" /> 
+	  </bossid>
+	 <enemyid>
+		<enemy id="1001_e" /> 
+	  </enemyid>
+	 <bossPoints>
+		  <point x="1400" y="575" /> 
+		  </bossPoints>
+	 <enemyPoints>
+		  <point x="1250" y="575" /> 
+		  </enemyPoints>
+	 <startPoints>
+		  <point x="120" y="610" /> 
+		  <point x="356" y="450" /> 
+		  <point x="540" y="545" /> 
+		  <point x="650" y="580" /> 
+		  <point x="1100" y="575" />
+		  <point x="1250" y="575" /> 
+		  <point x="1400" y="575" /> 
+		  <point x="1551" y="560" /> 
+	  </startPoints>
+	</map>
+</maps>

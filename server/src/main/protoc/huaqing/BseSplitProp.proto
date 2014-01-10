@@ -1,0 +1,7 @@
+//package wanyou.game.protocol;
+
+message BseSplitProp {
+    required int32 srcPew = 1;
+    required int32 dstPew = 2;
+    required int32 dstCount = 3;
+}

@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+//User Login
+
+option java_outer_classname = "XinqiBceCyLogin"; 
+message BceCyLogin {
+	//Login username
+    optional string username = 1;
+	//Login password
+    optional string password = 2;
+}

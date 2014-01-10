@@ -1,0 +1,10 @@
+package com.xinqihd.sns.gameserver.proto;
+
+option java_outer_classname = "XinqiAI"; 
+
+//The request/response message.
+message AIMessage {  
+  optional bytes session = 1;
+  optional bytes content = 2;
+}
+

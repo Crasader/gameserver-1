@@ -1,0 +1,8 @@
+package com.xinqihd.sns.gameserver.proto;
+//
+
+option java_outer_classname = "XinqiBseLeaveMessage"; 
+message BseLeaveMessage 
+{
+   required bool succ = 1 ;
+}

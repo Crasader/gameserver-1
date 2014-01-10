@@ -1,0 +1,15 @@
+//package wanyou.game.protocol;
+//新手引导的攻击
+message BceUserGuidAtk {
+    required int32 atkAngle = 1;          //攻击角度，服务器使用，为用户角度和枪角度的和
+    required int32 power = 2;            //发射力度(0-100),为flash显示的力度*100
+    required int32 angle = 3;            //发射角度
+   
+    required int32 userx = 4;            //
+    required int32 usery = 5;            //
+    required int32 direction = 6;					//方向
+    
+    required int32 bltQuantity = 7;				//每一轮的子弹数
+    required int32 bltAtkTimes	= 8;     	//子弹的攻击次数  
+    required bool  isSupper = 9;					//是否是必杀
+}

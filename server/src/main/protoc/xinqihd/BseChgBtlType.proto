@@ -1,0 +1,6 @@
+package com.xinqihd.sns.gameserver.proto;
+//打开关闭座位
+option java_outer_classname = "XinqiBseChgBtlType"; 
+message BseChgBtlType {
+    required int32 btlType = 1;			// 0：自由站 1：工会战
+}
